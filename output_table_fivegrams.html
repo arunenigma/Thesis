@@ -1,0 +1,2068 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Fuzzy Input Data</title>
+<style type="text/css">
+<!--
+@import url("style.css");
+-->
+</style>
+</head>
+<body>
+<table id="box-table-a" summary="Fuzzy Input Data">
+<thead>
+<tr>
+<th scope="col">S.No</th><th scope="col">Fivegram</th><th scope="col">Location Vector</th><th scope="col">Signature</th><th scope="col">Signature Weight</th><th scope="col">Tf</th><th scope="col">Idf</th><th scope="col">Tf - Idf Score</th><th scope="col">Is First Letter Capitalized</th><th scope="col">POS</th></tr>
+</thead>
+<tbody>
+<td class="column_1">1</td>
+<td class="column_2">Ltd.India: 102, 1st Floor, Mobius</td>
+<td class="column_3">[0][5][2][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['JJ', ':', 'CD', ',', 'CD', 'NNP', ',', 'NNP']</td>
+</tr>
+<td class="column_1">2</td>
+<td class="column_2">102, 1st Floor, Mobius Tower,</td>
+<td class="column_3">[0][5][2][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['CD', ',', 'CD', 'NNP', ',', 'NNP', 'NNP']</td>
+</tr>
+<td class="column_1">3</td>
+<td class="column_2">1st Floor, Mobius Tower, SJR</td>
+<td class="column_3">[0][5][2][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['CD', 'NNP', ',', 'NNP', 'NNP', ',', 'NNP']</td>
+</tr>
+<td class="column_1">4</td>
+<td class="column_2">Floor, Mobius Tower, SJR iPark,</td>
+<td class="column_3">[0][5][2][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['NNP', ',', 'NNP', 'NNP', ',', 'NNP', 'NNP']</td>
+</tr>
+<td class="column_1">5</td>
+<td class="column_2">Mobius Tower, SJR iPark, EPIP,</td>
+<td class="column_3">[0][5][2][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['NNP', 'NNP', ',', 'NNP', 'NNP', ',', 'NNP']</td>
+</tr>
+<td class="column_1">6</td>
+<td class="column_2">Tower, SJR iPark, EPIP, White</td>
+<td class="column_3">[0][5][2][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['NNP', ',', 'NNP', 'NNP', ',', 'NNP', ',', 'NNP']</td>
+</tr>
+<td class="column_1">7</td>
+<td class="column_2">SJR iPark, EPIP, White Field,</td>
+<td class="column_3">[0][5][2][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['NNP', 'NNP', ',', 'NNP', ',', 'NNP', 'NNP']</td>
+</tr>
+<td class="column_1">8</td>
+<td class="column_2">iPark, EPIP, White Field, BANGALORE</td>
+<td class="column_3">[0][5][2][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['NNP', ',', 'NNP', ',', 'NNP', 'NNP', ',', 'NNP']</td>
+</tr>
+<td class="column_1">9</td>
+<td class="column_2">EPIP, White Field, BANGALORE 560</td>
+<td class="column_3">[0][5][2][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['NNP', ',', 'NNP', 'NNP', ',', 'NNP', 'CD']</td>
+</tr>
+<td class="column_1">10</td>
+<td class="column_2">White Field, BANGALORE 560 066,</td>
+<td class="column_3">[0][5][2][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['NNP', 'NNP', ',', 'NNP', 'CD', 'CD']</td>
+</tr>
+<td class="column_1">11</td>
+<td class="column_2">Field, BANGALORE 560 066, Karnataka,</td>
+<td class="column_3">[0][5][2][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['NNP', ',', 'NNP', 'CD', 'CD', ',', 'NNP']</td>
+</tr>
+<td class="column_1">12</td>
+<td class="column_2">BANGALORE 560 066, Karnataka, India,</td>
+<td class="column_3">[0][5][2][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['NNP', 'CD', 'CD', ',', 'NNP', ',', 'NNP']</td>
+</tr>
+<td class="column_1">13</td>
+<td class="column_2">560 066, Karnataka, India, Tel:</td>
+<td class="column_3">[0][5][2][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['CD', 'CD', ',', 'NNP', ',', 'NNP', ',', 'NNP']</td>
+</tr>
+<td class="column_1">14</td>
+<td class="column_2">066, Karnataka, India, Tel: 918041779999,</td>
+<td class="column_3">[0][5][2][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['CD', ',', 'NNP', ',', 'NNP', ',', 'NNP', ':', 'CD']</td>
+</tr>
+<td class="column_1">15</td>
+<td class="column_2">Karnataka, India, Tel: 918041779999, Fax:</td>
+<td class="column_3">[0][5][2][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['NNP', ',', 'NNP', ',', 'NNP', ':', 'CD', ',', 'NNP']</td>
+</tr>
+<td class="column_1">16</td>
+<td class="column_2">India, Tel: 918041779999, Fax: 918041157070</td>
+<td class="column_3">[0][5][2][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['NNP', ',', 'NNP', ':', 'CD', ',', 'NNP', ':', 'CD']</td>
+</tr>
+<td class="column_1">17</td>
+<td class="column_2">Tel: 918041779999, Fax: 918041157070 US:</td>
+<td class="column_3">[0][5][2][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['NNP', ':', 'CD', ',', 'NNP', ':', 'CD', 'NN']</td>
+</tr>
+<td class="column_1">18</td>
+<td class="column_2">918041779999, Fax: 918041157070 US: 2900</td>
+<td class="column_3">[0][5][2][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['CD', ',', 'NNP', ':', 'CD', 'PRP', ':', 'CD']</td>
+</tr>
+<td class="column_1">19</td>
+<td class="column_2">Fax: 918041157070 US: 2900 Gordon</td>
+<td class="column_3">[0][5][2][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['NNP', ':', 'CD', 'PRP', ':', 'CD', 'NNP']</td>
+</tr>
+<td class="column_1">20</td>
+<td class="column_2">918041157070 US: 2900 Gordon Ave,</td>
+<td class="column_3">[0][5][2][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['CD', 'PRP', ':', 'CD', 'NNP', 'NNP']</td>
+</tr>
+<td class="column_1">21</td>
+<td class="column_2">US: 2900 Gordon Ave, Suite</td>
+<td class="column_3">[0][5][2][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['PRP', ':', 'CD', 'NNP', 'NNP', ',', 'NNP']</td>
+</tr>
+<td class="column_1">22</td>
+<td class="column_2">2900 Gordon Ave, Suite 10011,</td>
+<td class="column_3">[0][5][2][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['CD', 'NNP', 'NNP', ',', 'NNP', 'CD']</td>
+</tr>
+<td class="column_1">23</td>
+<td class="column_2">Gordon Ave, Suite 10011, Santa</td>
+<td class="column_3">[0][5][2][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['NNP', 'NNP', ',', 'NNP', 'CD', ',', 'NNP']</td>
+</tr>
+<td class="column_1">24</td>
+<td class="column_2">Ave, Suite 10011, Santa Clara,</td>
+<td class="column_3">[0][5][2][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['NNP', ',', 'NNP', 'CD', ',', 'NNP', 'NNP']</td>
+</tr>
+<td class="column_1">25</td>
+<td class="column_2">Suite 10011, Santa Clara, CA</td>
+<td class="column_3">[0][5][2][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['NNP', 'CD', ',', 'NNP', 'NNP', ',', 'NNP']</td>
+</tr>
+<td class="column_1">26</td>
+<td class="column_2">10011, Santa Clara, CA 95051,</td>
+<td class="column_3">[0][5][2][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['CD', ',', 'NNP', 'NNP', ',', 'NNP', 'CD']</td>
+</tr>
+<td class="column_1">27</td>
+<td class="column_2">Santa Clara, CA 95051, USA,</td>
+<td class="column_3">[0][5][2][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['NNP', 'NNP', ',', 'NNP', 'CD', ',', 'NNP']</td>
+</tr>
+<td class="column_1">28</td>
+<td class="column_2">Clara, CA 95051, USA, Tel:</td>
+<td class="column_3">[0][5][2][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['NNP', ',', 'NNP', 'CD', ',', 'NNP', ',', 'NNP']</td>
+</tr>
+<td class="column_1">29</td>
+<td class="column_2">CA 95051, USA, Tel: (408)</td>
+<td class="column_3">[0][5][2][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['NNP', 'CD', ',', 'NNP', ',', 'NNP', ':', ':', 'CD', 'CD']</td>
+</tr>
+<td class="column_1">30</td>
+<td class="column_2">95051, USA, Tel: (408) 7731714,</td>
+<td class="column_3">[0][5][2][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['CD', ',', 'NNP', ',', 'NNP', ':', ':', 'CD', 'CD', 'CD']</td>
+</tr>
+<td class="column_1">31</td>
+<td class="column_2">USA, Tel: (408) 7731714, Fax:</td>
+<td class="column_3">[0][5][2][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['NNP', ',', 'NNP', ':', ':', 'CD', 'CD', 'CD', ',', 'NNP']</td>
+</tr>
+<td class="column_1">32</td>
+<td class="column_2">Tel: (408) 7731714, Fax: (408)</td>
+<td class="column_3">[0][5][2][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['NNP', ':', ':', 'CD', 'CD', 'CD', ',', 'NNP', ':', ':', 'CD', 'CD']</td>
+</tr>
+<td class="column_1">33</td>
+<td class="column_2">(408) 7731714, Fax: (408) 7731745</td>
+<td class="column_3">[0][5][2][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['NN', 'CD', 'CD', 'CD', ',', 'NNP', ':', ':', 'CD', 'CD', 'CD']</td>
+</tr>
+<td class="column_1">34</td>
+<td class="column_2">7731714, Fax: (408) 7731745 Email:</td>
+<td class="column_3">[0][5][2][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['CD', ',', 'NNP', ':', ':', 'CD', 'CD', 'CD', 'JJ']</td>
+</tr>
+<td class="column_1">35</td>
+<td class="column_2">Fax: (408) 7731745 Email: sales@softjin.com</td>
+<td class="column_3">[0][5][2][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['NNP', ':', ':', 'CD', 'CD', 'CD', 'NNP', ':', 'NNS', 'IN', 'JJ']</td>
+</tr>
+<td class="column_1">36</td>
+<td class="column_2">(408) 7731745 Email: sales@softjin.com Web:</td>
+<td class="column_3">[0][5][2][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['NN', 'CD', 'CD', 'CD', 'NNP', ':', 'NNS', 'IN', 'JJ', 'NN']</td>
+</tr>
+<td class="column_1">37</td>
+<td class="column_2">7731745 Email: sales@softjin.com Web: www.softjin.com</td>
+<td class="column_3">[0][5][2][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['CD', 'NNP', ':', 'NNS', 'IN', 'JJ', 'NNP', ':', 'JJ']</td>
+</tr>
+<td class="column_1">38</td>
+<td class="column_2">Email: sales@softjin.com Web: www.softjin.com Page</td>
+<td class="column_3">[0][5][2][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['NNP', ':', 'NNS', 'IN', 'JJ', 'NNP', ':', 'JJ', 'NN']</td>
+</tr>
+<td class="column_1">39</td>
+<td class="column_2">sales@softjin.com Web: www.softjin.com Page |</td>
+<td class="column_3">[0][5][2][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['NNS', 'VBP', 'JJ', 'NNP', ':', 'JJ', 'NN', ':']</td>
+</tr>
+<td class="column_1">40</td>
+<td class="column_2">Web: www.softjin.com Page | 1</td>
+<td class="column_3">[0][5][2][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.005376344086021506</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0058660240287491</td>
+<td class="column_9">No</td>
+<td class="column_10">['NNP', ':', 'JJ', 'NN', ':', 'CD']</td>
+</tr>
+<td class="column_1">41</td>
+<td class="column_2">Figure 1: Floating Point Representation</td>
+<td class="column_3">[0][5][7][0]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.005376344086021506</td>
+<td class="column_7">1.2671717284030137</td>
+<td class="column_8">0.006812751227973193</td>
+<td class="column_9">No</td>
+<td class="column_10">['NN', 'CD', ':', 'NNP', 'NNP', 'NNP']</td>
+</tr>
+<td class="column_1">42</td>
+<td class="column_2">1: Floating Point Representation in</td>
+<td class="column_3">[0][5][7][0]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.005376344086021506</td>
+<td class="column_7">1.2671717284030137</td>
+<td class="column_8">0.006812751227973193</td>
+<td class="column_9">No</td>
+<td class="column_10">['LS', ':', 'NNP', 'NNP', 'NNP', 'IN']</td>
+</tr>
+<td class="column_1">43</td>
+<td class="column_2">Floating Point Representation in IEEE</td>
+<td class="column_3">[0][5][7][0]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.005376344086021506</td>
+<td class="column_7">1.2671717284030137</td>
+<td class="column_8">0.006812751227973193</td>
+<td class="column_9">No</td>
+<td class="column_10">['VBG', 'NNP', 'NNP', 'IN', 'NNP']</td>
+</tr>
+<td class="column_1">44</td>
+<td class="column_2">Point Representation in IEEE 754</td>
+<td class="column_3">[0][5][7][0]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.005376344086021506</td>
+<td class="column_7">1.2671717284030137</td>
+<td class="column_8">0.006812751227973193</td>
+<td class="column_9">No</td>
+<td class="column_10">['NN', 'NNP', 'IN', 'NNP', 'CD']</td>
+</tr>
+<td class="column_1">45</td>
+<td class="column_2">Representation in IEEE 754 format</td>
+<td class="column_3">[0][5][7][0]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.005376344086021506</td>
+<td class="column_7">1.2671717284030137</td>
+<td class="column_8">0.006812751227973193</td>
+<td class="column_9">No</td>
+<td class="column_10">['NN', 'IN', 'NNP', 'CD', 'NN']</td>
+</tr>
+<td class="column_1">46</td>
+<td class="column_2">Figure2: Implementation Blocks of FPU</td>
+<td class="column_3">[0][5][10][0]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.005376344086021506</td>
+<td class="column_7">1.2671717284030137</td>
+<td class="column_8">0.006812751227973193</td>
+<td class="column_9">No</td>
+<td class="column_10">['NNP', ':', 'NNP', 'NNP', 'IN', 'NNP']</td>
+</tr>
+<td class="column_1">47</td>
+<td class="column_2">This is the port through</td>
+<td class="column_3">[0][5][12][1][3][0]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']</td>
+<td class="column_5">['TD']</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.2671717284030137</td>
+<td class="column_8">0.020438253683919577</td>
+<td class="column_9">No</td>
+<td class="column_10">['DT', 'VBZ', 'DT', 'NN', 'IN']</td>
+</tr>
+<td class="column_1">48</td>
+<td class="column_2">is the port through which</td>
+<td class="column_3">[0][5][12][1][3][0]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']</td>
+<td class="column_5">['TD']</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.2671717284030137</td>
+<td class="column_8">0.020438253683919577</td>
+<td class="column_9">No</td>
+<td class="column_10">['VBZ', 'DT', 'NN', 'IN', 'WDT']</td>
+</tr>
+<td class="column_1">49</td>
+<td class="column_2">the port through which the</td>
+<td class="column_3">[0][5][12][1][3][0]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']</td>
+<td class="column_5">['TD']</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.2671717284030137</td>
+<td class="column_8">0.020438253683919577</td>
+<td class="column_9">No</td>
+<td class="column_10">['DT', 'NN', 'IN', 'WDT', 'DT']</td>
+</tr>
+<td class="column_1">50</td>
+<td class="column_2">port through which the first</td>
+<td class="column_3">[0][5][12][1][3][0]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']</td>
+<td class="column_5">['TD']</td>
+<td class="column_6">0.005376344086021506</td>
+<td class="column_7">1.2671717284030137</td>
+<td class="column_8">0.006812751227973193</td>
+<td class="column_9">No</td>
+<td class="column_10">['NN', 'IN', 'WDT', 'DT', 'JJ']</td>
+</tr>
+<td class="column_1">51</td>
+<td class="column_2">through which the first input</td>
+<td class="column_3">[0][5][12][1][3][0]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']</td>
+<td class="column_5">['TD']</td>
+<td class="column_6">0.005376344086021506</td>
+<td class="column_7">1.2671717284030137</td>
+<td class="column_8">0.006812751227973193</td>
+<td class="column_9">No</td>
+<td class="column_10">['IN', 'WDT', 'DT', 'JJ', 'NN']</td>
+</tr>
+<td class="column_1">52</td>
+<td class="column_2">which the first input is</td>
+<td class="column_3">[0][5][12][1][3][0]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']</td>
+<td class="column_5">['TD']</td>
+<td class="column_6">0.005376344086021506</td>
+<td class="column_7">1.2671717284030137</td>
+<td class="column_8">0.006812751227973193</td>
+<td class="column_9">No</td>
+<td class="column_10">['WDT', 'DT', 'JJ', 'NN', 'VBZ']</td>
+</tr>
+<td class="column_1">53</td>
+<td class="column_2">the first input is fed</td>
+<td class="column_3">[0][5][12][1][3][0]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']</td>
+<td class="column_5">['TD']</td>
+<td class="column_6">0.005376344086021506</td>
+<td class="column_7">1.2671717284030137</td>
+<td class="column_8">0.006812751227973193</td>
+<td class="column_9">No</td>
+<td class="column_10">['DT', 'JJ', 'NN', 'VBZ', 'VBN']</td>
+</tr>
+<td class="column_1">54</td>
+<td class="column_2">first input is fed through</td>
+<td class="column_3">[0][5][12][1][3][0]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']</td>
+<td class="column_5">['TD']</td>
+<td class="column_6">0.005376344086021506</td>
+<td class="column_7">1.2671717284030137</td>
+<td class="column_8">0.006812751227973193</td>
+<td class="column_9">No</td>
+<td class="column_10">['JJ', 'NN', 'VBZ', 'VBN', 'IN']</td>
+</tr>
+<td class="column_1">55</td>
+<td class="column_2">This is the port through</td>
+<td class="column_3">[0][5][12][2][3][0]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']</td>
+<td class="column_5">['TD']</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.2671717284030137</td>
+<td class="column_8">0.020438253683919577</td>
+<td class="column_9">No</td>
+<td class="column_10">['DT', 'VBZ', 'DT', 'NN', 'IN']</td>
+</tr>
+<td class="column_1">56</td>
+<td class="column_2">is the port through which</td>
+<td class="column_3">[0][5][12][2][3][0]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']</td>
+<td class="column_5">['TD']</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.2671717284030137</td>
+<td class="column_8">0.020438253683919577</td>
+<td class="column_9">No</td>
+<td class="column_10">['VBZ', 'DT', 'NN', 'IN', 'WDT']</td>
+</tr>
+<td class="column_1">57</td>
+<td class="column_2">the port through which the</td>
+<td class="column_3">[0][5][12][2][3][0]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']</td>
+<td class="column_5">['TD']</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.2671717284030137</td>
+<td class="column_8">0.020438253683919577</td>
+<td class="column_9">No</td>
+<td class="column_10">['DT', 'NN', 'IN', 'WDT', 'DT']</td>
+</tr>
+<td class="column_1">58</td>
+<td class="column_2">port through which the second</td>
+<td class="column_3">[0][5][12][2][3][0]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']</td>
+<td class="column_5">['TD']</td>
+<td class="column_6">0.005376344086021506</td>
+<td class="column_7">1.2671717284030137</td>
+<td class="column_8">0.006812751227973193</td>
+<td class="column_9">No</td>
+<td class="column_10">['NN', 'IN', 'WDT', 'DT', 'JJ']</td>
+</tr>
+<td class="column_1">59</td>
+<td class="column_2">through which the second input</td>
+<td class="column_3">[0][5][12][2][3][0]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']</td>
+<td class="column_5">['TD']</td>
+<td class="column_6">0.005376344086021506</td>
+<td class="column_7">1.2671717284030137</td>
+<td class="column_8">0.006812751227973193</td>
+<td class="column_9">No</td>
+<td class="column_10">['IN', 'WDT', 'DT', 'JJ', 'NN']</td>
+</tr>
+<td class="column_1">60</td>
+<td class="column_2">which the second input is</td>
+<td class="column_3">[0][5][12][2][3][0]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']</td>
+<td class="column_5">['TD']</td>
+<td class="column_6">0.005376344086021506</td>
+<td class="column_7">1.2671717284030137</td>
+<td class="column_8">0.006812751227973193</td>
+<td class="column_9">No</td>
+<td class="column_10">['WDT', 'DT', 'JJ', 'NN', 'VBZ']</td>
+</tr>
+<td class="column_1">61</td>
+<td class="column_2">the second input is fed</td>
+<td class="column_3">[0][5][12][2][3][0]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']</td>
+<td class="column_5">['TD']</td>
+<td class="column_6">0.005376344086021506</td>
+<td class="column_7">1.2671717284030137</td>
+<td class="column_8">0.006812751227973193</td>
+<td class="column_9">No</td>
+<td class="column_10">['DT', 'JJ', 'NN', 'VBZ', 'VBN']</td>
+</tr>
+<td class="column_1">62</td>
+<td class="column_2">second input is fed through</td>
+<td class="column_3">[0][5][12][2][3][0]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']</td>
+<td class="column_5">['TD']</td>
+<td class="column_6">0.005376344086021506</td>
+<td class="column_7">1.2671717284030137</td>
+<td class="column_8">0.006812751227973193</td>
+<td class="column_9">No</td>
+<td class="column_10">['JJ', 'NN', 'VBZ', 'VBN', 'IN']</td>
+</tr>
+<td class="column_1">63</td>
+<td class="column_2">This is the input port</td>
+<td class="column_3">[0][5][12][3][3][0]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']</td>
+<td class="column_5">['TD']</td>
+<td class="column_6">0.005376344086021506</td>
+<td class="column_7">1.2671717284030137</td>
+<td class="column_8">0.006812751227973193</td>
+<td class="column_9">No</td>
+<td class="column_10">['DT', 'VBZ', 'DT', 'NN', 'NN']</td>
+</tr>
+<td class="column_1">64</td>
+<td class="column_2">is the input port through</td>
+<td class="column_3">[0][5][12][3][3][0]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']</td>
+<td class="column_5">['TD']</td>
+<td class="column_6">0.005376344086021506</td>
+<td class="column_7">1.2671717284030137</td>
+<td class="column_8">0.006812751227973193</td>
+<td class="column_9">No</td>
+<td class="column_10">['VBZ', 'DT', 'NN', 'NN', 'IN']</td>
+</tr>
+<td class="column_1">65</td>
+<td class="column_2">the input port through which</td>
+<td class="column_3">[0][5][12][3][3][0]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']</td>
+<td class="column_5">['TD']</td>
+<td class="column_6">0.005376344086021506</td>
+<td class="column_7">1.2671717284030137</td>
+<td class="column_8">0.006812751227973193</td>
+<td class="column_9">No</td>
+<td class="column_10">['DT', 'NN', 'NN', 'IN', 'WDT']</td>
+</tr>
+<td class="column_1">66</td>
+<td class="column_2">input port through which the</td>
+<td class="column_3">[0][5][12][3][3][0]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']</td>
+<td class="column_5">['TD']</td>
+<td class="column_6">0.005376344086021506</td>
+<td class="column_7">1.2671717284030137</td>
+<td class="column_8">0.006812751227973193</td>
+<td class="column_9">No</td>
+<td class="column_10">['NN', 'NN', 'IN', 'WDT', 'DT']</td>
+</tr>
+<td class="column_1">67</td>
+<td class="column_2">port through which the entire</td>
+<td class="column_3">[0][5][12][3][3][0]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']</td>
+<td class="column_5">['TD']</td>
+<td class="column_6">0.005376344086021506</td>
+<td class="column_7">1.2671717284030137</td>
+<td class="column_8">0.006812751227973193</td>
+<td class="column_9">No</td>
+<td class="column_10">['NN', 'IN', 'WDT', 'DT', 'JJ']</td>
+</tr>
+<td class="column_1">68</td>
+<td class="column_2">through which the entire system</td>
+<td class="column_3">[0][5][12][3][3][0]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']</td>
+<td class="column_5">['TD']</td>
+<td class="column_6">0.005376344086021506</td>
+<td class="column_7">1.2671717284030137</td>
+<td class="column_8">0.006812751227973193</td>
+<td class="column_9">No</td>
+<td class="column_10">['IN', 'WDT', 'DT', 'JJ', 'NN']</td>
+</tr>
+<td class="column_1">69</td>
+<td class="column_2">which the entire system is</td>
+<td class="column_3">[0][5][12][3][3][0]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']</td>
+<td class="column_5">['TD']</td>
+<td class="column_6">0.005376344086021506</td>
+<td class="column_7">1.2671717284030137</td>
+<td class="column_8">0.006812751227973193</td>
+<td class="column_9">No</td>
+<td class="column_10">['WDT', 'DT', 'JJ', 'NN', 'VBZ']</td>
+</tr>
+<td class="column_1">70</td>
+<td class="column_2">the entire system is synchronous</td>
+<td class="column_3">[0][5][12][3][3][0]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']</td>
+<td class="column_5">['TD']</td>
+<td class="column_6">0.005376344086021506</td>
+<td class="column_7">1.2671717284030137</td>
+<td class="column_8">0.006812751227973193</td>
+<td class="column_9">No</td>
+<td class="column_10">['DT', 'JJ', 'NN', 'VBZ', 'JJ']</td>
+</tr>
+<td class="column_1">71</td>
+<td class="column_2">entire system is synchronous with</td>
+<td class="column_3">[0][5][12][3][3][0]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']</td>
+<td class="column_5">['TD']</td>
+<td class="column_6">0.005376344086021506</td>
+<td class="column_7">1.2671717284030137</td>
+<td class="column_8">0.006812751227973193</td>
+<td class="column_9">No</td>
+<td class="column_10">['NN', 'NN', 'VBZ', 'JJ', 'IN']</td>
+</tr>
+<td class="column_1">72</td>
+<td class="column_2">The input to this port</td>
+<td class="column_3">[0][5][12][4][3][0]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']</td>
+<td class="column_5">['TD']</td>
+<td class="column_6">0.005376344086021506</td>
+<td class="column_7">1.2671717284030137</td>
+<td class="column_8">0.006812751227973193</td>
+<td class="column_9">No</td>
+<td class="column_10">['DT', 'NN', 'TO', 'DT', 'NN']</td>
+</tr>
+<td class="column_1">73</td>
+<td class="column_2">input to this port decides</td>
+<td class="column_3">[0][5][12][4][3][0]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']</td>
+<td class="column_5">['TD']</td>
+<td class="column_6">0.005376344086021506</td>
+<td class="column_7">1.2671717284030137</td>
+<td class="column_8">0.006812751227973193</td>
+<td class="column_9">No</td>
+<td class="column_10">['NN', 'TO', 'DT', 'NN', 'VBZ']</td>
+</tr>
+<td class="column_1">74</td>
+<td class="column_2">to this port decides the</td>
+<td class="column_3">[0][5][12][4][3][0]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']</td>
+<td class="column_5">['TD']</td>
+<td class="column_6">0.005376344086021506</td>
+<td class="column_7">1.2671717284030137</td>
+<td class="column_8">0.006812751227973193</td>
+<td class="column_9">No</td>
+<td class="column_10">['TO', 'DT', 'NN', 'VBZ', 'DT']</td>
+</tr>
+<td class="column_1">75</td>
+<td class="column_2">this port decides the mode</td>
+<td class="column_3">[0][5][12][4][3][0]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']</td>
+<td class="column_5">['TD']</td>
+<td class="column_6">0.005376344086021506</td>
+<td class="column_7">1.2671717284030137</td>
+<td class="column_8">0.006812751227973193</td>
+<td class="column_9">No</td>
+<td class="column_10">['DT', 'NN', 'VBZ', 'DT', 'NN']</td>
+</tr>
+<td class="column_1">76</td>
+<td class="column_2">port decides the mode of</td>
+<td class="column_3">[0][5][12][4][3][0]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']</td>
+<td class="column_5">['TD']</td>
+<td class="column_6">0.005376344086021506</td>
+<td class="column_7">1.2671717284030137</td>
+<td class="column_8">0.006812751227973193</td>
+<td class="column_9">No</td>
+<td class="column_10">['NN', 'VBZ', 'DT', 'NN', 'IN']</td>
+</tr>
+<td class="column_1">77</td>
+<td class="column_2">decides the mode of arithmetic</td>
+<td class="column_3">[0][5][12][4][3][0]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']</td>
+<td class="column_5">['TD']</td>
+<td class="column_6">0.005376344086021506</td>
+<td class="column_7">1.2671717284030137</td>
+<td class="column_8">0.006812751227973193</td>
+<td class="column_9">No</td>
+<td class="column_10">['NNS', 'DT', 'NN', 'IN', 'JJ']</td>
+</tr>
+<td class="column_1">78</td>
+<td class="column_2">the mode of arithmetic operation</td>
+<td class="column_3">[0][5][12][4][3][0]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']</td>
+<td class="column_5">['TD']</td>
+<td class="column_6">0.005376344086021506</td>
+<td class="column_7">1.2671717284030137</td>
+<td class="column_8">0.006812751227973193</td>
+<td class="column_9">No</td>
+<td class="column_10">['DT', 'NN', 'IN', 'JJ', 'NN']</td>
+</tr>
+<td class="column_1">79</td>
+<td class="column_2">0 for addition and 1</td>
+<td class="column_3">[0][5][12][4][3][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']</td>
+<td class="column_5">['TD']</td>
+<td class="column_6">0.005376344086021506</td>
+<td class="column_7">1.2671717284030137</td>
+<td class="column_8">0.006812751227973193</td>
+<td class="column_9">No</td>
+<td class="column_10">['-NONE-', 'IN', 'NN', 'CC', 'CD']</td>
+</tr>
+<td class="column_1">80</td>
+<td class="column_2">for addition and 1 for</td>
+<td class="column_3">[0][5][12][4][3][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']</td>
+<td class="column_5">['TD']</td>
+<td class="column_6">0.005376344086021506</td>
+<td class="column_7">1.2671717284030137</td>
+<td class="column_8">0.006812751227973193</td>
+<td class="column_9">No</td>
+<td class="column_10">['IN', 'NN', 'CC', 'CD', 'IN']</td>
+</tr>
+<td class="column_1">81</td>
+<td class="column_2">addition and 1 for subtraction</td>
+<td class="column_3">[0][5][12][4][3][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']</td>
+<td class="column_5">['TD']</td>
+<td class="column_6">0.005376344086021506</td>
+<td class="column_7">1.2671717284030137</td>
+<td class="column_8">0.006812751227973193</td>
+<td class="column_9">No</td>
+<td class="column_10">['NN', 'CC', 'CD', 'IN', 'NN']</td>
+</tr>
+<td class="column_1">82</td>
+<td class="column_2">This is the port through</td>
+<td class="column_3">[0][5][12][5][3][0]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']</td>
+<td class="column_5">['TD']</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.2671717284030137</td>
+<td class="column_8">0.020438253683919577</td>
+<td class="column_9">No</td>
+<td class="column_10">['DT', 'VBZ', 'DT', 'NN', 'IN']</td>
+</tr>
+<td class="column_1">83</td>
+<td class="column_2">is the port through which</td>
+<td class="column_3">[0][5][12][5][3][0]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']</td>
+<td class="column_5">['TD']</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.2671717284030137</td>
+<td class="column_8">0.020438253683919577</td>
+<td class="column_9">No</td>
+<td class="column_10">['VBZ', 'DT', 'NN', 'IN', 'WDT']</td>
+</tr>
+<td class="column_1">84</td>
+<td class="column_2">the port through which the</td>
+<td class="column_3">[0][5][12][5][3][0]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']</td>
+<td class="column_5">['TD']</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.2671717284030137</td>
+<td class="column_8">0.020438253683919577</td>
+<td class="column_9">No</td>
+<td class="column_10">['DT', 'NN', 'IN', 'WDT', 'DT']</td>
+</tr>
+<td class="column_1">85</td>
+<td class="column_2">port through which the output</td>
+<td class="column_3">[0][5][12][5][3][0]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']</td>
+<td class="column_5">['TD']</td>
+<td class="column_6">0.005376344086021506</td>
+<td class="column_7">1.2671717284030137</td>
+<td class="column_8">0.006812751227973193</td>
+<td class="column_9">No</td>
+<td class="column_10">['NN', 'IN', 'WDT', 'DT', 'NN']</td>
+</tr>
+<td class="column_1">86</td>
+<td class="column_2">through which the output is</td>
+<td class="column_3">[0][5][12][5][3][0]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']</td>
+<td class="column_5">['TD']</td>
+<td class="column_6">0.005376344086021506</td>
+<td class="column_7">1.2671717284030137</td>
+<td class="column_8">0.006812751227973193</td>
+<td class="column_9">No</td>
+<td class="column_10">['IN', 'WDT', 'DT', 'NN', 'VBZ']</td>
+</tr>
+<td class="column_1">87</td>
+<td class="column_2">which the output is fed</td>
+<td class="column_3">[0][5][12][5][3][0]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']</td>
+<td class="column_5">['TD']</td>
+<td class="column_6">0.005376344086021506</td>
+<td class="column_7">1.2671717284030137</td>
+<td class="column_8">0.006812751227973193</td>
+<td class="column_9">No</td>
+<td class="column_10">['WDT', 'DT', 'NN', 'VBZ', 'VBN']</td>
+</tr>
+<td class="column_1">88</td>
+<td class="column_2">the output is fed out</td>
+<td class="column_3">[0][5][12][5][3][0]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']</td>
+<td class="column_5">['TD']</td>
+<td class="column_6">0.005376344086021506</td>
+<td class="column_7">1.2671717284030137</td>
+<td class="column_8">0.006812751227973193</td>
+<td class="column_9">No</td>
+<td class="column_10">['DT', 'NN', 'VBZ', 'VBN', 'RP']</td>
+</tr>
+<td class="column_1">89</td>
+<td class="column_2">Table 1: Signal Definition Table</td>
+<td class="column_3">[0][5][13][0]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.005376344086021506</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0058660240287491</td>
+<td class="column_9">No</td>
+<td class="column_10">['JJ', 'CD', ':', 'JJ', 'NN', 'NNP']</td>
+</tr>
+<td class="column_1">90</td>
+<td class="column_2">Ltd.India: 102, 1st Floor, Mobius</td>
+<td class="column_3">[0][5][14][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['JJ', ':', 'CD', ',', 'CD', 'NNP', ',', 'NNP']</td>
+</tr>
+<td class="column_1">91</td>
+<td class="column_2">102, 1st Floor, Mobius Tower,</td>
+<td class="column_3">[0][5][14][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['CD', ',', 'CD', 'NNP', ',', 'NNP', 'NNP']</td>
+</tr>
+<td class="column_1">92</td>
+<td class="column_2">1st Floor, Mobius Tower, SJR</td>
+<td class="column_3">[0][5][14][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['CD', 'NNP', ',', 'NNP', 'NNP', ',', 'NNP']</td>
+</tr>
+<td class="column_1">93</td>
+<td class="column_2">Floor, Mobius Tower, SJR iPark,</td>
+<td class="column_3">[0][5][14][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['NNP', ',', 'NNP', 'NNP', ',', 'NNP', 'NNP']</td>
+</tr>
+<td class="column_1">94</td>
+<td class="column_2">Mobius Tower, SJR iPark, EPIP,</td>
+<td class="column_3">[0][5][14][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['NNP', 'NNP', ',', 'NNP', 'NNP', ',', 'NNP']</td>
+</tr>
+<td class="column_1">95</td>
+<td class="column_2">Tower, SJR iPark, EPIP, White</td>
+<td class="column_3">[0][5][14][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['NNP', ',', 'NNP', 'NNP', ',', 'NNP', ',', 'NNP']</td>
+</tr>
+<td class="column_1">96</td>
+<td class="column_2">SJR iPark, EPIP, White Field,</td>
+<td class="column_3">[0][5][14][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['NNP', 'NNP', ',', 'NNP', ',', 'NNP', 'NNP']</td>
+</tr>
+<td class="column_1">97</td>
+<td class="column_2">iPark, EPIP, White Field, BANGALORE</td>
+<td class="column_3">[0][5][14][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['NNP', ',', 'NNP', ',', 'NNP', 'NNP', ',', 'NNP']</td>
+</tr>
+<td class="column_1">98</td>
+<td class="column_2">EPIP, White Field, BANGALORE 560</td>
+<td class="column_3">[0][5][14][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['NNP', ',', 'NNP', 'NNP', ',', 'NNP', 'CD']</td>
+</tr>
+<td class="column_1">99</td>
+<td class="column_2">White Field, BANGALORE 560 066,</td>
+<td class="column_3">[0][5][14][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['NNP', 'NNP', ',', 'NNP', 'CD', 'CD']</td>
+</tr>
+<td class="column_1">100</td>
+<td class="column_2">Field, BANGALORE 560 066, Karnataka,</td>
+<td class="column_3">[0][5][14][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['NNP', ',', 'NNP', 'CD', 'CD', ',', 'NNP']</td>
+</tr>
+<td class="column_1">101</td>
+<td class="column_2">BANGALORE 560 066, Karnataka, India,</td>
+<td class="column_3">[0][5][14][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['NNP', 'CD', 'CD', ',', 'NNP', ',', 'NNP']</td>
+</tr>
+<td class="column_1">102</td>
+<td class="column_2">560 066, Karnataka, India, Tel:</td>
+<td class="column_3">[0][5][14][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['CD', 'CD', ',', 'NNP', ',', 'NNP', ',', 'NNP']</td>
+</tr>
+<td class="column_1">103</td>
+<td class="column_2">066, Karnataka, India, Tel: 918041779999,</td>
+<td class="column_3">[0][5][14][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['CD', ',', 'NNP', ',', 'NNP', ',', 'NNP', ':', 'CD']</td>
+</tr>
+<td class="column_1">104</td>
+<td class="column_2">Karnataka, India, Tel: 918041779999, Fax:</td>
+<td class="column_3">[0][5][14][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['NNP', ',', 'NNP', ',', 'NNP', ':', 'CD', ',', 'NNP']</td>
+</tr>
+<td class="column_1">105</td>
+<td class="column_2">India, Tel: 918041779999, Fax: 918041157070</td>
+<td class="column_3">[0][5][14][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['NNP', ',', 'NNP', ':', 'CD', ',', 'NNP', ':', 'CD']</td>
+</tr>
+<td class="column_1">106</td>
+<td class="column_2">Tel: 918041779999, Fax: 918041157070 US:</td>
+<td class="column_3">[0][5][14][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['NNP', ':', 'CD', ',', 'NNP', ':', 'CD', 'NN']</td>
+</tr>
+<td class="column_1">107</td>
+<td class="column_2">918041779999, Fax: 918041157070 US: 2900</td>
+<td class="column_3">[0][5][14][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['CD', ',', 'NNP', ':', 'CD', 'PRP', ':', 'CD']</td>
+</tr>
+<td class="column_1">108</td>
+<td class="column_2">Fax: 918041157070 US: 2900 Gordon</td>
+<td class="column_3">[0][5][14][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['NNP', ':', 'CD', 'PRP', ':', 'CD', 'NNP']</td>
+</tr>
+<td class="column_1">109</td>
+<td class="column_2">918041157070 US: 2900 Gordon Ave,</td>
+<td class="column_3">[0][5][14][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['CD', 'PRP', ':', 'CD', 'NNP', 'NNP']</td>
+</tr>
+<td class="column_1">110</td>
+<td class="column_2">US: 2900 Gordon Ave, Suite</td>
+<td class="column_3">[0][5][14][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['PRP', ':', 'CD', 'NNP', 'NNP', ',', 'NNP']</td>
+</tr>
+<td class="column_1">111</td>
+<td class="column_2">2900 Gordon Ave, Suite 10011,</td>
+<td class="column_3">[0][5][14][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['CD', 'NNP', 'NNP', ',', 'NNP', 'CD']</td>
+</tr>
+<td class="column_1">112</td>
+<td class="column_2">Gordon Ave, Suite 10011, Santa</td>
+<td class="column_3">[0][5][14][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['NNP', 'NNP', ',', 'NNP', 'CD', ',', 'NNP']</td>
+</tr>
+<td class="column_1">113</td>
+<td class="column_2">Ave, Suite 10011, Santa Clara,</td>
+<td class="column_3">[0][5][14][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['NNP', ',', 'NNP', 'CD', ',', 'NNP', 'NNP']</td>
+</tr>
+<td class="column_1">114</td>
+<td class="column_2">Suite 10011, Santa Clara, CA</td>
+<td class="column_3">[0][5][14][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['NNP', 'CD', ',', 'NNP', 'NNP', ',', 'NNP']</td>
+</tr>
+<td class="column_1">115</td>
+<td class="column_2">10011, Santa Clara, CA 95051,</td>
+<td class="column_3">[0][5][14][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['CD', ',', 'NNP', 'NNP', ',', 'NNP', 'CD']</td>
+</tr>
+<td class="column_1">116</td>
+<td class="column_2">Santa Clara, CA 95051, USA,</td>
+<td class="column_3">[0][5][14][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['NNP', 'NNP', ',', 'NNP', 'CD', ',', 'NNP']</td>
+</tr>
+<td class="column_1">117</td>
+<td class="column_2">Clara, CA 95051, USA, Tel:</td>
+<td class="column_3">[0][5][14][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['NNP', ',', 'NNP', 'CD', ',', 'NNP', ',', 'NNP']</td>
+</tr>
+<td class="column_1">118</td>
+<td class="column_2">CA 95051, USA, Tel: (408)</td>
+<td class="column_3">[0][5][14][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['NNP', 'CD', ',', 'NNP', ',', 'NNP', ':', ':', 'CD', 'CD']</td>
+</tr>
+<td class="column_1">119</td>
+<td class="column_2">95051, USA, Tel: (408) 7731714,</td>
+<td class="column_3">[0][5][14][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['CD', ',', 'NNP', ',', 'NNP', ':', ':', 'CD', 'CD', 'CD']</td>
+</tr>
+<td class="column_1">120</td>
+<td class="column_2">USA, Tel: (408) 7731714, Fax:</td>
+<td class="column_3">[0][5][14][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['NNP', ',', 'NNP', ':', ':', 'CD', 'CD', 'CD', ',', 'NNP']</td>
+</tr>
+<td class="column_1">121</td>
+<td class="column_2">Tel: (408) 7731714, Fax: (408)</td>
+<td class="column_3">[0][5][14][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['NNP', ':', ':', 'CD', 'CD', 'CD', ',', 'NNP', ':', ':', 'CD', 'CD']</td>
+</tr>
+<td class="column_1">122</td>
+<td class="column_2">(408) 7731714, Fax: (408) 7731745</td>
+<td class="column_3">[0][5][14][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['NN', 'CD', 'CD', 'CD', ',', 'NNP', ':', ':', 'CD', 'CD', 'CD']</td>
+</tr>
+<td class="column_1">123</td>
+<td class="column_2">7731714, Fax: (408) 7731745 Email:</td>
+<td class="column_3">[0][5][14][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['CD', ',', 'NNP', ':', ':', 'CD', 'CD', 'CD', 'JJ']</td>
+</tr>
+<td class="column_1">124</td>
+<td class="column_2">Fax: (408) 7731745 Email: sales@softjin.com</td>
+<td class="column_3">[0][5][14][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['NNP', ':', ':', 'CD', 'CD', 'CD', 'NNP', ':', 'NNS', 'IN', 'JJ']</td>
+</tr>
+<td class="column_1">125</td>
+<td class="column_2">(408) 7731745 Email: sales@softjin.com Web:</td>
+<td class="column_3">[0][5][14][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['NN', 'CD', 'CD', 'CD', 'NNP', ':', 'NNS', 'IN', 'JJ', 'NN']</td>
+</tr>
+<td class="column_1">126</td>
+<td class="column_2">7731745 Email: sales@softjin.com Web: www.softjin.com</td>
+<td class="column_3">[0][5][14][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['CD', 'NNP', ':', 'NNS', 'IN', 'JJ', 'NNP', ':', 'JJ']</td>
+</tr>
+<td class="column_1">127</td>
+<td class="column_2">Email: sales@softjin.com Web: www.softjin.com Page</td>
+<td class="column_3">[0][5][14][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['NNP', ':', 'NNS', 'IN', 'JJ', 'NNP', ':', 'JJ', 'NN']</td>
+</tr>
+<td class="column_1">128</td>
+<td class="column_2">sales@softjin.com Web: www.softjin.com Page |</td>
+<td class="column_3">[0][5][14][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['NNS', 'VBP', 'JJ', 'NNP', ':', 'JJ', 'NN', ':']</td>
+</tr>
+<td class="column_1">129</td>
+<td class="column_2">Web: www.softjin.com Page | 2</td>
+<td class="column_3">[0][5][14][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.005376344086021506</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0058660240287491</td>
+<td class="column_9">No</td>
+<td class="column_10">['NNP', ':', 'JJ', 'NN', ':', 'CD']</td>
+</tr>
+<td class="column_1">130</td>
+<td class="column_2">Table 2: FPU add/sub IP</td>
+<td class="column_3">[0][5][17][0]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.005376344086021506</td>
+<td class="column_7">1.2671717284030137</td>
+<td class="column_8">0.006812751227973193</td>
+<td class="column_9">No</td>
+<td class="column_10">['JJ', 'CD', ':', 'NNP', 'NNP', 'NNP']</td>
+</tr>
+<td class="column_1">131</td>
+<td class="column_2">2: FPU add/sub IP Performance</td>
+<td class="column_3">[0][5][17][0]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.005376344086021506</td>
+<td class="column_7">1.2671717284030137</td>
+<td class="column_8">0.006812751227973193</td>
+<td class="column_9">No</td>
+<td class="column_10">['LS', ':', 'NNP', 'NNP', 'NNP', 'NNP']</td>
+</tr>
+<td class="column_1">132</td>
+<td class="column_2">FPU add/sub IP Performance table</td>
+<td class="column_3">[0][5][17][0]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.005376344086021506</td>
+<td class="column_7">1.2671717284030137</td>
+<td class="column_8">0.006812751227973193</td>
+<td class="column_9">No</td>
+<td class="column_10">['NNP', 'NNP', 'NNP', 'NNP', 'NN']</td>
+</tr>
+<td class="column_1">133</td>
+<td class="column_2">The Floating point adder/subtracter IP</td>
+<td class="column_3">[0][5][18][1][0]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'Sect', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.005376344086021506</td>
+<td class="column_7">1.2671717284030137</td>
+<td class="column_8">0.006812751227973193</td>
+<td class="column_9">No</td>
+<td class="column_10">['DT', 'NNP', 'NN', 'NN', 'NNP']</td>
+</tr>
+<td class="column_1">134</td>
+<td class="column_2">Floating point adder/subtracter IP has</td>
+<td class="column_3">[0][5][18][1][0]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'Sect', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.005376344086021506</td>
+<td class="column_7">1.2671717284030137</td>
+<td class="column_8">0.006812751227973193</td>
+<td class="column_9">No</td>
+<td class="column_10">['VBG', 'NN', 'JJ', 'NNP', 'VBZ']</td>
+</tr>
+<td class="column_1">135</td>
+<td class="column_2">point adder/subtracter IP has been</td>
+<td class="column_3">[0][5][18][1][0]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'Sect', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.005376344086021506</td>
+<td class="column_7">1.2671717284030137</td>
+<td class="column_8">0.006812751227973193</td>
+<td class="column_9">No</td>
+<td class="column_10">['NN', 'NN', 'NNP', 'VBZ', 'VBN']</td>
+</tr>
+<td class="column_1">136</td>
+<td class="column_2">adder/subtracter IP has been verified</td>
+<td class="column_3">[0][5][18][1][0]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'Sect', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.005376344086021506</td>
+<td class="column_7">1.2671717284030137</td>
+<td class="column_8">0.006812751227973193</td>
+<td class="column_9">No</td>
+<td class="column_10">['JJ', 'NN', 'VBZ', 'VBN', 'VBN']</td>
+</tr>
+<td class="column_1">137</td>
+<td class="column_2">IP has been verified with</td>
+<td class="column_3">[0][5][18][1][0]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'Sect', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.005376344086021506</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0058660240287491</td>
+<td class="column_9">No</td>
+<td class="column_10">['NNP', 'VBZ', 'VBN', 'VBN', 'IN']</td>
+</tr>
+<td class="column_1">138</td>
+<td class="column_2">has been verified with the</td>
+<td class="column_3">[0][5][18][1][0]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'Sect', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.005376344086021506</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0058660240287491</td>
+<td class="column_9">No</td>
+<td class="column_10">['VBZ', 'VBN', 'VBN', 'IN', 'DT']</td>
+</tr>
+<td class="column_1">139</td>
+<td class="column_2">been verified with the following</td>
+<td class="column_3">[0][5][18][1][0]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'Sect', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.005376344086021506</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0058660240287491</td>
+<td class="column_9">No</td>
+<td class="column_10">['VBN', 'VBN', 'IN', 'DT', 'VBG']</td>
+</tr>
+<td class="column_1">140</td>
+<td class="column_2">verified with the following approaches:</td>
+<td class="column_3">[0][5][18][1][0]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'Sect', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.005376344086021506</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0058660240287491</td>
+<td class="column_9">No</td>
+<td class="column_10">['VBD', 'IN', 'DT', 'VBG', 'NN']</td>
+</tr>
+<td class="column_1">141</td>
+<td class="column_2">Results are compared with the</td>
+<td class="column_3">[0][5][18][2][1][1][0]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'Sect', 'Table', 'TR', 'TD', 'statement', 'word']</td>
+<td class="column_5">['TD']</td>
+<td class="column_6">0.005376344086021506</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0058660240287491</td>
+<td class="column_9">No</td>
+<td class="column_10">['NNS', 'VBP', 'VBN', 'IN', 'DT']</td>
+</tr>
+<td class="column_1">142</td>
+<td class="column_2">are compared with the Ccode</td>
+<td class="column_3">[0][5][18][2][1][1][0]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'Sect', 'Table', 'TR', 'TD', 'statement', 'word']</td>
+<td class="column_5">['TD']</td>
+<td class="column_6">0.005376344086021506</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0058660240287491</td>
+<td class="column_9">No</td>
+<td class="column_10">['VBP', 'VBN', 'IN', 'DT', 'NNP']</td>
+</tr>
+<td class="column_1">143</td>
+<td class="column_2">generated results and Behavioral model</td>
+<td class="column_3">[0][5][18][2][2][1][0]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'Sect', 'Table', 'TR', 'TD', 'statement', 'word']</td>
+<td class="column_5">['TD']</td>
+<td class="column_6">0.005376344086021506</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0058660240287491</td>
+<td class="column_9">No</td>
+<td class="column_10">['VBD', 'NNS', 'CC', 'NNP', 'NN']</td>
+</tr>
+<td class="column_1">144</td>
+<td class="column_2">Verilog Behavioral, RTL source code</td>
+<td class="column_3">[0][5][18][4][0][1][0]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'Sect', 'Table', 'TR', 'TD', 'statement', 'word']</td>
+<td class="column_5">['TD']</td>
+<td class="column_6">0.005376344086021506</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0058660240287491</td>
+<td class="column_9">No</td>
+<td class="column_10">['NNP', 'NNP', ',', 'NNP', 'NN', 'NN']</td>
+</tr>
+<td class="column_1">145</td>
+<td class="column_2">Ccode for generation of test</td>
+<td class="column_3">[0][5][18][4][2][1][0]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'Sect', 'Table', 'TR', 'TD', 'statement', 'word']</td>
+<td class="column_5">['TD']</td>
+<td class="column_6">0.005376344086021506</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0058660240287491</td>
+<td class="column_9">No</td>
+<td class="column_10">['NNP', 'IN', 'NN', 'IN', 'NN']</td>
+</tr>
+<td class="column_1">146</td>
+<td class="column_2">for generation of test vectors</td>
+<td class="column_3">[0][5][18][4][2][1][0]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'Sect', 'Table', 'TR', 'TD', 'statement', 'word']</td>
+<td class="column_5">['TD']</td>
+<td class="column_6">0.005376344086021506</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0058660240287491</td>
+<td class="column_9">No</td>
+<td class="column_10">['IN', 'NN', 'IN', 'NN', 'NNS']</td>
+</tr>
+<td class="column_1">147</td>
+<td class="column_2">Ltd.India: 102, 1st Floor, Mobius</td>
+<td class="column_3">[0][5][19][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['JJ', ':', 'CD', ',', 'CD', 'NNP', ',', 'NNP']</td>
+</tr>
+<td class="column_1">148</td>
+<td class="column_2">102, 1st Floor, Mobius Tower,</td>
+<td class="column_3">[0][5][19][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['CD', ',', 'CD', 'NNP', ',', 'NNP', 'NNP']</td>
+</tr>
+<td class="column_1">149</td>
+<td class="column_2">1st Floor, Mobius Tower, SJR</td>
+<td class="column_3">[0][5][19][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['CD', 'NNP', ',', 'NNP', 'NNP', ',', 'NNP']</td>
+</tr>
+<td class="column_1">150</td>
+<td class="column_2">Floor, Mobius Tower, SJR iPark,</td>
+<td class="column_3">[0][5][19][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['NNP', ',', 'NNP', 'NNP', ',', 'NNP', 'NNP']</td>
+</tr>
+<td class="column_1">151</td>
+<td class="column_2">Mobius Tower, SJR iPark, EPIP,</td>
+<td class="column_3">[0][5][19][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['NNP', 'NNP', ',', 'NNP', 'NNP', ',', 'NNP']</td>
+</tr>
+<td class="column_1">152</td>
+<td class="column_2">Tower, SJR iPark, EPIP, White</td>
+<td class="column_3">[0][5][19][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['NNP', ',', 'NNP', 'NNP', ',', 'NNP', ',', 'NNP']</td>
+</tr>
+<td class="column_1">153</td>
+<td class="column_2">SJR iPark, EPIP, White Field,</td>
+<td class="column_3">[0][5][19][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['NNP', 'NNP', ',', 'NNP', ',', 'NNP', 'NNP']</td>
+</tr>
+<td class="column_1">154</td>
+<td class="column_2">iPark, EPIP, White Field, BANGALORE</td>
+<td class="column_3">[0][5][19][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['NNP', ',', 'NNP', ',', 'NNP', 'NNP', ',', 'NNP']</td>
+</tr>
+<td class="column_1">155</td>
+<td class="column_2">EPIP, White Field, BANGALORE 560</td>
+<td class="column_3">[0][5][19][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['NNP', ',', 'NNP', 'NNP', ',', 'NNP', 'CD']</td>
+</tr>
+<td class="column_1">156</td>
+<td class="column_2">White Field, BANGALORE 560 066,</td>
+<td class="column_3">[0][5][19][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['NNP', 'NNP', ',', 'NNP', 'CD', 'CD']</td>
+</tr>
+<td class="column_1">157</td>
+<td class="column_2">Field, BANGALORE 560 066, Karnataka,</td>
+<td class="column_3">[0][5][19][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['NNP', ',', 'NNP', 'CD', 'CD', ',', 'NNP']</td>
+</tr>
+<td class="column_1">158</td>
+<td class="column_2">BANGALORE 560 066, Karnataka, India,</td>
+<td class="column_3">[0][5][19][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['NNP', 'CD', 'CD', ',', 'NNP', ',', 'NNP']</td>
+</tr>
+<td class="column_1">159</td>
+<td class="column_2">560 066, Karnataka, India, Tel:</td>
+<td class="column_3">[0][5][19][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['CD', 'CD', ',', 'NNP', ',', 'NNP', ',', 'NNP']</td>
+</tr>
+<td class="column_1">160</td>
+<td class="column_2">066, Karnataka, India, Tel: 918041779999,</td>
+<td class="column_3">[0][5][19][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['CD', ',', 'NNP', ',', 'NNP', ',', 'NNP', ':', 'CD']</td>
+</tr>
+<td class="column_1">161</td>
+<td class="column_2">Karnataka, India, Tel: 918041779999, Fax:</td>
+<td class="column_3">[0][5][19][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['NNP', ',', 'NNP', ',', 'NNP', ':', 'CD', ',', 'NNP']</td>
+</tr>
+<td class="column_1">162</td>
+<td class="column_2">India, Tel: 918041779999, Fax: 918041157070</td>
+<td class="column_3">[0][5][19][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['NNP', ',', 'NNP', ':', 'CD', ',', 'NNP', ':', 'CD']</td>
+</tr>
+<td class="column_1">163</td>
+<td class="column_2">Tel: 918041779999, Fax: 918041157070 US:</td>
+<td class="column_3">[0][5][19][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['NNP', ':', 'CD', ',', 'NNP', ':', 'CD', 'NN']</td>
+</tr>
+<td class="column_1">164</td>
+<td class="column_2">918041779999, Fax: 918041157070 US: 2900</td>
+<td class="column_3">[0][5][19][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['CD', ',', 'NNP', ':', 'CD', 'PRP', ':', 'CD']</td>
+</tr>
+<td class="column_1">165</td>
+<td class="column_2">Fax: 918041157070 US: 2900 Gordon</td>
+<td class="column_3">[0][5][19][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['NNP', ':', 'CD', 'PRP', ':', 'CD', 'NNP']</td>
+</tr>
+<td class="column_1">166</td>
+<td class="column_2">918041157070 US: 2900 Gordon Ave,</td>
+<td class="column_3">[0][5][19][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['CD', 'PRP', ':', 'CD', 'NNP', 'NNP']</td>
+</tr>
+<td class="column_1">167</td>
+<td class="column_2">US: 2900 Gordon Ave, Suite</td>
+<td class="column_3">[0][5][19][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['PRP', ':', 'CD', 'NNP', 'NNP', ',', 'NNP']</td>
+</tr>
+<td class="column_1">168</td>
+<td class="column_2">2900 Gordon Ave, Suite 10011,</td>
+<td class="column_3">[0][5][19][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['CD', 'NNP', 'NNP', ',', 'NNP', 'CD']</td>
+</tr>
+<td class="column_1">169</td>
+<td class="column_2">Gordon Ave, Suite 10011, Santa</td>
+<td class="column_3">[0][5][19][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['NNP', 'NNP', ',', 'NNP', 'CD', ',', 'NNP']</td>
+</tr>
+<td class="column_1">170</td>
+<td class="column_2">Ave, Suite 10011, Santa Clara,</td>
+<td class="column_3">[0][5][19][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['NNP', ',', 'NNP', 'CD', ',', 'NNP', 'NNP']</td>
+</tr>
+<td class="column_1">171</td>
+<td class="column_2">Suite 10011, Santa Clara, CA</td>
+<td class="column_3">[0][5][19][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['NNP', 'CD', ',', 'NNP', 'NNP', ',', 'NNP']</td>
+</tr>
+<td class="column_1">172</td>
+<td class="column_2">10011, Santa Clara, CA 95051,</td>
+<td class="column_3">[0][5][19][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['CD', ',', 'NNP', 'NNP', ',', 'NNP', 'CD']</td>
+</tr>
+<td class="column_1">173</td>
+<td class="column_2">Santa Clara, CA 95051, USA,</td>
+<td class="column_3">[0][5][19][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['NNP', 'NNP', ',', 'NNP', 'CD', ',', 'NNP']</td>
+</tr>
+<td class="column_1">174</td>
+<td class="column_2">Clara, CA 95051, USA, Tel:</td>
+<td class="column_3">[0][5][19][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['NNP', ',', 'NNP', 'CD', ',', 'NNP', ',', 'NNP']</td>
+</tr>
+<td class="column_1">175</td>
+<td class="column_2">CA 95051, USA, Tel: (408)</td>
+<td class="column_3">[0][5][19][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['NNP', 'CD', ',', 'NNP', ',', 'NNP', ':', ':', 'CD', 'CD']</td>
+</tr>
+<td class="column_1">176</td>
+<td class="column_2">95051, USA, Tel: (408) 7731714,</td>
+<td class="column_3">[0][5][19][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['CD', ',', 'NNP', ',', 'NNP', ':', ':', 'CD', 'CD', 'CD']</td>
+</tr>
+<td class="column_1">177</td>
+<td class="column_2">USA, Tel: (408) 7731714, Fax:</td>
+<td class="column_3">[0][5][19][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['NNP', ',', 'NNP', ':', ':', 'CD', 'CD', 'CD', ',', 'NNP']</td>
+</tr>
+<td class="column_1">178</td>
+<td class="column_2">Tel: (408) 7731714, Fax: (408)</td>
+<td class="column_3">[0][5][19][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['NNP', ':', ':', 'CD', 'CD', 'CD', ',', 'NNP', ':', ':', 'CD', 'CD']</td>
+</tr>
+<td class="column_1">179</td>
+<td class="column_2">(408) 7731714, Fax: (408) 7731745</td>
+<td class="column_3">[0][5][19][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['NN', 'CD', 'CD', 'CD', ',', 'NNP', ':', ':', 'CD', 'CD', 'CD']</td>
+</tr>
+<td class="column_1">180</td>
+<td class="column_2">7731714, Fax: (408) 7731745 Email:</td>
+<td class="column_3">[0][5][19][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['CD', ',', 'NNP', ':', ':', 'CD', 'CD', 'CD', 'JJ']</td>
+</tr>
+<td class="column_1">181</td>
+<td class="column_2">Fax: (408) 7731745 Email: sales@softjin.com</td>
+<td class="column_3">[0][5][19][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['NNP', ':', ':', 'CD', 'CD', 'CD', 'NNP', ':', 'NNS', 'IN', 'JJ']</td>
+</tr>
+<td class="column_1">182</td>
+<td class="column_2">(408) 7731745 Email: sales@softjin.com Web:</td>
+<td class="column_3">[0][5][19][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['NN', 'CD', 'CD', 'CD', 'NNP', ':', 'NNS', 'IN', 'JJ', 'NN']</td>
+</tr>
+<td class="column_1">183</td>
+<td class="column_2">7731745 Email: sales@softjin.com Web: www.softjin.com</td>
+<td class="column_3">[0][5][19][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['CD', 'NNP', ':', 'NNS', 'IN', 'JJ', 'NNP', ':', 'JJ']</td>
+</tr>
+<td class="column_1">184</td>
+<td class="column_2">Email: sales@softjin.com Web: www.softjin.com Page</td>
+<td class="column_3">[0][5][19][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['NNP', ':', 'NNS', 'IN', 'JJ', 'NNP', ':', 'JJ', 'NN']</td>
+</tr>
+<td class="column_1">185</td>
+<td class="column_2">sales@softjin.com Web: www.softjin.com Page |</td>
+<td class="column_3">[0][5][19][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.016129032258064516</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0175980720862473</td>
+<td class="column_9">No</td>
+<td class="column_10">['NNS', 'VBP', 'JJ', 'NNP', ':', 'JJ', 'NN', ':']</td>
+</tr>
+<td class="column_1">186</td>
+<td class="column_2">Web: www.softjin.com Page | 3</td>
+<td class="column_3">[0][5][19][1]</td>
+<td class="column_4">['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']</td>
+<td class="column_5">{}</td>
+<td class="column_6">0.005376344086021506</td>
+<td class="column_7">1.0910804693473326</td>
+<td class="column_8">0.0058660240287491</td>
+<td class="column_9">No</td>
+<td class="column_10">['NNP', ':', 'JJ', 'NN', ':', 'CD']</td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>

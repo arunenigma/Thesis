@@ -1,0 +1,324 @@
+S.No,Word,Location Vector,Signature,Signature Weight,Tf,Idf,Tf - Idf Score,English Dictionary Match,Number Match,Abbreviation Match,Symbol Match,Repetitive Word
+1,begin '  65279 ',0 0 0 0,"['TaggedPDF-doc', <built-in function ProcessingInstruction>, 'statement', 'word']",{},0.0030959752321981426,1.2671717284030137,0.003923132286077442,No,No,No,No,No
+2,"begin ""  65279 """,0 1 0 0,"['TaggedPDF-doc', <built-in function ProcessingInstruction>, 'statement', 'word']",{},0.0030959752321981426,0.01189922329970769,3.6839700618290066e-05,No,No,No,No,No
+3,xml,0 2 0 0 0 0 0,"['TaggedPDF-doc', '{adobe:ns:meta/}xmpmeta', '{http://www.w3.org/1999/02/22-rdf-syntax-ns#}RDF', '{http://www.w3.org/1999/02/22-rdf-syntax-ns#}Description', '{http://purl.org/dc/elements/1.1/}format', 'statement', 'word']",{},0.0030959752321981426,0.01189922329970769,3.6839700618290066e-05,No,No,No,No,No
+4,barun,0 2 0 0 1 0 0 0 0,"['TaggedPDF-doc', '{adobe:ns:meta/}xmpmeta', '{http://www.w3.org/1999/02/22-rdf-syntax-ns#}RDF', '{http://www.w3.org/1999/02/22-rdf-syntax-ns#}Description', '{http://purl.org/dc/elements/1.1/}creator', '{http://www.w3.org/1999/02/22-rdf-syntax-ns#}Seq', '{http://www.w3.org/1999/02/22-rdf-syntax-ns#}li', 'statement', 'word']",{},0.0030959752321981426,1.0910804693473326,0.0033779581094344666,No,No,No,No,No
+5,Microsoft,0 2 0 0 2 0 0 0 0,"['TaggedPDF-doc', '{adobe:ns:meta/}xmpmeta', '{http://www.w3.org/1999/02/22-rdf-syntax-ns#}RDF', '{http://www.w3.org/1999/02/22-rdf-syntax-ns#}Description', '{http://purl.org/dc/elements/1.1/}title', '{http://www.w3.org/1999/02/22-rdf-syntax-ns#}Alt', '{http://www.w3.org/1999/02/22-rdf-syntax-ns#}li', 'statement', 'word']",{},0.0030959752321981426,0.6139592146276701,0.0019008025220670903,No,No,No,No,No
+6,Word,0 2 0 0 2 0 0 0 1,"['TaggedPDF-doc', '{adobe:ns:meta/}xmpmeta', '{http://www.w3.org/1999/02/22-rdf-syntax-ns#}RDF', '{http://www.w3.org/1999/02/22-rdf-syntax-ns#}Description', '{http://purl.org/dc/elements/1.1/}title', '{http://www.w3.org/1999/02/22-rdf-syntax-ns#}Alt', '{http://www.w3.org/1999/02/22-rdf-syntax-ns#}li', 'statement', 'word']",{},0.0030959752321981426,0.26717172840301384,0.0008271570538792999,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+7,PScript5.dll,0 2 0 1 1 0 0,"['TaggedPDF-doc', '{adobe:ns:meta/}xmpmeta', '{http://www.w3.org/1999/02/22-rdf-syntax-ns#}RDF', '{http://www.w3.org/1999/02/22-rdf-syntax-ns#}Description', '{http://ns.adobe.com/xap/1.0/}CreatorTool', 'statement', 'word']",{},0.0030959752321981426,0.6139592146276701,0.0019008025220670903,No,No,No,No,No
+8,Version,0 2 0 1 1 0 1,"['TaggedPDF-doc', '{adobe:ns:meta/}xmpmeta', '{http://www.w3.org/1999/02/22-rdf-syntax-ns#}RDF', '{http://www.w3.org/1999/02/22-rdf-syntax-ns#}Description', '{http://ns.adobe.com/xap/1.0/}CreatorTool', 'statement', 'word']",{},0.0030959752321981426,0.22577904324478879,0.0006990063258352594,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+9,5.2,0 2 0 1 1 0 2,"['TaggedPDF-doc', '{adobe:ns:meta/}xmpmeta', '{http://www.w3.org/1999/02/22-rdf-syntax-ns#}RDF', '{http://www.w3.org/1999/02/22-rdf-syntax-ns#}Description', '{http://ns.adobe.com/xap/1.0/}CreatorTool', 'statement', 'word']",{},0.0030959752321981426,0.7900504736833514,0.0024459766987100662,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+10,GPL,0 2 0 2 0 0 0,"['TaggedPDF-doc', '{adobe:ns:meta/}xmpmeta', '{http://www.w3.org/1999/02/22-rdf-syntax-ns#}RDF', '{http://www.w3.org/1999/02/22-rdf-syntax-ns#}Description', '{http://ns.adobe.com/pdf/1.3/}Producer', 'statement', 'word']",{},0.0030959752321981426,1.0910804693473326,0.0033779581094344666,No,No,Yes,No,No
+11,Ghostscript,0 2 0 2 0 0 1,"['TaggedPDF-doc', '{adobe:ns:meta/}xmpmeta', '{http://www.w3.org/1999/02/22-rdf-syntax-ns#}RDF', '{http://www.w3.org/1999/02/22-rdf-syntax-ns#}Description', '{http://ns.adobe.com/pdf/1.3/}Producer', 'statement', 'word']",{},0.0030959752321981426,1.0910804693473326,0.0033779581094344666,No,No,No,No,No
+12,8.15,0 2 0 2 0 0 2,"['TaggedPDF-doc', '{adobe:ns:meta/}xmpmeta', '{http://www.w3.org/1999/02/22-rdf-syntax-ns#}RDF', '{http://www.w3.org/1999/02/22-rdf-syntax-ns#}Description', '{http://ns.adobe.com/pdf/1.3/}Producer', 'statement', 'word']",{},0.0030959752321981426,1.0910804693473326,0.0033779581094344666,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+13,"end ""w""",0 3 0 0,"['TaggedPDF-doc', <built-in function ProcessingInstruction>, 'statement', 'word']",{},0.0030959752321981426,0.01189922329970769,3.6839700618290066e-05,No,No,No,No,No
+14,end 'r',0 4 0 0,"['TaggedPDF-doc', <built-in function ProcessingInstruction>, 'statement', 'word']",{},0.0030959752321981426,0.01189922329970769,3.6839700618290066e-05,No,No,No,No,No
+15,FLOATING,0 5 0 0 0,"['TaggedPDF-doc', 'Part', 'H3', 'statement', 'word']",['H3'],0.0030959752321981426,0.9661417327390326,0.0029911508753530424,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+16,POINT,0 5 0 0 1,"['TaggedPDF-doc', 'Part', 'H3', 'statement', 'word']",['H3'],0.0030959752321981426,0.8692317197309762,0.0026911198753281,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+17,ADD/SUB,0 5 0 0 2,"['TaggedPDF-doc', 'Part', 'H3', 'statement', 'word']",['H3'],0.0030959752321981426,1.2671717284030137,0.003923132286077442,No,No,Yes,Yes,No
+18,IP,0 5 0 0 3,"['TaggedPDF-doc', 'Part', 'H3', 'statement', 'word']",['H3'],0.009287925696594427,0.15322837609617704,0.001423173771791118,No,No,Yes,No,No
+19,SoftJin,0 5 2 0 0,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,1.0910804693473326,0.010133874328303398,No,No,No,No,No
+20,Technologies,0 5 2 0 1,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,0.9661417327390326,0.008973452626059126,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+21,Pvt,0 5 2 0 2,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,1.0910804693473326,0.010133874328303398,"Yes (en_US, en_GB)",No,No,No,No
+22,Ltd.India,0 5 2 1 0,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,1.0910804693473326,0.010133874328303398,No,No,No,No,No
+23,102,0 5 2 1 1,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,0.6139592146276701,0.00570240756620127,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+24,1st,0 5 2 1 2,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,1.0910804693473326,0.010133874328303398,Yes (en_US),No,No,No,No
+25,Floor,0 5 2 1 3,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,0.9661417327390326,0.008973452626059126,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+26,Mobius,0 5 2 1 4,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,1.0910804693473326,0.010133874328303398,No,No,No,No,No
+27,Tower,0 5 2 1 5,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,1.0910804693473326,0.010133874328303398,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+28,SJR,0 5 2 1 6,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,1.0910804693473326,0.010133874328303398,No,No,Yes,No,No
+29,iPark,0 5 2 1 7,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,1.0910804693473326,0.010133874328303398,No,No,No,No,No
+30,EPIP,0 5 2 1 8,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,1.0910804693473326,0.010133874328303398,No,No,Yes,No,No
+31,White,0 5 2 1 9,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,1.0910804693473326,0.010133874328303398,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+32,Field,0 5 2 1 10,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,0.6139592146276701,0.00570240756620127,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+33,BANGALORE,0 5 2 1 11,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,1.0910804693473326,0.010133874328303398,No,No,No,No,No
+34,560,0 5 2 1 12,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,1.0910804693473326,0.010133874328303398,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+35,066,0 5 2 1 13,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,1.0910804693473326,0.010133874328303398,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+36,Karnataka,0 5 2 1 14,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,1.0910804693473326,0.010133874328303398,No,No,No,No,No
+37,India,0 5 2 1 15,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,1.0910804693473326,0.010133874328303398,No,No,No,No,No
+38,Tel,0 5 2 1 16,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.018575851393188854,0.8692317197309762,0.0161467192519686,Yes (en_US),No,No,No,No
+39,918041779999,0 5 2 1 17,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,1.0910804693473326,0.010133874328303398,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+40,Fax,0 5 2 1 18,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.018575851393188854,0.9661417327390326,0.017946905252118252,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+41,918041157070,0 5 2 1 19,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,1.0910804693473326,0.010133874328303398,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+42,US,0 5 2 1 20,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,1.0910804693473326,0.010133874328303398,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+43,2900,0 5 2 1 21,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,0.9661417327390326,0.008973452626059126,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+44,Gordon,0 5 2 1 22,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,1.0910804693473326,0.010133874328303398,No,No,No,No,No
+45,Ave,0 5 2 1 23,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,0.9661417327390326,0.008973452626059126,"Yes (en_US, en_GB)",No,No,No,No
+46,Suite,0 5 2 1 24,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,0.6651117370750514,0.0061775083938859264,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+47,10011,0 5 2 1 25,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,0.9661417327390326,0.008973452626059126,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+48,Santa,0 5 2 1 26,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,1.0910804693473326,0.010133874328303398,No,No,No,No,No
+49,Clara,0 5 2 1 27,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,1.0910804693473326,0.010133874328303398,No,No,No,No,No
+50,CA,0 5 2 1 28,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,0.7900504736833514,0.007337930096130198,Yes (en_US),No,No,No,No
+51,95051,0 5 2 1 29,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,1.0910804693473326,0.010133874328303398,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+52,USA,0 5 2 1 30,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,1.0910804693473326,0.010133874328303398,No,No,No,No,No
+53,Tel,0 5 2 1 31,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.018575851393188854,0.8692317197309762,0.0161467192519686,Yes (en_US),No,No,No,No
+54,408,0 5 2 1 32,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.018575851393188854,0.8692317197309762,0.0161467192519686,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+55,7731714,0 5 2 1 33,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,1.0910804693473326,0.010133874328303398,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+56,Fax,0 5 2 1 34,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.018575851393188854,0.9661417327390326,0.017946905252118252,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+57,408,0 5 2 1 35,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.018575851393188854,0.8692317197309762,0.0161467192519686,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+58,7731745,0 5 2 1 36,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,1.0910804693473326,0.010133874328303398,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+59,Email,0 5 2 1 37,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,0.9661417327390326,0.008973452626059126,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+60,Web,0 5 2 1 39,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,0.9661417327390326,0.008973452626059126,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+61,www.softjin.com,0 5 2 1 40,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,1.0910804693473326,0.010133874328303398,No,No,No,No,No
+62,Page,0 5 2 1 41,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,1.0910804693473326,0.010133874328303398,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+63,IEEE,0 5 3 0 0 0,"['TaggedPDF-doc', 'Part', 'Sect', 'P', 'statement', 'word']",{},0.006191950464396285,0.09108046934733258,0.0005639657544726476,No,No,No,No,No
+64,754,0 5 3 0 0 1,"['TaggedPDF-doc', 'Part', 'Sect', 'P', 'statement', 'word']",{},0.006191950464396285,0.3640817414110702,0.002254376107808484,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+65,Format,0 5 3 0 0 2,"['TaggedPDF-doc', 'Part', 'Sect', 'P', 'statement', 'word']",{},0.0030959752321981426,0.33775280268872104,0.0010456743117297866,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+66,Figure,0 5 7 0 0,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.0030959752321981426,0.3921104650113138,0.001213964287960724,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+67,Floating,0 5 7 0 2,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.006191950464396285,0.28944812311416607,0.0017922484403353938,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+68,Point,0 5 7 0 3,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.0030959752321981426,0.20647388804940212,0.000639238043496601,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+69,Representation,0 5 7 0 4,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.0030959752321981426,0.7231036840527382,0.0022387110961385086,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+70,in,0 5 7 0 5,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.0030959752321981426,0.01189922329970769,3.6839700618290066e-05,Yes (NTLK Stopword),No,No,No,No
+71,IEEE,0 5 7 0 6,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.006191950464396285,0.09108046934733258,0.0005639657544726476,No,No,No,No,No
+72,754,0 5 7 0 7,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.006191950464396285,0.3640817414110702,0.002254376107808484,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+73,format,0 5 7 0 8,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.0030959752321981426,0.03672280702473984,0.0001136929010053865,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+74,Implementation,0 5 8 0 0 0,"['TaggedPDF-doc', 'Part', 'Sect', 'P', 'statement', 'word']",{},0.006191950464396285,0.4890204780193702,0.0030279905759713326,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+75,Figure2,0 5 10 0 0,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.0030959752321981426,0.8692317197309762,0.0026911198753281,No,No,No,No,No
+76,Implementation,0 5 10 0 1,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.006191950464396285,0.4890204780193702,0.0030279905759713326,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+77,Blocks,0 5 10 0 2,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.0030959752321981426,1.0910804693473326,0.0033779581094344666,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+78,of,0 5 10 0 3,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
+79,FPU,0 5 10 0 4,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.006191950464396285,0.52680903890877,0.0032619754731193188,No,No,Yes,No,No
+80,Signal,0 5 11 0 0 0,"['TaggedPDF-doc', 'Part', 'Sect', 'P', 'statement', 'word']",{},0.009287925696594427,0.4890204780193702,0.004541985863956999,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+81,Table,0 5 11 0 0 1,"['TaggedPDF-doc', 'Part', 'Sect', 'P', 'statement', 'word']",{},0.01238390092879257,0.28944812311416607,0.0035844968806707875,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+82,Signal,0 5 12 0 0 0 0,"['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TH', 'statement', 'word']",['TH'],0.009287925696594427,0.4890204780193702,0.004541985863956999,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+83,Direction,0 5 12 0 1 0 0,"['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TH', 'statement', 'word']",['TH'],0.0030959752321981426,0.52680903890877,0.0016309877365596594,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+84,Data,0 5 12 0 2 0 0,"['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TH', 'statement', 'word']",['TH'],0.0030959752321981426,0.18799048235538898,0.0005820138772612663,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+85,Width,0 5 12 0 2 0 1,"['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TH', 'statement', 'word']",['TH'],0.0030959752321981426,0.3921104650113138,0.001213964287960724,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+86,Description,0 5 12 0 3 0 0,"['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TH', 'statement', 'word']",['TH'],0.0030959752321981426,0.22577904324478879,0.0006990063258352594,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+87,InA,0 5 12 1 0 0 0,"['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.0030959752321981426,1.0910804693473326,0.0033779581094344666,No,No,No,No,No
+88,IN,0 5 12 1 1 0 0,"['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.01238390092879257,0.7231036840527382,0.008954844384554034,Yes (NTLK Stopword),No,No,No,No
+89,32,0 5 12 1 2 0 0,"['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.009287925696594427,0.2459824293330757,0.002284666526313397,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+90,This,0 5 12 1 3 0 0,"['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.01238390092879257,0.15322837609617704,0.001897565029054824,Yes (NTLK Stopword),No,No,No,No
+91,is,0 5 12 1 3 0 1,"['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.02476780185758514,0.01189922329970769,0.0002947176049463205,Yes (NTLK Stopword),No,No,No,No
+92,the,0 5 12 1 3 0 2,"['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.034055727554179564,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
+93,port,0 5 12 1 3 0 3,"['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.015479876160990712,0.28944812311416607,0.004480621100838484,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+94,through,0 5 12 1 3 0 4,"['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.018575851393188854,0.2459824293330757,0.004569333052626794,Yes (NTLK Stopword),No,No,No,No
+95,which,0 5 12 1 3 0 5,"['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.01238390092879257,0.26717172840301384,0.0033086282155171997,Yes (NTLK Stopword),No,No,No,No
+96,the,0 5 12 1 3 0 6,"['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.034055727554179564,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
+97,first,0 5 12 1 3 0 7,"['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.0030959752321981426,0.20647388804940212,0.000639238043496601,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+98,input,0 5 12 1 3 0 8,"['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.01238390092879257,0.02413367971671937,0.0002988690986590634,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+99,is,0 5 12 1 3 0 9,"['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.02476780185758514,0.01189922329970769,0.0002947176049463205,Yes (NTLK Stopword),No,No,No,No
+100,fed,0 5 12 1 3 0 10,"['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.009287925696594427,0.6651117370750514,0.0061775083938859264,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+101,through,0 5 12 1 3 0 11,"['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.018575851393188854,0.2459824293330757,0.004569333052626794,Yes (NTLK Stopword),No,No,No,No
+102,InB,0 5 12 2 0 0 0,"['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.0030959752321981426,1.0910804693473326,0.0033779581094344666,No,No,No,No,No
+103,IN,0 5 12 2 1 0 0,"['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.01238390092879257,0.7231036840527382,0.008954844384554034,Yes (NTLK Stopword),No,No,No,No
+104,32,0 5 12 2 2 0 0,"['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.009287925696594427,0.2459824293330757,0.002284666526313397,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+105,This,0 5 12 2 3 0 0,"['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.01238390092879257,0.15322837609617704,0.001897565029054824,Yes (NTLK Stopword),No,No,No,No
+106,is,0 5 12 2 3 0 1,"['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.02476780185758514,0.01189922329970769,0.0002947176049463205,Yes (NTLK Stopword),No,No,No,No
+107,the,0 5 12 2 3 0 2,"['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.034055727554179564,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
+108,port,0 5 12 2 3 0 3,"['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.015479876160990712,0.28944812311416607,0.004480621100838484,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+109,through,0 5 12 2 3 0 4,"['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.018575851393188854,0.2459824293330757,0.004569333052626794,Yes (NTLK Stopword),No,No,No,No
+110,which,0 5 12 2 3 0 5,"['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.01238390092879257,0.26717172840301384,0.0033086282155171997,Yes (NTLK Stopword),No,No,No,No
+111,the,0 5 12 2 3 0 6,"['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.034055727554179564,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
+112,second,0 5 12 2 3 0 7,"['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.0030959752321981426,0.45425837176015826,0.0014063726679881062,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+113,input,0 5 12 2 3 0 8,"['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.01238390092879257,0.02413367971671937,0.0002988690986590634,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+114,is,0 5 12 2 3 0 9,"['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.02476780185758514,0.01189922329970769,0.0002947176049463205,Yes (NTLK Stopword),No,No,No,No
+115,fed,0 5 12 2 3 0 10,"['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.009287925696594427,0.6651117370750514,0.0061775083938859264,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+116,through,0 5 12 2 3 0 11,"['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.018575851393188854,0.2459824293330757,0.004569333052626794,Yes (NTLK Stopword),No,No,No,No
+117,CLK,0 5 12 3 0 0 0,"['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.0030959752321981426,0.568201724066995,0.0017591384646036998,No,No,Yes,No,No
+118,IN,0 5 12 3 1 0 0,"['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.01238390092879257,0.7231036840527382,0.008954844384554034,Yes (NTLK Stopword),No,No,No,No
+119,This,0 5 12 3 3 0 0,"['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.01238390092879257,0.15322837609617704,0.001897565029054824,Yes (NTLK Stopword),No,No,No,No
+120,is,0 5 12 3 3 0 1,"['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.02476780185758514,0.01189922329970769,0.0002947176049463205,Yes (NTLK Stopword),No,No,No,No
+121,the,0 5 12 3 3 0 2,"['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.034055727554179564,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
+122,input,0 5 12 3 3 0 3,"['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.01238390092879257,0.02413367971671937,0.0002988690986590634,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+123,port,0 5 12 3 3 0 4,"['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.015479876160990712,0.28944812311416607,0.004480621100838484,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+124,through,0 5 12 3 3 0 5,"['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.018575851393188854,0.2459824293330757,0.004569333052626794,Yes (NTLK Stopword),No,No,No,No
+125,which,0 5 12 3 3 0 6,"['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.01238390092879257,0.26717172840301384,0.0033086282155171997,Yes (NTLK Stopword),No,No,No,No
+126,the,0 5 12 3 3 0 7,"['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.034055727554179564,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
+127,entire,0 5 12 3 3 0 8,"['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.0030959752321981426,0.6139592146276701,0.0019008025220670903,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+128,system,0 5 12 3 3 0 9,"['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.0030959752321981426,0.31292921896368886,0.00096882111134269,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+129,is,0 5 12 3 3 0 10,"['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.02476780185758514,0.01189922329970769,0.0002947176049463205,Yes (NTLK Stopword),No,No,No,No
+130,synchronous,0 5 12 3 3 0 11,"['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.0030959752321981426,0.422073688388757,0.0013067296854141085,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+131,with,0 5 12 3 3 0 12,"['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.009287925696594427,0.04968778418910748,0.00046149644757684965,Yes (NTLK Stopword),No,No,No,No
+132,Op,0 5 12 4 0 0 0,"['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.0030959752321981426,0.8692317197309762,0.0026911198753281,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+133,IN,0 5 12 4 1 0 0,"['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.01238390092879257,0.7231036840527382,0.008954844384554034,Yes (NTLK Stopword),No,No,No,No
+134,The,0 5 12 4 3 0 0,"['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.006191950464396285,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
+135,input,0 5 12 4 3 0 1,"['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.01238390092879257,0.02413367971671937,0.0002988690986590634,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+136,to,0 5 12 4 3 0 2,"['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.0030959752321981426,0.01189922329970769,3.6839700618290066e-05,Yes (NTLK Stopword),No,No,No,No
+137,this,0 5 12 4 3 0 3,"['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.0030959752321981426,0.10580372616803894,0.00032756571569052305,Yes (NTLK Stopword),No,No,No,No
+138,port,0 5 12 4 3 0 4,"['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.015479876160990712,0.28944812311416607,0.004480621100838484,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+139,decides,0 5 12 4 3 0 5,"['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.0030959752321981426,1.2671717284030137,0.003923132286077442,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+140,the,0 5 12 4 3 0 6,"['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.034055727554179564,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
+141,mode,0 5 12 4 3 0 7,"['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.0030959752321981426,0.22577904324478879,0.0006990063258352594,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+142,of,0 5 12 4 3 0 8,"['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.009287925696594427,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
+143,arithmetic,0 5 12 4 3 0 9,"['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.0030959752321981426,0.26717172840301384,0.0008271570538792999,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+144,operation,0 5 12 4 3 0 10,"['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.0030959752321981426,0.10580372616803894,0.00032756571569052305,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+145,for,0 5 12 4 3 1 1,"['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.009287925696594427,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
+146,addition,0 5 12 4 3 1 2,"['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.0030959752321981426,0.26717172840301384,0.0008271570538792999,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+147,and,0 5 12 4 3 1 3,"['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.006191950464396285,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
+148,for,0 5 12 4 3 1 5,"['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.009287925696594427,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
+149,subtraction,0 5 12 4 3 1 6,"['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.0030959752321981426,0.45425837176015826,0.0014063726679881062,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+150,SUM,0 5 12 5 0 0 0,"['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.0030959752321981426,1.2671717284030137,0.003923132286077442,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+151,OUT,0 5 12 5 1 0 0,"['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.0030959752321981426,0.9661417327390326,0.0029911508753530424,Yes (NTLK Stopword),No,No,No,No
+152,32,0 5 12 5 2 0 0,"['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.009287925696594427,0.2459824293330757,0.002284666526313397,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+153,This,0 5 12 5 3 0 0,"['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.01238390092879257,0.15322837609617704,0.001897565029054824,Yes (NTLK Stopword),No,No,No,No
+154,is,0 5 12 5 3 0 1,"['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.02476780185758514,0.01189922329970769,0.0002947176049463205,Yes (NTLK Stopword),No,No,No,No
+155,the,0 5 12 5 3 0 2,"['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.034055727554179564,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
+156,port,0 5 12 5 3 0 3,"['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.015479876160990712,0.28944812311416607,0.004480621100838484,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+157,through,0 5 12 5 3 0 4,"['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.018575851393188854,0.2459824293330757,0.004569333052626794,Yes (NTLK Stopword),No,No,No,No
+158,which,0 5 12 5 3 0 5,"['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.01238390092879257,0.26717172840301384,0.0033086282155171997,Yes (NTLK Stopword),No,No,No,No
+159,the,0 5 12 5 3 0 6,"['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.034055727554179564,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
+160,output,0 5 12 5 3 0 7,"['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.0030959752321981426,0.02413367971671937,7.471727466476585e-05,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+161,is,0 5 12 5 3 0 8,"['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.02476780185758514,0.01189922329970769,0.0002947176049463205,Yes (NTLK Stopword),No,No,No,No
+162,fed,0 5 12 5 3 0 9,"['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.009287925696594427,0.6651117370750514,0.0061775083938859264,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+163,out,0 5 12 5 3 0 10,"['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.0030959752321981426,0.28944812311416607,0.0008961242201676969,Yes (NTLK Stopword),No,No,No,No
+164,Table,0 5 13 0 0,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.01238390092879257,0.28944812311416607,0.0035844968806707875,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+165,Signal,0 5 13 0 2,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,0.4890204780193702,0.004541985863956999,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+166,Definition,0 5 13 0 3,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.0030959752321981426,0.8692317197309762,0.0026911198753281,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+167,Table,0 5 13 0 4,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.01238390092879257,0.28944812311416607,0.0035844968806707875,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+168,SoftJin,0 5 14 0 0,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,1.0910804693473326,0.010133874328303398,No,No,No,No,No
+169,Technologies,0 5 14 0 1,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,0.9661417327390326,0.008973452626059126,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+170,Pvt,0 5 14 0 2,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,1.0910804693473326,0.010133874328303398,"Yes (en_US, en_GB)",No,No,No,No
+171,Ltd.India,0 5 14 1 0,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,1.0910804693473326,0.010133874328303398,No,No,No,No,No
+172,102,0 5 14 1 1,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,0.6139592146276701,0.00570240756620127,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+173,1st,0 5 14 1 2,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,1.0910804693473326,0.010133874328303398,Yes (en_US),No,No,No,No
+174,Floor,0 5 14 1 3,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,0.9661417327390326,0.008973452626059126,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+175,Mobius,0 5 14 1 4,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,1.0910804693473326,0.010133874328303398,No,No,No,No,No
+176,Tower,0 5 14 1 5,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,1.0910804693473326,0.010133874328303398,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+177,SJR,0 5 14 1 6,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,1.0910804693473326,0.010133874328303398,No,No,Yes,No,No
+178,iPark,0 5 14 1 7,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,1.0910804693473326,0.010133874328303398,No,No,No,No,No
+179,EPIP,0 5 14 1 8,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,1.0910804693473326,0.010133874328303398,No,No,Yes,No,No
+180,White,0 5 14 1 9,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,1.0910804693473326,0.010133874328303398,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+181,Field,0 5 14 1 10,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,0.6139592146276701,0.00570240756620127,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+182,BANGALORE,0 5 14 1 11,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,1.0910804693473326,0.010133874328303398,No,No,No,No,No
+183,560,0 5 14 1 12,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,1.0910804693473326,0.010133874328303398,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+184,066,0 5 14 1 13,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,1.0910804693473326,0.010133874328303398,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+185,Karnataka,0 5 14 1 14,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,1.0910804693473326,0.010133874328303398,No,No,No,No,No
+186,India,0 5 14 1 15,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,1.0910804693473326,0.010133874328303398,No,No,No,No,No
+187,Tel,0 5 14 1 16,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.018575851393188854,0.8692317197309762,0.0161467192519686,Yes (en_US),No,No,No,No
+188,918041779999,0 5 14 1 17,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,1.0910804693473326,0.010133874328303398,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+189,Fax,0 5 14 1 18,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.018575851393188854,0.9661417327390326,0.017946905252118252,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+190,918041157070,0 5 14 1 19,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,1.0910804693473326,0.010133874328303398,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+191,US,0 5 14 1 20,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,1.0910804693473326,0.010133874328303398,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+192,2900,0 5 14 1 21,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,0.9661417327390326,0.008973452626059126,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+193,Gordon,0 5 14 1 22,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,1.0910804693473326,0.010133874328303398,No,No,No,No,No
+194,Ave,0 5 14 1 23,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,0.9661417327390326,0.008973452626059126,"Yes (en_US, en_GB)",No,No,No,No
+195,Suite,0 5 14 1 24,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,0.6651117370750514,0.0061775083938859264,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+196,10011,0 5 14 1 25,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,0.9661417327390326,0.008973452626059126,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+197,Santa,0 5 14 1 26,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,1.0910804693473326,0.010133874328303398,No,No,No,No,No
+198,Clara,0 5 14 1 27,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,1.0910804693473326,0.010133874328303398,No,No,No,No,No
+199,CA,0 5 14 1 28,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,0.7900504736833514,0.007337930096130198,Yes (en_US),No,No,No,No
+200,95051,0 5 14 1 29,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,1.0910804693473326,0.010133874328303398,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+201,USA,0 5 14 1 30,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,1.0910804693473326,0.010133874328303398,No,No,No,No,No
+202,Tel,0 5 14 1 31,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.018575851393188854,0.8692317197309762,0.0161467192519686,Yes (en_US),No,No,No,No
+203,408,0 5 14 1 32,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.018575851393188854,0.8692317197309762,0.0161467192519686,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+204,7731714,0 5 14 1 33,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,1.0910804693473326,0.010133874328303398,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+205,Fax,0 5 14 1 34,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.018575851393188854,0.9661417327390326,0.017946905252118252,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+206,408,0 5 14 1 35,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.018575851393188854,0.8692317197309762,0.0161467192519686,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+207,7731745,0 5 14 1 36,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,1.0910804693473326,0.010133874328303398,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+208,Email,0 5 14 1 37,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,0.9661417327390326,0.008973452626059126,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+209,Web,0 5 14 1 39,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,0.9661417327390326,0.008973452626059126,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+210,www.softjin.com,0 5 14 1 40,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,1.0910804693473326,0.010133874328303398,No,No,No,No,No
+211,Page,0 5 14 1 41,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,1.0910804693473326,0.010133874328303398,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+212,Performance,0 5 15 0 0 0,"['TaggedPDF-doc', 'Part', 'Sect', 'P', 'statement', 'word']",{},0.006191950464396285,0.422073688388757,0.002613459370828217,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+213,Device,0 5 16 0 0 0 0,"['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TH', 'statement', 'word']",['TH'],0.0030959752321981426,0.568201724066995,0.0017591384646036998,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+214,Slice,0 5 16 0 1 0 0,"['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TH', 'statement', 'word']",['TH'],0.0030959752321981426,0.9661417327390326,0.0029911508753530424,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+215,Count,0 5 16 0 1 0 1,"['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TH', 'statement', 'word']",['TH'],0.0030959752321981426,1.0910804693473326,0.0033779581094344666,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+216,Frequency,0 5 16 0 2 0 0,"['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TH', 'statement', 'word']",['TH'],0.0030959752321981426,0.7900504736833514,0.0024459766987100662,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+217,MHz,0 5 16 0 2 0 1,"['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TH', 'statement', 'word']",['TH'],0.0030959752321981426,0.3640817414110702,0.001127188053904242,No,No,No,No,No
+218,Virtex4,0 5 16 1 0 0 0,"['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.0030959752321981426,1.0910804693473326,0.0033779581094344666,No,No,No,No,No
+219,XC4VLX15SF363,0 5 16 1 0 0 1,"['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.0030959752321981426,1.2671717284030137,0.003923132286077442,No,No,Yes,No,No
+220,331,0 5 16 1 1 0 0,"['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.0030959752321981426,0.9661417327390326,0.0029911508753530424,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+221,201,0 5 16 1 2 0 0,"['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.0030959752321981426,0.9661417327390326,0.0029911508753530424,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+222,Virtex5,0 5 16 2 0 0 0,"['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.0030959752321981426,1.0910804693473326,0.0033779581094344666,No,No,No,No,No
+223,XC5VLX30FF324,0 5 16 2 0 0 1,"['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.0030959752321981426,1.2671717284030137,0.003923132286077442,No,No,Yes,No,No
+224,361,0 5 16 2 1 0 0,"['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.0030959752321981426,0.9661417327390326,0.0029911508753530424,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+225,294,0 5 16 2 2 0 0,"['TaggedPDF-doc', 'Part', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.0030959752321981426,1.2671717284030137,0.003923132286077442,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+226,Table,0 5 17 0 0,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.01238390092879257,0.28944812311416607,0.0035844968806707875,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+227,FPU,0 5 17 0 2,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.006191950464396285,0.52680903890877,0.0032619754731193188,No,No,Yes,No,No
+228,add/sub,0 5 17 0 3,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.0030959752321981426,1.2671717284030137,0.003923132286077442,No,No,No,Yes,No
+229,IP,0 5 17 0 4,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,0.15322837609617704,0.001423173771791118,No,No,Yes,No,No
+230,Performance,0 5 17 0 5,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.006191950464396285,0.422073688388757,0.002613459370828217,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+231,table,0 5 17 0 6,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.0030959752321981426,0.20647388804940212,0.000639238043496601,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+232,Verification,0 5 18 0 0 0,"['TaggedPDF-doc', 'Part', 'Sect', 'P', 'statement', 'word']",{},0.0030959752321981426,0.4890204780193702,0.0015139952879856663,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+233,The,0 5 18 1 0 0,"['TaggedPDF-doc', 'Part', 'Sect', 'P', 'statement', 'word']",{},0.006191950464396285,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
+234,Floating,0 5 18 1 0 1,"['TaggedPDF-doc', 'Part', 'Sect', 'P', 'statement', 'word']",{},0.006191950464396285,0.28944812311416607,0.0017922484403353938,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+235,point,0 5 18 1 0 2,"['TaggedPDF-doc', 'Part', 'Sect', 'P', 'statement', 'word']",{},0.0030959752321981426,0.12104369272477576,0.00037474827468970826,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+236,adder/subtracter,0 5 18 1 0 3,"['TaggedPDF-doc', 'Part', 'Sect', 'P', 'statement', 'word']",{},0.0030959752321981426,1.2671717284030137,0.003923132286077442,No,No,No,Yes,No
+237,IP,0 5 18 1 0 4,"['TaggedPDF-doc', 'Part', 'Sect', 'P', 'statement', 'word']",{},0.009287925696594427,0.15322837609617704,0.001423173771791118,No,No,Yes,No,No
+238,has,0 5 18 1 0 5,"['TaggedPDF-doc', 'Part', 'Sect', 'P', 'statement', 'word']",{},0.0030959752321981426,0.15322837609617704,0.000474391257263706,Yes (NTLK Stopword),No,No,No,No
+239,been,0 5 18 1 0 6,"['TaggedPDF-doc', 'Part', 'Sect', 'P', 'statement', 'word']",{},0.0030959752321981426,0.22577904324478879,0.0006990063258352594,Yes (NTLK Stopword),No,No,No,No
+240,verified,0 5 18 1 0 7,"['TaggedPDF-doc', 'Part', 'Sect', 'P', 'statement', 'word']",{},0.0030959752321981426,0.568201724066995,0.0017591384646036998,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+241,with,0 5 18 1 0 8,"['TaggedPDF-doc', 'Part', 'Sect', 'P', 'statement', 'word']",{},0.009287925696594427,0.04968778418910748,0.00046149644757684965,Yes (NTLK Stopword),No,No,No,No
+242,the,0 5 18 1 0 9,"['TaggedPDF-doc', 'Part', 'Sect', 'P', 'statement', 'word']",{},0.034055727554179564,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
+243,following,0 5 18 1 0 10,"['TaggedPDF-doc', 'Part', 'Sect', 'P', 'statement', 'word']",{},0.0030959752321981426,0.06305174574708902,0.0001952066431798422,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+244,approaches,0 5 18 1 0 11,"['TaggedPDF-doc', 'Part', 'Sect', 'P', 'statement', 'word']",{},0.0030959752321981426,0.9661417327390326,0.0029911508753530424,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+245,Exhaustive,0 5 18 2 0 1 0 0,"['TaggedPDF-doc', 'Part', 'Sect', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.0030959752321981426,1.0910804693473326,0.0033779581094344666,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+246,simulation,0 5 18 2 0 1 0 2,"['TaggedPDF-doc', 'Part', 'Sect', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.0030959752321981426,0.22577904324478879,0.0006990063258352594,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+247,Results,0 5 18 2 1 1 0 0,"['TaggedPDF-doc', 'Part', 'Sect', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.0030959752321981426,0.52680903890877,0.0016309877365596594,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+248,are,0 5 18 2 1 1 0 1,"['TaggedPDF-doc', 'Part', 'Sect', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.0030959752321981426,0.02413367971671937,7.471727466476585e-05,Yes (NTLK Stopword),No,No,No,No
+249,compared,0 5 18 2 1 1 0 2,"['TaggedPDF-doc', 'Part', 'Sect', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.0030959752321981426,0.568201724066995,0.0017591384646036998,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+250,with,0 5 18 2 1 1 0 3,"['TaggedPDF-doc', 'Part', 'Sect', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.009287925696594427,0.04968778418910748,0.00046149644757684965,Yes (NTLK Stopword),No,No,No,No
+251,the,0 5 18 2 1 1 0 4,"['TaggedPDF-doc', 'Part', 'Sect', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.034055727554179564,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
+252,Ccode,0 5 18 2 1 1 0 5,"['TaggedPDF-doc', 'Part', 'Sect', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.006191950464396285,1.0910804693473326,0.006755916218868933,No,No,No,No,No
+253,generated,0 5 18 2 2 1 0 0,"['TaggedPDF-doc', 'Part', 'Sect', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.0030959752321981426,0.28944812311416607,0.0008961242201676969,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+254,results,0 5 18 2 2 1 0 1,"['TaggedPDF-doc', 'Part', 'Sect', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.006191950464396285,0.1368379599080077,0.0008472938693994286,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+255,and,0 5 18 2 2 1 0 2,"['TaggedPDF-doc', 'Part', 'Sect', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.006191950464396285,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
+256,Behavioral,0 5 18 2 2 1 0 3,"['TaggedPDF-doc', 'Part', 'Sect', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.006191950464396285,1.0910804693473326,0.006755916218868933,Yes (en_US),No,No,No,No
+257,model,0 5 18 2 2 1 0 4,"['TaggedPDF-doc', 'Part', 'Sect', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.0030959752321981426,0.31292921896368886,0.00096882111134269,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+258,results,0 5 18 2 3 1 0 0,"['TaggedPDF-doc', 'Part', 'Sect', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.006191950464396285,0.1368379599080077,0.0008472938693994286,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+259,Emulated,0 5 18 2 4 1 0 0,"['TaggedPDF-doc', 'Part', 'Sect', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.0030959752321981426,1.2671717284030137,0.003923132286077442,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+260,on,0 5 18 2 4 1 0 1,"['TaggedPDF-doc', 'Part', 'Sect', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.0030959752321981426,0.1368379599080077,0.0004236469346997143,Yes (NTLK Stopword),No,No,No,No
+261,Xilinx,0 5 18 2 4 1 0 2,"['TaggedPDF-doc', 'Part', 'Sect', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.0030959752321981426,0.7900504736833514,0.0024459766987100662,No,No,No,No,No
+262,FPGA,0 5 18 2 4 1 0 3,"['TaggedPDF-doc', 'Part', 'Sect', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.0030959752321981426,0.28944812311416607,0.0008961242201676969,No,No,Yes,No,No
+263,Deliverables,0 5 18 3 0 0,"['TaggedPDF-doc', 'Part', 'Sect', 'P', 'statement', 'word']",{},0.0030959752321981426,0.7900504736833514,0.0024459766987100662,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+264,Verilog,0 5 18 4 0 1 0 0,"['TaggedPDF-doc', 'Part', 'Sect', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.0030959752321981426,0.31292921896368886,0.00096882111134269,No,No,No,No,No
+265,Behavioral,0 5 18 4 0 1 0 1,"['TaggedPDF-doc', 'Part', 'Sect', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.006191950464396285,1.0910804693473326,0.006755916218868933,Yes (en_US),No,No,No,No
+266,RTL,0 5 18 4 0 1 0 2,"['TaggedPDF-doc', 'Part', 'Sect', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.0030959752321981426,0.45425837176015826,0.0014063726679881062,No,No,Yes,No,No
+267,source,0 5 18 4 0 1 0 3,"['TaggedPDF-doc', 'Part', 'Sect', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.0030959752321981426,0.18799048235538898,0.0005820138772612663,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+268,code,0 5 18 4 0 1 0 4,"['TaggedPDF-doc', 'Part', 'Sect', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.0030959752321981426,0.12104369272477576,0.00037474827468970826,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+269,Test,0 5 18 4 1 1 0 0,"['TaggedPDF-doc', 'Part', 'Sect', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.0030959752321981426,0.3640817414110702,0.001127188053904242,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+270,Benches,0 5 18 4 1 1 0 1,"['TaggedPDF-doc', 'Part', 'Sect', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.0030959752321981426,1.0910804693473326,0.0033779581094344666,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+271,Ccode,0 5 18 4 2 1 0 0,"['TaggedPDF-doc', 'Part', 'Sect', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.006191950464396285,1.0910804693473326,0.006755916218868933,No,No,No,No,No
+272,for,0 5 18 4 2 1 0 1,"['TaggedPDF-doc', 'Part', 'Sect', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.009287925696594427,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
+273,generation,0 5 18 4 2 1 0 2,"['TaggedPDF-doc', 'Part', 'Sect', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.0030959752321981426,0.52680903890877,0.0016309877365596594,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+274,of,0 5 18 4 2 1 0 3,"['TaggedPDF-doc', 'Part', 'Sect', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.009287925696594427,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
+275,test,0 5 18 4 2 1 0 4,"['TaggedPDF-doc', 'Part', 'Sect', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.0030959752321981426,0.17026171539495738,0.0005271260538543572,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+276,vectors,0 5 18 4 2 1 0 5,"['TaggedPDF-doc', 'Part', 'Sect', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.0030959752321981426,0.45425837176015826,0.0014063726679881062,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+277,Detailed,0 5 18 4 3 1 0 0,"['TaggedPDF-doc', 'Part', 'Sect', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.0030959752321981426,0.9661417327390326,0.0029911508753530424,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+278,user,0 5 18 4 3 1 0 1,"['TaggedPDF-doc', 'Part', 'Sect', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.0030959752321981426,0.4890204780193702,0.0015139952879856663,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+279,documentation,0 5 18 4 3 1 0 2,"['TaggedPDF-doc', 'Part', 'Sect', 'Table', 'TR', 'TD', 'statement', 'word']",['TD'],0.0030959752321981426,0.26717172840301384,0.0008271570538792999,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+280,SoftJin,0 5 19 0 0,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,1.0910804693473326,0.010133874328303398,No,No,No,No,No
+281,Technologies,0 5 19 0 1,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,0.9661417327390326,0.008973452626059126,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+282,Pvt,0 5 19 0 2,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,1.0910804693473326,0.010133874328303398,"Yes (en_US, en_GB)",No,No,No,No
+283,Ltd.India,0 5 19 1 0,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,1.0910804693473326,0.010133874328303398,No,No,No,No,No
+284,102,0 5 19 1 1,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,0.6139592146276701,0.00570240756620127,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+285,1st,0 5 19 1 2,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,1.0910804693473326,0.010133874328303398,Yes (en_US),No,No,No,No
+286,Floor,0 5 19 1 3,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,0.9661417327390326,0.008973452626059126,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+287,Mobius,0 5 19 1 4,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,1.0910804693473326,0.010133874328303398,No,No,No,No,No
+288,Tower,0 5 19 1 5,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,1.0910804693473326,0.010133874328303398,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+289,SJR,0 5 19 1 6,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,1.0910804693473326,0.010133874328303398,No,No,Yes,No,No
+290,iPark,0 5 19 1 7,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,1.0910804693473326,0.010133874328303398,No,No,No,No,No
+291,EPIP,0 5 19 1 8,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,1.0910804693473326,0.010133874328303398,No,No,Yes,No,No
+292,White,0 5 19 1 9,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,1.0910804693473326,0.010133874328303398,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+293,Field,0 5 19 1 10,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,0.6139592146276701,0.00570240756620127,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+294,BANGALORE,0 5 19 1 11,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,1.0910804693473326,0.010133874328303398,No,No,No,No,No
+295,560,0 5 19 1 12,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,1.0910804693473326,0.010133874328303398,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+296,066,0 5 19 1 13,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,1.0910804693473326,0.010133874328303398,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+297,Karnataka,0 5 19 1 14,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,1.0910804693473326,0.010133874328303398,No,No,No,No,No
+298,India,0 5 19 1 15,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,1.0910804693473326,0.010133874328303398,No,No,No,No,No
+299,Tel,0 5 19 1 16,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.018575851393188854,0.8692317197309762,0.0161467192519686,Yes (en_US),No,No,No,No
+300,918041779999,0 5 19 1 17,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,1.0910804693473326,0.010133874328303398,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+301,Fax,0 5 19 1 18,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.018575851393188854,0.9661417327390326,0.017946905252118252,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+302,918041157070,0 5 19 1 19,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,1.0910804693473326,0.010133874328303398,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+303,US,0 5 19 1 20,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,1.0910804693473326,0.010133874328303398,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+304,2900,0 5 19 1 21,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,0.9661417327390326,0.008973452626059126,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+305,Gordon,0 5 19 1 22,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,1.0910804693473326,0.010133874328303398,No,No,No,No,No
+306,Ave,0 5 19 1 23,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,0.9661417327390326,0.008973452626059126,"Yes (en_US, en_GB)",No,No,No,No
+307,Suite,0 5 19 1 24,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,0.6651117370750514,0.0061775083938859264,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+308,10011,0 5 19 1 25,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,0.9661417327390326,0.008973452626059126,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+309,Santa,0 5 19 1 26,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,1.0910804693473326,0.010133874328303398,No,No,No,No,No
+310,Clara,0 5 19 1 27,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,1.0910804693473326,0.010133874328303398,No,No,No,No,No
+311,CA,0 5 19 1 28,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,0.7900504736833514,0.007337930096130198,Yes (en_US),No,No,No,No
+312,95051,0 5 19 1 29,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,1.0910804693473326,0.010133874328303398,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+313,USA,0 5 19 1 30,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,1.0910804693473326,0.010133874328303398,No,No,No,No,No
+314,Tel,0 5 19 1 31,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.018575851393188854,0.8692317197309762,0.0161467192519686,Yes (en_US),No,No,No,No
+315,408,0 5 19 1 32,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.018575851393188854,0.8692317197309762,0.0161467192519686,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+316,7731714,0 5 19 1 33,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,1.0910804693473326,0.010133874328303398,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+317,Fax,0 5 19 1 34,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.018575851393188854,0.9661417327390326,0.017946905252118252,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+318,408,0 5 19 1 35,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.018575851393188854,0.8692317197309762,0.0161467192519686,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+319,7731745,0 5 19 1 36,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,1.0910804693473326,0.010133874328303398,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+320,Email,0 5 19 1 37,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,0.9661417327390326,0.008973452626059126,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+321,Web,0 5 19 1 39,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,0.9661417327390326,0.008973452626059126,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+322,www.softjin.com,0 5 19 1 40,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,1.0910804693473326,0.010133874328303398,No,No,No,No,No
+323,Page,0 5 19 1 41,"['TaggedPDF-doc', 'Part', 'P', 'statement', 'word']",{},0.009287925696594427,1.0910804693473326,0.010133874328303398,"Yes (en_US, en_GB, en_AU)",No,No,No,No

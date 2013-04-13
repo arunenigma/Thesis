@@ -1,0 +1,1667 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Fuzzy Input Data</title>
+<style type="text/css">
+<!--
+@import url("style.css");
+-->
+</style>
+</head>
+<body>
+<table id="box-table-a" summary="Fuzzy Input Data">
+<thead>
+<tr>
+<th scope="col">S.No</th><th scope="col">Word</th><th scope="col">Location Vector</th><th scope="col">Signature</th><th scope="col">Tf</th><th scope="col">Idf</th><th scope="col">Tf - Idf Score</th></tr>
+</thead>
+<tbody>
+<td class="column_1">1</td>
+<td class="column_2">begin '  65279 '</td>
+<td class="column_3">0 0 0 0</td>
+<td class="column_4">0.0030959752321981426</td>
+<td class="column_5">1.2671717284030137</td>
+<td class="column_6">0.003923132286077442</td>
+</tr>
+<td class="column_1">2</td>
+<td class="column_2">begin "  65279 "</td>
+<td class="column_3">0 1 0 0</td>
+<td class="column_4">0.0030959752321981426</td>
+<td class="column_5">0.01189922329970769</td>
+<td class="column_6">3.6839700618290066e-05</td>
+</tr>
+<td class="column_1">3</td>
+<td class="column_2">xml</td>
+<td class="column_3">0 2 0 0 0 0 0</td>
+<td class="column_4">0.0030959752321981426</td>
+<td class="column_5">0.01189922329970769</td>
+<td class="column_6">3.6839700618290066e-05</td>
+</tr>
+<td class="column_1">4</td>
+<td class="column_2">barun</td>
+<td class="column_3">0 2 0 0 1 0 0 0 0</td>
+<td class="column_4">0.0030959752321981426</td>
+<td class="column_5">1.0910804693473326</td>
+<td class="column_6">0.0033779581094344666</td>
+</tr>
+<td class="column_1">5</td>
+<td class="column_2">Microsoft</td>
+<td class="column_3">0 2 0 0 2 0 0 0 0</td>
+<td class="column_4">0.0030959752321981426</td>
+<td class="column_5">0.6139592146276701</td>
+<td class="column_6">0.0019008025220670903</td>
+</tr>
+<td class="column_1">6</td>
+<td class="column_2">Word</td>
+<td class="column_3">0 2 0 0 2 0 0 0 1</td>
+<td class="column_4">0.0030959752321981426</td>
+<td class="column_5">0.26717172840301384</td>
+<td class="column_6">0.0008271570538792999</td>
+</tr>
+<td class="column_1">7</td>
+<td class="column_2">PScript5.dll</td>
+<td class="column_3">0 2 0 1 1 0 0</td>
+<td class="column_4">0.0030959752321981426</td>
+<td class="column_5">0.6139592146276701</td>
+<td class="column_6">0.0019008025220670903</td>
+</tr>
+<td class="column_1">8</td>
+<td class="column_2">Version</td>
+<td class="column_3">0 2 0 1 1 0 1</td>
+<td class="column_4">0.0030959752321981426</td>
+<td class="column_5">0.22577904324478879</td>
+<td class="column_6">0.0006990063258352594</td>
+</tr>
+<td class="column_1">9</td>
+<td class="column_2">Ghostscript</td>
+<td class="column_3">0 2 0 2 0 0 1</td>
+<td class="column_4">0.0030959752321981426</td>
+<td class="column_5">1.0910804693473326</td>
+<td class="column_6">0.0033779581094344666</td>
+</tr>
+<td class="column_1">10</td>
+<td class="column_2">end "w"</td>
+<td class="column_3">0 3 0 0</td>
+<td class="column_4">0.0030959752321981426</td>
+<td class="column_5">0.01189922329970769</td>
+<td class="column_6">3.6839700618290066e-05</td>
+</tr>
+<td class="column_1">11</td>
+<td class="column_2">end 'r'</td>
+<td class="column_3">0 4 0 0</td>
+<td class="column_4">0.0030959752321981426</td>
+<td class="column_5">0.01189922329970769</td>
+<td class="column_6">3.6839700618290066e-05</td>
+</tr>
+<td class="column_1">12</td>
+<td class="column_2">FLOATING</td>
+<td class="column_3">0 5 0 0 0</td>
+<td class="column_4">0.0030959752321981426</td>
+<td class="column_5">0.9661417327390326</td>
+<td class="column_6">0.0029911508753530424</td>
+</tr>
+<td class="column_1">13</td>
+<td class="column_2">POINT</td>
+<td class="column_3">0 5 0 0 1</td>
+<td class="column_4">0.0030959752321981426</td>
+<td class="column_5">0.8692317197309762</td>
+<td class="column_6">0.0026911198753281</td>
+</tr>
+<td class="column_1">14</td>
+<td class="column_2">SoftJin</td>
+<td class="column_3">0 5 2 0 0</td>
+<td class="column_4">0.009287925696594427</td>
+<td class="column_5">1.0910804693473326</td>
+<td class="column_6">0.010133874328303398</td>
+</tr>
+<td class="column_1">15</td>
+<td class="column_2">Technologies</td>
+<td class="column_3">0 5 2 0 1</td>
+<td class="column_4">0.009287925696594427</td>
+<td class="column_5">0.9661417327390326</td>
+<td class="column_6">0.008973452626059126</td>
+</tr>
+<td class="column_1">16</td>
+<td class="column_2">Pvt</td>
+<td class="column_3">0 5 2 0 2</td>
+<td class="column_4">0.009287925696594427</td>
+<td class="column_5">1.0910804693473326</td>
+<td class="column_6">0.010133874328303398</td>
+</tr>
+<td class="column_1">17</td>
+<td class="column_2">Ltd.India</td>
+<td class="column_3">0 5 2 1 0</td>
+<td class="column_4">0.009287925696594427</td>
+<td class="column_5">1.0910804693473326</td>
+<td class="column_6">0.010133874328303398</td>
+</tr>
+<td class="column_1">18</td>
+<td class="column_2">1st</td>
+<td class="column_3">0 5 2 1 2</td>
+<td class="column_4">0.009287925696594427</td>
+<td class="column_5">1.0910804693473326</td>
+<td class="column_6">0.010133874328303398</td>
+</tr>
+<td class="column_1">19</td>
+<td class="column_2">Floor</td>
+<td class="column_3">0 5 2 1 3</td>
+<td class="column_4">0.009287925696594427</td>
+<td class="column_5">0.9661417327390326</td>
+<td class="column_6">0.008973452626059126</td>
+</tr>
+<td class="column_1">20</td>
+<td class="column_2">Mobius</td>
+<td class="column_3">0 5 2 1 4</td>
+<td class="column_4">0.009287925696594427</td>
+<td class="column_5">1.0910804693473326</td>
+<td class="column_6">0.010133874328303398</td>
+</tr>
+<td class="column_1">21</td>
+<td class="column_2">Tower</td>
+<td class="column_3">0 5 2 1 5</td>
+<td class="column_4">0.009287925696594427</td>
+<td class="column_5">1.0910804693473326</td>
+<td class="column_6">0.010133874328303398</td>
+</tr>
+<td class="column_1">22</td>
+<td class="column_2">iPark</td>
+<td class="column_3">0 5 2 1 7</td>
+<td class="column_4">0.009287925696594427</td>
+<td class="column_5">1.0910804693473326</td>
+<td class="column_6">0.010133874328303398</td>
+</tr>
+<td class="column_1">23</td>
+<td class="column_2">White</td>
+<td class="column_3">0 5 2 1 9</td>
+<td class="column_4">0.009287925696594427</td>
+<td class="column_5">1.0910804693473326</td>
+<td class="column_6">0.010133874328303398</td>
+</tr>
+<td class="column_1">24</td>
+<td class="column_2">Field</td>
+<td class="column_3">0 5 2 1 10</td>
+<td class="column_4">0.009287925696594427</td>
+<td class="column_5">0.6139592146276701</td>
+<td class="column_6">0.00570240756620127</td>
+</tr>
+<td class="column_1">25</td>
+<td class="column_2">BANGALORE</td>
+<td class="column_3">0 5 2 1 11</td>
+<td class="column_4">0.009287925696594427</td>
+<td class="column_5">1.0910804693473326</td>
+<td class="column_6">0.010133874328303398</td>
+</tr>
+<td class="column_1">26</td>
+<td class="column_2">Karnataka</td>
+<td class="column_3">0 5 2 1 14</td>
+<td class="column_4">0.009287925696594427</td>
+<td class="column_5">1.0910804693473326</td>
+<td class="column_6">0.010133874328303398</td>
+</tr>
+<td class="column_1">27</td>
+<td class="column_2">India</td>
+<td class="column_3">0 5 2 1 15</td>
+<td class="column_4">0.009287925696594427</td>
+<td class="column_5">1.0910804693473326</td>
+<td class="column_6">0.010133874328303398</td>
+</tr>
+<td class="column_1">28</td>
+<td class="column_2">Tel</td>
+<td class="column_3">0 5 2 1 16</td>
+<td class="column_4">0.018575851393188854</td>
+<td class="column_5">0.8692317197309762</td>
+<td class="column_6">0.0161467192519686</td>
+</tr>
+<td class="column_1">29</td>
+<td class="column_2">Fax</td>
+<td class="column_3">0 5 2 1 18</td>
+<td class="column_4">0.018575851393188854</td>
+<td class="column_5">0.9661417327390326</td>
+<td class="column_6">0.017946905252118252</td>
+</tr>
+<td class="column_1">30</td>
+<td class="column_2">US</td>
+<td class="column_3">0 5 2 1 20</td>
+<td class="column_4">0.009287925696594427</td>
+<td class="column_5">1.0910804693473326</td>
+<td class="column_6">0.010133874328303398</td>
+</tr>
+<td class="column_1">31</td>
+<td class="column_2">Gordon</td>
+<td class="column_3">0 5 2 1 22</td>
+<td class="column_4">0.009287925696594427</td>
+<td class="column_5">1.0910804693473326</td>
+<td class="column_6">0.010133874328303398</td>
+</tr>
+<td class="column_1">32</td>
+<td class="column_2">Ave</td>
+<td class="column_3">0 5 2 1 23</td>
+<td class="column_4">0.009287925696594427</td>
+<td class="column_5">0.9661417327390326</td>
+<td class="column_6">0.008973452626059126</td>
+</tr>
+<td class="column_1">33</td>
+<td class="column_2">Suite</td>
+<td class="column_3">0 5 2 1 24</td>
+<td class="column_4">0.009287925696594427</td>
+<td class="column_5">0.6651117370750514</td>
+<td class="column_6">0.0061775083938859264</td>
+</tr>
+<td class="column_1">34</td>
+<td class="column_2">Santa</td>
+<td class="column_3">0 5 2 1 26</td>
+<td class="column_4">0.009287925696594427</td>
+<td class="column_5">1.0910804693473326</td>
+<td class="column_6">0.010133874328303398</td>
+</tr>
+<td class="column_1">35</td>
+<td class="column_2">Clara</td>
+<td class="column_3">0 5 2 1 27</td>
+<td class="column_4">0.009287925696594427</td>
+<td class="column_5">1.0910804693473326</td>
+<td class="column_6">0.010133874328303398</td>
+</tr>
+<td class="column_1">36</td>
+<td class="column_2">CA</td>
+<td class="column_3">0 5 2 1 28</td>
+<td class="column_4">0.009287925696594427</td>
+<td class="column_5">0.7900504736833514</td>
+<td class="column_6">0.007337930096130198</td>
+</tr>
+<td class="column_1">37</td>
+<td class="column_2">USA</td>
+<td class="column_3">0 5 2 1 30</td>
+<td class="column_4">0.009287925696594427</td>
+<td class="column_5">1.0910804693473326</td>
+<td class="column_6">0.010133874328303398</td>
+</tr>
+<td class="column_1">38</td>
+<td class="column_2">Tel</td>
+<td class="column_3">0 5 2 1 31</td>
+<td class="column_4">0.018575851393188854</td>
+<td class="column_5">0.8692317197309762</td>
+<td class="column_6">0.0161467192519686</td>
+</tr>
+<td class="column_1">39</td>
+<td class="column_2">Fax</td>
+<td class="column_3">0 5 2 1 34</td>
+<td class="column_4">0.018575851393188854</td>
+<td class="column_5">0.9661417327390326</td>
+<td class="column_6">0.017946905252118252</td>
+</tr>
+<td class="column_1">40</td>
+<td class="column_2">Email</td>
+<td class="column_3">0 5 2 1 37</td>
+<td class="column_4">0.009287925696594427</td>
+<td class="column_5">0.9661417327390326</td>
+<td class="column_6">0.008973452626059126</td>
+</tr>
+<td class="column_1">41</td>
+<td class="column_2">Web</td>
+<td class="column_3">0 5 2 1 39</td>
+<td class="column_4">0.009287925696594427</td>
+<td class="column_5">0.9661417327390326</td>
+<td class="column_6">0.008973452626059126</td>
+</tr>
+<td class="column_1">42</td>
+<td class="column_2">www.softjin.com</td>
+<td class="column_3">0 5 2 1 40</td>
+<td class="column_4">0.009287925696594427</td>
+<td class="column_5">1.0910804693473326</td>
+<td class="column_6">0.010133874328303398</td>
+</tr>
+<td class="column_1">43</td>
+<td class="column_2">Page</td>
+<td class="column_3">0 5 2 1 41</td>
+<td class="column_4">0.009287925696594427</td>
+<td class="column_5">1.0910804693473326</td>
+<td class="column_6">0.010133874328303398</td>
+</tr>
+<td class="column_1">44</td>
+<td class="column_2">IEEE</td>
+<td class="column_3">0 5 3 0 0 0</td>
+<td class="column_4">0.006191950464396285</td>
+<td class="column_5">0.09108046934733258</td>
+<td class="column_6">0.0005639657544726476</td>
+</tr>
+<td class="column_1">45</td>
+<td class="column_2">Format</td>
+<td class="column_3">0 5 3 0 0 2</td>
+<td class="column_4">0.0030959752321981426</td>
+<td class="column_5">0.33775280268872104</td>
+<td class="column_6">0.0010456743117297866</td>
+</tr>
+<td class="column_1">46</td>
+<td class="column_2">Figure</td>
+<td class="column_3">0 5 7 0 0</td>
+<td class="column_4">0.0030959752321981426</td>
+<td class="column_5">0.3921104650113138</td>
+<td class="column_6">0.001213964287960724</td>
+</tr>
+<td class="column_1">47</td>
+<td class="column_2">Floating</td>
+<td class="column_3">0 5 7 0 2</td>
+<td class="column_4">0.006191950464396285</td>
+<td class="column_5">0.28944812311416607</td>
+<td class="column_6">0.0017922484403353938</td>
+</tr>
+<td class="column_1">48</td>
+<td class="column_2">Point</td>
+<td class="column_3">0 5 7 0 3</td>
+<td class="column_4">0.0030959752321981426</td>
+<td class="column_5">0.20647388804940212</td>
+<td class="column_6">0.000639238043496601</td>
+</tr>
+<td class="column_1">49</td>
+<td class="column_2">Representation</td>
+<td class="column_3">0 5 7 0 4</td>
+<td class="column_4">0.0030959752321981426</td>
+<td class="column_5">0.7231036840527382</td>
+<td class="column_6">0.0022387110961385086</td>
+</tr>
+<td class="column_1">50</td>
+<td class="column_2">in</td>
+<td class="column_3">0 5 7 0 5</td>
+<td class="column_4">0.0030959752321981426</td>
+<td class="column_5">0.01189922329970769</td>
+<td class="column_6">3.6839700618290066e-05</td>
+</tr>
+<td class="column_1">51</td>
+<td class="column_2">IEEE</td>
+<td class="column_3">0 5 7 0 6</td>
+<td class="column_4">0.006191950464396285</td>
+<td class="column_5">0.09108046934733258</td>
+<td class="column_6">0.0005639657544726476</td>
+</tr>
+<td class="column_1">52</td>
+<td class="column_2">format</td>
+<td class="column_3">0 5 7 0 8</td>
+<td class="column_4">0.0030959752321981426</td>
+<td class="column_5">0.03672280702473984</td>
+<td class="column_6">0.0001136929010053865</td>
+</tr>
+<td class="column_1">53</td>
+<td class="column_2">Implementation</td>
+<td class="column_3">0 5 8 0 0 0</td>
+<td class="column_4">0.006191950464396285</td>
+<td class="column_5">0.4890204780193702</td>
+<td class="column_6">0.0030279905759713326</td>
+</tr>
+<td class="column_1">54</td>
+<td class="column_2">Figure2</td>
+<td class="column_3">0 5 10 0 0</td>
+<td class="column_4">0.0030959752321981426</td>
+<td class="column_5">0.8692317197309762</td>
+<td class="column_6">0.0026911198753281</td>
+</tr>
+<td class="column_1">55</td>
+<td class="column_2">Implementation</td>
+<td class="column_3">0 5 10 0 1</td>
+<td class="column_4">0.006191950464396285</td>
+<td class="column_5">0.4890204780193702</td>
+<td class="column_6">0.0030279905759713326</td>
+</tr>
+<td class="column_1">56</td>
+<td class="column_2">Blocks</td>
+<td class="column_3">0 5 10 0 2</td>
+<td class="column_4">0.0030959752321981426</td>
+<td class="column_5">1.0910804693473326</td>
+<td class="column_6">0.0033779581094344666</td>
+</tr>
+<td class="column_1">57</td>
+<td class="column_2">Signal</td>
+<td class="column_3">0 5 11 0 0 0</td>
+<td class="column_4">0.009287925696594427</td>
+<td class="column_5">0.4890204780193702</td>
+<td class="column_6">0.004541985863956999</td>
+</tr>
+<td class="column_1">58</td>
+<td class="column_2">Table</td>
+<td class="column_3">0 5 11 0 0 1</td>
+<td class="column_4">0.01238390092879257</td>
+<td class="column_5">0.28944812311416607</td>
+<td class="column_6">0.0035844968806707875</td>
+</tr>
+<td class="column_1">59</td>
+<td class="column_2">Signal</td>
+<td class="column_3">0 5 12 0 0 0 0</td>
+<td class="column_4">0.009287925696594427</td>
+<td class="column_5">0.4890204780193702</td>
+<td class="column_6">0.004541985863956999</td>
+</tr>
+<td class="column_1">60</td>
+<td class="column_2">Direction</td>
+<td class="column_3">0 5 12 0 1 0 0</td>
+<td class="column_4">0.0030959752321981426</td>
+<td class="column_5">0.52680903890877</td>
+<td class="column_6">0.0016309877365596594</td>
+</tr>
+<td class="column_1">61</td>
+<td class="column_2">Data</td>
+<td class="column_3">0 5 12 0 2 0 0</td>
+<td class="column_4">0.0030959752321981426</td>
+<td class="column_5">0.18799048235538898</td>
+<td class="column_6">0.0005820138772612663</td>
+</tr>
+<td class="column_1">62</td>
+<td class="column_2">Width</td>
+<td class="column_3">0 5 12 0 2 0 1</td>
+<td class="column_4">0.0030959752321981426</td>
+<td class="column_5">0.3921104650113138</td>
+<td class="column_6">0.001213964287960724</td>
+</tr>
+<td class="column_1">63</td>
+<td class="column_2">Description</td>
+<td class="column_3">0 5 12 0 3 0 0</td>
+<td class="column_4">0.0030959752321981426</td>
+<td class="column_5">0.22577904324478879</td>
+<td class="column_6">0.0006990063258352594</td>
+</tr>
+<td class="column_1">64</td>
+<td class="column_2">InA</td>
+<td class="column_3">0 5 12 1 0 0 0</td>
+<td class="column_4">0.0030959752321981426</td>
+<td class="column_5">1.0910804693473326</td>
+<td class="column_6">0.0033779581094344666</td>
+</tr>
+<td class="column_1">65</td>
+<td class="column_2">IN</td>
+<td class="column_3">0 5 12 1 1 0 0</td>
+<td class="column_4">0.01238390092879257</td>
+<td class="column_5">0.7231036840527382</td>
+<td class="column_6">0.008954844384554034</td>
+</tr>
+<td class="column_1">66</td>
+<td class="column_2">This</td>
+<td class="column_3">0 5 12 1 3 0 0</td>
+<td class="column_4">0.01238390092879257</td>
+<td class="column_5">0.15322837609617704</td>
+<td class="column_6">0.001897565029054824</td>
+</tr>
+<td class="column_1">67</td>
+<td class="column_2">is</td>
+<td class="column_3">0 5 12 1 3 0 1</td>
+<td class="column_4">0.02476780185758514</td>
+<td class="column_5">0.01189922329970769</td>
+<td class="column_6">0.0002947176049463205</td>
+</tr>
+<td class="column_1">68</td>
+<td class="column_2">port</td>
+<td class="column_3">0 5 12 1 3 0 3</td>
+<td class="column_4">0.015479876160990712</td>
+<td class="column_5">0.28944812311416607</td>
+<td class="column_6">0.004480621100838484</td>
+</tr>
+<td class="column_1">69</td>
+<td class="column_2">through</td>
+<td class="column_3">0 5 12 1 3 0 4</td>
+<td class="column_4">0.018575851393188854</td>
+<td class="column_5">0.2459824293330757</td>
+<td class="column_6">0.004569333052626794</td>
+</tr>
+<td class="column_1">70</td>
+<td class="column_2">which</td>
+<td class="column_3">0 5 12 1 3 0 5</td>
+<td class="column_4">0.01238390092879257</td>
+<td class="column_5">0.26717172840301384</td>
+<td class="column_6">0.0033086282155171997</td>
+</tr>
+<td class="column_1">71</td>
+<td class="column_2">first</td>
+<td class="column_3">0 5 12 1 3 0 7</td>
+<td class="column_4">0.0030959752321981426</td>
+<td class="column_5">0.20647388804940212</td>
+<td class="column_6">0.000639238043496601</td>
+</tr>
+<td class="column_1">72</td>
+<td class="column_2">input</td>
+<td class="column_3">0 5 12 1 3 0 8</td>
+<td class="column_4">0.01238390092879257</td>
+<td class="column_5">0.02413367971671937</td>
+<td class="column_6">0.0002988690986590634</td>
+</tr>
+<td class="column_1">73</td>
+<td class="column_2">is</td>
+<td class="column_3">0 5 12 1 3 0 9</td>
+<td class="column_4">0.02476780185758514</td>
+<td class="column_5">0.01189922329970769</td>
+<td class="column_6">0.0002947176049463205</td>
+</tr>
+<td class="column_1">74</td>
+<td class="column_2">fed</td>
+<td class="column_3">0 5 12 1 3 0 10</td>
+<td class="column_4">0.009287925696594427</td>
+<td class="column_5">0.6651117370750514</td>
+<td class="column_6">0.0061775083938859264</td>
+</tr>
+<td class="column_1">75</td>
+<td class="column_2">through</td>
+<td class="column_3">0 5 12 1 3 0 11</td>
+<td class="column_4">0.018575851393188854</td>
+<td class="column_5">0.2459824293330757</td>
+<td class="column_6">0.004569333052626794</td>
+</tr>
+<td class="column_1">76</td>
+<td class="column_2">InB</td>
+<td class="column_3">0 5 12 2 0 0 0</td>
+<td class="column_4">0.0030959752321981426</td>
+<td class="column_5">1.0910804693473326</td>
+<td class="column_6">0.0033779581094344666</td>
+</tr>
+<td class="column_1">77</td>
+<td class="column_2">IN</td>
+<td class="column_3">0 5 12 2 1 0 0</td>
+<td class="column_4">0.01238390092879257</td>
+<td class="column_5">0.7231036840527382</td>
+<td class="column_6">0.008954844384554034</td>
+</tr>
+<td class="column_1">78</td>
+<td class="column_2">This</td>
+<td class="column_3">0 5 12 2 3 0 0</td>
+<td class="column_4">0.01238390092879257</td>
+<td class="column_5">0.15322837609617704</td>
+<td class="column_6">0.001897565029054824</td>
+</tr>
+<td class="column_1">79</td>
+<td class="column_2">is</td>
+<td class="column_3">0 5 12 2 3 0 1</td>
+<td class="column_4">0.02476780185758514</td>
+<td class="column_5">0.01189922329970769</td>
+<td class="column_6">0.0002947176049463205</td>
+</tr>
+<td class="column_1">80</td>
+<td class="column_2">port</td>
+<td class="column_3">0 5 12 2 3 0 3</td>
+<td class="column_4">0.015479876160990712</td>
+<td class="column_5">0.28944812311416607</td>
+<td class="column_6">0.004480621100838484</td>
+</tr>
+<td class="column_1">81</td>
+<td class="column_2">through</td>
+<td class="column_3">0 5 12 2 3 0 4</td>
+<td class="column_4">0.018575851393188854</td>
+<td class="column_5">0.2459824293330757</td>
+<td class="column_6">0.004569333052626794</td>
+</tr>
+<td class="column_1">82</td>
+<td class="column_2">which</td>
+<td class="column_3">0 5 12 2 3 0 5</td>
+<td class="column_4">0.01238390092879257</td>
+<td class="column_5">0.26717172840301384</td>
+<td class="column_6">0.0033086282155171997</td>
+</tr>
+<td class="column_1">83</td>
+<td class="column_2">second</td>
+<td class="column_3">0 5 12 2 3 0 7</td>
+<td class="column_4">0.0030959752321981426</td>
+<td class="column_5">0.45425837176015826</td>
+<td class="column_6">0.0014063726679881062</td>
+</tr>
+<td class="column_1">84</td>
+<td class="column_2">input</td>
+<td class="column_3">0 5 12 2 3 0 8</td>
+<td class="column_4">0.01238390092879257</td>
+<td class="column_5">0.02413367971671937</td>
+<td class="column_6">0.0002988690986590634</td>
+</tr>
+<td class="column_1">85</td>
+<td class="column_2">is</td>
+<td class="column_3">0 5 12 2 3 0 9</td>
+<td class="column_4">0.02476780185758514</td>
+<td class="column_5">0.01189922329970769</td>
+<td class="column_6">0.0002947176049463205</td>
+</tr>
+<td class="column_1">86</td>
+<td class="column_2">fed</td>
+<td class="column_3">0 5 12 2 3 0 10</td>
+<td class="column_4">0.009287925696594427</td>
+<td class="column_5">0.6651117370750514</td>
+<td class="column_6">0.0061775083938859264</td>
+</tr>
+<td class="column_1">87</td>
+<td class="column_2">through</td>
+<td class="column_3">0 5 12 2 3 0 11</td>
+<td class="column_4">0.018575851393188854</td>
+<td class="column_5">0.2459824293330757</td>
+<td class="column_6">0.004569333052626794</td>
+</tr>
+<td class="column_1">88</td>
+<td class="column_2">IN</td>
+<td class="column_3">0 5 12 3 1 0 0</td>
+<td class="column_4">0.01238390092879257</td>
+<td class="column_5">0.7231036840527382</td>
+<td class="column_6">0.008954844384554034</td>
+</tr>
+<td class="column_1">89</td>
+<td class="column_2">This</td>
+<td class="column_3">0 5 12 3 3 0 0</td>
+<td class="column_4">0.01238390092879257</td>
+<td class="column_5">0.15322837609617704</td>
+<td class="column_6">0.001897565029054824</td>
+</tr>
+<td class="column_1">90</td>
+<td class="column_2">is</td>
+<td class="column_3">0 5 12 3 3 0 1</td>
+<td class="column_4">0.02476780185758514</td>
+<td class="column_5">0.01189922329970769</td>
+<td class="column_6">0.0002947176049463205</td>
+</tr>
+<td class="column_1">91</td>
+<td class="column_2">input</td>
+<td class="column_3">0 5 12 3 3 0 3</td>
+<td class="column_4">0.01238390092879257</td>
+<td class="column_5">0.02413367971671937</td>
+<td class="column_6">0.0002988690986590634</td>
+</tr>
+<td class="column_1">92</td>
+<td class="column_2">port</td>
+<td class="column_3">0 5 12 3 3 0 4</td>
+<td class="column_4">0.015479876160990712</td>
+<td class="column_5">0.28944812311416607</td>
+<td class="column_6">0.004480621100838484</td>
+</tr>
+<td class="column_1">93</td>
+<td class="column_2">through</td>
+<td class="column_3">0 5 12 3 3 0 5</td>
+<td class="column_4">0.018575851393188854</td>
+<td class="column_5">0.2459824293330757</td>
+<td class="column_6">0.004569333052626794</td>
+</tr>
+<td class="column_1">94</td>
+<td class="column_2">which</td>
+<td class="column_3">0 5 12 3 3 0 6</td>
+<td class="column_4">0.01238390092879257</td>
+<td class="column_5">0.26717172840301384</td>
+<td class="column_6">0.0033086282155171997</td>
+</tr>
+<td class="column_1">95</td>
+<td class="column_2">entire</td>
+<td class="column_3">0 5 12 3 3 0 8</td>
+<td class="column_4">0.0030959752321981426</td>
+<td class="column_5">0.6139592146276701</td>
+<td class="column_6">0.0019008025220670903</td>
+</tr>
+<td class="column_1">96</td>
+<td class="column_2">system</td>
+<td class="column_3">0 5 12 3 3 0 9</td>
+<td class="column_4">0.0030959752321981426</td>
+<td class="column_5">0.31292921896368886</td>
+<td class="column_6">0.00096882111134269</td>
+</tr>
+<td class="column_1">97</td>
+<td class="column_2">is</td>
+<td class="column_3">0 5 12 3 3 0 10</td>
+<td class="column_4">0.02476780185758514</td>
+<td class="column_5">0.01189922329970769</td>
+<td class="column_6">0.0002947176049463205</td>
+</tr>
+<td class="column_1">98</td>
+<td class="column_2">synchronous</td>
+<td class="column_3">0 5 12 3 3 0 11</td>
+<td class="column_4">0.0030959752321981426</td>
+<td class="column_5">0.422073688388757</td>
+<td class="column_6">0.0013067296854141085</td>
+</tr>
+<td class="column_1">99</td>
+<td class="column_2">with</td>
+<td class="column_3">0 5 12 3 3 0 12</td>
+<td class="column_4">0.009287925696594427</td>
+<td class="column_5">0.04968778418910748</td>
+<td class="column_6">0.00046149644757684965</td>
+</tr>
+<td class="column_1">100</td>
+<td class="column_2">Op</td>
+<td class="column_3">0 5 12 4 0 0 0</td>
+<td class="column_4">0.0030959752321981426</td>
+<td class="column_5">0.8692317197309762</td>
+<td class="column_6">0.0026911198753281</td>
+</tr>
+<td class="column_1">101</td>
+<td class="column_2">IN</td>
+<td class="column_3">0 5 12 4 1 0 0</td>
+<td class="column_4">0.01238390092879257</td>
+<td class="column_5">0.7231036840527382</td>
+<td class="column_6">0.008954844384554034</td>
+</tr>
+<td class="column_1">102</td>
+<td class="column_2">input</td>
+<td class="column_3">0 5 12 4 3 0 1</td>
+<td class="column_4">0.01238390092879257</td>
+<td class="column_5">0.02413367971671937</td>
+<td class="column_6">0.0002988690986590634</td>
+</tr>
+<td class="column_1">103</td>
+<td class="column_2">to</td>
+<td class="column_3">0 5 12 4 3 0 2</td>
+<td class="column_4">0.0030959752321981426</td>
+<td class="column_5">0.01189922329970769</td>
+<td class="column_6">3.6839700618290066e-05</td>
+</tr>
+<td class="column_1">104</td>
+<td class="column_2">this</td>
+<td class="column_3">0 5 12 4 3 0 3</td>
+<td class="column_4">0.0030959752321981426</td>
+<td class="column_5">0.10580372616803894</td>
+<td class="column_6">0.00032756571569052305</td>
+</tr>
+<td class="column_1">105</td>
+<td class="column_2">port</td>
+<td class="column_3">0 5 12 4 3 0 4</td>
+<td class="column_4">0.015479876160990712</td>
+<td class="column_5">0.28944812311416607</td>
+<td class="column_6">0.004480621100838484</td>
+</tr>
+<td class="column_1">106</td>
+<td class="column_2">decides</td>
+<td class="column_3">0 5 12 4 3 0 5</td>
+<td class="column_4">0.0030959752321981426</td>
+<td class="column_5">1.2671717284030137</td>
+<td class="column_6">0.003923132286077442</td>
+</tr>
+<td class="column_1">107</td>
+<td class="column_2">mode</td>
+<td class="column_3">0 5 12 4 3 0 7</td>
+<td class="column_4">0.0030959752321981426</td>
+<td class="column_5">0.22577904324478879</td>
+<td class="column_6">0.0006990063258352594</td>
+</tr>
+<td class="column_1">108</td>
+<td class="column_2">arithmetic</td>
+<td class="column_3">0 5 12 4 3 0 9</td>
+<td class="column_4">0.0030959752321981426</td>
+<td class="column_5">0.26717172840301384</td>
+<td class="column_6">0.0008271570538792999</td>
+</tr>
+<td class="column_1">109</td>
+<td class="column_2">operation</td>
+<td class="column_3">0 5 12 4 3 0 10</td>
+<td class="column_4">0.0030959752321981426</td>
+<td class="column_5">0.10580372616803894</td>
+<td class="column_6">0.00032756571569052305</td>
+</tr>
+<td class="column_1">110</td>
+<td class="column_2">addition</td>
+<td class="column_3">0 5 12 4 3 1 2</td>
+<td class="column_4">0.0030959752321981426</td>
+<td class="column_5">0.26717172840301384</td>
+<td class="column_6">0.0008271570538792999</td>
+</tr>
+<td class="column_1">111</td>
+<td class="column_2">subtraction</td>
+<td class="column_3">0 5 12 4 3 1 6</td>
+<td class="column_4">0.0030959752321981426</td>
+<td class="column_5">0.45425837176015826</td>
+<td class="column_6">0.0014063726679881062</td>
+</tr>
+<td class="column_1">112</td>
+<td class="column_2">SUM</td>
+<td class="column_3">0 5 12 5 0 0 0</td>
+<td class="column_4">0.0030959752321981426</td>
+<td class="column_5">1.2671717284030137</td>
+<td class="column_6">0.003923132286077442</td>
+</tr>
+<td class="column_1">113</td>
+<td class="column_2">OUT</td>
+<td class="column_3">0 5 12 5 1 0 0</td>
+<td class="column_4">0.0030959752321981426</td>
+<td class="column_5">0.9661417327390326</td>
+<td class="column_6">0.0029911508753530424</td>
+</tr>
+<td class="column_1">114</td>
+<td class="column_2">This</td>
+<td class="column_3">0 5 12 5 3 0 0</td>
+<td class="column_4">0.01238390092879257</td>
+<td class="column_5">0.15322837609617704</td>
+<td class="column_6">0.001897565029054824</td>
+</tr>
+<td class="column_1">115</td>
+<td class="column_2">is</td>
+<td class="column_3">0 5 12 5 3 0 1</td>
+<td class="column_4">0.02476780185758514</td>
+<td class="column_5">0.01189922329970769</td>
+<td class="column_6">0.0002947176049463205</td>
+</tr>
+<td class="column_1">116</td>
+<td class="column_2">port</td>
+<td class="column_3">0 5 12 5 3 0 3</td>
+<td class="column_4">0.015479876160990712</td>
+<td class="column_5">0.28944812311416607</td>
+<td class="column_6">0.004480621100838484</td>
+</tr>
+<td class="column_1">117</td>
+<td class="column_2">through</td>
+<td class="column_3">0 5 12 5 3 0 4</td>
+<td class="column_4">0.018575851393188854</td>
+<td class="column_5">0.2459824293330757</td>
+<td class="column_6">0.004569333052626794</td>
+</tr>
+<td class="column_1">118</td>
+<td class="column_2">which</td>
+<td class="column_3">0 5 12 5 3 0 5</td>
+<td class="column_4">0.01238390092879257</td>
+<td class="column_5">0.26717172840301384</td>
+<td class="column_6">0.0033086282155171997</td>
+</tr>
+<td class="column_1">119</td>
+<td class="column_2">output</td>
+<td class="column_3">0 5 12 5 3 0 7</td>
+<td class="column_4">0.0030959752321981426</td>
+<td class="column_5">0.02413367971671937</td>
+<td class="column_6">7.471727466476585e-05</td>
+</tr>
+<td class="column_1">120</td>
+<td class="column_2">is</td>
+<td class="column_3">0 5 12 5 3 0 8</td>
+<td class="column_4">0.02476780185758514</td>
+<td class="column_5">0.01189922329970769</td>
+<td class="column_6">0.0002947176049463205</td>
+</tr>
+<td class="column_1">121</td>
+<td class="column_2">fed</td>
+<td class="column_3">0 5 12 5 3 0 9</td>
+<td class="column_4">0.009287925696594427</td>
+<td class="column_5">0.6651117370750514</td>
+<td class="column_6">0.0061775083938859264</td>
+</tr>
+<td class="column_1">122</td>
+<td class="column_2">out</td>
+<td class="column_3">0 5 12 5 3 0 10</td>
+<td class="column_4">0.0030959752321981426</td>
+<td class="column_5">0.28944812311416607</td>
+<td class="column_6">0.0008961242201676969</td>
+</tr>
+<td class="column_1">123</td>
+<td class="column_2">Table</td>
+<td class="column_3">0 5 13 0 0</td>
+<td class="column_4">0.01238390092879257</td>
+<td class="column_5">0.28944812311416607</td>
+<td class="column_6">0.0035844968806707875</td>
+</tr>
+<td class="column_1">124</td>
+<td class="column_2">Signal</td>
+<td class="column_3">0 5 13 0 2</td>
+<td class="column_4">0.009287925696594427</td>
+<td class="column_5">0.4890204780193702</td>
+<td class="column_6">0.004541985863956999</td>
+</tr>
+<td class="column_1">125</td>
+<td class="column_2">Definition</td>
+<td class="column_3">0 5 13 0 3</td>
+<td class="column_4">0.0030959752321981426</td>
+<td class="column_5">0.8692317197309762</td>
+<td class="column_6">0.0026911198753281</td>
+</tr>
+<td class="column_1">126</td>
+<td class="column_2">Table</td>
+<td class="column_3">0 5 13 0 4</td>
+<td class="column_4">0.01238390092879257</td>
+<td class="column_5">0.28944812311416607</td>
+<td class="column_6">0.0035844968806707875</td>
+</tr>
+<td class="column_1">127</td>
+<td class="column_2">SoftJin</td>
+<td class="column_3">0 5 14 0 0</td>
+<td class="column_4">0.009287925696594427</td>
+<td class="column_5">1.0910804693473326</td>
+<td class="column_6">0.010133874328303398</td>
+</tr>
+<td class="column_1">128</td>
+<td class="column_2">Technologies</td>
+<td class="column_3">0 5 14 0 1</td>
+<td class="column_4">0.009287925696594427</td>
+<td class="column_5">0.9661417327390326</td>
+<td class="column_6">0.008973452626059126</td>
+</tr>
+<td class="column_1">129</td>
+<td class="column_2">Pvt</td>
+<td class="column_3">0 5 14 0 2</td>
+<td class="column_4">0.009287925696594427</td>
+<td class="column_5">1.0910804693473326</td>
+<td class="column_6">0.010133874328303398</td>
+</tr>
+<td class="column_1">130</td>
+<td class="column_2">Ltd.India</td>
+<td class="column_3">0 5 14 1 0</td>
+<td class="column_4">0.009287925696594427</td>
+<td class="column_5">1.0910804693473326</td>
+<td class="column_6">0.010133874328303398</td>
+</tr>
+<td class="column_1">131</td>
+<td class="column_2">1st</td>
+<td class="column_3">0 5 14 1 2</td>
+<td class="column_4">0.009287925696594427</td>
+<td class="column_5">1.0910804693473326</td>
+<td class="column_6">0.010133874328303398</td>
+</tr>
+<td class="column_1">132</td>
+<td class="column_2">Floor</td>
+<td class="column_3">0 5 14 1 3</td>
+<td class="column_4">0.009287925696594427</td>
+<td class="column_5">0.9661417327390326</td>
+<td class="column_6">0.008973452626059126</td>
+</tr>
+<td class="column_1">133</td>
+<td class="column_2">Mobius</td>
+<td class="column_3">0 5 14 1 4</td>
+<td class="column_4">0.009287925696594427</td>
+<td class="column_5">1.0910804693473326</td>
+<td class="column_6">0.010133874328303398</td>
+</tr>
+<td class="column_1">134</td>
+<td class="column_2">Tower</td>
+<td class="column_3">0 5 14 1 5</td>
+<td class="column_4">0.009287925696594427</td>
+<td class="column_5">1.0910804693473326</td>
+<td class="column_6">0.010133874328303398</td>
+</tr>
+<td class="column_1">135</td>
+<td class="column_2">iPark</td>
+<td class="column_3">0 5 14 1 7</td>
+<td class="column_4">0.009287925696594427</td>
+<td class="column_5">1.0910804693473326</td>
+<td class="column_6">0.010133874328303398</td>
+</tr>
+<td class="column_1">136</td>
+<td class="column_2">White</td>
+<td class="column_3">0 5 14 1 9</td>
+<td class="column_4">0.009287925696594427</td>
+<td class="column_5">1.0910804693473326</td>
+<td class="column_6">0.010133874328303398</td>
+</tr>
+<td class="column_1">137</td>
+<td class="column_2">Field</td>
+<td class="column_3">0 5 14 1 10</td>
+<td class="column_4">0.009287925696594427</td>
+<td class="column_5">0.6139592146276701</td>
+<td class="column_6">0.00570240756620127</td>
+</tr>
+<td class="column_1">138</td>
+<td class="column_2">BANGALORE</td>
+<td class="column_3">0 5 14 1 11</td>
+<td class="column_4">0.009287925696594427</td>
+<td class="column_5">1.0910804693473326</td>
+<td class="column_6">0.010133874328303398</td>
+</tr>
+<td class="column_1">139</td>
+<td class="column_2">Karnataka</td>
+<td class="column_3">0 5 14 1 14</td>
+<td class="column_4">0.009287925696594427</td>
+<td class="column_5">1.0910804693473326</td>
+<td class="column_6">0.010133874328303398</td>
+</tr>
+<td class="column_1">140</td>
+<td class="column_2">India</td>
+<td class="column_3">0 5 14 1 15</td>
+<td class="column_4">0.009287925696594427</td>
+<td class="column_5">1.0910804693473326</td>
+<td class="column_6">0.010133874328303398</td>
+</tr>
+<td class="column_1">141</td>
+<td class="column_2">Tel</td>
+<td class="column_3">0 5 14 1 16</td>
+<td class="column_4">0.018575851393188854</td>
+<td class="column_5">0.8692317197309762</td>
+<td class="column_6">0.0161467192519686</td>
+</tr>
+<td class="column_1">142</td>
+<td class="column_2">Fax</td>
+<td class="column_3">0 5 14 1 18</td>
+<td class="column_4">0.018575851393188854</td>
+<td class="column_5">0.9661417327390326</td>
+<td class="column_6">0.017946905252118252</td>
+</tr>
+<td class="column_1">143</td>
+<td class="column_2">US</td>
+<td class="column_3">0 5 14 1 20</td>
+<td class="column_4">0.009287925696594427</td>
+<td class="column_5">1.0910804693473326</td>
+<td class="column_6">0.010133874328303398</td>
+</tr>
+<td class="column_1">144</td>
+<td class="column_2">Gordon</td>
+<td class="column_3">0 5 14 1 22</td>
+<td class="column_4">0.009287925696594427</td>
+<td class="column_5">1.0910804693473326</td>
+<td class="column_6">0.010133874328303398</td>
+</tr>
+<td class="column_1">145</td>
+<td class="column_2">Ave</td>
+<td class="column_3">0 5 14 1 23</td>
+<td class="column_4">0.009287925696594427</td>
+<td class="column_5">0.9661417327390326</td>
+<td class="column_6">0.008973452626059126</td>
+</tr>
+<td class="column_1">146</td>
+<td class="column_2">Suite</td>
+<td class="column_3">0 5 14 1 24</td>
+<td class="column_4">0.009287925696594427</td>
+<td class="column_5">0.6651117370750514</td>
+<td class="column_6">0.0061775083938859264</td>
+</tr>
+<td class="column_1">147</td>
+<td class="column_2">Santa</td>
+<td class="column_3">0 5 14 1 26</td>
+<td class="column_4">0.009287925696594427</td>
+<td class="column_5">1.0910804693473326</td>
+<td class="column_6">0.010133874328303398</td>
+</tr>
+<td class="column_1">148</td>
+<td class="column_2">Clara</td>
+<td class="column_3">0 5 14 1 27</td>
+<td class="column_4">0.009287925696594427</td>
+<td class="column_5">1.0910804693473326</td>
+<td class="column_6">0.010133874328303398</td>
+</tr>
+<td class="column_1">149</td>
+<td class="column_2">CA</td>
+<td class="column_3">0 5 14 1 28</td>
+<td class="column_4">0.009287925696594427</td>
+<td class="column_5">0.7900504736833514</td>
+<td class="column_6">0.007337930096130198</td>
+</tr>
+<td class="column_1">150</td>
+<td class="column_2">USA</td>
+<td class="column_3">0 5 14 1 30</td>
+<td class="column_4">0.009287925696594427</td>
+<td class="column_5">1.0910804693473326</td>
+<td class="column_6">0.010133874328303398</td>
+</tr>
+<td class="column_1">151</td>
+<td class="column_2">Tel</td>
+<td class="column_3">0 5 14 1 31</td>
+<td class="column_4">0.018575851393188854</td>
+<td class="column_5">0.8692317197309762</td>
+<td class="column_6">0.0161467192519686</td>
+</tr>
+<td class="column_1">152</td>
+<td class="column_2">Fax</td>
+<td class="column_3">0 5 14 1 34</td>
+<td class="column_4">0.018575851393188854</td>
+<td class="column_5">0.9661417327390326</td>
+<td class="column_6">0.017946905252118252</td>
+</tr>
+<td class="column_1">153</td>
+<td class="column_2">Email</td>
+<td class="column_3">0 5 14 1 37</td>
+<td class="column_4">0.009287925696594427</td>
+<td class="column_5">0.9661417327390326</td>
+<td class="column_6">0.008973452626059126</td>
+</tr>
+<td class="column_1">154</td>
+<td class="column_2">Web</td>
+<td class="column_3">0 5 14 1 39</td>
+<td class="column_4">0.009287925696594427</td>
+<td class="column_5">0.9661417327390326</td>
+<td class="column_6">0.008973452626059126</td>
+</tr>
+<td class="column_1">155</td>
+<td class="column_2">www.softjin.com</td>
+<td class="column_3">0 5 14 1 40</td>
+<td class="column_4">0.009287925696594427</td>
+<td class="column_5">1.0910804693473326</td>
+<td class="column_6">0.010133874328303398</td>
+</tr>
+<td class="column_1">156</td>
+<td class="column_2">Page</td>
+<td class="column_3">0 5 14 1 41</td>
+<td class="column_4">0.009287925696594427</td>
+<td class="column_5">1.0910804693473326</td>
+<td class="column_6">0.010133874328303398</td>
+</tr>
+<td class="column_1">157</td>
+<td class="column_2">Performance</td>
+<td class="column_3">0 5 15 0 0 0</td>
+<td class="column_4">0.006191950464396285</td>
+<td class="column_5">0.422073688388757</td>
+<td class="column_6">0.002613459370828217</td>
+</tr>
+<td class="column_1">158</td>
+<td class="column_2">Device</td>
+<td class="column_3">0 5 16 0 0 0 0</td>
+<td class="column_4">0.0030959752321981426</td>
+<td class="column_5">0.568201724066995</td>
+<td class="column_6">0.0017591384646036998</td>
+</tr>
+<td class="column_1">159</td>
+<td class="column_2">Slice</td>
+<td class="column_3">0 5 16 0 1 0 0</td>
+<td class="column_4">0.0030959752321981426</td>
+<td class="column_5">0.9661417327390326</td>
+<td class="column_6">0.0029911508753530424</td>
+</tr>
+<td class="column_1">160</td>
+<td class="column_2">Count</td>
+<td class="column_3">0 5 16 0 1 0 1</td>
+<td class="column_4">0.0030959752321981426</td>
+<td class="column_5">1.0910804693473326</td>
+<td class="column_6">0.0033779581094344666</td>
+</tr>
+<td class="column_1">161</td>
+<td class="column_2">Frequency</td>
+<td class="column_3">0 5 16 0 2 0 0</td>
+<td class="column_4">0.0030959752321981426</td>
+<td class="column_5">0.7900504736833514</td>
+<td class="column_6">0.0024459766987100662</td>
+</tr>
+<td class="column_1">162</td>
+<td class="column_2">MHz</td>
+<td class="column_3">0 5 16 0 2 0 1</td>
+<td class="column_4">0.0030959752321981426</td>
+<td class="column_5">0.3640817414110702</td>
+<td class="column_6">0.001127188053904242</td>
+</tr>
+<td class="column_1">163</td>
+<td class="column_2">Virtex4</td>
+<td class="column_3">0 5 16 1 0 0 0</td>
+<td class="column_4">0.0030959752321981426</td>
+<td class="column_5">1.0910804693473326</td>
+<td class="column_6">0.0033779581094344666</td>
+</tr>
+<td class="column_1">164</td>
+<td class="column_2">Virtex5</td>
+<td class="column_3">0 5 16 2 0 0 0</td>
+<td class="column_4">0.0030959752321981426</td>
+<td class="column_5">1.0910804693473326</td>
+<td class="column_6">0.0033779581094344666</td>
+</tr>
+<td class="column_1">165</td>
+<td class="column_2">Table</td>
+<td class="column_3">0 5 17 0 0</td>
+<td class="column_4">0.01238390092879257</td>
+<td class="column_5">0.28944812311416607</td>
+<td class="column_6">0.0035844968806707875</td>
+</tr>
+<td class="column_1">166</td>
+<td class="column_2">Performance</td>
+<td class="column_3">0 5 17 0 5</td>
+<td class="column_4">0.006191950464396285</td>
+<td class="column_5">0.422073688388757</td>
+<td class="column_6">0.002613459370828217</td>
+</tr>
+<td class="column_1">167</td>
+<td class="column_2">table</td>
+<td class="column_3">0 5 17 0 6</td>
+<td class="column_4">0.0030959752321981426</td>
+<td class="column_5">0.20647388804940212</td>
+<td class="column_6">0.000639238043496601</td>
+</tr>
+<td class="column_1">168</td>
+<td class="column_2">Verification</td>
+<td class="column_3">0 5 18 0 0 0</td>
+<td class="column_4">0.0030959752321981426</td>
+<td class="column_5">0.4890204780193702</td>
+<td class="column_6">0.0015139952879856663</td>
+</tr>
+<td class="column_1">169</td>
+<td class="column_2">Floating</td>
+<td class="column_3">0 5 18 1 0 1</td>
+<td class="column_4">0.006191950464396285</td>
+<td class="column_5">0.28944812311416607</td>
+<td class="column_6">0.0017922484403353938</td>
+</tr>
+<td class="column_1">170</td>
+<td class="column_2">point</td>
+<td class="column_3">0 5 18 1 0 2</td>
+<td class="column_4">0.0030959752321981426</td>
+<td class="column_5">0.12104369272477576</td>
+<td class="column_6">0.00037474827468970826</td>
+</tr>
+<td class="column_1">171</td>
+<td class="column_2">has</td>
+<td class="column_3">0 5 18 1 0 5</td>
+<td class="column_4">0.0030959752321981426</td>
+<td class="column_5">0.15322837609617704</td>
+<td class="column_6">0.000474391257263706</td>
+</tr>
+<td class="column_1">172</td>
+<td class="column_2">been</td>
+<td class="column_3">0 5 18 1 0 6</td>
+<td class="column_4">0.0030959752321981426</td>
+<td class="column_5">0.22577904324478879</td>
+<td class="column_6">0.0006990063258352594</td>
+</tr>
+<td class="column_1">173</td>
+<td class="column_2">verified</td>
+<td class="column_3">0 5 18 1 0 7</td>
+<td class="column_4">0.0030959752321981426</td>
+<td class="column_5">0.568201724066995</td>
+<td class="column_6">0.0017591384646036998</td>
+</tr>
+<td class="column_1">174</td>
+<td class="column_2">with</td>
+<td class="column_3">0 5 18 1 0 8</td>
+<td class="column_4">0.009287925696594427</td>
+<td class="column_5">0.04968778418910748</td>
+<td class="column_6">0.00046149644757684965</td>
+</tr>
+<td class="column_1">175</td>
+<td class="column_2">following</td>
+<td class="column_3">0 5 18 1 0 10</td>
+<td class="column_4">0.0030959752321981426</td>
+<td class="column_5">0.06305174574708902</td>
+<td class="column_6">0.0001952066431798422</td>
+</tr>
+<td class="column_1">176</td>
+<td class="column_2">approaches</td>
+<td class="column_3">0 5 18 1 0 11</td>
+<td class="column_4">0.0030959752321981426</td>
+<td class="column_5">0.9661417327390326</td>
+<td class="column_6">0.0029911508753530424</td>
+</tr>
+<td class="column_1">177</td>
+<td class="column_2">Exhaustive</td>
+<td class="column_3">0 5 18 2 0 1 0 0</td>
+<td class="column_4">0.0030959752321981426</td>
+<td class="column_5">1.0910804693473326</td>
+<td class="column_6">0.0033779581094344666</td>
+</tr>
+<td class="column_1">178</td>
+<td class="column_2">simulation</td>
+<td class="column_3">0 5 18 2 0 1 0 2</td>
+<td class="column_4">0.0030959752321981426</td>
+<td class="column_5">0.22577904324478879</td>
+<td class="column_6">0.0006990063258352594</td>
+</tr>
+<td class="column_1">179</td>
+<td class="column_2">Results</td>
+<td class="column_3">0 5 18 2 1 1 0 0</td>
+<td class="column_4">0.0030959752321981426</td>
+<td class="column_5">0.52680903890877</td>
+<td class="column_6">0.0016309877365596594</td>
+</tr>
+<td class="column_1">180</td>
+<td class="column_2">are</td>
+<td class="column_3">0 5 18 2 1 1 0 1</td>
+<td class="column_4">0.0030959752321981426</td>
+<td class="column_5">0.02413367971671937</td>
+<td class="column_6">7.471727466476585e-05</td>
+</tr>
+<td class="column_1">181</td>
+<td class="column_2">compared</td>
+<td class="column_3">0 5 18 2 1 1 0 2</td>
+<td class="column_4">0.0030959752321981426</td>
+<td class="column_5">0.568201724066995</td>
+<td class="column_6">0.0017591384646036998</td>
+</tr>
+<td class="column_1">182</td>
+<td class="column_2">with</td>
+<td class="column_3">0 5 18 2 1 1 0 3</td>
+<td class="column_4">0.009287925696594427</td>
+<td class="column_5">0.04968778418910748</td>
+<td class="column_6">0.00046149644757684965</td>
+</tr>
+<td class="column_1">183</td>
+<td class="column_2">Ccode</td>
+<td class="column_3">0 5 18 2 1 1 0 5</td>
+<td class="column_4">0.006191950464396285</td>
+<td class="column_5">1.0910804693473326</td>
+<td class="column_6">0.006755916218868933</td>
+</tr>
+<td class="column_1">184</td>
+<td class="column_2">generated</td>
+<td class="column_3">0 5 18 2 2 1 0 0</td>
+<td class="column_4">0.0030959752321981426</td>
+<td class="column_5">0.28944812311416607</td>
+<td class="column_6">0.0008961242201676969</td>
+</tr>
+<td class="column_1">185</td>
+<td class="column_2">results</td>
+<td class="column_3">0 5 18 2 2 1 0 1</td>
+<td class="column_4">0.006191950464396285</td>
+<td class="column_5">0.1368379599080077</td>
+<td class="column_6">0.0008472938693994286</td>
+</tr>
+<td class="column_1">186</td>
+<td class="column_2">Behavioral</td>
+<td class="column_3">0 5 18 2 2 1 0 3</td>
+<td class="column_4">0.006191950464396285</td>
+<td class="column_5">1.0910804693473326</td>
+<td class="column_6">0.006755916218868933</td>
+</tr>
+<td class="column_1">187</td>
+<td class="column_2">model</td>
+<td class="column_3">0 5 18 2 2 1 0 4</td>
+<td class="column_4">0.0030959752321981426</td>
+<td class="column_5">0.31292921896368886</td>
+<td class="column_6">0.00096882111134269</td>
+</tr>
+<td class="column_1">188</td>
+<td class="column_2">results</td>
+<td class="column_3">0 5 18 2 3 1 0 0</td>
+<td class="column_4">0.006191950464396285</td>
+<td class="column_5">0.1368379599080077</td>
+<td class="column_6">0.0008472938693994286</td>
+</tr>
+<td class="column_1">189</td>
+<td class="column_2">Emulated</td>
+<td class="column_3">0 5 18 2 4 1 0 0</td>
+<td class="column_4">0.0030959752321981426</td>
+<td class="column_5">1.2671717284030137</td>
+<td class="column_6">0.003923132286077442</td>
+</tr>
+<td class="column_1">190</td>
+<td class="column_2">on</td>
+<td class="column_3">0 5 18 2 4 1 0 1</td>
+<td class="column_4">0.0030959752321981426</td>
+<td class="column_5">0.1368379599080077</td>
+<td class="column_6">0.0004236469346997143</td>
+</tr>
+<td class="column_1">191</td>
+<td class="column_2">Xilinx</td>
+<td class="column_3">0 5 18 2 4 1 0 2</td>
+<td class="column_4">0.0030959752321981426</td>
+<td class="column_5">0.7900504736833514</td>
+<td class="column_6">0.0024459766987100662</td>
+</tr>
+<td class="column_1">192</td>
+<td class="column_2">Deliverables</td>
+<td class="column_3">0 5 18 3 0 0</td>
+<td class="column_4">0.0030959752321981426</td>
+<td class="column_5">0.7900504736833514</td>
+<td class="column_6">0.0024459766987100662</td>
+</tr>
+<td class="column_1">193</td>
+<td class="column_2">Verilog</td>
+<td class="column_3">0 5 18 4 0 1 0 0</td>
+<td class="column_4">0.0030959752321981426</td>
+<td class="column_5">0.31292921896368886</td>
+<td class="column_6">0.00096882111134269</td>
+</tr>
+<td class="column_1">194</td>
+<td class="column_2">Behavioral</td>
+<td class="column_3">0 5 18 4 0 1 0 1</td>
+<td class="column_4">0.006191950464396285</td>
+<td class="column_5">1.0910804693473326</td>
+<td class="column_6">0.006755916218868933</td>
+</tr>
+<td class="column_1">195</td>
+<td class="column_2">source</td>
+<td class="column_3">0 5 18 4 0 1 0 3</td>
+<td class="column_4">0.0030959752321981426</td>
+<td class="column_5">0.18799048235538898</td>
+<td class="column_6">0.0005820138772612663</td>
+</tr>
+<td class="column_1">196</td>
+<td class="column_2">code</td>
+<td class="column_3">0 5 18 4 0 1 0 4</td>
+<td class="column_4">0.0030959752321981426</td>
+<td class="column_5">0.12104369272477576</td>
+<td class="column_6">0.00037474827468970826</td>
+</tr>
+<td class="column_1">197</td>
+<td class="column_2">Test</td>
+<td class="column_3">0 5 18 4 1 1 0 0</td>
+<td class="column_4">0.0030959752321981426</td>
+<td class="column_5">0.3640817414110702</td>
+<td class="column_6">0.001127188053904242</td>
+</tr>
+<td class="column_1">198</td>
+<td class="column_2">Benches</td>
+<td class="column_3">0 5 18 4 1 1 0 1</td>
+<td class="column_4">0.0030959752321981426</td>
+<td class="column_5">1.0910804693473326</td>
+<td class="column_6">0.0033779581094344666</td>
+</tr>
+<td class="column_1">199</td>
+<td class="column_2">Ccode</td>
+<td class="column_3">0 5 18 4 2 1 0 0</td>
+<td class="column_4">0.006191950464396285</td>
+<td class="column_5">1.0910804693473326</td>
+<td class="column_6">0.006755916218868933</td>
+</tr>
+<td class="column_1">200</td>
+<td class="column_2">generation</td>
+<td class="column_3">0 5 18 4 2 1 0 2</td>
+<td class="column_4">0.0030959752321981426</td>
+<td class="column_5">0.52680903890877</td>
+<td class="column_6">0.0016309877365596594</td>
+</tr>
+<td class="column_1">201</td>
+<td class="column_2">test</td>
+<td class="column_3">0 5 18 4 2 1 0 4</td>
+<td class="column_4">0.0030959752321981426</td>
+<td class="column_5">0.17026171539495738</td>
+<td class="column_6">0.0005271260538543572</td>
+</tr>
+<td class="column_1">202</td>
+<td class="column_2">vectors</td>
+<td class="column_3">0 5 18 4 2 1 0 5</td>
+<td class="column_4">0.0030959752321981426</td>
+<td class="column_5">0.45425837176015826</td>
+<td class="column_6">0.0014063726679881062</td>
+</tr>
+<td class="column_1">203</td>
+<td class="column_2">Detailed</td>
+<td class="column_3">0 5 18 4 3 1 0 0</td>
+<td class="column_4">0.0030959752321981426</td>
+<td class="column_5">0.9661417327390326</td>
+<td class="column_6">0.0029911508753530424</td>
+</tr>
+<td class="column_1">204</td>
+<td class="column_2">user</td>
+<td class="column_3">0 5 18 4 3 1 0 1</td>
+<td class="column_4">0.0030959752321981426</td>
+<td class="column_5">0.4890204780193702</td>
+<td class="column_6">0.0015139952879856663</td>
+</tr>
+<td class="column_1">205</td>
+<td class="column_2">documentation</td>
+<td class="column_3">0 5 18 4 3 1 0 2</td>
+<td class="column_4">0.0030959752321981426</td>
+<td class="column_5">0.26717172840301384</td>
+<td class="column_6">0.0008271570538792999</td>
+</tr>
+<td class="column_1">206</td>
+<td class="column_2">SoftJin</td>
+<td class="column_3">0 5 19 0 0</td>
+<td class="column_4">0.009287925696594427</td>
+<td class="column_5">1.0910804693473326</td>
+<td class="column_6">0.010133874328303398</td>
+</tr>
+<td class="column_1">207</td>
+<td class="column_2">Technologies</td>
+<td class="column_3">0 5 19 0 1</td>
+<td class="column_4">0.009287925696594427</td>
+<td class="column_5">0.9661417327390326</td>
+<td class="column_6">0.008973452626059126</td>
+</tr>
+<td class="column_1">208</td>
+<td class="column_2">Pvt</td>
+<td class="column_3">0 5 19 0 2</td>
+<td class="column_4">0.009287925696594427</td>
+<td class="column_5">1.0910804693473326</td>
+<td class="column_6">0.010133874328303398</td>
+</tr>
+<td class="column_1">209</td>
+<td class="column_2">Ltd.India</td>
+<td class="column_3">0 5 19 1 0</td>
+<td class="column_4">0.009287925696594427</td>
+<td class="column_5">1.0910804693473326</td>
+<td class="column_6">0.010133874328303398</td>
+</tr>
+<td class="column_1">210</td>
+<td class="column_2">1st</td>
+<td class="column_3">0 5 19 1 2</td>
+<td class="column_4">0.009287925696594427</td>
+<td class="column_5">1.0910804693473326</td>
+<td class="column_6">0.010133874328303398</td>
+</tr>
+<td class="column_1">211</td>
+<td class="column_2">Floor</td>
+<td class="column_3">0 5 19 1 3</td>
+<td class="column_4">0.009287925696594427</td>
+<td class="column_5">0.9661417327390326</td>
+<td class="column_6">0.008973452626059126</td>
+</tr>
+<td class="column_1">212</td>
+<td class="column_2">Mobius</td>
+<td class="column_3">0 5 19 1 4</td>
+<td class="column_4">0.009287925696594427</td>
+<td class="column_5">1.0910804693473326</td>
+<td class="column_6">0.010133874328303398</td>
+</tr>
+<td class="column_1">213</td>
+<td class="column_2">Tower</td>
+<td class="column_3">0 5 19 1 5</td>
+<td class="column_4">0.009287925696594427</td>
+<td class="column_5">1.0910804693473326</td>
+<td class="column_6">0.010133874328303398</td>
+</tr>
+<td class="column_1">214</td>
+<td class="column_2">iPark</td>
+<td class="column_3">0 5 19 1 7</td>
+<td class="column_4">0.009287925696594427</td>
+<td class="column_5">1.0910804693473326</td>
+<td class="column_6">0.010133874328303398</td>
+</tr>
+<td class="column_1">215</td>
+<td class="column_2">White</td>
+<td class="column_3">0 5 19 1 9</td>
+<td class="column_4">0.009287925696594427</td>
+<td class="column_5">1.0910804693473326</td>
+<td class="column_6">0.010133874328303398</td>
+</tr>
+<td class="column_1">216</td>
+<td class="column_2">Field</td>
+<td class="column_3">0 5 19 1 10</td>
+<td class="column_4">0.009287925696594427</td>
+<td class="column_5">0.6139592146276701</td>
+<td class="column_6">0.00570240756620127</td>
+</tr>
+<td class="column_1">217</td>
+<td class="column_2">BANGALORE</td>
+<td class="column_3">0 5 19 1 11</td>
+<td class="column_4">0.009287925696594427</td>
+<td class="column_5">1.0910804693473326</td>
+<td class="column_6">0.010133874328303398</td>
+</tr>
+<td class="column_1">218</td>
+<td class="column_2">Karnataka</td>
+<td class="column_3">0 5 19 1 14</td>
+<td class="column_4">0.009287925696594427</td>
+<td class="column_5">1.0910804693473326</td>
+<td class="column_6">0.010133874328303398</td>
+</tr>
+<td class="column_1">219</td>
+<td class="column_2">India</td>
+<td class="column_3">0 5 19 1 15</td>
+<td class="column_4">0.009287925696594427</td>
+<td class="column_5">1.0910804693473326</td>
+<td class="column_6">0.010133874328303398</td>
+</tr>
+<td class="column_1">220</td>
+<td class="column_2">Tel</td>
+<td class="column_3">0 5 19 1 16</td>
+<td class="column_4">0.018575851393188854</td>
+<td class="column_5">0.8692317197309762</td>
+<td class="column_6">0.0161467192519686</td>
+</tr>
+<td class="column_1">221</td>
+<td class="column_2">Fax</td>
+<td class="column_3">0 5 19 1 18</td>
+<td class="column_4">0.018575851393188854</td>
+<td class="column_5">0.9661417327390326</td>
+<td class="column_6">0.017946905252118252</td>
+</tr>
+<td class="column_1">222</td>
+<td class="column_2">US</td>
+<td class="column_3">0 5 19 1 20</td>
+<td class="column_4">0.009287925696594427</td>
+<td class="column_5">1.0910804693473326</td>
+<td class="column_6">0.010133874328303398</td>
+</tr>
+<td class="column_1">223</td>
+<td class="column_2">Gordon</td>
+<td class="column_3">0 5 19 1 22</td>
+<td class="column_4">0.009287925696594427</td>
+<td class="column_5">1.0910804693473326</td>
+<td class="column_6">0.010133874328303398</td>
+</tr>
+<td class="column_1">224</td>
+<td class="column_2">Ave</td>
+<td class="column_3">0 5 19 1 23</td>
+<td class="column_4">0.009287925696594427</td>
+<td class="column_5">0.9661417327390326</td>
+<td class="column_6">0.008973452626059126</td>
+</tr>
+<td class="column_1">225</td>
+<td class="column_2">Suite</td>
+<td class="column_3">0 5 19 1 24</td>
+<td class="column_4">0.009287925696594427</td>
+<td class="column_5">0.6651117370750514</td>
+<td class="column_6">0.0061775083938859264</td>
+</tr>
+<td class="column_1">226</td>
+<td class="column_2">Santa</td>
+<td class="column_3">0 5 19 1 26</td>
+<td class="column_4">0.009287925696594427</td>
+<td class="column_5">1.0910804693473326</td>
+<td class="column_6">0.010133874328303398</td>
+</tr>
+<td class="column_1">227</td>
+<td class="column_2">Clara</td>
+<td class="column_3">0 5 19 1 27</td>
+<td class="column_4">0.009287925696594427</td>
+<td class="column_5">1.0910804693473326</td>
+<td class="column_6">0.010133874328303398</td>
+</tr>
+<td class="column_1">228</td>
+<td class="column_2">CA</td>
+<td class="column_3">0 5 19 1 28</td>
+<td class="column_4">0.009287925696594427</td>
+<td class="column_5">0.7900504736833514</td>
+<td class="column_6">0.007337930096130198</td>
+</tr>
+<td class="column_1">229</td>
+<td class="column_2">USA</td>
+<td class="column_3">0 5 19 1 30</td>
+<td class="column_4">0.009287925696594427</td>
+<td class="column_5">1.0910804693473326</td>
+<td class="column_6">0.010133874328303398</td>
+</tr>
+<td class="column_1">230</td>
+<td class="column_2">Tel</td>
+<td class="column_3">0 5 19 1 31</td>
+<td class="column_4">0.018575851393188854</td>
+<td class="column_5">0.8692317197309762</td>
+<td class="column_6">0.0161467192519686</td>
+</tr>
+<td class="column_1">231</td>
+<td class="column_2">Fax</td>
+<td class="column_3">0 5 19 1 34</td>
+<td class="column_4">0.018575851393188854</td>
+<td class="column_5">0.9661417327390326</td>
+<td class="column_6">0.017946905252118252</td>
+</tr>
+<td class="column_1">232</td>
+<td class="column_2">Email</td>
+<td class="column_3">0 5 19 1 37</td>
+<td class="column_4">0.009287925696594427</td>
+<td class="column_5">0.9661417327390326</td>
+<td class="column_6">0.008973452626059126</td>
+</tr>
+<td class="column_1">233</td>
+<td class="column_2">Web</td>
+<td class="column_3">0 5 19 1 39</td>
+<td class="column_4">0.009287925696594427</td>
+<td class="column_5">0.9661417327390326</td>
+<td class="column_6">0.008973452626059126</td>
+</tr>
+<td class="column_1">234</td>
+<td class="column_2">www.softjin.com</td>
+<td class="column_3">0 5 19 1 40</td>
+<td class="column_4">0.009287925696594427</td>
+<td class="column_5">1.0910804693473326</td>
+<td class="column_6">0.010133874328303398</td>
+</tr>
+<td class="column_1">235</td>
+<td class="column_2">Page</td>
+<td class="column_3">0 5 19 1 41</td>
+<td class="column_4">0.009287925696594427</td>
+<td class="column_5">1.0910804693473326</td>
+<td class="column_6">0.010133874328303398</td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>
