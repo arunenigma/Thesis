@@ -123,11 +123,8 @@ if __name__ == '__main__':
     loc_vec.generateLocationVector(loc_vec.parseXML(), [0])
 
     spec_ID += 1
-    dom_dict = csv.reader(open("./domain_dict.csv", 'rU'))
-    csv_dom_dict = CsvReaderDomainDictionary()
-    csv_dom_dict.parseContents(dom_dict)
-
     statement_facts_data = []
+
     tagger = WordTagger(spec_ID, path, output_write, output_bigrams_write, output_trigrams_write, output_fourgrams_write, output_fivegrams_write, candidates_write, spec_words, bi_grams, tri_grams, four_grams, five_grams, statement_facts_data, corpus, corpus_bigrams, corpus_trigrams, corpus_fourgrams, corpus_fivegrams, spec_count, spec_word_count_list, spec_bi_gram_count_list, spec_tri_gram_count_list, spec_four_gram_count_list, spec_five_gram_count_list)
     tagger.generateLocationVector(tagger.parseXML(), [0])
     #tagger.printPercentageMatch()

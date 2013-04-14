@@ -8,16 +8,44 @@ class NeuroFuzzySystem(object):
     def __init__(self):
         self.word_list = []
         self.cog_list = []
+        self.word_info = {}
+
         self.bigram_list = []
         self.cog_list_bigrams = []
+        self.bigram_info = {}
+
         self.trigram_list = []
         self.cog_list_trigrams = []
+        self.trigram_info = {}
+
         self.fourgram_list = []
         self.cog_list_fourgrams = []
+        self.fourgram_info = {}
+
         self.fivegram_list = []
         self.cog_list_fivegrams = []
+        self.fivegram_info = {}
 
     def neuroFuzzyModelling(self, tf_idf_list, u1, u2, u3, tf_idf_bigram_list, b1, b2, b3, tf_idf_trigram_list, t1, t2, t3, tf_idf_fourgram_list, f1, tf_idf_fivegram_list, p1):
+        """
+
+        @param tf_idf_list: list of unigrams with info like tf_idf, location index and location signature
+        @param u1:
+        @param u2:
+        @param u3:
+        @param tf_idf_bigram_list:
+        @param b1:
+        @param b2:
+        @param b3:
+        @param tf_idf_trigram_list:
+        @param t1:
+        @param t2:
+        @param t3:
+        @param tf_idf_fourgram_list:
+        @param f1:
+        @param tf_idf_fivegram_list:
+        @param p1:
+        """
         out = open('out.txt', 'w')
         for item in u1:
             out.write(str(item[0]) + " " + str(item[1]) + '\n')
@@ -36,10 +64,9 @@ class NeuroFuzzySystem(object):
         t3 = {item[0]: item[1:] for item in t3}
 
         f1 = {item[0]: item[1:] for item in f1}
-
         p1 = {item[0]: item[1:] for item in p1}
-     
-        for word, tf_idf in tf_idf_list.iteritems():
+
+        for info, word in tf_idf_list.iteritems():
             try:
                 x, y = u1[word], u2[word]
                 
@@ -63,9 +90,9 @@ class NeuroFuzzySystem(object):
             weight_factor = (len(mfs) * len_comb) / 4
             weights *= weight_factor
             rule_inputs = sum([sum(r) for r in rule_inputs])
-            self.defuzzifyUnigrams(word, rule_inputs, weights)
+            self.defuzzifyUnigrams(word, rule_inputs, weights, info)
 
-        for bigram, tf_idf in tf_idf_bigram_list.iteritems():
+        for info, bigram, in tf_idf_bigram_list.iteritems():
             x = b1.get(bigram)
             if not x is None:
                 A = x[1] * x[2]
@@ -78,9 +105,9 @@ class NeuroFuzzySystem(object):
                 weight_factor = (len(mfs) * len_comb) / 2
                 weights *= weight_factor
                 rule_inputs = sum([sum(r) for r in rule_inputs])
-                self.defuzzifyBigrams(bigram, tf_idf, rule_inputs, weights)
+                self.defuzzifyBigrams(bigram, rule_inputs, weights, info)
         
-        for trigram, tf_idf in tf_idf_trigram_list.iteritems():
+        for info, trigram in tf_idf_trigram_list.iteritems():
             x = t1.get(trigram)
             if not x is None:
                 A = x[1] * x[2]
@@ -93,9 +120,9 @@ class NeuroFuzzySystem(object):
                 weight_factor = (len(mfs) * len_comb) / 2
                 weights *= weight_factor
                 rule_inputs = sum([sum(r) for r in rule_inputs])
-                self.defuzzifyTrigrams(trigram, tf_idf, rule_inputs, weights)
+                self.defuzzifyTrigrams(trigram, rule_inputs, weights, info)
 
-        for fourgram, tf_idf in tf_idf_fourgram_list.iteritems():
+        for info, fourgram in tf_idf_fourgram_list.iteritems():
             x = f1.get(fourgram)
             if not x is None:
                 A = x[1] * x[2]
@@ -108,9 +135,9 @@ class NeuroFuzzySystem(object):
                 weight_factor = (len(mfs) * len_comb) / 2
                 weights *= weight_factor
                 rule_inputs = sum([sum(r) for r in rule_inputs])
-                self.defuzzifyFourgrams(fourgram, tf_idf, rule_inputs, weights)
+                self.defuzzifyFourgrams(fourgram, rule_inputs, weights, info)
 
-        for fivegram, tf_idf in tf_idf_fivegram_list.iteritems():
+        for info, fivegram in tf_idf_fivegram_list.iteritems():
             x = p1.get(fivegram)
             if not x is None:
                 A = x[1] * x[2]
@@ -123,42 +150,57 @@ class NeuroFuzzySystem(object):
                 weight_factor = (len(mfs) * len_comb) / 2
                 weights *= weight_factor
                 rule_inputs = sum([sum(r) for r in rule_inputs])
-                self.defuzzifyFivegrams(fivegram, tf_idf, rule_inputs, weights)
+                self.defuzzifyFivegrams(fivegram, rule_inputs, weights, info)
 
-    def defuzzifyUnigrams(self, word, rule_inputs, weights):
+    def defuzzifyUnigrams(self, word, rule_inputs, weights, info):
         cog = rule_inputs / weights
         self.word_list.append(word)
         self.cog_list.append(cog)
+        self.word_info[info] = word
 
-    def defuzzifyBigrams(self, bigram, tf_idf, rule_inputs, weights):
+    def defuzzifyBigrams(self, bigram, rule_inputs, weights, info):
         cog = rule_inputs / weights
         #print bigram, tf_idf, cog
         self.bigram_list.append(bigram)
         self.cog_list_bigrams.append(cog)
+        self.bigram_info[info] = bigram
 
-    def defuzzifyTrigrams(self, trigram, tf_idf, rule_inputs, weights):
+    def defuzzifyTrigrams(self, trigram, rule_inputs, weights, info):
         cog = rule_inputs / weights
         self.trigram_list.append(trigram)
         self.cog_list_trigrams.append(cog)
+        self.trigram_info[info] = trigram
 
-    def defuzzifyFourgrams(self, fourgram, tf_idf, rule_inputs, weights):
+    def defuzzifyFourgrams(self, fourgram, rule_inputs, weights, info):
         cog = rule_inputs / weights
         self.fourgram_list.append(fourgram)
         self.cog_list_fourgrams.append(cog)
+        self.fourgram_info[info] = fourgram
 
-    def defuzzifyFivegrams(self, fivegram, tf_idf, rule_inputs, weights):
+    def defuzzifyFivegrams(self, fivegram, rule_inputs, weights, info):
         cog = rule_inputs / weights
         self.fivegram_list.append(fivegram)
         self.cog_list_fivegrams.append(cog)
+        self.fivegram_info[info] = fivegram
 
     def normCOGUnigrams(self):
+        print
+
+        for k, v in self.word_info.iteritems():
+            print k, v
+
         if not len(self.cog_list) == 0:
             self.max_cog = max(self.cog_list)
         self.cog_list = [cog / self.max_cog for cog in self.cog_list]
-        word_rank = dict(zip(self.word_list,     self.cog_list))
+        word_rank = dict(zip(self.word_list, self.cog_list))
         sorted_word_rank = sorted(word_rank.iteritems(), key=operator.itemgetter(1))
+        print '*********** UNIGRAMS ***********'
         for item in sorted_word_rank:
             print item[0], item[1]
+            for info, word in self.word_info.iteritems():
+                if item[0] == word:
+                    print info
+            print
 
     def normCOGBigrams(self):
         max_cog = max(self.cog_list_bigrams)
@@ -168,6 +210,9 @@ class NeuroFuzzySystem(object):
         print '*********** BIGRAMS ***********'
         for item in sorted_word_rank:
             print item[0], item[1]
+            for info, bigram in self.bigram_info.iteritems():
+                if item[0] == bigram:
+                    print info
 
     def normCOGTrigrams(self):
         max_cog = max(self.cog_list_trigrams)
@@ -177,6 +222,9 @@ class NeuroFuzzySystem(object):
         print '*********** TRIGRAMS ***********'
         for item in sorted_word_rank:
             print item[0], item[1]
+            for info, trigram in self.trigram_info.iteritems():
+                if item[0] == trigram:
+                    print info
 
     def normCOGFourgrams(self):
         max_cog = max(self.cog_list_fourgrams)
@@ -186,6 +234,9 @@ class NeuroFuzzySystem(object):
         print '*********** FOURGRAMS ***********'
         for item in sorted_word_rank:
             print item[0], item[1]
+            for info, fourgram in self.fourgram_info.iteritems():
+                if item[0] == fourgram:
+                    print info
 
     def normCOGFivegrams(self):
         if not len(self.cog_list_fivegrams) == 0:
@@ -196,6 +247,9 @@ class NeuroFuzzySystem(object):
             print '*********** FIVEGRAMS ***********'
             for item in sorted_word_rank:
                 print item[0], item[1]
+                for info, fivegram in self.fivegram_info.iteritems():
+                    if item[0] == fivegram:
+                        print info
         else:
             print '*********** FIVEGRAMS ***********'
             print None

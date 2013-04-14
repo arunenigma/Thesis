@@ -16,8 +16,8 @@ from math import log10
 from main import *
 import enchant
 import re
-import csv
-import sys
+#import csv
+#import sys
 
 
 class LocationVector(object):
@@ -67,7 +67,7 @@ class LocationVector(object):
             if not branch.getchildren():
                 sentences = branch.text.split('. ')
                 for sentence in range(0, len(sentences)):
-                    sentence_location = (("{0}[{1}]".format(index, sentence)), sentences[sentence])
+                    #sentence_location = (("{0}[{1}]".format(index, sentence)), sentences[sentence])
                     words = sentences[sentence].split()
 
                     for word in range(0, len(words)):
@@ -80,7 +80,6 @@ class LocationVector(object):
                         spec_word = word_location[1].translate(replace)
                         spec_word = spec_word.lstrip()
                         spec_word = spec_word.rstrip()
-                        print word_location[0]
                         if len(spec_word) > 1 and not len(spec_word) > 16:
                             self.spec_words.append(spec_word)
 
@@ -113,51 +112,6 @@ class LocationVector(object):
                     LocationVector.generateLocationVector(self, branch[subtree], ("{0}[{1}]".format(index, subtree)))
 
 
-class CsvReaderDomainDictionary(object):
-    """
-        parsing domain dictionary
-    """
-    objects = []
-    features = []
-    synonyms = []
-    synonyms_expanded = []
-    domain_dict_words = []
-
-    def parseContents(self, dom_dict):
-        """
-            collecting objects, features and attributes as separate lists
-        """
-        try:
-            for row in dom_dict:
-                self.objects.append(row[0].lower())
-                self.features.append(row[1].lower())
-                self.synonyms.append(row[2].lower())
-
-            self.objects = list(set(self.objects))
-            self.objects.remove(self.objects[0])
-            self.features = list(set(self.features))
-            self.features.remove(self.features[0])
-            self.synonyms = list(set(self.synonyms))
-            self.synonyms.remove(self.synonyms[0])
-
-            # expanding synonyms list
-            for synonyms in self.synonyms:
-                synonym = synonyms.split(',')
-
-                if len(synonym) > 1:
-                    for i in range(len(synonym)):
-                        self.synonyms_expanded.append(synonym[i].lower())
-                else:
-                    self.synonyms_expanded.append(synonym[0].lower())
-
-            self.domain_dict_words = self.objects + self.features + self.synonyms # test set
-            self.domain_dict_words = list(set(self.domain_dict_words))
-            CsvReaderDomainDictionary.domain_dict_words = self.domain_dict_words
-
-        except csv.Error, e:
-            sys.exit('line %d: %s' % (dom_dict.line_num, e))
-
-
 class HelperFunctions(object):
     def isNumber(self, s):
         m = re.findall(r"(^[0-9]*[0-9., ]*$)", s)
@@ -171,7 +125,7 @@ class HelperFunctions(object):
         return 100 * float(a / b)
 
 
-class WordTagger(CsvReaderDomainDictionary, HelperFunctions):
+class WordTagger(HelperFunctions):
     """
         parse xml and generate location vector
     """
@@ -315,7 +269,7 @@ class WordTagger(CsvReaderDomainDictionary, HelperFunctions):
             generating location vector for every data in spec
         """
         signature_map = []
-        statement_signature_map = []
+        #statement_signature_map = []
 
         signature = branch.tag
         #print branch.getchildren()
@@ -345,7 +299,8 @@ class WordTagger(CsvReaderDomainDictionary, HelperFunctions):
                 for statement in range(0, len(statements)):
                     statement_location = (("{0}[{1}]".format(index, statement)), statements[statement])
                     self.statement_facts_data.append(
-                        [statement_location[1], statement_location[0], self.statement_signature_map]) # CLIPS facts data
+                        [statement_location[1], statement_location[0],
+                         self.statement_signature_map])  # CLIPS facts data
                     words = statements[statement].split()
                     self.statement_loc_vec = statement_location[0]
                     for word in range(0, len(words)):
@@ -367,31 +322,60 @@ class WordTagger(CsvReaderDomainDictionary, HelperFunctions):
                             self.word_location_index = self.word_location_index.replace(']', '')
                             self.signature_map = signature_map
                             #print self.spec_word, self.word_location_index, self.signature_map
-                            #print
                             WordTagger.wordMatcher(self)
 
                     bi_grams = bigrams(words)
                     if not len(bi_grams) < 1:
-                        for bi_gram in bi_grams:
+                        for i, bi_gram in enumerate(bi_grams):
                             self.bi_gram = ' '.join(bi_gram)
+                            self.statement_loc_vec = self.statement_loc_vec.replace('][', ' ')
+                            self.statement_loc_vec = self.statement_loc_vec.replace('[', '')
+                            self.statement_loc_vec = self.statement_loc_vec.replace(']', '')
+                            self.bi_gram_index = self.statement_loc_vec + ' ' + str(
+                                i) + ' | ' + self.statement_loc_vec + ' ' + str(i + 1)
+                            #print self.bi_gram, self.bi_gram_index
                             WordTagger.wordMatcherBigram(self, self.bi_gram)
 
                     tri_grams = trigrams(words)
                     if not len(tri_grams) < 1:
-                        for tri_gram in tri_grams:
+                        for i, tri_gram in enumerate(tri_grams):
                             self.tri_gram = ' '.join(tri_gram)
+                            self.statement_loc_vec = self.statement_loc_vec.replace('][', ' ')
+                            self.statement_loc_vec = self.statement_loc_vec.replace('[', '')
+                            self.statement_loc_vec = self.statement_loc_vec.replace(']', '')
+                            self.tri_gram_index = self.statement_loc_vec + ' ' + str(
+                                i) + ' | ' + self.statement_loc_vec + ' ' + str(
+                                i + 1) + ' | ' + self.statement_loc_vec + ' ' + str(i + 2)
+                            #print self.tri_gram, self.tri_gram_index
                             WordTagger.wordMatcherTrigram(self, self.tri_gram)
 
                     four_grams = ngrams(words, 4)
                     if not len(four_grams) < 1:
-                        for four_gram in four_grams:
+                        for i, four_gram in enumerate(four_grams):
                             self.four_gram = ' '.join(four_gram)
+                            self.statement_loc_vec = self.statement_loc_vec.replace('][', ' ')
+                            self.statement_loc_vec = self.statement_loc_vec.replace('[', '')
+                            self.statement_loc_vec = self.statement_loc_vec.replace(']', '')
+                            self.four_gram_index = self.statement_loc_vec + ' ' + str(
+                                i) + ' | ' + self.statement_loc_vec + ' ' + str(
+                                i + 1) + ' | ' + self.statement_loc_vec + ' ' + str(
+                                i + 2) + ' | ' + self.statement_loc_vec + ' ' + str(i + 3)
+                            #print self.four_gram, self.four_gram_index
                             WordTagger.wordMatcherFourgram(self, self.four_gram)
 
                     five_grams = ngrams(words, 5)
                     if not len(five_grams) < 1:
                         for five_gram in five_grams:
                             self.five_gram = ' '.join(five_gram)
+                            self.statement_loc_vec = self.statement_loc_vec.replace('][', ' ')
+                            self.statement_loc_vec = self.statement_loc_vec.replace('[', '')
+                            self.statement_loc_vec = self.statement_loc_vec.replace(']', '')
+                            self.five_gram_index = self.statement_loc_vec + ' ' + str(
+                                i) + ' | ' + self.statement_loc_vec + ' ' + str(
+                                i + 1) + ' | ' + self.statement_loc_vec + ' ' + str(
+                                i + 2) + ' | ' + self.statement_loc_vec + ' ' + str(
+                                i + 3) + ' | ' + self.statement_loc_vec + ' ' + str(i + 4)
+                            #print self.five_gram, self.five_gram_index
                             WordTagger.wordMatcherFivegram(self, self.five_gram)
 
             else:
@@ -403,7 +387,6 @@ class WordTagger(CsvReaderDomainDictionary, HelperFunctions):
         WordTagger.idf(self)
         WordTagger.tf_idf(self)
         WordTagger.wordFactsData(self)
-        WordTagger.domainDictMatch(self)
         WordTagger.englishDictMatch(self)
         WordTagger.numberMatch(self)
         WordTagger.abbreviationMatch(self)
@@ -413,7 +396,6 @@ class WordTagger(CsvReaderDomainDictionary, HelperFunctions):
         WordTagger.wordSignatureWeight(self)
         WordTagger.csvTableData(self)
         WordTagger.potentialCandidates(self)
-
 
     def wordMatcherBigram(self, bi_gram):
         WordTagger.tf_bigram(self)
@@ -450,7 +432,6 @@ class WordTagger(CsvReaderDomainDictionary, HelperFunctions):
         WordTagger.statementSignatureWeight(self)
         WordTagger.posTagging(self, five_gram)
         WordTagger.csvTableDataFivegrams(self)
-
 
     def tf(self):
         word_count = self.spec_words.count(self.spec_word)
@@ -529,31 +510,32 @@ class WordTagger(CsvReaderDomainDictionary, HelperFunctions):
 
     def tf_idf(self):
         self.tf_idf = self.tf * self.idf
-        self.tf_idf_list[self.spec_word] = self.tf_idf
+        # clever way to create dict with dup keys is to make values the keys | values here is a list of info
+        self.signature_map = ' '.join(str(sig) for sig in self.signature_map)
+        #print self.word_location_index
+        self.tf_idf_list[self.tf_idf, self.word_location_index, self.signature_map] = self.spec_word
 
     def tf_idf_bigram(self):
         self.tfidf_bigram = self.tf_bigram * self.idf_bigram
-        self.tf_idf_bigram_list[self.bi_gram] = self.tfidf_bigram
+        self.tf_idf_bigram_list[self.tfidf_bigram, self.bi_gram_index, self.signature_map] = self.bi_gram
+        #print self.bi_gram, self.bi_gram_index, self.signature_map
 
     def tf_idf_trigram(self):
         self.tfidf_trigram = self.tf_trigram * self.idf_trigram
-        self.tf_idf_trigram_list[self.tri_gram] = self.tfidf_trigram
+        self.tf_idf_trigram_list[self.tfidf_trigram, self.tri_gram_index, self.signature_map] = self.tri_gram
+        #print self.tri_gram, self.tri_gram_index, self.signature_map
 
     def tf_idf_fourgram(self):
         self.tfidf_fourgram = self.tf_fourgram * self.idf_fourgram
-        self.tf_idf_fourgram_list[self.four_gram] = self.tfidf_fourgram
+        self.tf_idf_fourgram_list[self.tfidf_fourgram, self.four_gram_index, self.signature_map] = self.four_gram
 
     def tf_idf_fivegram(self):
         self.tfidf_fivegram = self.tf_fivegram * self.idf_fivegram
-        self.tf_idf_fivegram_list[self.five_gram] = self.tfidf_fivegram
+        self.tf_idf_fivegram_list[self.tfidf_fivegram, self.five_gram_index, self.signature_map] = self.five_gram
 
     def wordFactsData(self):
         self.word_facts_data.append([self.spec_word, self.spec_ID, self.path, self.word_location_index,
                                      self.signature_map])  # CLIPS facts data (Spec Words)
-
-    def domainDictMatch(self):
-        if self.spec_word_lower_case in CsvReaderDomainDictionary.domain_dict_words:
-            self.spec_domain_dict_match.append(self.spec_word_lower_case)
 
     def englishDictMatch(self):
         """
@@ -739,11 +721,13 @@ class WordTagger(CsvReaderDomainDictionary, HelperFunctions):
             self.trigram_NN_NN_NN[string] = self.tfidf_trigram
 
         # POS word bags for 4-grams
-        if len(self.pos) == 4 and self.pos[0] == 'NNP' and self.pos[1] == 'NNP' and self.pos[2] == 'NNP' and self.pos[3] == 'NNP':
+        if len(self.pos) == 4 and self.pos[0] == 'NNP' and self.pos[1] == 'NNP' and self.pos[2] == 'NNP' and self.pos[
+            3] == 'NNP':
             self.fourgram_NNP_NNP_NNP_NNP[string] = self.tfidf_fourgram
 
         # POS word bags for 5-grams
-        if len(self.pos) == 5 and self.pos[0] == 'NNP' and self.pos[1] == 'NNP' and self.pos[2] == 'NNP' and self.pos[3] == 'NNP' and self.pos[4] == 'NNP':
+        if len(self.pos) == 5 and self.pos[0] == 'NNP' and self.pos[1] == 'NNP' and self.pos[2] == 'NNP' and self.pos[
+            3] == 'NNP' and self.pos[4] == 'NNP':
             self.fivegram_NNP_NNP_NNP_NNP_NNP[string] = self.tfidf_fivegram
 
     def csvTableData(self):
