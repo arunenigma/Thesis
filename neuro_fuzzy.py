@@ -5,6 +5,12 @@ import operator
 
 
 class NeuroFuzzySystem(object):
+    PI_bundle_unigrams = {}
+    PI_bundle_bigrams = {}
+    PI_bundle_trigrams = {}
+    PI_bundle_fourgrams = {}
+    PI_bundle_fivegrams = {}
+
     def __init__(self):
         self.word_list = []
         self.cog_list = []
@@ -26,25 +32,19 @@ class NeuroFuzzySystem(object):
         self.cog_list_fivegrams = []
         self.fivegram_info = {}
 
+        self.PI_bundle_unigrams = {}
+        self.PI_bundle_bigrams = {}
+        self.PI_bundle_trigrams = {}
+        self.PI_bundle_fourgrams = {}
+        self.PI_bundle_fivegrams = {}
+
     def neuroFuzzyModelling(self, tf_idf_list, u1, u2, u3, tf_idf_bigram_list, b1, b2, b3, tf_idf_trigram_list, t1, t2, t3, tf_idf_fourgram_list, f1, tf_idf_fivegram_list, p1):
         """
-
         @param tf_idf_list: list of unigrams with info like tf_idf, location index and location signature
-        @param u1:
-        @param u2:
-        @param u3:
         @param tf_idf_bigram_list:
-        @param b1:
-        @param b2:
-        @param b3:
         @param tf_idf_trigram_list:
-        @param t1:
-        @param t2:
-        @param t3:
         @param tf_idf_fourgram_list:
-        @param f1:
         @param tf_idf_fivegram_list:
-        @param p1:
         """
         out = open('out.txt', 'w')
         for item in u1:
@@ -196,11 +196,12 @@ class NeuroFuzzySystem(object):
         sorted_word_rank = sorted(word_rank.iteritems(), key=operator.itemgetter(1))
         print '*********** UNIGRAMS ***********'
         for item in sorted_word_rank:
-            print item[0], item[1]
+            self.uni_gram_lv_list = []
+            self.uni_gram_lv_list.append(item[1])  # item[1] --> PI score
             for info, word in self.word_info.iteritems():
                 if item[0] == word:
-                    print info
-            print
+                    self.uni_gram_lv_list.append(info)
+            NeuroFuzzySystem.PI_bundle_unigrams[item[0]] = self.uni_gram_lv_list
 
     def normCOGBigrams(self):
         max_cog = max(self.cog_list_bigrams)

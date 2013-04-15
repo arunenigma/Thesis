@@ -172,6 +172,8 @@ class WordTagger(HelperFunctions):
         self.statement_facts_data = statement_facts_data
         self.word_facts_data = []
 
+        self.sections = []
+
         self.tf_idf_list = {}
         self.tf_idf_bigram_list = {}
         self.tf_idf_trigram_list = {}
@@ -514,6 +516,26 @@ class WordTagger(HelperFunctions):
         self.signature_map = ' '.join(str(sig) for sig in self.signature_map)
         #print self.word_location_index
         self.tf_idf_list[self.tf_idf, self.word_location_index, self.signature_map] = self.spec_word
+
+        loc_ind = self.word_location_index.split(' ')
+        loc_sig = self.signature_map.split(' ')
+
+        # ************ grouping all sections in the document ************
+
+        # xml Scheme 1
+        #print self.spec_word, loc_ind, loc_sig
+        p = 0
+        l = len(loc_ind)
+        for ind, tag in zip(loc_ind, loc_sig):
+            p += 1
+            if ind == '0' and tag == 'Sect':
+                if sum(int(ind) for ind in loc_ind[p:l]) == 0:
+                    print self.spec_word
+
+        # xml Scheme 2
+        for i, tag in enumerate(loc_sig):
+            if tag == 'Sect' and 'heading' in loc_sig[i + 1]:
+                self.sections.append([self.spec_word, self.word_location_index, self.signature_map])
 
     def tf_idf_bigram(self):
         self.tfidf_bigram = self.tf_bigram * self.idf_bigram

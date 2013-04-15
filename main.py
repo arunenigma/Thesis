@@ -16,6 +16,7 @@ from dom import DegreeOfMembership
 from neuro_fuzzy import NeuroFuzzySystem
 #from neuron import *
 #from surface_plot import *
+from sect_clustering import SectionWiseClustering
 import csv
 import sys
 import os
@@ -147,7 +148,7 @@ if __name__ == '__main__':
 
     # ------------- Word Bags ------------
 
-    # tfidf list of N-grams
+    # tfidf info list of N-grams
     tf_idf_list = tagger.tf_idf_list  # all spec words (unique)
     tf_idf_bigram_list = tagger.tf_idf_bigram_list
     tf_idf_trigram_list = tagger.tf_idf_trigram_list
@@ -231,6 +232,16 @@ if __name__ == '__main__':
     nf.normCOGTrigrams()
     nf.normCOGFourgrams()
     nf.normCOGFivegrams()
+
+    PI_bundle_unigrams = NeuroFuzzySystem.PI_bundle_unigrams
+
+    section_bundle = tagger.sections
+
+    sec = SectionWiseClustering(PI_bundle_unigrams, section_bundle)
+    sec.findSectionHeaders()
+    sec.clusterWordsBySection()
+
+
 
     #cog_list = nf.cog_list
     #surface = SurfacePlotCOG()

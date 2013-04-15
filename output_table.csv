@@ -1,324 +1,681 @@
 S.No,Word,Location Vector,Signature,Signature Weight,Tf,Idf,Tf - Idf Score,English Dictionary Match,Number Match,Abbreviation Match,Symbol Match,Repetitive Word
-1,begin '  65279 ',0 0 0 0,TaggedPDF-doc <built-in function ProcessingInstruction> statement word,{},0.0030959752321981426,1.2671717284030137,0.003923132286077442,No,No,No,No,No
-2,"begin ""  65279 """,0 1 0 0,TaggedPDF-doc <built-in function ProcessingInstruction> statement word,{},0.0030959752321981426,0.01189922329970769,3.6839700618290066e-05,No,No,No,No,No
-3,xml,0 2 0 0 0 0 0,TaggedPDF-doc {adobe:ns:meta/}xmpmeta {http://www.w3.org/1999/02/22-rdf-syntax-ns#}RDF {http://www.w3.org/1999/02/22-rdf-syntax-ns#}Description {http://purl.org/dc/elements/1.1/}format statement word,{},0.0030959752321981426,0.01189922329970769,3.6839700618290066e-05,No,No,No,No,No
-4,barun,0 2 0 0 1 0 0 0 0,TaggedPDF-doc {adobe:ns:meta/}xmpmeta {http://www.w3.org/1999/02/22-rdf-syntax-ns#}RDF {http://www.w3.org/1999/02/22-rdf-syntax-ns#}Description {http://purl.org/dc/elements/1.1/}creator {http://www.w3.org/1999/02/22-rdf-syntax-ns#}Seq {http://www.w3.org/1999/02/22-rdf-syntax-ns#}li statement word,{},0.0030959752321981426,1.0910804693473326,0.0033779581094344666,No,No,No,No,No
-5,Microsoft,0 2 0 0 2 0 0 0 0,TaggedPDF-doc {adobe:ns:meta/}xmpmeta {http://www.w3.org/1999/02/22-rdf-syntax-ns#}RDF {http://www.w3.org/1999/02/22-rdf-syntax-ns#}Description {http://purl.org/dc/elements/1.1/}title {http://www.w3.org/1999/02/22-rdf-syntax-ns#}Alt {http://www.w3.org/1999/02/22-rdf-syntax-ns#}li statement word,{},0.0030959752321981426,0.6139592146276701,0.0019008025220670903,No,No,No,No,No
-6,Word,0 2 0 0 2 0 0 0 1,TaggedPDF-doc {adobe:ns:meta/}xmpmeta {http://www.w3.org/1999/02/22-rdf-syntax-ns#}RDF {http://www.w3.org/1999/02/22-rdf-syntax-ns#}Description {http://purl.org/dc/elements/1.1/}title {http://www.w3.org/1999/02/22-rdf-syntax-ns#}Alt {http://www.w3.org/1999/02/22-rdf-syntax-ns#}li statement word,{},0.0030959752321981426,0.26717172840301384,0.0008271570538792999,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-7,PScript5.dll,0 2 0 1 1 0 0,TaggedPDF-doc {adobe:ns:meta/}xmpmeta {http://www.w3.org/1999/02/22-rdf-syntax-ns#}RDF {http://www.w3.org/1999/02/22-rdf-syntax-ns#}Description {http://ns.adobe.com/xap/1.0/}CreatorTool statement word,{},0.0030959752321981426,0.6139592146276701,0.0019008025220670903,No,No,No,No,No
-8,Version,0 2 0 1 1 0 1,TaggedPDF-doc {adobe:ns:meta/}xmpmeta {http://www.w3.org/1999/02/22-rdf-syntax-ns#}RDF {http://www.w3.org/1999/02/22-rdf-syntax-ns#}Description {http://ns.adobe.com/xap/1.0/}CreatorTool statement word,{},0.0030959752321981426,0.22577904324478879,0.0006990063258352594,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-9,5.2,0 2 0 1 1 0 2,TaggedPDF-doc {adobe:ns:meta/}xmpmeta {http://www.w3.org/1999/02/22-rdf-syntax-ns#}RDF {http://www.w3.org/1999/02/22-rdf-syntax-ns#}Description {http://ns.adobe.com/xap/1.0/}CreatorTool statement word,{},0.0030959752321981426,0.7900504736833514,0.0024459766987100662,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
-10,GPL,0 2 0 2 0 0 0,TaggedPDF-doc {adobe:ns:meta/}xmpmeta {http://www.w3.org/1999/02/22-rdf-syntax-ns#}RDF {http://www.w3.org/1999/02/22-rdf-syntax-ns#}Description {http://ns.adobe.com/pdf/1.3/}Producer statement word,{},0.0030959752321981426,1.0910804693473326,0.0033779581094344666,No,No,Yes,No,No
-11,Ghostscript,0 2 0 2 0 0 1,TaggedPDF-doc {adobe:ns:meta/}xmpmeta {http://www.w3.org/1999/02/22-rdf-syntax-ns#}RDF {http://www.w3.org/1999/02/22-rdf-syntax-ns#}Description {http://ns.adobe.com/pdf/1.3/}Producer statement word,{},0.0030959752321981426,1.0910804693473326,0.0033779581094344666,No,No,No,No,No
-12,8.15,0 2 0 2 0 0 2,TaggedPDF-doc {adobe:ns:meta/}xmpmeta {http://www.w3.org/1999/02/22-rdf-syntax-ns#}RDF {http://www.w3.org/1999/02/22-rdf-syntax-ns#}Description {http://ns.adobe.com/pdf/1.3/}Producer statement word,{},0.0030959752321981426,1.0910804693473326,0.0033779581094344666,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
-13,"end ""w""",0 3 0 0,TaggedPDF-doc <built-in function ProcessingInstruction> statement word,{},0.0030959752321981426,0.01189922329970769,3.6839700618290066e-05,No,No,No,No,No
-14,end 'r',0 4 0 0,TaggedPDF-doc <built-in function ProcessingInstruction> statement word,{},0.0030959752321981426,0.01189922329970769,3.6839700618290066e-05,No,No,No,No,No
-15,FLOATING,0 5 0 0 0,TaggedPDF-doc Part H3 statement word,{},0.0030959752321981426,0.9661417327390326,0.0029911508753530424,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-16,POINT,0 5 0 0 1,TaggedPDF-doc Part H3 statement word,{},0.0030959752321981426,0.8692317197309762,0.0026911198753281,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-17,ADD/SUB,0 5 0 0 2,TaggedPDF-doc Part H3 statement word,{},0.0030959752321981426,1.2671717284030137,0.003923132286077442,No,No,Yes,Yes,No
-18,IP,0 5 0 0 3,TaggedPDF-doc Part H3 statement word,{},0.009287925696594427,0.15322837609617704,0.001423173771791118,No,No,Yes,No,No
-19,SoftJin,0 5 2 0 0,TaggedPDF-doc Part P statement word,{},0.009287925696594427,1.0910804693473326,0.010133874328303398,No,No,No,No,No
-20,Technologies,0 5 2 0 1,TaggedPDF-doc Part P statement word,{},0.009287925696594427,0.9661417327390326,0.008973452626059126,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-21,Pvt,0 5 2 0 2,TaggedPDF-doc Part P statement word,{},0.009287925696594427,1.0910804693473326,0.010133874328303398,"Yes (en_US, en_GB)",No,No,No,No
-22,Ltd.India,0 5 2 1 0,TaggedPDF-doc Part P statement word,{},0.009287925696594427,1.0910804693473326,0.010133874328303398,No,No,No,No,No
-23,102,0 5 2 1 1,TaggedPDF-doc Part P statement word,{},0.009287925696594427,0.6139592146276701,0.00570240756620127,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
-24,1st,0 5 2 1 2,TaggedPDF-doc Part P statement word,{},0.009287925696594427,1.0910804693473326,0.010133874328303398,Yes (en_US),No,No,No,No
-25,Floor,0 5 2 1 3,TaggedPDF-doc Part P statement word,{},0.009287925696594427,0.9661417327390326,0.008973452626059126,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-26,Mobius,0 5 2 1 4,TaggedPDF-doc Part P statement word,{},0.009287925696594427,1.0910804693473326,0.010133874328303398,No,No,No,No,No
-27,Tower,0 5 2 1 5,TaggedPDF-doc Part P statement word,{},0.009287925696594427,1.0910804693473326,0.010133874328303398,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-28,SJR,0 5 2 1 6,TaggedPDF-doc Part P statement word,{},0.009287925696594427,1.0910804693473326,0.010133874328303398,No,No,Yes,No,No
-29,iPark,0 5 2 1 7,TaggedPDF-doc Part P statement word,{},0.009287925696594427,1.0910804693473326,0.010133874328303398,No,No,No,No,No
-30,EPIP,0 5 2 1 8,TaggedPDF-doc Part P statement word,{},0.009287925696594427,1.0910804693473326,0.010133874328303398,No,No,Yes,No,No
-31,White,0 5 2 1 9,TaggedPDF-doc Part P statement word,{},0.009287925696594427,1.0910804693473326,0.010133874328303398,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-32,Field,0 5 2 1 10,TaggedPDF-doc Part P statement word,{},0.009287925696594427,0.6139592146276701,0.00570240756620127,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-33,BANGALORE,0 5 2 1 11,TaggedPDF-doc Part P statement word,{},0.009287925696594427,1.0910804693473326,0.010133874328303398,No,No,No,No,No
-34,560,0 5 2 1 12,TaggedPDF-doc Part P statement word,{},0.009287925696594427,1.0910804693473326,0.010133874328303398,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
-35,066,0 5 2 1 13,TaggedPDF-doc Part P statement word,{},0.009287925696594427,1.0910804693473326,0.010133874328303398,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
-36,Karnataka,0 5 2 1 14,TaggedPDF-doc Part P statement word,{},0.009287925696594427,1.0910804693473326,0.010133874328303398,No,No,No,No,No
-37,India,0 5 2 1 15,TaggedPDF-doc Part P statement word,{},0.009287925696594427,1.0910804693473326,0.010133874328303398,No,No,No,No,No
-38,Tel,0 5 2 1 16,TaggedPDF-doc Part P statement word,{},0.018575851393188854,0.8692317197309762,0.0161467192519686,Yes (en_US),No,No,No,No
-39,918041779999,0 5 2 1 17,TaggedPDF-doc Part P statement word,{},0.009287925696594427,1.0910804693473326,0.010133874328303398,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
-40,Fax,0 5 2 1 18,TaggedPDF-doc Part P statement word,{},0.018575851393188854,0.9661417327390326,0.017946905252118252,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-41,918041157070,0 5 2 1 19,TaggedPDF-doc Part P statement word,{},0.009287925696594427,1.0910804693473326,0.010133874328303398,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
-42,US,0 5 2 1 20,TaggedPDF-doc Part P statement word,{},0.009287925696594427,1.0910804693473326,0.010133874328303398,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-43,2900,0 5 2 1 21,TaggedPDF-doc Part P statement word,{},0.009287925696594427,0.9661417327390326,0.008973452626059126,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
-44,Gordon,0 5 2 1 22,TaggedPDF-doc Part P statement word,{},0.009287925696594427,1.0910804693473326,0.010133874328303398,No,No,No,No,No
-45,Ave,0 5 2 1 23,TaggedPDF-doc Part P statement word,{},0.009287925696594427,0.9661417327390326,0.008973452626059126,"Yes (en_US, en_GB)",No,No,No,No
-46,Suite,0 5 2 1 24,TaggedPDF-doc Part P statement word,{},0.009287925696594427,0.6651117370750514,0.0061775083938859264,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-47,10011,0 5 2 1 25,TaggedPDF-doc Part P statement word,{},0.009287925696594427,0.9661417327390326,0.008973452626059126,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
-48,Santa,0 5 2 1 26,TaggedPDF-doc Part P statement word,{},0.009287925696594427,1.0910804693473326,0.010133874328303398,No,No,No,No,No
-49,Clara,0 5 2 1 27,TaggedPDF-doc Part P statement word,{},0.009287925696594427,1.0910804693473326,0.010133874328303398,No,No,No,No,No
-50,CA,0 5 2 1 28,TaggedPDF-doc Part P statement word,{},0.009287925696594427,0.7900504736833514,0.007337930096130198,Yes (en_US),No,No,No,No
-51,95051,0 5 2 1 29,TaggedPDF-doc Part P statement word,{},0.009287925696594427,1.0910804693473326,0.010133874328303398,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
-52,USA,0 5 2 1 30,TaggedPDF-doc Part P statement word,{},0.009287925696594427,1.0910804693473326,0.010133874328303398,No,No,No,No,No
-53,Tel,0 5 2 1 31,TaggedPDF-doc Part P statement word,{},0.018575851393188854,0.8692317197309762,0.0161467192519686,Yes (en_US),No,No,No,No
-54,408,0 5 2 1 32,TaggedPDF-doc Part P statement word,{},0.018575851393188854,0.8692317197309762,0.0161467192519686,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
-55,7731714,0 5 2 1 33,TaggedPDF-doc Part P statement word,{},0.009287925696594427,1.0910804693473326,0.010133874328303398,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
-56,Fax,0 5 2 1 34,TaggedPDF-doc Part P statement word,{},0.018575851393188854,0.9661417327390326,0.017946905252118252,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-57,408,0 5 2 1 35,TaggedPDF-doc Part P statement word,{},0.018575851393188854,0.8692317197309762,0.0161467192519686,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
-58,7731745,0 5 2 1 36,TaggedPDF-doc Part P statement word,{},0.009287925696594427,1.0910804693473326,0.010133874328303398,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
-59,Email,0 5 2 1 37,TaggedPDF-doc Part P statement word,{},0.009287925696594427,0.9661417327390326,0.008973452626059126,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-60,Web,0 5 2 1 39,TaggedPDF-doc Part P statement word,{},0.009287925696594427,0.9661417327390326,0.008973452626059126,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-61,www.softjin.com,0 5 2 1 40,TaggedPDF-doc Part P statement word,{},0.009287925696594427,1.0910804693473326,0.010133874328303398,No,No,No,No,No
-62,Page,0 5 2 1 41,TaggedPDF-doc Part P statement word,{},0.009287925696594427,1.0910804693473326,0.010133874328303398,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-63,IEEE,0 5 3 0 0 0,TaggedPDF-doc Part Sect P statement word,{},0.006191950464396285,0.09108046934733258,0.0005639657544726476,No,No,No,No,No
-64,754,0 5 3 0 0 1,TaggedPDF-doc Part Sect P statement word,{},0.006191950464396285,0.3640817414110702,0.002254376107808484,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
-65,Format,0 5 3 0 0 2,TaggedPDF-doc Part Sect P statement word,{},0.0030959752321981426,0.33775280268872104,0.0010456743117297866,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-66,Figure,0 5 7 0 0,TaggedPDF-doc Part P statement word,{},0.0030959752321981426,0.3921104650113138,0.001213964287960724,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-67,Floating,0 5 7 0 2,TaggedPDF-doc Part P statement word,{},0.006191950464396285,0.28944812311416607,0.0017922484403353938,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-68,Point,0 5 7 0 3,TaggedPDF-doc Part P statement word,{},0.0030959752321981426,0.20647388804940212,0.000639238043496601,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-69,Representation,0 5 7 0 4,TaggedPDF-doc Part P statement word,{},0.0030959752321981426,0.7231036840527382,0.0022387110961385086,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-70,in,0 5 7 0 5,TaggedPDF-doc Part P statement word,{},0.0030959752321981426,0.01189922329970769,3.6839700618290066e-05,Yes (NTLK Stopword),No,No,No,No
-71,IEEE,0 5 7 0 6,TaggedPDF-doc Part P statement word,{},0.006191950464396285,0.09108046934733258,0.0005639657544726476,No,No,No,No,No
-72,754,0 5 7 0 7,TaggedPDF-doc Part P statement word,{},0.006191950464396285,0.3640817414110702,0.002254376107808484,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
-73,format,0 5 7 0 8,TaggedPDF-doc Part P statement word,{},0.0030959752321981426,0.03672280702473984,0.0001136929010053865,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-74,Implementation,0 5 8 0 0 0,TaggedPDF-doc Part Sect P statement word,{},0.006191950464396285,0.4890204780193702,0.0030279905759713326,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-75,Figure2,0 5 10 0 0,TaggedPDF-doc Part P statement word,{},0.0030959752321981426,0.8692317197309762,0.0026911198753281,No,No,No,No,No
-76,Implementation,0 5 10 0 1,TaggedPDF-doc Part P statement word,{},0.006191950464396285,0.4890204780193702,0.0030279905759713326,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-77,Blocks,0 5 10 0 2,TaggedPDF-doc Part P statement word,{},0.0030959752321981426,1.0910804693473326,0.0033779581094344666,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-78,of,0 5 10 0 3,TaggedPDF-doc Part P statement word,{},0.009287925696594427,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
-79,FPU,0 5 10 0 4,TaggedPDF-doc Part P statement word,{},0.006191950464396285,0.52680903890877,0.0032619754731193188,No,No,Yes,No,No
-80,Signal,0 5 11 0 0 0,TaggedPDF-doc Part Sect P statement word,{},0.009287925696594427,0.4890204780193702,0.004541985863956999,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-81,Table,0 5 11 0 0 1,TaggedPDF-doc Part Sect P statement word,{},0.01238390092879257,0.28944812311416607,0.0035844968806707875,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-82,Signal,0 5 12 0 0 0 0,TaggedPDF-doc Part Table TR TH statement word,{},0.009287925696594427,0.4890204780193702,0.004541985863956999,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-83,Direction,0 5 12 0 1 0 0,TaggedPDF-doc Part Table TR TH statement word,{},0.0030959752321981426,0.52680903890877,0.0016309877365596594,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-84,Data,0 5 12 0 2 0 0,TaggedPDF-doc Part Table TR TH statement word,{},0.0030959752321981426,0.18799048235538898,0.0005820138772612663,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-85,Width,0 5 12 0 2 0 1,TaggedPDF-doc Part Table TR TH statement word,{},0.0030959752321981426,0.3921104650113138,0.001213964287960724,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-86,Description,0 5 12 0 3 0 0,TaggedPDF-doc Part Table TR TH statement word,{},0.0030959752321981426,0.22577904324478879,0.0006990063258352594,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-87,InA,0 5 12 1 0 0 0,TaggedPDF-doc Part Table TR TD statement word,{},0.0030959752321981426,1.0910804693473326,0.0033779581094344666,No,No,No,No,No
-88,IN,0 5 12 1 1 0 0,TaggedPDF-doc Part Table TR TD statement word,{},0.01238390092879257,0.7231036840527382,0.008954844384554034,Yes (NTLK Stopword),No,No,No,No
-89,32,0 5 12 1 2 0 0,TaggedPDF-doc Part Table TR TD statement word,{},0.009287925696594427,0.2459824293330757,0.002284666526313397,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
-90,This,0 5 12 1 3 0 0,TaggedPDF-doc Part Table TR TD statement word,{},0.01238390092879257,0.15322837609617704,0.001897565029054824,Yes (NTLK Stopword),No,No,No,No
-91,is,0 5 12 1 3 0 1,TaggedPDF-doc Part Table TR TD statement word,{},0.02476780185758514,0.01189922329970769,0.0002947176049463205,Yes (NTLK Stopword),No,No,No,No
-92,the,0 5 12 1 3 0 2,TaggedPDF-doc Part Table TR TD statement word,{},0.034055727554179564,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
-93,port,0 5 12 1 3 0 3,TaggedPDF-doc Part Table TR TD statement word,{},0.015479876160990712,0.28944812311416607,0.004480621100838484,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-94,through,0 5 12 1 3 0 4,TaggedPDF-doc Part Table TR TD statement word,{},0.018575851393188854,0.2459824293330757,0.004569333052626794,Yes (NTLK Stopword),No,No,No,No
-95,which,0 5 12 1 3 0 5,TaggedPDF-doc Part Table TR TD statement word,{},0.01238390092879257,0.26717172840301384,0.0033086282155171997,Yes (NTLK Stopword),No,No,No,No
-96,the,0 5 12 1 3 0 6,TaggedPDF-doc Part Table TR TD statement word,{},0.034055727554179564,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
-97,first,0 5 12 1 3 0 7,TaggedPDF-doc Part Table TR TD statement word,{},0.0030959752321981426,0.20647388804940212,0.000639238043496601,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-98,input,0 5 12 1 3 0 8,TaggedPDF-doc Part Table TR TD statement word,{},0.01238390092879257,0.02413367971671937,0.0002988690986590634,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-99,is,0 5 12 1 3 0 9,TaggedPDF-doc Part Table TR TD statement word,{},0.02476780185758514,0.01189922329970769,0.0002947176049463205,Yes (NTLK Stopword),No,No,No,No
-100,fed,0 5 12 1 3 0 10,TaggedPDF-doc Part Table TR TD statement word,{},0.009287925696594427,0.6651117370750514,0.0061775083938859264,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-101,through,0 5 12 1 3 0 11,TaggedPDF-doc Part Table TR TD statement word,{},0.018575851393188854,0.2459824293330757,0.004569333052626794,Yes (NTLK Stopword),No,No,No,No
-102,InB,0 5 12 2 0 0 0,TaggedPDF-doc Part Table TR TD statement word,{},0.0030959752321981426,1.0910804693473326,0.0033779581094344666,No,No,No,No,No
-103,IN,0 5 12 2 1 0 0,TaggedPDF-doc Part Table TR TD statement word,{},0.01238390092879257,0.7231036840527382,0.008954844384554034,Yes (NTLK Stopword),No,No,No,No
-104,32,0 5 12 2 2 0 0,TaggedPDF-doc Part Table TR TD statement word,{},0.009287925696594427,0.2459824293330757,0.002284666526313397,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
-105,This,0 5 12 2 3 0 0,TaggedPDF-doc Part Table TR TD statement word,{},0.01238390092879257,0.15322837609617704,0.001897565029054824,Yes (NTLK Stopword),No,No,No,No
-106,is,0 5 12 2 3 0 1,TaggedPDF-doc Part Table TR TD statement word,{},0.02476780185758514,0.01189922329970769,0.0002947176049463205,Yes (NTLK Stopword),No,No,No,No
-107,the,0 5 12 2 3 0 2,TaggedPDF-doc Part Table TR TD statement word,{},0.034055727554179564,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
-108,port,0 5 12 2 3 0 3,TaggedPDF-doc Part Table TR TD statement word,{},0.015479876160990712,0.28944812311416607,0.004480621100838484,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-109,through,0 5 12 2 3 0 4,TaggedPDF-doc Part Table TR TD statement word,{},0.018575851393188854,0.2459824293330757,0.004569333052626794,Yes (NTLK Stopword),No,No,No,No
-110,which,0 5 12 2 3 0 5,TaggedPDF-doc Part Table TR TD statement word,{},0.01238390092879257,0.26717172840301384,0.0033086282155171997,Yes (NTLK Stopword),No,No,No,No
-111,the,0 5 12 2 3 0 6,TaggedPDF-doc Part Table TR TD statement word,{},0.034055727554179564,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
-112,second,0 5 12 2 3 0 7,TaggedPDF-doc Part Table TR TD statement word,{},0.0030959752321981426,0.45425837176015826,0.0014063726679881062,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-113,input,0 5 12 2 3 0 8,TaggedPDF-doc Part Table TR TD statement word,{},0.01238390092879257,0.02413367971671937,0.0002988690986590634,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-114,is,0 5 12 2 3 0 9,TaggedPDF-doc Part Table TR TD statement word,{},0.02476780185758514,0.01189922329970769,0.0002947176049463205,Yes (NTLK Stopword),No,No,No,No
-115,fed,0 5 12 2 3 0 10,TaggedPDF-doc Part Table TR TD statement word,{},0.009287925696594427,0.6651117370750514,0.0061775083938859264,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-116,through,0 5 12 2 3 0 11,TaggedPDF-doc Part Table TR TD statement word,{},0.018575851393188854,0.2459824293330757,0.004569333052626794,Yes (NTLK Stopword),No,No,No,No
-117,CLK,0 5 12 3 0 0 0,TaggedPDF-doc Part Table TR TD statement word,{},0.0030959752321981426,0.568201724066995,0.0017591384646036998,No,No,Yes,No,No
-118,IN,0 5 12 3 1 0 0,TaggedPDF-doc Part Table TR TD statement word,{},0.01238390092879257,0.7231036840527382,0.008954844384554034,Yes (NTLK Stopword),No,No,No,No
-119,This,0 5 12 3 3 0 0,TaggedPDF-doc Part Table TR TD statement word,{},0.01238390092879257,0.15322837609617704,0.001897565029054824,Yes (NTLK Stopword),No,No,No,No
-120,is,0 5 12 3 3 0 1,TaggedPDF-doc Part Table TR TD statement word,{},0.02476780185758514,0.01189922329970769,0.0002947176049463205,Yes (NTLK Stopword),No,No,No,No
-121,the,0 5 12 3 3 0 2,TaggedPDF-doc Part Table TR TD statement word,{},0.034055727554179564,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
-122,input,0 5 12 3 3 0 3,TaggedPDF-doc Part Table TR TD statement word,{},0.01238390092879257,0.02413367971671937,0.0002988690986590634,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-123,port,0 5 12 3 3 0 4,TaggedPDF-doc Part Table TR TD statement word,{},0.015479876160990712,0.28944812311416607,0.004480621100838484,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-124,through,0 5 12 3 3 0 5,TaggedPDF-doc Part Table TR TD statement word,{},0.018575851393188854,0.2459824293330757,0.004569333052626794,Yes (NTLK Stopword),No,No,No,No
-125,which,0 5 12 3 3 0 6,TaggedPDF-doc Part Table TR TD statement word,{},0.01238390092879257,0.26717172840301384,0.0033086282155171997,Yes (NTLK Stopword),No,No,No,No
-126,the,0 5 12 3 3 0 7,TaggedPDF-doc Part Table TR TD statement word,{},0.034055727554179564,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
-127,entire,0 5 12 3 3 0 8,TaggedPDF-doc Part Table TR TD statement word,{},0.0030959752321981426,0.6139592146276701,0.0019008025220670903,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-128,system,0 5 12 3 3 0 9,TaggedPDF-doc Part Table TR TD statement word,{},0.0030959752321981426,0.31292921896368886,0.00096882111134269,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-129,is,0 5 12 3 3 0 10,TaggedPDF-doc Part Table TR TD statement word,{},0.02476780185758514,0.01189922329970769,0.0002947176049463205,Yes (NTLK Stopword),No,No,No,No
-130,synchronous,0 5 12 3 3 0 11,TaggedPDF-doc Part Table TR TD statement word,{},0.0030959752321981426,0.422073688388757,0.0013067296854141085,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-131,with,0 5 12 3 3 0 12,TaggedPDF-doc Part Table TR TD statement word,{},0.009287925696594427,0.04968778418910748,0.00046149644757684965,Yes (NTLK Stopword),No,No,No,No
-132,Op,0 5 12 4 0 0 0,TaggedPDF-doc Part Table TR TD statement word,{},0.0030959752321981426,0.8692317197309762,0.0026911198753281,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-133,IN,0 5 12 4 1 0 0,TaggedPDF-doc Part Table TR TD statement word,{},0.01238390092879257,0.7231036840527382,0.008954844384554034,Yes (NTLK Stopword),No,No,No,No
-134,The,0 5 12 4 3 0 0,TaggedPDF-doc Part Table TR TD statement word,{},0.006191950464396285,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
-135,input,0 5 12 4 3 0 1,TaggedPDF-doc Part Table TR TD statement word,{},0.01238390092879257,0.02413367971671937,0.0002988690986590634,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-136,to,0 5 12 4 3 0 2,TaggedPDF-doc Part Table TR TD statement word,{},0.0030959752321981426,0.01189922329970769,3.6839700618290066e-05,Yes (NTLK Stopword),No,No,No,No
-137,this,0 5 12 4 3 0 3,TaggedPDF-doc Part Table TR TD statement word,{},0.0030959752321981426,0.10580372616803894,0.00032756571569052305,Yes (NTLK Stopword),No,No,No,No
-138,port,0 5 12 4 3 0 4,TaggedPDF-doc Part Table TR TD statement word,{},0.015479876160990712,0.28944812311416607,0.004480621100838484,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-139,decides,0 5 12 4 3 0 5,TaggedPDF-doc Part Table TR TD statement word,{},0.0030959752321981426,1.2671717284030137,0.003923132286077442,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-140,the,0 5 12 4 3 0 6,TaggedPDF-doc Part Table TR TD statement word,{},0.034055727554179564,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
-141,mode,0 5 12 4 3 0 7,TaggedPDF-doc Part Table TR TD statement word,{},0.0030959752321981426,0.22577904324478879,0.0006990063258352594,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-142,of,0 5 12 4 3 0 8,TaggedPDF-doc Part Table TR TD statement word,{},0.009287925696594427,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
-143,arithmetic,0 5 12 4 3 0 9,TaggedPDF-doc Part Table TR TD statement word,{},0.0030959752321981426,0.26717172840301384,0.0008271570538792999,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-144,operation,0 5 12 4 3 0 10,TaggedPDF-doc Part Table TR TD statement word,{},0.0030959752321981426,0.10580372616803894,0.00032756571569052305,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-145,for,0 5 12 4 3 1 1,TaggedPDF-doc Part Table TR TD statement word,{},0.009287925696594427,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
-146,addition,0 5 12 4 3 1 2,TaggedPDF-doc Part Table TR TD statement word,{},0.0030959752321981426,0.26717172840301384,0.0008271570538792999,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-147,and,0 5 12 4 3 1 3,TaggedPDF-doc Part Table TR TD statement word,{},0.006191950464396285,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
-148,for,0 5 12 4 3 1 5,TaggedPDF-doc Part Table TR TD statement word,{},0.009287925696594427,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
-149,subtraction,0 5 12 4 3 1 6,TaggedPDF-doc Part Table TR TD statement word,{},0.0030959752321981426,0.45425837176015826,0.0014063726679881062,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-150,SUM,0 5 12 5 0 0 0,TaggedPDF-doc Part Table TR TD statement word,{},0.0030959752321981426,1.2671717284030137,0.003923132286077442,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-151,OUT,0 5 12 5 1 0 0,TaggedPDF-doc Part Table TR TD statement word,{},0.0030959752321981426,0.9661417327390326,0.0029911508753530424,Yes (NTLK Stopword),No,No,No,No
-152,32,0 5 12 5 2 0 0,TaggedPDF-doc Part Table TR TD statement word,{},0.009287925696594427,0.2459824293330757,0.002284666526313397,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
-153,This,0 5 12 5 3 0 0,TaggedPDF-doc Part Table TR TD statement word,{},0.01238390092879257,0.15322837609617704,0.001897565029054824,Yes (NTLK Stopword),No,No,No,No
-154,is,0 5 12 5 3 0 1,TaggedPDF-doc Part Table TR TD statement word,{},0.02476780185758514,0.01189922329970769,0.0002947176049463205,Yes (NTLK Stopword),No,No,No,No
-155,the,0 5 12 5 3 0 2,TaggedPDF-doc Part Table TR TD statement word,{},0.034055727554179564,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
-156,port,0 5 12 5 3 0 3,TaggedPDF-doc Part Table TR TD statement word,{},0.015479876160990712,0.28944812311416607,0.004480621100838484,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-157,through,0 5 12 5 3 0 4,TaggedPDF-doc Part Table TR TD statement word,{},0.018575851393188854,0.2459824293330757,0.004569333052626794,Yes (NTLK Stopword),No,No,No,No
-158,which,0 5 12 5 3 0 5,TaggedPDF-doc Part Table TR TD statement word,{},0.01238390092879257,0.26717172840301384,0.0033086282155171997,Yes (NTLK Stopword),No,No,No,No
-159,the,0 5 12 5 3 0 6,TaggedPDF-doc Part Table TR TD statement word,{},0.034055727554179564,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
-160,output,0 5 12 5 3 0 7,TaggedPDF-doc Part Table TR TD statement word,{},0.0030959752321981426,0.02413367971671937,7.471727466476585e-05,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-161,is,0 5 12 5 3 0 8,TaggedPDF-doc Part Table TR TD statement word,{},0.02476780185758514,0.01189922329970769,0.0002947176049463205,Yes (NTLK Stopword),No,No,No,No
-162,fed,0 5 12 5 3 0 9,TaggedPDF-doc Part Table TR TD statement word,{},0.009287925696594427,0.6651117370750514,0.0061775083938859264,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-163,out,0 5 12 5 3 0 10,TaggedPDF-doc Part Table TR TD statement word,{},0.0030959752321981426,0.28944812311416607,0.0008961242201676969,Yes (NTLK Stopword),No,No,No,No
-164,Table,0 5 13 0 0,TaggedPDF-doc Part P statement word,{},0.01238390092879257,0.28944812311416607,0.0035844968806707875,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-165,Signal,0 5 13 0 2,TaggedPDF-doc Part P statement word,{},0.009287925696594427,0.4890204780193702,0.004541985863956999,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-166,Definition,0 5 13 0 3,TaggedPDF-doc Part P statement word,{},0.0030959752321981426,0.8692317197309762,0.0026911198753281,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-167,Table,0 5 13 0 4,TaggedPDF-doc Part P statement word,{},0.01238390092879257,0.28944812311416607,0.0035844968806707875,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-168,SoftJin,0 5 14 0 0,TaggedPDF-doc Part P statement word,{},0.009287925696594427,1.0910804693473326,0.010133874328303398,No,No,No,No,No
-169,Technologies,0 5 14 0 1,TaggedPDF-doc Part P statement word,{},0.009287925696594427,0.9661417327390326,0.008973452626059126,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-170,Pvt,0 5 14 0 2,TaggedPDF-doc Part P statement word,{},0.009287925696594427,1.0910804693473326,0.010133874328303398,"Yes (en_US, en_GB)",No,No,No,No
-171,Ltd.India,0 5 14 1 0,TaggedPDF-doc Part P statement word,{},0.009287925696594427,1.0910804693473326,0.010133874328303398,No,No,No,No,No
-172,102,0 5 14 1 1,TaggedPDF-doc Part P statement word,{},0.009287925696594427,0.6139592146276701,0.00570240756620127,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
-173,1st,0 5 14 1 2,TaggedPDF-doc Part P statement word,{},0.009287925696594427,1.0910804693473326,0.010133874328303398,Yes (en_US),No,No,No,No
-174,Floor,0 5 14 1 3,TaggedPDF-doc Part P statement word,{},0.009287925696594427,0.9661417327390326,0.008973452626059126,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-175,Mobius,0 5 14 1 4,TaggedPDF-doc Part P statement word,{},0.009287925696594427,1.0910804693473326,0.010133874328303398,No,No,No,No,No
-176,Tower,0 5 14 1 5,TaggedPDF-doc Part P statement word,{},0.009287925696594427,1.0910804693473326,0.010133874328303398,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-177,SJR,0 5 14 1 6,TaggedPDF-doc Part P statement word,{},0.009287925696594427,1.0910804693473326,0.010133874328303398,No,No,Yes,No,No
-178,iPark,0 5 14 1 7,TaggedPDF-doc Part P statement word,{},0.009287925696594427,1.0910804693473326,0.010133874328303398,No,No,No,No,No
-179,EPIP,0 5 14 1 8,TaggedPDF-doc Part P statement word,{},0.009287925696594427,1.0910804693473326,0.010133874328303398,No,No,Yes,No,No
-180,White,0 5 14 1 9,TaggedPDF-doc Part P statement word,{},0.009287925696594427,1.0910804693473326,0.010133874328303398,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-181,Field,0 5 14 1 10,TaggedPDF-doc Part P statement word,{},0.009287925696594427,0.6139592146276701,0.00570240756620127,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-182,BANGALORE,0 5 14 1 11,TaggedPDF-doc Part P statement word,{},0.009287925696594427,1.0910804693473326,0.010133874328303398,No,No,No,No,No
-183,560,0 5 14 1 12,TaggedPDF-doc Part P statement word,{},0.009287925696594427,1.0910804693473326,0.010133874328303398,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
-184,066,0 5 14 1 13,TaggedPDF-doc Part P statement word,{},0.009287925696594427,1.0910804693473326,0.010133874328303398,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
-185,Karnataka,0 5 14 1 14,TaggedPDF-doc Part P statement word,{},0.009287925696594427,1.0910804693473326,0.010133874328303398,No,No,No,No,No
-186,India,0 5 14 1 15,TaggedPDF-doc Part P statement word,{},0.009287925696594427,1.0910804693473326,0.010133874328303398,No,No,No,No,No
-187,Tel,0 5 14 1 16,TaggedPDF-doc Part P statement word,{},0.018575851393188854,0.8692317197309762,0.0161467192519686,Yes (en_US),No,No,No,No
-188,918041779999,0 5 14 1 17,TaggedPDF-doc Part P statement word,{},0.009287925696594427,1.0910804693473326,0.010133874328303398,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
-189,Fax,0 5 14 1 18,TaggedPDF-doc Part P statement word,{},0.018575851393188854,0.9661417327390326,0.017946905252118252,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-190,918041157070,0 5 14 1 19,TaggedPDF-doc Part P statement word,{},0.009287925696594427,1.0910804693473326,0.010133874328303398,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
-191,US,0 5 14 1 20,TaggedPDF-doc Part P statement word,{},0.009287925696594427,1.0910804693473326,0.010133874328303398,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-192,2900,0 5 14 1 21,TaggedPDF-doc Part P statement word,{},0.009287925696594427,0.9661417327390326,0.008973452626059126,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
-193,Gordon,0 5 14 1 22,TaggedPDF-doc Part P statement word,{},0.009287925696594427,1.0910804693473326,0.010133874328303398,No,No,No,No,No
-194,Ave,0 5 14 1 23,TaggedPDF-doc Part P statement word,{},0.009287925696594427,0.9661417327390326,0.008973452626059126,"Yes (en_US, en_GB)",No,No,No,No
-195,Suite,0 5 14 1 24,TaggedPDF-doc Part P statement word,{},0.009287925696594427,0.6651117370750514,0.0061775083938859264,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-196,10011,0 5 14 1 25,TaggedPDF-doc Part P statement word,{},0.009287925696594427,0.9661417327390326,0.008973452626059126,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
-197,Santa,0 5 14 1 26,TaggedPDF-doc Part P statement word,{},0.009287925696594427,1.0910804693473326,0.010133874328303398,No,No,No,No,No
-198,Clara,0 5 14 1 27,TaggedPDF-doc Part P statement word,{},0.009287925696594427,1.0910804693473326,0.010133874328303398,No,No,No,No,No
-199,CA,0 5 14 1 28,TaggedPDF-doc Part P statement word,{},0.009287925696594427,0.7900504736833514,0.007337930096130198,Yes (en_US),No,No,No,No
-200,95051,0 5 14 1 29,TaggedPDF-doc Part P statement word,{},0.009287925696594427,1.0910804693473326,0.010133874328303398,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
-201,USA,0 5 14 1 30,TaggedPDF-doc Part P statement word,{},0.009287925696594427,1.0910804693473326,0.010133874328303398,No,No,No,No,No
-202,Tel,0 5 14 1 31,TaggedPDF-doc Part P statement word,{},0.018575851393188854,0.8692317197309762,0.0161467192519686,Yes (en_US),No,No,No,No
-203,408,0 5 14 1 32,TaggedPDF-doc Part P statement word,{},0.018575851393188854,0.8692317197309762,0.0161467192519686,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
-204,7731714,0 5 14 1 33,TaggedPDF-doc Part P statement word,{},0.009287925696594427,1.0910804693473326,0.010133874328303398,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
-205,Fax,0 5 14 1 34,TaggedPDF-doc Part P statement word,{},0.018575851393188854,0.9661417327390326,0.017946905252118252,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-206,408,0 5 14 1 35,TaggedPDF-doc Part P statement word,{},0.018575851393188854,0.8692317197309762,0.0161467192519686,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
-207,7731745,0 5 14 1 36,TaggedPDF-doc Part P statement word,{},0.009287925696594427,1.0910804693473326,0.010133874328303398,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
-208,Email,0 5 14 1 37,TaggedPDF-doc Part P statement word,{},0.009287925696594427,0.9661417327390326,0.008973452626059126,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-209,Web,0 5 14 1 39,TaggedPDF-doc Part P statement word,{},0.009287925696594427,0.9661417327390326,0.008973452626059126,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-210,www.softjin.com,0 5 14 1 40,TaggedPDF-doc Part P statement word,{},0.009287925696594427,1.0910804693473326,0.010133874328303398,No,No,No,No,No
-211,Page,0 5 14 1 41,TaggedPDF-doc Part P statement word,{},0.009287925696594427,1.0910804693473326,0.010133874328303398,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-212,Performance,0 5 15 0 0 0,TaggedPDF-doc Part Sect P statement word,{},0.006191950464396285,0.422073688388757,0.002613459370828217,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-213,Device,0 5 16 0 0 0 0,TaggedPDF-doc Part Table TR TH statement word,{},0.0030959752321981426,0.568201724066995,0.0017591384646036998,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-214,Slice,0 5 16 0 1 0 0,TaggedPDF-doc Part Table TR TH statement word,{},0.0030959752321981426,0.9661417327390326,0.0029911508753530424,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-215,Count,0 5 16 0 1 0 1,TaggedPDF-doc Part Table TR TH statement word,{},0.0030959752321981426,1.0910804693473326,0.0033779581094344666,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-216,Frequency,0 5 16 0 2 0 0,TaggedPDF-doc Part Table TR TH statement word,{},0.0030959752321981426,0.7900504736833514,0.0024459766987100662,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-217,MHz,0 5 16 0 2 0 1,TaggedPDF-doc Part Table TR TH statement word,{},0.0030959752321981426,0.3640817414110702,0.001127188053904242,No,No,No,No,No
-218,Virtex4,0 5 16 1 0 0 0,TaggedPDF-doc Part Table TR TD statement word,{},0.0030959752321981426,1.0910804693473326,0.0033779581094344666,No,No,No,No,No
-219,XC4VLX15SF363,0 5 16 1 0 0 1,TaggedPDF-doc Part Table TR TD statement word,{},0.0030959752321981426,1.2671717284030137,0.003923132286077442,No,No,Yes,No,No
-220,331,0 5 16 1 1 0 0,TaggedPDF-doc Part Table TR TD statement word,{},0.0030959752321981426,0.9661417327390326,0.0029911508753530424,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
-221,201,0 5 16 1 2 0 0,TaggedPDF-doc Part Table TR TD statement word,{},0.0030959752321981426,0.9661417327390326,0.0029911508753530424,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
-222,Virtex5,0 5 16 2 0 0 0,TaggedPDF-doc Part Table TR TD statement word,{},0.0030959752321981426,1.0910804693473326,0.0033779581094344666,No,No,No,No,No
-223,XC5VLX30FF324,0 5 16 2 0 0 1,TaggedPDF-doc Part Table TR TD statement word,{},0.0030959752321981426,1.2671717284030137,0.003923132286077442,No,No,Yes,No,No
-224,361,0 5 16 2 1 0 0,TaggedPDF-doc Part Table TR TD statement word,{},0.0030959752321981426,0.9661417327390326,0.0029911508753530424,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
-225,294,0 5 16 2 2 0 0,TaggedPDF-doc Part Table TR TD statement word,{},0.0030959752321981426,1.2671717284030137,0.003923132286077442,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
-226,Table,0 5 17 0 0,TaggedPDF-doc Part P statement word,{},0.01238390092879257,0.28944812311416607,0.0035844968806707875,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-227,FPU,0 5 17 0 2,TaggedPDF-doc Part P statement word,{},0.006191950464396285,0.52680903890877,0.0032619754731193188,No,No,Yes,No,No
-228,add/sub,0 5 17 0 3,TaggedPDF-doc Part P statement word,{},0.0030959752321981426,1.2671717284030137,0.003923132286077442,No,No,No,Yes,No
-229,IP,0 5 17 0 4,TaggedPDF-doc Part P statement word,{},0.009287925696594427,0.15322837609617704,0.001423173771791118,No,No,Yes,No,No
-230,Performance,0 5 17 0 5,TaggedPDF-doc Part P statement word,{},0.006191950464396285,0.422073688388757,0.002613459370828217,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-231,table,0 5 17 0 6,TaggedPDF-doc Part P statement word,{},0.0030959752321981426,0.20647388804940212,0.000639238043496601,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-232,Verification,0 5 18 0 0 0,TaggedPDF-doc Part Sect P statement word,{},0.0030959752321981426,0.4890204780193702,0.0015139952879856663,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-233,The,0 5 18 1 0 0,TaggedPDF-doc Part Sect P statement word,{},0.006191950464396285,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
-234,Floating,0 5 18 1 0 1,TaggedPDF-doc Part Sect P statement word,{},0.006191950464396285,0.28944812311416607,0.0017922484403353938,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-235,point,0 5 18 1 0 2,TaggedPDF-doc Part Sect P statement word,{},0.0030959752321981426,0.12104369272477576,0.00037474827468970826,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-236,adder/subtracter,0 5 18 1 0 3,TaggedPDF-doc Part Sect P statement word,{},0.0030959752321981426,1.2671717284030137,0.003923132286077442,No,No,No,Yes,No
-237,IP,0 5 18 1 0 4,TaggedPDF-doc Part Sect P statement word,{},0.009287925696594427,0.15322837609617704,0.001423173771791118,No,No,Yes,No,No
-238,has,0 5 18 1 0 5,TaggedPDF-doc Part Sect P statement word,{},0.0030959752321981426,0.15322837609617704,0.000474391257263706,Yes (NTLK Stopword),No,No,No,No
-239,been,0 5 18 1 0 6,TaggedPDF-doc Part Sect P statement word,{},0.0030959752321981426,0.22577904324478879,0.0006990063258352594,Yes (NTLK Stopword),No,No,No,No
-240,verified,0 5 18 1 0 7,TaggedPDF-doc Part Sect P statement word,{},0.0030959752321981426,0.568201724066995,0.0017591384646036998,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-241,with,0 5 18 1 0 8,TaggedPDF-doc Part Sect P statement word,{},0.009287925696594427,0.04968778418910748,0.00046149644757684965,Yes (NTLK Stopword),No,No,No,No
-242,the,0 5 18 1 0 9,TaggedPDF-doc Part Sect P statement word,{},0.034055727554179564,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
-243,following,0 5 18 1 0 10,TaggedPDF-doc Part Sect P statement word,{},0.0030959752321981426,0.06305174574708902,0.0001952066431798422,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-244,approaches,0 5 18 1 0 11,TaggedPDF-doc Part Sect P statement word,{},0.0030959752321981426,0.9661417327390326,0.0029911508753530424,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-245,Exhaustive,0 5 18 2 0 1 0 0,TaggedPDF-doc Part Sect Table TR TD statement word,{},0.0030959752321981426,1.0910804693473326,0.0033779581094344666,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-246,simulation,0 5 18 2 0 1 0 2,TaggedPDF-doc Part Sect Table TR TD statement word,{},0.0030959752321981426,0.22577904324478879,0.0006990063258352594,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-247,Results,0 5 18 2 1 1 0 0,TaggedPDF-doc Part Sect Table TR TD statement word,{},0.0030959752321981426,0.52680903890877,0.0016309877365596594,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-248,are,0 5 18 2 1 1 0 1,TaggedPDF-doc Part Sect Table TR TD statement word,{},0.0030959752321981426,0.02413367971671937,7.471727466476585e-05,Yes (NTLK Stopword),No,No,No,No
-249,compared,0 5 18 2 1 1 0 2,TaggedPDF-doc Part Sect Table TR TD statement word,{},0.0030959752321981426,0.568201724066995,0.0017591384646036998,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-250,with,0 5 18 2 1 1 0 3,TaggedPDF-doc Part Sect Table TR TD statement word,{},0.009287925696594427,0.04968778418910748,0.00046149644757684965,Yes (NTLK Stopword),No,No,No,No
-251,the,0 5 18 2 1 1 0 4,TaggedPDF-doc Part Sect Table TR TD statement word,{},0.034055727554179564,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
-252,Ccode,0 5 18 2 1 1 0 5,TaggedPDF-doc Part Sect Table TR TD statement word,{},0.006191950464396285,1.0910804693473326,0.006755916218868933,No,No,No,No,No
-253,generated,0 5 18 2 2 1 0 0,TaggedPDF-doc Part Sect Table TR TD statement word,{},0.0030959752321981426,0.28944812311416607,0.0008961242201676969,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-254,results,0 5 18 2 2 1 0 1,TaggedPDF-doc Part Sect Table TR TD statement word,{},0.006191950464396285,0.1368379599080077,0.0008472938693994286,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-255,and,0 5 18 2 2 1 0 2,TaggedPDF-doc Part Sect Table TR TD statement word,{},0.006191950464396285,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
-256,Behavioral,0 5 18 2 2 1 0 3,TaggedPDF-doc Part Sect Table TR TD statement word,{},0.006191950464396285,1.0910804693473326,0.006755916218868933,Yes (en_US),No,No,No,No
-257,model,0 5 18 2 2 1 0 4,TaggedPDF-doc Part Sect Table TR TD statement word,{},0.0030959752321981426,0.31292921896368886,0.00096882111134269,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-258,results,0 5 18 2 3 1 0 0,TaggedPDF-doc Part Sect Table TR TD statement word,{},0.006191950464396285,0.1368379599080077,0.0008472938693994286,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-259,Emulated,0 5 18 2 4 1 0 0,TaggedPDF-doc Part Sect Table TR TD statement word,{},0.0030959752321981426,1.2671717284030137,0.003923132286077442,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-260,on,0 5 18 2 4 1 0 1,TaggedPDF-doc Part Sect Table TR TD statement word,{},0.0030959752321981426,0.1368379599080077,0.0004236469346997143,Yes (NTLK Stopword),No,No,No,No
-261,Xilinx,0 5 18 2 4 1 0 2,TaggedPDF-doc Part Sect Table TR TD statement word,{},0.0030959752321981426,0.7900504736833514,0.0024459766987100662,No,No,No,No,No
-262,FPGA,0 5 18 2 4 1 0 3,TaggedPDF-doc Part Sect Table TR TD statement word,{},0.0030959752321981426,0.28944812311416607,0.0008961242201676969,No,No,Yes,No,No
-263,Deliverables,0 5 18 3 0 0,TaggedPDF-doc Part Sect P statement word,{},0.0030959752321981426,0.7900504736833514,0.0024459766987100662,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-264,Verilog,0 5 18 4 0 1 0 0,TaggedPDF-doc Part Sect Table TR TD statement word,{},0.0030959752321981426,0.31292921896368886,0.00096882111134269,No,No,No,No,No
-265,Behavioral,0 5 18 4 0 1 0 1,TaggedPDF-doc Part Sect Table TR TD statement word,{},0.006191950464396285,1.0910804693473326,0.006755916218868933,Yes (en_US),No,No,No,No
-266,RTL,0 5 18 4 0 1 0 2,TaggedPDF-doc Part Sect Table TR TD statement word,{},0.0030959752321981426,0.45425837176015826,0.0014063726679881062,No,No,Yes,No,No
-267,source,0 5 18 4 0 1 0 3,TaggedPDF-doc Part Sect Table TR TD statement word,{},0.0030959752321981426,0.18799048235538898,0.0005820138772612663,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-268,code,0 5 18 4 0 1 0 4,TaggedPDF-doc Part Sect Table TR TD statement word,{},0.0030959752321981426,0.12104369272477576,0.00037474827468970826,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-269,Test,0 5 18 4 1 1 0 0,TaggedPDF-doc Part Sect Table TR TD statement word,{},0.0030959752321981426,0.3640817414110702,0.001127188053904242,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-270,Benches,0 5 18 4 1 1 0 1,TaggedPDF-doc Part Sect Table TR TD statement word,{},0.0030959752321981426,1.0910804693473326,0.0033779581094344666,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-271,Ccode,0 5 18 4 2 1 0 0,TaggedPDF-doc Part Sect Table TR TD statement word,{},0.006191950464396285,1.0910804693473326,0.006755916218868933,No,No,No,No,No
-272,for,0 5 18 4 2 1 0 1,TaggedPDF-doc Part Sect Table TR TD statement word,{},0.009287925696594427,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
-273,generation,0 5 18 4 2 1 0 2,TaggedPDF-doc Part Sect Table TR TD statement word,{},0.0030959752321981426,0.52680903890877,0.0016309877365596594,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-274,of,0 5 18 4 2 1 0 3,TaggedPDF-doc Part Sect Table TR TD statement word,{},0.009287925696594427,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
-275,test,0 5 18 4 2 1 0 4,TaggedPDF-doc Part Sect Table TR TD statement word,{},0.0030959752321981426,0.17026171539495738,0.0005271260538543572,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-276,vectors,0 5 18 4 2 1 0 5,TaggedPDF-doc Part Sect Table TR TD statement word,{},0.0030959752321981426,0.45425837176015826,0.0014063726679881062,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-277,Detailed,0 5 18 4 3 1 0 0,TaggedPDF-doc Part Sect Table TR TD statement word,{},0.0030959752321981426,0.9661417327390326,0.0029911508753530424,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-278,user,0 5 18 4 3 1 0 1,TaggedPDF-doc Part Sect Table TR TD statement word,{},0.0030959752321981426,0.4890204780193702,0.0015139952879856663,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-279,documentation,0 5 18 4 3 1 0 2,TaggedPDF-doc Part Sect Table TR TD statement word,{},0.0030959752321981426,0.26717172840301384,0.0008271570538792999,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-280,SoftJin,0 5 19 0 0,TaggedPDF-doc Part P statement word,{},0.009287925696594427,1.0910804693473326,0.010133874328303398,No,No,No,No,No
-281,Technologies,0 5 19 0 1,TaggedPDF-doc Part P statement word,{},0.009287925696594427,0.9661417327390326,0.008973452626059126,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-282,Pvt,0 5 19 0 2,TaggedPDF-doc Part P statement word,{},0.009287925696594427,1.0910804693473326,0.010133874328303398,"Yes (en_US, en_GB)",No,No,No,No
-283,Ltd.India,0 5 19 1 0,TaggedPDF-doc Part P statement word,{},0.009287925696594427,1.0910804693473326,0.010133874328303398,No,No,No,No,No
-284,102,0 5 19 1 1,TaggedPDF-doc Part P statement word,{},0.009287925696594427,0.6139592146276701,0.00570240756620127,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
-285,1st,0 5 19 1 2,TaggedPDF-doc Part P statement word,{},0.009287925696594427,1.0910804693473326,0.010133874328303398,Yes (en_US),No,No,No,No
-286,Floor,0 5 19 1 3,TaggedPDF-doc Part P statement word,{},0.009287925696594427,0.9661417327390326,0.008973452626059126,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-287,Mobius,0 5 19 1 4,TaggedPDF-doc Part P statement word,{},0.009287925696594427,1.0910804693473326,0.010133874328303398,No,No,No,No,No
-288,Tower,0 5 19 1 5,TaggedPDF-doc Part P statement word,{},0.009287925696594427,1.0910804693473326,0.010133874328303398,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-289,SJR,0 5 19 1 6,TaggedPDF-doc Part P statement word,{},0.009287925696594427,1.0910804693473326,0.010133874328303398,No,No,Yes,No,No
-290,iPark,0 5 19 1 7,TaggedPDF-doc Part P statement word,{},0.009287925696594427,1.0910804693473326,0.010133874328303398,No,No,No,No,No
-291,EPIP,0 5 19 1 8,TaggedPDF-doc Part P statement word,{},0.009287925696594427,1.0910804693473326,0.010133874328303398,No,No,Yes,No,No
-292,White,0 5 19 1 9,TaggedPDF-doc Part P statement word,{},0.009287925696594427,1.0910804693473326,0.010133874328303398,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-293,Field,0 5 19 1 10,TaggedPDF-doc Part P statement word,{},0.009287925696594427,0.6139592146276701,0.00570240756620127,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-294,BANGALORE,0 5 19 1 11,TaggedPDF-doc Part P statement word,{},0.009287925696594427,1.0910804693473326,0.010133874328303398,No,No,No,No,No
-295,560,0 5 19 1 12,TaggedPDF-doc Part P statement word,{},0.009287925696594427,1.0910804693473326,0.010133874328303398,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
-296,066,0 5 19 1 13,TaggedPDF-doc Part P statement word,{},0.009287925696594427,1.0910804693473326,0.010133874328303398,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
-297,Karnataka,0 5 19 1 14,TaggedPDF-doc Part P statement word,{},0.009287925696594427,1.0910804693473326,0.010133874328303398,No,No,No,No,No
-298,India,0 5 19 1 15,TaggedPDF-doc Part P statement word,{},0.009287925696594427,1.0910804693473326,0.010133874328303398,No,No,No,No,No
-299,Tel,0 5 19 1 16,TaggedPDF-doc Part P statement word,{},0.018575851393188854,0.8692317197309762,0.0161467192519686,Yes (en_US),No,No,No,No
-300,918041779999,0 5 19 1 17,TaggedPDF-doc Part P statement word,{},0.009287925696594427,1.0910804693473326,0.010133874328303398,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
-301,Fax,0 5 19 1 18,TaggedPDF-doc Part P statement word,{},0.018575851393188854,0.9661417327390326,0.017946905252118252,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-302,918041157070,0 5 19 1 19,TaggedPDF-doc Part P statement word,{},0.009287925696594427,1.0910804693473326,0.010133874328303398,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
-303,US,0 5 19 1 20,TaggedPDF-doc Part P statement word,{},0.009287925696594427,1.0910804693473326,0.010133874328303398,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-304,2900,0 5 19 1 21,TaggedPDF-doc Part P statement word,{},0.009287925696594427,0.9661417327390326,0.008973452626059126,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
-305,Gordon,0 5 19 1 22,TaggedPDF-doc Part P statement word,{},0.009287925696594427,1.0910804693473326,0.010133874328303398,No,No,No,No,No
-306,Ave,0 5 19 1 23,TaggedPDF-doc Part P statement word,{},0.009287925696594427,0.9661417327390326,0.008973452626059126,"Yes (en_US, en_GB)",No,No,No,No
-307,Suite,0 5 19 1 24,TaggedPDF-doc Part P statement word,{},0.009287925696594427,0.6651117370750514,0.0061775083938859264,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-308,10011,0 5 19 1 25,TaggedPDF-doc Part P statement word,{},0.009287925696594427,0.9661417327390326,0.008973452626059126,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
-309,Santa,0 5 19 1 26,TaggedPDF-doc Part P statement word,{},0.009287925696594427,1.0910804693473326,0.010133874328303398,No,No,No,No,No
-310,Clara,0 5 19 1 27,TaggedPDF-doc Part P statement word,{},0.009287925696594427,1.0910804693473326,0.010133874328303398,No,No,No,No,No
-311,CA,0 5 19 1 28,TaggedPDF-doc Part P statement word,{},0.009287925696594427,0.7900504736833514,0.007337930096130198,Yes (en_US),No,No,No,No
-312,95051,0 5 19 1 29,TaggedPDF-doc Part P statement word,{},0.009287925696594427,1.0910804693473326,0.010133874328303398,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
-313,USA,0 5 19 1 30,TaggedPDF-doc Part P statement word,{},0.009287925696594427,1.0910804693473326,0.010133874328303398,No,No,No,No,No
-314,Tel,0 5 19 1 31,TaggedPDF-doc Part P statement word,{},0.018575851393188854,0.8692317197309762,0.0161467192519686,Yes (en_US),No,No,No,No
-315,408,0 5 19 1 32,TaggedPDF-doc Part P statement word,{},0.018575851393188854,0.8692317197309762,0.0161467192519686,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
-316,7731714,0 5 19 1 33,TaggedPDF-doc Part P statement word,{},0.009287925696594427,1.0910804693473326,0.010133874328303398,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
-317,Fax,0 5 19 1 34,TaggedPDF-doc Part P statement word,{},0.018575851393188854,0.9661417327390326,0.017946905252118252,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-318,408,0 5 19 1 35,TaggedPDF-doc Part P statement word,{},0.018575851393188854,0.8692317197309762,0.0161467192519686,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
-319,7731745,0 5 19 1 36,TaggedPDF-doc Part P statement word,{},0.009287925696594427,1.0910804693473326,0.010133874328303398,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
-320,Email,0 5 19 1 37,TaggedPDF-doc Part P statement word,{},0.009287925696594427,0.9661417327390326,0.008973452626059126,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-321,Web,0 5 19 1 39,TaggedPDF-doc Part P statement word,{},0.009287925696594427,0.9661417327390326,0.008973452626059126,"Yes (en_US, en_GB, en_AU)",No,No,No,No
-322,www.softjin.com,0 5 19 1 40,TaggedPDF-doc Part P statement word,{},0.009287925696594427,1.0910804693473326,0.010133874328303398,No,No,No,No,No
-323,Page,0 5 19 1 41,TaggedPDF-doc Part P statement word,{},0.009287925696594427,1.0910804693473326,0.010133874328303398,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+1,begin '  65279 ',0 0 0 0,TaggedPDF-doc <built-in function ProcessingInstruction> statement word,{},0.0003450655624568668,1.2671717284030137,0.000437257325190826,No,No,No,No,No
+2,"begin ""  65279 """,0 1 0 0,TaggedPDF-doc <built-in function ProcessingInstruction> statement word,{},0.0003450655624568668,0.01189922329970769,4.106012180713489e-06,No,No,No,No,No
+3,Acrobat,0 2 0 0 0 0 0,TaggedPDF-doc {adobe:ns:meta/}xmpmeta {http://www.w3.org/1999/02/22-rdf-syntax-ns#}RDF {http://www.w3.org/1999/02/22-rdf-syntax-ns#}Description {http://ns.adobe.com/pdf/1.3/}Producer statement word,{},0.0006901311249137336,0.28944812311416607,0.00019975715880894828,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+4,Distiller,0 2 0 0 0 0 1,TaggedPDF-doc {adobe:ns:meta/}xmpmeta {http://www.w3.org/1999/02/22-rdf-syntax-ns#}RDF {http://www.w3.org/1999/02/22-rdf-syntax-ns#}Description {http://ns.adobe.com/pdf/1.3/}Producer statement word,{},0.0003450655624568668,0.33775280268872104,0.00011654686083116669,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+5,7.0,0 2 0 0 0 0 2,TaggedPDF-doc {adobe:ns:meta/}xmpmeta {http://www.w3.org/1999/02/22-rdf-syntax-ns#}RDF {http://www.w3.org/1999/02/22-rdf-syntax-ns#}Description {http://ns.adobe.com/pdf/1.3/}Producer statement word,{},0.0006901311249137336,0.7900504736833514,0.0005452384221417193,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+6,Windows,0 2 0 0 0 0 3,TaggedPDF-doc {adobe:ns:meta/}xmpmeta {http://www.w3.org/1999/02/22-rdf-syntax-ns#}RDF {http://www.w3.org/1999/02/22-rdf-syntax-ns#}Description {http://ns.adobe.com/pdf/1.3/}Producer statement word,{},0.0003450655624568668,0.31292921896368886,0.00010798109695089333,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+7,D 20060127093652,0 2 0 1 0 0 0,TaggedPDF-doc {adobe:ns:meta/}xmpmeta {http://www.w3.org/1999/02/22-rdf-syntax-ns#}RDF {http://www.w3.org/1999/02/22-rdf-syntax-ns#}Description {http://ns.adobe.com/pdfx/1.3/}SourceModified statement word,{},0.0003450655624568668,1.2671717284030137,0.000437257325190826,No,No,Yes,No,No
+8,Acrobat,0 2 0 2 1 0 0,TaggedPDF-doc {adobe:ns:meta/}xmpmeta {http://www.w3.org/1999/02/22-rdf-syntax-ns#}RDF {http://www.w3.org/1999/02/22-rdf-syntax-ns#}Description {http://ns.adobe.com/xap/1.0/}CreatorTool statement word,{},0.0006901311249137336,0.28944812311416607,0.00019975715880894828,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+9,PDFMaker,0 2 0 2 1 0 1,TaggedPDF-doc {adobe:ns:meta/}xmpmeta {http://www.w3.org/1999/02/22-rdf-syntax-ns#}RDF {http://www.w3.org/1999/02/22-rdf-syntax-ns#}Description {http://ns.adobe.com/xap/1.0/}CreatorTool statement word,{},0.0003450655624568668,1.0910804693473326,0.00037649429584103955,No,No,No,No,No
+10,7.0,0 2 0 2 1 0 2,TaggedPDF-doc {adobe:ns:meta/}xmpmeta {http://www.w3.org/1999/02/22-rdf-syntax-ns#}RDF {http://www.w3.org/1999/02/22-rdf-syntax-ns#}Description {http://ns.adobe.com/xap/1.0/}CreatorTool statement word,{},0.0006901311249137336,0.7900504736833514,0.0005452384221417193,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+11,for,0 2 0 2 1 0 3,TaggedPDF-doc {adobe:ns:meta/}xmpmeta {http://www.w3.org/1999/02/22-rdf-syntax-ns#}RDF {http://www.w3.org/1999/02/22-rdf-syntax-ns#}Description {http://ns.adobe.com/xap/1.0/}CreatorTool statement word,{},0.010351966873706004,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
+12,Word,0 2 0 2 1 0 4,TaggedPDF-doc {adobe:ns:meta/}xmpmeta {http://www.w3.org/1999/02/22-rdf-syntax-ns#}RDF {http://www.w3.org/1999/02/22-rdf-syntax-ns#}Description {http://ns.adobe.com/xap/1.0/}CreatorTool statement word,{},0.0003450655624568668,0.26717172840301384,9.219176273395923e-05,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+13,36,0 2 0 3 2 0 0 0 0,TaggedPDF-doc {adobe:ns:meta/}xmpmeta {http://www.w3.org/1999/02/22-rdf-syntax-ns#}RDF {http://www.w3.org/1999/02/22-rdf-syntax-ns#}Description {http://ns.adobe.com/xap/1.0/mm/}VersionID {http://www.w3.org/1999/02/22-rdf-syntax-ns#}Seq {http://www.w3.org/1999/02/22-rdf-syntax-ns#}li statement word,{},0.0003450655624568668,0.568201724066995,0.00019606684750413905,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+14,xml,0 2 0 4 0 0 0,TaggedPDF-doc {adobe:ns:meta/}xmpmeta {http://www.w3.org/1999/02/22-rdf-syntax-ns#}RDF {http://www.w3.org/1999/02/22-rdf-syntax-ns#}Description {http://purl.org/dc/elements/1.1/}format statement word,{},0.0003450655624568668,0.01189922329970769,4.106012180713489e-06,No,No,No,No,No
+15,Floating,0 2 0 4 1 0 0 0 0,TaggedPDF-doc {adobe:ns:meta/}xmpmeta {http://www.w3.org/1999/02/22-rdf-syntax-ns#}RDF {http://www.w3.org/1999/02/22-rdf-syntax-ns#}Description {http://purl.org/dc/elements/1.1/}title {http://www.w3.org/1999/02/22-rdf-syntax-ns#}Alt {http://www.w3.org/1999/02/22-rdf-syntax-ns#}li statement word,{},0.0013802622498274672,0.28944812311416607,0.00039951431761789657,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+16,Point,0 2 0 4 1 0 0 0 1,TaggedPDF-doc {adobe:ns:meta/}xmpmeta {http://www.w3.org/1999/02/22-rdf-syntax-ns#}RDF {http://www.w3.org/1999/02/22-rdf-syntax-ns#}Description {http://purl.org/dc/elements/1.1/}title {http://www.w3.org/1999/02/22-rdf-syntax-ns#}Alt {http://www.w3.org/1999/02/22-rdf-syntax-ns#}li statement word,{},0.0003450655624568668,0.20647388804940212,7.124702831242309e-05,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+17,Unit,0 2 0 4 1 0 0 0 2,TaggedPDF-doc {adobe:ns:meta/}xmpmeta {http://www.w3.org/1999/02/22-rdf-syntax-ns#}RDF {http://www.w3.org/1999/02/22-rdf-syntax-ns#}Description {http://purl.org/dc/elements/1.1/}title {http://www.w3.org/1999/02/22-rdf-syntax-ns#}Alt {http://www.w3.org/1999/02/22-rdf-syntax-ns#}li statement word,{},0.0003450655624568668,0.22577904324478879,7.790857254823629e-05,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+18,Jidan,0 2 0 4 2 0 0 0 0,TaggedPDF-doc {adobe:ns:meta/}xmpmeta {http://www.w3.org/1999/02/22-rdf-syntax-ns#}RDF {http://www.w3.org/1999/02/22-rdf-syntax-ns#}Description {http://purl.org/dc/elements/1.1/}creator {http://www.w3.org/1999/02/22-rdf-syntax-ns#}Seq {http://www.w3.org/1999/02/22-rdf-syntax-ns#}li statement word,{},0.0006901311249137336,1.2671717284030137,0.000874514650381652,No,No,No,No,No
+19,Al-Eryani,0 2 0 4 2 0 0 0 1,TaggedPDF-doc {adobe:ns:meta/}xmpmeta {http://www.w3.org/1999/02/22-rdf-syntax-ns#}RDF {http://www.w3.org/1999/02/22-rdf-syntax-ns#}Description {http://purl.org/dc/elements/1.1/}creator {http://www.w3.org/1999/02/22-rdf-syntax-ns#}Seq {http://www.w3.org/1999/02/22-rdf-syntax-ns#}li statement word,{},0.0006901311249137336,1.2671717284030137,0.000874514650381652,No,No,No,No,No
+20,"end ""w""",0 3 0 0,TaggedPDF-doc <built-in function ProcessingInstruction> statement word,{},0.0003450655624568668,0.01189922329970769,4.106012180713489e-06,No,No,No,No,No
+21,end 'r',0 4 0 0,TaggedPDF-doc <built-in function ProcessingInstruction> statement word,{},0.0003450655624568668,0.01189922329970769,4.106012180713489e-06,No,No,No,No,No
+22,Introduction,0 5 1 0 1 0,TaggedPDF-doc Part P Link statement word,{},0.0006901311249137336,0.52680903890877,0.0003635673146368323,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+23,Floating,0 5 2 0 1 0,TaggedPDF-doc Part P Link statement word,{},0.0013802622498274672,0.28944812311416607,0.00039951431761789657,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+24,point,0 5 2 0 1 1,TaggedPDF-doc Part P Link statement word,{},0.004485852311939268,0.12104369272477576,0.0005429841288551018,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+25,numbers,0 5 2 0 1 2,TaggedPDF-doc Part P Link statement word,{},0.007246376811594203,0.1368379599080077,0.0009915794196232442,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+26,IEEE,0 5 3 0 1 0,TaggedPDF-doc Part P Link statement word,{},0.004485852311939268,0.09108046934733258,0.0004085735339942455,No,No,No,No,No
+27,Standard,0 5 3 0 1 1,TaggedPDF-doc Part P Link statement word,{},0.0024154589371980675,0.3640817414110702,0.0008794244961620052,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+28,754,0 5 3 0 1 2,TaggedPDF-doc Part P Link statement word,{},0.0027605244996549345,0.3640817414110702,0.0010050565670422919,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+29,for,0 5 3 0 1 3,TaggedPDF-doc Part P Link statement word,{},0.010351966873706004,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
+30,Binary,0 5 3 0 1 4,TaggedPDF-doc Part P Link statement word,{},0.001725327812284334,0.6651117370750514,0.0011475357782523316,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+31,Floating-Point,0 5 3 0 1 5,TaggedPDF-doc Part P Link statement word,{},0.002070393374741201,0.33775280268872104,0.0006992811649870001,"Yes (en_GB, en_AU)",No,No,No,No
+32,Arithmetic,0 5 3 0 1 6,TaggedPDF-doc Part P Link statement word,{},0.003105590062111801,0.568201724066995,0.0017646016275372513,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+33,3.1,0 5 4 0 0 0,TaggedPDF-doc Part P Link statement word,{},0.0010351966873706005,0.7231036840527382,0.0007485545383568719,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+34,Formats,0 5 4 0 0 1,TaggedPDF-doc Part P Link statement word,{},0.0006901311249137336,0.6651117370750514,0.00045901431130093267,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+35,3.2,0 5 5 0 0 0,TaggedPDF-doc Part P Link statement word,{},0.0013802622498274672,0.7231036840527382,0.0009980727178091624,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+36,Exceptions,0 5 5 0 0 1,TaggedPDF-doc Part P Link statement word,{},0.0010351966873706005,0.6651117370750514,0.0006885214669513991,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+37,3.2.1,0 5 6 0 0 0,TaggedPDF-doc Part P Link statement word,{},0.0010351966873706005,1.0910804693473326,0.0011294828875231188,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+38,Invalid,0 5 6 0 0 1,TaggedPDF-doc Part P Link statement word,{},0.0010351966873706005,0.28944812311416607,0.00029963573821342244,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+39,Operation,0 5 6 0 0 2,TaggedPDF-doc Part P Link statement word,{},0.0010351966873706005,0.3640817414110702,0.00037689621264085945,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+40,3.2.2,0 5 7 0 0 0,TaggedPDF-doc Part P Link statement word,{},0.0010351966873706005,1.0910804693473326,0.0011294828875231188,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+41,Division,0 5 7 0 0 1,TaggedPDF-doc Part P Link statement word,{},0.003450655624568668,0.6139592146276701,0.002118561817210732,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+42,by,0 5 7 0 0 2,TaggedPDF-doc Part P Link statement word,{},0.004140786749482402,0.17026171539495738,0.0007050174550515834,Yes (NTLK Stopword),No,No,No,No
+43,Zero,0 5 7 0 0 3,TaggedPDF-doc Part P Link statement word,{},0.0013802622498274672,0.33775280268872104,0.00046618744332466676,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+44,3.2.3,0 5 8 0 0 0,TaggedPDF-doc Part P Link statement word,{},0.0010351966873706005,1.2671717284030137,0.001311771975572478,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+45,Inexact,0 5 8 0 0 1,TaggedPDF-doc Part P Link statement word,{},0.0006901311249137336,0.422073688388757,0.00029128618936422154,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+46,3.2.4,0 5 9 0 0 0,TaggedPDF-doc Part P Link statement word,{},0.0010351966873706005,1.2671717284030137,0.001311771975572478,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+47,Underflow,0 5 9 0 0 1,TaggedPDF-doc Part P Link statement word,{},0.0006901311249137336,0.20647388804940212,0.00014249405662484618,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+48,3.2.5,0 5 10 0 0 0,TaggedPDF-doc Part P Link statement word,{},0.0010351966873706005,1.2671717284030137,0.001311771975572478,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+49,Overflow,0 5 10 0 0 1,TaggedPDF-doc Part P Link statement word,{},0.0006901311249137336,0.20647388804940212,0.00014249405662484618,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+50,3.2.6,0 5 11 0 0 0,TaggedPDF-doc Part P Link statement word,{},0.0010351966873706005,1.2671717284030137,0.001311771975572478,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+51,Infinity,0 5 11 0 0 1,TaggedPDF-doc Part P Link statement word,{},0.0006901311249137336,0.45425837176015826,0.00031349784110431904,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+52,3.2.7,0 5 12 0 0 0,TaggedPDF-doc Part P Link statement word,{},0.0010351966873706005,1.2671717284030137,0.001311771975572478,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+53,Zero,0 5 12 0 0 1,TaggedPDF-doc Part P Link statement word,{},0.0013802622498274672,0.33775280268872104,0.00046618744332466676,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+54,3.3,0 5 14 0 0 0,TaggedPDF-doc Part P Link statement word,{},0.0010351966873706005,0.7231036840527382,0.0007485545383568719,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+55,Rounding,0 5 14 0 0 1,TaggedPDF-doc Part P Link statement word,{},0.0013802622498274672,0.18799048235538898,0.00025947616612199997,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+56,Modes,0 5 14 0 0 2,TaggedPDF-doc Part P Link statement word,{},0.0006901311249137336,0.7231036840527382,0.0004990363589045812,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+57,3.3.1,0 5 15 0 0 0,TaggedPDF-doc Part P Link statement word,{},0.0010351966873706005,1.0910804693473326,0.0011294828875231188,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+58,Round,0 5 15 0 0 1,TaggedPDF-doc Part P Link statement word,{},0.0027605244996549345,0.6139592146276701,0.0016948494537685856,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+59,to,0 5 15 0 0 2,TaggedPDF-doc Part P Link statement word,{},0.02139406487232574,0.01189922329970769,0.0002545727552042363,Yes (NTLK Stopword),No,No,No,No
+60,nearest,0 5 15 0 0 3,TaggedPDF-doc Part P Link statement word,{},0.0024154589371980675,0.45425837176015826,0.0010972424438651165,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+61,even,0 5 15 0 0 4,TaggedPDF-doc Part P Link statement word,{},0.001725327812284334,0.4890204780193702,0.0008437206315033992,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+62,3.3.2,0 5 16 0 0 0,TaggedPDF-doc Part P Link statement word,{},0.0010351966873706005,1.0910804693473326,0.0011294828875231188,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+63,Round-to-Zero,0 5 16 0 0 1,TaggedPDF-doc Part P Link statement word,{},0.0006901311249137336,1.2671717284030137,0.000874514650381652,No,No,No,No,No
+64,3.3.3,0 5 17 0 0 0,TaggedPDF-doc Part P Link statement word,{},0.0010351966873706005,1.2671717284030137,0.001311771975572478,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+65,Round-Up,0 5 17 0 0 1,TaggedPDF-doc Part P Link statement word,{},0.0006901311249137336,1.2671717284030137,0.000874514650381652,"Yes (en_GB, en_AU)",No,No,No,No
+66,3.3.4,0 5 18 0 0 0,TaggedPDF-doc Part P Link statement word,{},0.0010351966873706005,1.2671717284030137,0.001311771975572478,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+67,Round-Down,0 5 18 0 0 1,TaggedPDF-doc Part P Link statement word,{},0.0006901311249137336,1.2671717284030137,0.000874514650381652,No,No,No,No,No
+68,Arithmetic,0 5 19 0 1 0,TaggedPDF-doc Part P Link statement word,{},0.003105590062111801,0.568201724066995,0.0017646016275372513,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+69,on,0 5 19 0 1 1,TaggedPDF-doc Part P Link statement word,{},0.004485852311939268,0.1368379599080077,0.0006138348788143893,Yes (NTLK Stopword),No,No,No,No
+70,floating,0 5 19 0 1 2,TaggedPDF-doc Part P Link statement word,{},0.002070393374741201,0.31292921896368886,0.00064788658170536,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+71,point,0 5 19 0 1 3,TaggedPDF-doc Part P Link statement word,{},0.004485852311939268,0.12104369272477576,0.0005429841288551018,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+72,numbers,0 5 19 0 1 4,TaggedPDF-doc Part P Link statement word,{},0.007246376811594203,0.1368379599080077,0.0009915794196232442,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+73,4.1,0 5 20 0 0 0,TaggedPDF-doc Part P Link statement word,{},0.002070393374741201,0.568201724066995,0.0011764010850248345,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+74,Addition,0 5 20 0 0 1,TaggedPDF-doc Part P Link statement word,{},0.0024154589371980675,0.6139592146276701,0.0014829932720475123,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+75,and,0 5 20 0 0 2,TaggedPDF-doc Part P Link statement word,{},0.021739130434782608,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
+76,Subtraction,0 5 20 0 0 3,TaggedPDF-doc Part P Link statement word,{},0.0013802622498274672,0.7231036840527382,0.0009980727178091624,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+77,4.2,0 5 22 0 0 0,TaggedPDF-doc Part P Link statement word,{},0.002070393374741201,0.6651117370750514,0.0013770429339027982,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+78,Multiplication,0 5 22 0 0 1,TaggedPDF-doc Part P Link statement word,{},0.002070393374741201,0.568201724066995,0.0011764010850248345,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+79,4.3,0 5 23 0 0 0,TaggedPDF-doc Part P Link statement word,{},0.002070393374741201,0.7231036840527382,0.0014971090767137438,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+80,Division,0 5 23 0 0 1,TaggedPDF-doc Part P Link statement word,{},0.003450655624568668,0.6139592146276701,0.002118561817210732,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+81,4.4,0 5 24 0 0 0,TaggedPDF-doc Part P Link statement word,{},0.002070393374741201,0.7900504736833514,0.0016357152664251582,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+82,Square-Root,0 5 24 0 0 1,TaggedPDF-doc Part P Link statement word,{},0.0006901311249137336,1.2671717284030137,0.000874514650381652,No,No,No,No,No
+83,Hardware,0 5 26 0 1 0,TaggedPDF-doc Part P Link statement word,{},0.0013802622498274672,0.6139592146276701,0.0008474247268842928,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+84,implementation,0 5 26 0 1 1,TaggedPDF-doc Part P Link statement word,{},0.001725327812284334,0.31292921896368886,0.0005399054847544666,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+85,4.1,0 5 27 0 0 0,TaggedPDF-doc Part P Link statement word,{},0.002070393374741201,0.568201724066995,0.0011764010850248345,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+86,Interface,0 5 27 0 0 1,TaggedPDF-doc Part P Link statement word,{},0.0006901311249137336,0.3921104650113138,0.0002706076363087052,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+87,4.2,0 5 28 0 0 0,TaggedPDF-doc Part P Link statement word,{},0.002070393374741201,0.6651117370750514,0.0013770429339027982,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+88,Compilation,0 5 28 0 0 1,TaggedPDF-doc Part P Link statement word,{},0.0010351966873706005,1.2671717284030137,0.001311771975572478,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+89,and,0 5 28 0 0 2,TaggedPDF-doc Part P Link statement word,{},0.021739130434782608,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
+90,Synthesis,0 5 28 0 0 3,TaggedPDF-doc Part P Link statement word,{},0.0006901311249137336,0.31292921896368886,0.00021596219390178665,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+91,4.3,0 5 29 0 0 0,TaggedPDF-doc Part P Link statement word,{},0.002070393374741201,0.7231036840527382,0.0014971090767137438,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+92,Test,0 5 29 0 0 1,TaggedPDF-doc Part P Link statement word,{},0.0010351966873706005,0.3640817414110702,0.00037689621264085945,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+93,and,0 5 29 0 0 2,TaggedPDF-doc Part P Link statement word,{},0.021739130434782608,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
+94,verification,0 5 29 0 0 3,TaggedPDF-doc Part P Link statement word,{},0.0010351966873706005,0.8692317197309762,0.0008998257968229568,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+95,4.4,0 5 30 0 0 0,TaggedPDF-doc Part P Link statement word,{},0.002070393374741201,0.7900504736833514,0.0016357152664251582,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+96,FPU,0 5 30 0 0 1,TaggedPDF-doc Part P Link statement word,{},0.010351966873706004,0.52680903890877,0.005453509719552484,No,No,Yes,No,No
+97,comparsion,0 5 30 0 0 2,TaggedPDF-doc Part P Link statement word,{},0.0006901311249137336,1.2671717284030137,0.000874514650381652,No,No,No,No,No
+98,Conclusion,0 5 31 0 1 0,TaggedPDF-doc Part P Link statement word,{},0.0006901311249137336,1.2671717284030137,0.000874514650381652,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+99,References,0 5 32 0 1 0,TaggedPDF-doc Part P Link statement word,{},0.0006901311249137336,1.0910804693473326,0.0007529885916820791,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+100,Jidan,0 10 4 0 0,TaggedPDF-doc Sect Normal statement word,{},0.0006901311249137336,1.2671717284030137,0.000874514650381652,No,No,No,No,No
+101,Al-Eryani,0 10 4 0 1,TaggedPDF-doc Sect Normal statement word,{},0.0006901311249137336,1.2671717284030137,0.000874514650381652,No,No,No,No,No
+102,jidan gmx.net,0 10 6 0 0,TaggedPDF-doc Sect Normal statement word,{},0.0003450655624568668,1.2671717284030137,0.000437257325190826,No,No,No,No,No
+103,Copyright,0 10 21 0 0,TaggedPDF-doc Sect Normal statement word,{},0.0003450655624568668,0.422073688388757,0.00014564309468211077,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+104,2006,0 10 21 0 2,TaggedPDF-doc Sect Normal statement word,{},0.0003450655624568668,1.2671717284030137,0.000437257325190826,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+105,Contents,0 10 22 0 0,TaggedPDF-doc Sect Normal statement word,{},0.0003450655624568668,0.8692317197309762,0.0002999419322743189,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+106,Floating,0 10 26 1 0 1 0,TaggedPDF-doc Sect TOC TOCI Link statement word,{},0.0013802622498274672,0.28944812311416607,0.00039951431761789657,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+107,point,0 10 26 1 0 1 1,TaggedPDF-doc Sect TOC TOCI Link statement word,{},0.004485852311939268,0.12104369272477576,0.0005429841288551018,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+108,IEEE,0 10 26 2 0 1 0,TaggedPDF-doc Sect TOC TOCI Link statement word,{},0.004485852311939268,0.09108046934733258,0.0004085735339942455,No,No,No,No,No
+109,Standard,0 10 26 2 0 1 1,TaggedPDF-doc Sect TOC TOCI Link statement word,{},0.0024154589371980675,0.3640817414110702,0.0008794244961620052,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+110,754,0 10 26 2 0 1 2,TaggedPDF-doc Sect TOC TOCI Link statement word,{},0.0027605244996549345,0.3640817414110702,0.0010050565670422919,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+111,for,0 10 26 2 0 1 3,TaggedPDF-doc Sect TOC TOCI Link statement word,{},0.010351966873706004,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
+112,Binary,0 10 26 2 0 1 4,TaggedPDF-doc Sect TOC TOCI Link statement word,{},0.001725327812284334,0.6651117370750514,0.0011475357782523316,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+113,Floating-Point,0 10 26 2 0 1 5,TaggedPDF-doc Sect TOC TOCI Link statement word,{},0.002070393374741201,0.33775280268872104,0.0006992811649870001,"Yes (en_GB, en_AU)",No,No,No,No
+114,3.1,0 10 26 3 0 0 0,TaggedPDF-doc Sect TOC TOCI Link statement word,{},0.0010351966873706005,0.7231036840527382,0.0007485545383568719,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+115,3.2,0 10 26 4 0 0 0,TaggedPDF-doc Sect TOC TOCI Link statement word,{},0.0013802622498274672,0.7231036840527382,0.0009980727178091624,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+116,3.2.1,0 10 26 5 0 0 0,TaggedPDF-doc Sect TOC TOCI Link statement word,{},0.0010351966873706005,1.0910804693473326,0.0011294828875231188,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+117,Invalid,0 10 26 5 0 0 1,TaggedPDF-doc Sect TOC TOCI Link statement word,{},0.0010351966873706005,0.28944812311416607,0.00029963573821342244,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+118,3.2.2,0 10 26 6 0 0 0,TaggedPDF-doc Sect TOC TOCI Link statement word,{},0.0010351966873706005,1.0910804693473326,0.0011294828875231188,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+119,Division,0 10 26 6 0 0 1,TaggedPDF-doc Sect TOC TOCI Link statement word,{},0.003450655624568668,0.6139592146276701,0.002118561817210732,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+120,by,0 10 26 6 0 0 2,TaggedPDF-doc Sect TOC TOCI Link statement word,{},0.004140786749482402,0.17026171539495738,0.0007050174550515834,Yes (NTLK Stopword),No,No,No,No
+121,3.2.3,0 10 26 7 0 0 0,TaggedPDF-doc Sect TOC TOCI Link statement word,{},0.0010351966873706005,1.2671717284030137,0.001311771975572478,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+122,3.2.4,0 10 26 8 0 0 0,TaggedPDF-doc Sect TOC TOCI Link statement word,{},0.0010351966873706005,1.2671717284030137,0.001311771975572478,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+123,3.2.5,0 10 26 9 0 0 0,TaggedPDF-doc Sect TOC TOCI Link statement word,{},0.0010351966873706005,1.2671717284030137,0.001311771975572478,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+124,3.2.6,0 10 26 10 0 0 0,TaggedPDF-doc Sect TOC TOCI Link statement word,{},0.0010351966873706005,1.2671717284030137,0.001311771975572478,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+125,3.2.7,0 10 26 11 0 0 0,TaggedPDF-doc Sect TOC TOCI Link statement word,{},0.0010351966873706005,1.2671717284030137,0.001311771975572478,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+126,3.3,0 10 26 12 0 0 0,TaggedPDF-doc Sect TOC TOCI Link statement word,{},0.0010351966873706005,0.7231036840527382,0.0007485545383568719,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+127,Rounding,0 10 26 12 0 0 1,TaggedPDF-doc Sect TOC TOCI Link statement word,{},0.0013802622498274672,0.18799048235538898,0.00025947616612199997,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+128,3.3.1,0 10 26 13 0 0 0,TaggedPDF-doc Sect TOC TOCI Link statement word,{},0.0010351966873706005,1.0910804693473326,0.0011294828875231188,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+129,Round,0 10 26 13 0 0 1,TaggedPDF-doc Sect TOC TOCI Link statement word,{},0.0027605244996549345,0.6139592146276701,0.0016948494537685856,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+130,to,0 10 26 13 0 0 2,TaggedPDF-doc Sect TOC TOCI Link statement word,{},0.02139406487232574,0.01189922329970769,0.0002545727552042363,Yes (NTLK Stopword),No,No,No,No
+131,nearest,0 10 26 13 0 0 3,TaggedPDF-doc Sect TOC TOCI Link statement word,{},0.0024154589371980675,0.45425837176015826,0.0010972424438651165,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+132,3.3.2,0 10 26 14 0 0 0,TaggedPDF-doc Sect TOC TOCI Link statement word,{},0.0010351966873706005,1.0910804693473326,0.0011294828875231188,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+133,3.3.3,0 10 26 15 0 0 0,TaggedPDF-doc Sect TOC TOCI Link statement word,{},0.0010351966873706005,1.2671717284030137,0.001311771975572478,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+134,3.3.4,0 10 26 16 0 0 0,TaggedPDF-doc Sect TOC TOCI Link statement word,{},0.0010351966873706005,1.2671717284030137,0.001311771975572478,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+135,Arithmetic,0 10 26 17 0 1 0,TaggedPDF-doc Sect TOC TOCI Link statement word,{},0.003105590062111801,0.568201724066995,0.0017646016275372513,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+136,on,0 10 26 17 0 1 1,TaggedPDF-doc Sect TOC TOCI Link statement word,{},0.004485852311939268,0.1368379599080077,0.0006138348788143893,Yes (NTLK Stopword),No,No,No,No
+137,floating,0 10 26 17 0 1 2,TaggedPDF-doc Sect TOC TOCI Link statement word,{},0.002070393374741201,0.31292921896368886,0.00064788658170536,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+138,point,0 10 26 17 0 1 3,TaggedPDF-doc Sect TOC TOCI Link statement word,{},0.004485852311939268,0.12104369272477576,0.0005429841288551018,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+139,4.1,0 10 26 18 0 0 0,TaggedPDF-doc Sect TOC TOCI Link statement word,{},0.002070393374741201,0.568201724066995,0.0011764010850248345,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+140,Addition,0 10 26 18 0 0 1,TaggedPDF-doc Sect TOC TOCI Link statement word,{},0.0024154589371980675,0.6139592146276701,0.0014829932720475123,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+141,and,0 10 26 18 0 0 2,TaggedPDF-doc Sect TOC TOCI Link statement word,{},0.021739130434782608,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
+142,4.2,0 10 26 19 0 0 0,TaggedPDF-doc Sect TOC TOCI Link statement word,{},0.002070393374741201,0.6651117370750514,0.0013770429339027982,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+143,4.3,0 10 26 20 0 0 0,TaggedPDF-doc Sect TOC TOCI Link statement word,{},0.002070393374741201,0.7231036840527382,0.0014971090767137438,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+144,4.4,0 10 26 21 0 0 0,TaggedPDF-doc Sect TOC TOCI Link statement word,{},0.002070393374741201,0.7900504736833514,0.0016357152664251582,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+145,Hardware,0 10 26 22 0 1 0,TaggedPDF-doc Sect TOC TOCI Link statement word,{},0.0013802622498274672,0.6139592146276701,0.0008474247268842928,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+146,4.1,0 10 26 23 0 0 0,TaggedPDF-doc Sect TOC TOCI Link statement word,{},0.002070393374741201,0.568201724066995,0.0011764010850248345,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+147,4.2,0 10 26 24 0 0 0,TaggedPDF-doc Sect TOC TOCI Link statement word,{},0.002070393374741201,0.6651117370750514,0.0013770429339027982,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+148,Compilation,0 10 26 24 0 0 1,TaggedPDF-doc Sect TOC TOCI Link statement word,{},0.0010351966873706005,1.2671717284030137,0.001311771975572478,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+149,and,0 10 26 24 0 0 2,TaggedPDF-doc Sect TOC TOCI Link statement word,{},0.021739130434782608,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
+150,4.3,0 10 26 25 0 0 0,TaggedPDF-doc Sect TOC TOCI Link statement word,{},0.002070393374741201,0.7231036840527382,0.0014971090767137438,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+151,Test,0 10 26 25 0 0 1,TaggedPDF-doc Sect TOC TOCI Link statement word,{},0.0010351966873706005,0.3640817414110702,0.00037689621264085945,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+152,and,0 10 26 25 0 0 2,TaggedPDF-doc Sect TOC TOCI Link statement word,{},0.021739130434782608,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
+153,4.4,0 10 26 26 0 0 0,TaggedPDF-doc Sect TOC TOCI Link statement word,{},0.002070393374741201,0.7900504736833514,0.0016357152664251582,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+154,FPU,0 10 26 26 0 0 1,TaggedPDF-doc Sect TOC TOCI Link statement word,{},0.010351966873706004,0.52680903890877,0.005453509719552484,No,No,Yes,No,No
+155,Introduction,0 11 0 1 0,TaggedPDF-doc Sect heading-1 statement word,{},0.0006901311249137336,0.52680903890877,0.0003635673146368323,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+156,The,0 11 3 0 0,TaggedPDF-doc Sect Normal statement word,{},0.01725327812284334,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
+157,floating,0 11 3 0 1,TaggedPDF-doc Sect Normal statement word,{},0.002070393374741201,0.31292921896368886,0.00064788658170536,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+158,point,0 11 3 0 2,TaggedPDF-doc Sect Normal statement word,{},0.004485852311939268,0.12104369272477576,0.0005429841288551018,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+159,unit,0 11 3 0 3,TaggedPDF-doc Sect Normal statement word,{},0.004140786749482402,0.1368379599080077,0.0005666168112132825,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+160,FPU,0 11 3 0 4,TaggedPDF-doc Sect Normal statement word,{},0.010351966873706004,0.52680903890877,0.005453509719552484,No,No,Yes,No,No
+161,implemented,0 11 3 0 5,TaggedPDF-doc Sect Normal statement word,{},0.002070393374741201,0.422073688388757,0.0008738585680926646,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+162,during,0 11 3 0 6,TaggedPDF-doc Sect Normal statement word,{},0.0006901311249137336,0.422073688388757,0.00029128618936422154,Yes (NTLK Stopword),No,No,No,No
+163,this,0 11 3 0 7,TaggedPDF-doc Sect Normal statement word,{},0.003105590062111801,0.10580372616803894,0.00032858300052186003,Yes (NTLK Stopword),No,No,No,No
+164,project,0 11 3 0 8,TaggedPDF-doc Sect Normal statement word,{},0.0010351966873706005,0.568201724066995,0.0005882005425124172,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+165,is,0 11 3 0 9,TaggedPDF-doc Sect Normal statement word,{},0.022429261559696344,0.01189922329970769,0.0002668907917463768,Yes (NTLK Stopword),No,No,No,No
+166,32-bit,0 11 3 0 11,TaggedPDF-doc Sect Normal statement word,{},0.0010351966873706005,0.28944812311416607,0.00029963573821342244,No,No,No,No,No
+167,processing,0 11 3 0 12,TaggedPDF-doc Sect Normal statement word,{},0.0006901311249137336,0.28944812311416607,0.00019975715880894828,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+168,unit,0 11 3 0 13,TaggedPDF-doc Sect Normal statement word,{},0.004140786749482402,0.1368379599080077,0.0005666168112132825,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+169,which,0 11 3 0 14,TaggedPDF-doc Sect Normal statement word,{},0.003105590062111801,0.26717172840301384,0.000829725864605633,Yes (NTLK Stopword),No,No,No,No
+170,allows,0 11 3 0 15,TaggedPDF-doc Sect Normal statement word,{},0.0003450655624568668,0.422073688388757,0.00014564309468211077,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+171,arithmetic,0 11 3 0 16,TaggedPDF-doc Sect Normal statement word,{},0.006556245686680469,0.26717172840301384,0.0017516434919452252,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+172,operations,0 11 3 0 17,TaggedPDF-doc Sect Normal statement word,{},0.005866114561766736,0.26717172840301384,0.001567259966477307,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+173,on,0 11 3 0 18,TaggedPDF-doc Sect Normal statement word,{},0.004485852311939268,0.1368379599080077,0.0006138348788143893,Yes (NTLK Stopword),No,No,No,No
+174,floating,0 11 3 0 19,TaggedPDF-doc Sect Normal statement word,{},0.002070393374741201,0.31292921896368886,0.00064788658170536,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+175,point,0 11 3 0 20,TaggedPDF-doc Sect Normal statement word,{},0.004485852311939268,0.12104369272477576,0.0005429841288551018,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+176,numbers,0 11 3 0 21,TaggedPDF-doc Sect Normal statement word,{},0.007246376811594203,0.1368379599080077,0.0009915794196232442,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+177,The,0 11 3 1 0,TaggedPDF-doc Sect Normal statement word,{},0.01725327812284334,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
+178,FPU,0 11 3 1 1,TaggedPDF-doc Sect Normal statement word,{},0.010351966873706004,0.52680903890877,0.005453509719552484,No,No,Yes,No,No
+179,complies,0 11 3 1 2,TaggedPDF-doc Sect Normal statement word,{},0.0006901311249137336,1.0910804693473326,0.0007529885916820791,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+180,fully,0 11 3 1 3,TaggedPDF-doc Sect Normal statement word,{},0.0006901311249137336,0.18799048235538898,0.00012973808306099998,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+181,with,0 11 3 1 4,TaggedPDF-doc Sect Normal statement word,{},0.009316770186335404,0.04968778418910748,0.0004629296663581442,Yes (NTLK Stopword),No,No,No,No
+182,the,0 11 3 1 5,TaggedPDF-doc Sect Normal statement word,{},0.05452035886818495,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
+183,IEEE,0 11 3 1 6,TaggedPDF-doc Sect Normal statement word,{},0.004485852311939268,0.09108046934733258,0.0004085735339942455,No,No,No,No,No
+184,754,0 11 3 1 7,TaggedPDF-doc Sect Normal statement word,{},0.0027605244996549345,0.3640817414110702,0.0010050565670422919,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+185,Standard,0 11 3 1 8,TaggedPDF-doc Sect Normal statement word,{},0.0024154589371980675,0.3640817414110702,0.0008794244961620052,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+186,The,0 11 4 0 0,TaggedPDF-doc Sect Normal statement word,{},0.01725327812284334,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
+187,FPU,0 11 4 0 1,TaggedPDF-doc Sect Normal statement word,{},0.010351966873706004,0.52680903890877,0.005453509719552484,No,No,Yes,No,No
+188,supports,0 11 4 0 2,TaggedPDF-doc Sect Normal statement word,{},0.0006901311249137336,0.26717172840301384,0.00018438352546791846,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+189,the,0 11 4 0 3,TaggedPDF-doc Sect Normal statement word,{},0.05452035886818495,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
+190,following,0 11 4 0 4,TaggedPDF-doc Sect Normal statement word,{},0.0027605244996549345,0.06305174574708902,0.00017405588888085306,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+191,arithmetic,0 11 4 0 5,TaggedPDF-doc Sect Normal statement word,{},0.006556245686680469,0.26717172840301384,0.0017516434919452252,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+192,operations,0 11 4 0 6,TaggedPDF-doc Sect Normal statement word,{},0.005866114561766736,0.26717172840301384,0.001567259966477307,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+193,Add,0 11 6 0 0 1 0,TaggedPDF-doc Sect L LI LBody statement word,{},0.0013802622498274672,0.6139592146276701,0.0008474247268842928,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+194,Subtract,0 11 6 1 0 1 0,TaggedPDF-doc Sect L LI LBody statement word,{},0.0006901311249137336,0.7231036840527382,0.0004990363589045812,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+195,Multiply,0 11 6 2 0 1 0,TaggedPDF-doc Sect L LI LBody statement word,{},0.0006901311249137336,0.7231036840527382,0.0004990363589045812,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+196,Divide,0 11 6 3 0 1 0,TaggedPDF-doc Sect L LI LBody statement word,{},0.0006901311249137336,0.52680903890877,0.0003635673146368323,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+197,Square,0 11 6 4 0 1 0,TaggedPDF-doc Sect L LI LBody statement word,{},0.0010351966873706005,0.568201724066995,0.0005882005425124172,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+198,Root,0 11 6 4 0 1 1,TaggedPDF-doc Sect L LI LBody statement word,{},0.0006901311249137336,0.6651117370750514,0.00045901431130093267,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+199,For,0 11 8 0 0,TaggedPDF-doc Sect Normal statement word,{},0.0013802622498274672,0.26717172840301384,0.0003687670509358369,Yes (NTLK Stopword),No,No,No,No
+200,each,0 11 8 0 1,TaggedPDF-doc Sect Normal statement word,{},0.0013802622498274672,0.26717172840301384,0.0003687670509358369,Yes (NTLK Stopword),No,No,No,No
+201,operation,0 11 8 0 2,TaggedPDF-doc Sect Normal statement word,{},0.003105590062111801,0.10580372616803894,0.00032858300052186003,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+202,the,0 11 8 0 3,TaggedPDF-doc Sect Normal statement word,{},0.05452035886818495,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
+203,following,0 11 8 0 4,TaggedPDF-doc Sect Normal statement word,{},0.0027605244996549345,0.06305174574708902,0.00017405588888085306,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+204,rounding,0 11 8 0 5,TaggedPDF-doc Sect Normal statement word,{},0.003105590062111801,0.18799048235538898,0.0005838213737745,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+205,modes,0 11 8 0 6,TaggedPDF-doc Sect Normal statement word,{},0.0010351966873706005,0.33775280268872104,0.00034964058249350007,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+206,are,0 11 8 0 7,TaggedPDF-doc Sect Normal statement word,{},0.008281573498964804,0.02413367971671937,0.00019986484237448756,Yes (NTLK Stopword),No,No,No,No
+207,supported,0 11 8 0 8,TaggedPDF-doc Sect Normal statement word,{},0.0003450655624568668,0.28944812311416607,9.987857940447414e-05,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+208,Round,0 11 10 0 0 1 0,TaggedPDF-doc Sect L LI LBody statement word,{},0.0027605244996549345,0.6139592146276701,0.0016948494537685856,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+209,to,0 11 10 0 0 1 1,TaggedPDF-doc Sect L LI LBody statement word,{},0.02139406487232574,0.01189922329970769,0.0002545727552042363,Yes (NTLK Stopword),No,No,No,No
+210,nearest,0 11 10 0 0 1 2,TaggedPDF-doc Sect L LI LBody statement word,{},0.0024154589371980675,0.45425837176015826,0.0010972424438651165,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+211,even,0 11 10 0 0 1 3,TaggedPDF-doc Sect L LI LBody statement word,{},0.001725327812284334,0.4890204780193702,0.0008437206315033992,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+212,Round,0 11 10 1 0 1 0,TaggedPDF-doc Sect L LI LBody statement word,{},0.0027605244996549345,0.6139592146276701,0.0016948494537685856,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+213,to,0 11 10 1 0 1 1,TaggedPDF-doc Sect L LI LBody statement word,{},0.02139406487232574,0.01189922329970769,0.0002545727552042363,Yes (NTLK Stopword),No,No,No,No
+214,zero,0 11 10 1 0 1 2,TaggedPDF-doc Sect L LI LBody statement word,{},0.004485852311939268,0.26717172840301384,0.00119849291554147,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+215,Round,0 11 10 2 0 1 0,TaggedPDF-doc Sect L LI LBody statement word,{},0.0027605244996549345,0.6139592146276701,0.0016948494537685856,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+216,up,0 11 10 2 0 1 1,TaggedPDF-doc Sect L LI LBody statement word,{},0.002070393374741201,0.3640817414110702,0.0007537924252817189,Yes (NTLK Stopword),No,No,No,No
+217,Round,0 11 10 3 0 1 0,TaggedPDF-doc Sect L LI LBody statement word,{},0.0027605244996549345,0.6139592146276701,0.0016948494537685856,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+218,down,0 11 10 3 0 1 1,TaggedPDF-doc Sect L LI LBody statement word,{},0.0010351966873706005,0.7900504736833514,0.0008178576332125791,Yes (NTLK Stopword),No,No,No,No
+219,The,0 11 13 0 0,TaggedPDF-doc Sect Normal statement word,{},0.01725327812284334,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
+220,FPU,0 11 13 0 1,TaggedPDF-doc Sect Normal statement word,{},0.010351966873706004,0.52680903890877,0.005453509719552484,No,No,Yes,No,No
+221,was,0 11 13 0 2,TaggedPDF-doc Sect Normal statement word,{},0.008281573498964804,0.3640817414110702,0.0030151697011268756,Yes (NTLK Stopword),No,No,No,No
+222,written,0 11 13 0 3,TaggedPDF-doc Sect Normal statement word,{},0.0003450655624568668,0.52680903890877,0.00018178365731841615,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+223,in,0 11 13 0 4,TaggedPDF-doc Sect Normal statement word,{},0.006211180124223602,0.01189922329970769,7.39082192528428e-05,Yes (NTLK Stopword),No,No,No,No
+224,VHDL,0 11 13 0 5,TaggedPDF-doc Sect Normal statement word,{},0.0006901311249137336,0.2459824293330757,0.00016976013066464854,No,No,Yes,No,No
+225,with,0 11 13 0 6,TaggedPDF-doc Sect Normal statement word,{},0.009316770186335404,0.04968778418910748,0.0004629296663581442,Yes (NTLK Stopword),No,No,No,No
+226,top,0 11 13 0 7,TaggedPDF-doc Sect Normal statement word,{},0.0003450655624568668,0.6651117370750514,0.00022950715565046634,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+227,priority,0 11 13 0 8,TaggedPDF-doc Sect Normal statement word,{},0.0003450655624568668,1.0910804693473326,0.00037649429584103955,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+228,to,0 11 13 0 9,TaggedPDF-doc Sect Normal statement word,{},0.02139406487232574,0.01189922329970769,0.0002545727552042363,Yes (NTLK Stopword),No,No,No,No
+229,be,0 11 13 0 10,TaggedPDF-doc Sect Normal statement word,{},0.014492753623188406,0.10580372616803894,0.0015333873357686804,Yes (NTLK Stopword),No,No,No,No
+230,able,0 11 13 0 11,TaggedPDF-doc Sect Normal statement word,{},0.0006901311249137336,0.6651117370750514,0.00045901431130093267,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+231,to,0 11 13 0 12,TaggedPDF-doc Sect Normal statement word,{},0.02139406487232574,0.01189922329970769,0.0002545727552042363,Yes (NTLK Stopword),No,No,No,No
+232,run,0 11 13 0 13,TaggedPDF-doc Sect Normal statement word,{},0.0003450655624568668,0.6139592146276701,0.0002118561817210732,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+233,at,0 11 13 0 14,TaggedPDF-doc Sect Normal statement word,{},0.0027605244996549345,0.12104369272477576,0.00033414407929544725,Yes (NTLK Stopword),No,No,No,No
+234,approximately,0 11 13 0 15,TaggedPDF-doc Sect Normal statement word,{},0.0006901311249137336,0.6139592146276701,0.0004237123634421464,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+235,100-MHz,0 11 13 0 16,TaggedPDF-doc Sect Normal statement word,{},0.0003450655624568668,1.2671717284030137,0.000437257325190826,No,No,No,No,No
+236,and,0 11 13 0 17,TaggedPDF-doc Sect Normal statement word,{},0.021739130434782608,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
+237,at,0 11 13 0 18,TaggedPDF-doc Sect Normal statement word,{},0.0027605244996549345,0.12104369272477576,0.00033414407929544725,Yes (NTLK Stopword),No,No,No,No
+238,the,0 11 13 0 19,TaggedPDF-doc Sect Normal statement word,{},0.05452035886818495,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
+239,same,0 11 13 0 20,TaggedPDF-doc Sect Normal statement word,{},0.0024154589371980675,0.3640817414110702,0.0008794244961620052,Yes (NTLK Stopword),No,No,No,No
+240,time,0 11 13 0 21,TaggedPDF-doc Sect Normal statement word,{},0.0013802622498274672,0.22577904324478879,0.00031163429019294517,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+241,as,0 11 13 0 22,TaggedPDF-doc Sect Normal statement word,{},0.005521048999309869,0.09108046934733258,0.0005028597341467637,Yes (NTLK Stopword),No,No,No,No
+242,small,0 11 13 0 23,TaggedPDF-doc Sect Normal statement word,{},0.0003450655624568668,0.31292921896368886,0.00010798109695089333,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+243,as,0 11 13 0 24,TaggedPDF-doc Sect Normal statement word,{},0.005521048999309869,0.09108046934733258,0.0005028597341467637,Yes (NTLK Stopword),No,No,No,No
+244,possible,0 11 13 0 25,TaggedPDF-doc Sect Normal statement word,{},0.0027605244996549345,0.52680903890877,0.0014542692585473292,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+245,Meeting,0 11 13 1 0,TaggedPDF-doc Sect Normal statement word,{},0.0003450655624568668,1.2671717284030137,0.000437257325190826,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+246,both,0 11 13 1 1,TaggedPDF-doc Sect Normal statement word,{},0.001725327812284334,0.31292921896368886,0.0005399054847544666,Yes (NTLK Stopword),No,No,No,No
+247,goals,0 11 13 1 2,TaggedPDF-doc Sect Normal statement word,{},0.0006901311249137336,1.2671717284030137,0.000874514650381652,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+248,at,0 11 13 1 3,TaggedPDF-doc Sect Normal statement word,{},0.0027605244996549345,0.12104369272477576,0.00033414407929544725,Yes (NTLK Stopword),No,No,No,No
+249,the,0 11 13 1 4,TaggedPDF-doc Sect Normal statement word,{},0.05452035886818495,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
+250,same,0 11 13 1 5,TaggedPDF-doc Sect Normal statement word,{},0.0024154589371980675,0.3640817414110702,0.0008794244961620052,Yes (NTLK Stopword),No,No,No,No
+251,time,0 11 13 1 6,TaggedPDF-doc Sect Normal statement word,{},0.0013802622498274672,0.22577904324478879,0.00031163429019294517,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+252,was,0 11 13 1 7,TaggedPDF-doc Sect Normal statement word,{},0.008281573498964804,0.3640817414110702,0.0030151697011268756,Yes (NTLK Stopword),No,No,No,No
+253,very,0 11 13 1 8,TaggedPDF-doc Sect Normal statement word,{},0.0010351966873706005,0.4890204780193702,0.0005062323789020396,Yes (NTLK Stopword),No,No,No,No
+254,difficult,0 11 13 1 9,TaggedPDF-doc Sect Normal statement word,{},0.0003450655624568668,1.2671717284030137,0.000437257325190826,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+255,and,0 11 13 1 10,TaggedPDF-doc Sect Normal statement word,{},0.021739130434782608,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
+256,tradeoffs,0 11 13 1 11,TaggedPDF-doc Sect Normal statement word,{},0.0003450655624568668,1.2671717284030137,0.000437257325190826,No,No,No,No,No
+257,were,0 11 13 1 12,TaggedPDF-doc Sect Normal statement word,{},0.0024154589371980675,0.6139592146276701,0.0014829932720475123,Yes (NTLK Stopword),No,No,No,No
+258,made,0 11 13 1 13,TaggedPDF-doc Sect Normal statement word,{},0.0003450655624568668,0.3921104650113138,0.0001353038181543526,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+259,In,0 11 14 0 0,TaggedPDF-doc Sect Normal statement word,{},0.0006901311249137336,0.17026171539495738,0.0001175029091752639,Yes (NTLK Stopword),No,No,No,No
+260,the,0 11 14 0 1,TaggedPDF-doc Sect Normal statement word,{},0.05452035886818495,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
+261,following,0 11 14 0 2,TaggedPDF-doc Sect Normal statement word,{},0.0027605244996549345,0.06305174574708902,0.00017405588888085306,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+262,sections,0 11 14 0 3,TaggedPDF-doc Sect Normal statement word,{},0.0006901311249137336,0.7231036840527382,0.0004990363589045812,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+263,will,0 11 14 0 5,TaggedPDF-doc Sect Normal statement word,{},0.005866114561766736,0.26717172840301384,0.001567259966477307,Yes (NTLK Stopword),No,No,No,No
+264,explain,0 11 14 0 6,TaggedPDF-doc Sect Normal statement word,{},0.0003450655624568668,1.2671717284030137,0.000437257325190826,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+265,the,0 11 14 0 7,TaggedPDF-doc Sect Normal statement word,{},0.05452035886818495,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
+266,theory,0 11 14 0 8,TaggedPDF-doc Sect Normal statement word,{},0.0003450655624568668,1.2671717284030137,0.000437257325190826,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+267,behind,0 11 14 0 9,TaggedPDF-doc Sect Normal statement word,{},0.0003450655624568668,1.2671717284030137,0.000437257325190826,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+268,the,0 11 14 0 10,TaggedPDF-doc Sect Normal statement word,{},0.05452035886818495,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
+269,FPU,0 11 14 0 11,TaggedPDF-doc Sect Normal statement word,{},0.010351966873706004,0.52680903890877,0.005453509719552484,No,No,Yes,No,No
+270,core,0 11 14 0 12,TaggedPDF-doc Sect Normal statement word,{},0.0027605244996549345,0.2459824293330757,0.0006790405226585941,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+271,and,0 11 14 0 13,TaggedPDF-doc Sect Normal statement word,{},0.021739130434782608,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
+272,describe,0 11 14 0 14,TaggedPDF-doc Sect Normal statement word,{},0.0003450655624568668,0.9661417327390326,0.0003333822404206462,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+273,its,0 11 14 0 15,TaggedPDF-doc Sect Normal statement word,{},0.0010351966873706005,0.3921104650113138,0.0004059114544630578,Yes (NTLK Stopword),No,No,No,No
+274,implementation,0 11 14 0 16,TaggedPDF-doc Sect Normal statement word,{},0.001725327812284334,0.31292921896368886,0.0005399054847544666,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+275,on,0 11 14 0 17,TaggedPDF-doc Sect Normal statement word,{},0.004485852311939268,0.1368379599080077,0.0006138348788143893,Yes (NTLK Stopword),No,No,No,No
+276,hardware,0 11 14 0 18,TaggedPDF-doc Sect Normal statement word,{},0.0027605244996549345,0.422073688388757,0.0011651447574568862,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+277,Floating,0 11 33 1 0,TaggedPDF-doc Sect heading-1 statement word,{},0.0013802622498274672,0.28944812311416607,0.00039951431761789657,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+278,point,0 11 33 1 1,TaggedPDF-doc Sect heading-1 statement word,{},0.004485852311939268,0.12104369272477576,0.0005429841288551018,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+279,numbers,0 11 33 1 2,TaggedPDF-doc Sect heading-1 statement word,{},0.007246376811594203,0.1368379599080077,0.0009915794196232442,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+280,The,0 11 36 0 0,TaggedPDF-doc Sect Normal statement word,{},0.01725327812284334,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
+281,floating-point,0 11 36 0 1,TaggedPDF-doc Sect Normal statement word,{},0.004830917874396135,0.31292921896368886,0.0015117353573125066,"Yes (en_GB, en_AU)",No,No,No,No
+282,representation,0 11 36 0 2,TaggedPDF-doc Sect Normal statement word,{},0.003450655624568668,0.52680903890877,0.0018178365731841614,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+283,is,0 11 36 0 3,TaggedPDF-doc Sect Normal statement word,{},0.022429261559696344,0.01189922329970769,0.0002668907917463768,Yes (NTLK Stopword),No,No,No,No
+284,one,0 11 36 0 4,TaggedPDF-doc Sect Normal statement word,{},0.003450655624568668,0.18799048235538898,0.000648690415305,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+285,way,0 11 36 0 5,TaggedPDF-doc Sect Normal statement word,{},0.0006901311249137336,0.6651117370750514,0.00045901431130093267,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+286,to,0 11 36 0 6,TaggedPDF-doc Sect Normal statement word,{},0.02139406487232574,0.01189922329970769,0.0002545727552042363,Yes (NTLK Stopword),No,No,No,No
+287,represent,0 11 36 0 7,TaggedPDF-doc Sect Normal statement word,{},0.002070393374741201,0.4890204780193702,0.0010124647578040793,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+288,real,0 11 36 0 8,TaggedPDF-doc Sect Normal statement word,{},0.0006901311249137336,0.3640817414110702,0.00025126414176057296,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+289,numbers,0 11 36 0 9,TaggedPDF-doc Sect Normal statement word,{},0.007246376811594203,0.1368379599080077,0.0009915794196232442,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+290,floating-point,0 11 36 1 1,TaggedPDF-doc Sect Normal statement word,{},0.004830917874396135,0.31292921896368886,0.0015117353573125066,"Yes (en_GB, en_AU)",No,No,No,No
+291,number,0 11 36 1 2,TaggedPDF-doc Sect Normal statement word,{},0.00759144237405107,0.04968778418910748,0.00037720195036589527,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+292,is,0 11 36 1 4,TaggedPDF-doc Sect Normal statement word,{},0.022429261559696344,0.01189922329970769,0.0002668907917463768,Yes (NTLK Stopword),No,No,No,No
+293,represented,0 11 36 1 5,TaggedPDF-doc Sect Normal statement word,{},0.001725327812284334,0.45425837176015826,0.0007837446027607975,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+294,with,0 11 36 1 6,TaggedPDF-doc Sect Normal statement word,{},0.009316770186335404,0.04968778418910748,0.0004629296663581442,Yes (NTLK Stopword),No,No,No,No
+295,an,0 11 36 1 7,TaggedPDF-doc Sect Normal statement word,{},0.0024154589371980675,0.20647388804940212,0.0004987291981869616,Yes (NTLK Stopword),No,No,No,No
+296,exponent,0 11 36 1 8,TaggedPDF-doc Sect Normal statement word,{},0.005521048999309869,0.15322837609617704,0.0008459813725116745,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+297,and,0 11 36 1 10,TaggedPDF-doc Sect Normal statement word,{},0.021739130434782608,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
+298,mantissa,0 11 36 1 12,TaggedPDF-doc Sect Normal statement word,{},0.0006901311249137336,0.568201724066995,0.0003921336950082781,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+299,so,0 11 36 1 14,TaggedPDF-doc Sect Normal statement word,{},0.001725327812284334,0.28944812311416607,0.0004993928970223707,Yes (NTLK Stopword),No,No,No,No
+300,that,0 11 36 1 15,TaggedPDF-doc Sect Normal statement word,{},0.004485852311939268,0.15322837609617704,0.0006873598651657354,Yes (NTLK Stopword),No,No,No,No
+301,be,0 11 38 0 2,TaggedPDF-doc Sect Normal statement word,{},0.014492753623188406,0.10580372616803894,0.0015333873357686804,Yes (NTLK Stopword),No,No,No,No
+302,where,0 11 38 0 4,TaggedPDF-doc Sect Normal statement word,{},0.0013802622498274672,0.4890204780193702,0.0006749765052027194,Yes (NTLK Stopword),No,No,No,No
+303,is,0 11 38 0 6,TaggedPDF-doc Sect Normal statement word,{},0.022429261559696344,0.01189922329970769,0.0002668907917463768,Yes (NTLK Stopword),No,No,No,No
+304,the,0 11 38 0 7,TaggedPDF-doc Sect Normal statement word,{},0.05452035886818495,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
+305,base,0 11 38 0 8,TaggedPDF-doc Sect Normal statement word,{},0.0006901311249137336,0.6139592146276701,0.0004237123634421464,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+306,number,0 11 38 0 9,TaggedPDF-doc Sect Normal statement word,{},0.00759144237405107,0.04968778418910748,0.00037720195036589527,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+307,also,0 11 38 0 10,TaggedPDF-doc Sect Normal statement word,{},0.0024154589371980675,0.26717172840301384,0.0006453423391377146,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+308,called,0 11 38 0 11,TaggedPDF-doc Sect Normal statement word,{},0.0003450655624568668,0.4890204780193702,0.00016874412630067984,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+309,radix,0 11 38 0 12,TaggedPDF-doc Sect Normal statement word,{},0.0003450655624568668,0.8692317197309762,0.0002999419322743189,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+310,So,0 11 40 0 0,TaggedPDF-doc Sect Normal statement word,{},0.002070393374741201,0.9661417327390326,0.002000293442523877,Yes (NTLK Stopword),No,No,No,No
+311,for,0 11 40 0 1,TaggedPDF-doc Sect Normal statement word,{},0.010351966873706004,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
+312,example,0 11 40 0 2,TaggedPDF-doc Sect Normal statement word,{},0.003105590062111801,0.3640817414110702,0.0011306886379225782,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+313,if,0 11 40 0 3,TaggedPDF-doc Sect Normal statement word,{},0.0027605244996549345,0.2459824293330757,0.0006790405226585941,Yes (NTLK Stopword),No,No,No,No
+314,we,0 11 40 0 4,TaggedPDF-doc Sect Normal statement word,{},0.003795721187025535,0.6139592146276701,0.0023304179989318053,Yes (NTLK Stopword),No,No,No,No
+315,choose,0 11 40 0 5,TaggedPDF-doc Sect Normal statement word,{},0.0006901311249137336,0.8692317197309762,0.0005998838645486378,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+316,the,0 11 40 0 6,TaggedPDF-doc Sect Normal statement word,{},0.05452035886818495,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
+317,number,0 11 40 0 7,TaggedPDF-doc Sect Normal statement word,{},0.00759144237405107,0.04968778418910748,0.00037720195036589527,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+318,n 17,0 11 40 0 8,TaggedPDF-doc Sect Normal statement word,{},0.0003450655624568668,1.2671717284030137,0.000437257325190826,No,No,No,No,No
+319,and,0 11 40 0 9,TaggedPDF-doc Sect Normal statement word,{},0.021739130434782608,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
+320,the,0 11 40 0 10,TaggedPDF-doc Sect Normal statement word,{},0.05452035886818495,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
+321,base,0 11 40 0 11,TaggedPDF-doc Sect Normal statement word,{},0.0006901311249137336,0.6139592146276701,0.0004237123634421464,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+322,b 10,0 11 40 0 12,TaggedPDF-doc Sect Normal statement word,{},0.0003450655624568668,1.2671717284030137,0.000437257325190826,No,No,No,No,No
+323,the,0 11 40 0 13,TaggedPDF-doc Sect Normal statement word,{},0.05452035886818495,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
+324,floating-point,0 11 40 0 14,TaggedPDF-doc Sect Normal statement word,{},0.004830917874396135,0.31292921896368886,0.0015117353573125066,"Yes (en_GB, en_AU)",No,No,No,No
+325,representation,0 11 40 0 15,TaggedPDF-doc Sect Normal statement word,{},0.003450655624568668,0.52680903890877,0.0018178365731841614,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+326,of,0 11 40 0 16,TaggedPDF-doc Sect Normal statement word,{},0.015873015873015872,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
+327,17,0 11 40 0 17,TaggedPDF-doc Sect Normal statement word,{},0.0006901311249137336,0.4890204780193702,0.0003374882526013597,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+328,would,0 11 40 0 18,TaggedPDF-doc Sect Normal statement word,{},0.0006901311249137336,0.6139592146276701,0.0004237123634421464,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+329,be,0 11 40 0 19,TaggedPDF-doc Sect Normal statement word,{},0.014492753623188406,0.10580372616803894,0.0015333873357686804,Yes (NTLK Stopword),No,No,No,No
+330,17,0 11 42 0 0,TaggedPDF-doc Sect Normal statement word,{},0.0006901311249137336,0.4890204780193702,0.0003374882526013597,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+331,101,0 11 42 0 2,TaggedPDF-doc Sect Normal statement word,{},0.0010351966873706005,0.6139592146276701,0.0006355685451632197,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+332,1.7,0 11 42 0 4,TaggedPDF-doc Sect Normal statement word,{},0.0003450655624568668,1.0910804693473326,0.00037649429584103955,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+333,Another,0 11 44 0 0,TaggedPDF-doc Sect Normal statement word,{},0.0003450655624568668,0.9661417327390326,0.0003333822404206462,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+334,way,0 11 44 0 1,TaggedPDF-doc Sect Normal statement word,{},0.0006901311249137336,0.6651117370750514,0.00045901431130093267,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+335,to,0 11 44 0 2,TaggedPDF-doc Sect Normal statement word,{},0.02139406487232574,0.01189922329970769,0.0002545727552042363,Yes (NTLK Stopword),No,No,No,No
+336,represent,0 11 44 0 3,TaggedPDF-doc Sect Normal statement word,{},0.002070393374741201,0.4890204780193702,0.0010124647578040793,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+337,real,0 11 44 0 4,TaggedPDF-doc Sect Normal statement word,{},0.0006901311249137336,0.3640817414110702,0.00025126414176057296,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+338,numbers,0 11 44 0 5,TaggedPDF-doc Sect Normal statement word,{},0.007246376811594203,0.1368379599080077,0.0009915794196232442,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+339,is,0 11 44 0 6,TaggedPDF-doc Sect Normal statement word,{},0.022429261559696344,0.01189922329970769,0.0002668907917463768,Yes (NTLK Stopword),No,No,No,No
+340,to,0 11 44 0 7,TaggedPDF-doc Sect Normal statement word,{},0.02139406487232574,0.01189922329970769,0.0002545727552042363,Yes (NTLK Stopword),No,No,No,No
+341,use,0 11 44 0 8,TaggedPDF-doc Sect Normal statement word,{},0.0003450655624568668,0.1368379599080077,4.721806760110687e-05,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+342,fixed-point,0 11 44 0 9,TaggedPDF-doc Sect Normal statement word,{},0.001725327812284334,0.8692317197309762,0.0014997096613715945,No,No,No,No,No
+343,number,0 11 44 0 10,TaggedPDF-doc Sect Normal statement word,{},0.00759144237405107,0.04968778418910748,0.00037720195036589527,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+344,representation,0 11 44 0 11,TaggedPDF-doc Sect Normal statement word,{},0.003450655624568668,0.52680903890877,0.0018178365731841614,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+345,fixed-point,0 11 44 1 1,TaggedPDF-doc Sect Normal statement word,{},0.001725327812284334,0.8692317197309762,0.0014997096613715945,No,No,No,No,No
+346,number,0 11 44 1 2,TaggedPDF-doc Sect Normal statement word,{},0.00759144237405107,0.04968778418910748,0.00037720195036589527,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+347,with,0 11 44 1 3,TaggedPDF-doc Sect Normal statement word,{},0.009316770186335404,0.04968778418910748,0.0004629296663581442,Yes (NTLK Stopword),No,No,No,No
+348,digits,0 11 44 1 5,TaggedPDF-doc Sect Normal statement word,{},0.0003450655624568668,0.568201724066995,0.00019606684750413905,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+349,after,0 11 44 1 6,TaggedPDF-doc Sect Normal statement word,{},0.0010351966873706005,0.28944812311416607,0.00029963573821342244,Yes (NTLK Stopword),No,No,No,No
+350,the,0 11 44 1 7,TaggedPDF-doc Sect Normal statement word,{},0.05452035886818495,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
+351,decimal,0 11 44 1 8,TaggedPDF-doc Sect Normal statement word,{},0.001725327812284334,0.3921104650113138,0.0006765190907717629,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+352,point,0 11 44 1 9,TaggedPDF-doc Sect Normal statement word,{},0.004485852311939268,0.12104369272477576,0.0005429841288551018,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+353,could,0 11 44 1 10,TaggedPDF-doc Sect Normal statement word,{},0.0003450655624568668,0.568201724066995,0.00019606684750413905,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+354,be,0 11 44 1 11,TaggedPDF-doc Sect Normal statement word,{},0.014492753623188406,0.10580372616803894,0.0015333873357686804,Yes (NTLK Stopword),No,No,No,No
+355,used,0 11 44 1 12,TaggedPDF-doc Sect Normal statement word,{},0.004140786749482402,0.20647388804940212,0.0008549643397490771,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+356,to,0 11 44 1 13,TaggedPDF-doc Sect Normal statement word,{},0.02139406487232574,0.01189922329970769,0.0002545727552042363,Yes (NTLK Stopword),No,No,No,No
+357,represent,0 11 44 1 14,TaggedPDF-doc Sect Normal statement word,{},0.002070393374741201,0.4890204780193702,0.0010124647578040793,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+358,numbers,0 11 44 1 15,TaggedPDF-doc Sect Normal statement word,{},0.007246376811594203,0.1368379599080077,0.0009915794196232442,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+359,such,0 11 44 1 16,TaggedPDF-doc Sect Normal statement word,{},0.0006901311249137336,0.33775280268872104,0.00023309372166233338,Yes (NTLK Stopword),No,No,No,No
+360,as,0 11 44 1 17,TaggedPDF-doc Sect Normal statement word,{},0.005521048999309869,0.09108046934733258,0.0005028597341467637,Yes (NTLK Stopword),No,No,No,No
+361,1.0001,0 11 44 1 18,TaggedPDF-doc Sect Normal statement word,{},0.0003450655624568668,1.2671717284030137,0.000437257325190826,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+362,12.1019,0 11 44 1 19,TaggedPDF-doc Sect Normal statement word,{},0.0003450655624568668,1.2671717284030137,0.000437257325190826,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+363,34.0000,0 11 44 1 20,TaggedPDF-doc Sect Normal statement word,{},0.0003450655624568668,1.2671717284030137,0.000437257325190826,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+364,etc,0 11 44 1 21,TaggedPDF-doc Sect Normal statement word,{},0.0003450655624568668,1.0910804693473326,0.00037649429584103955,Yes (en_US),No,No,No,No
+365,Both,0 11 44 2 0,TaggedPDF-doc Sect Normal statement word,{},0.0006901311249137336,0.6139592146276701,0.0004237123634421464,Yes (NTLK Stopword),No,No,No,No
+366,representations,0 11 44 2 1,TaggedPDF-doc Sect Normal statement word,{},0.0013802622498274672,0.9661417327390326,0.0013335289616825848,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+367,are,0 11 44 2 2,TaggedPDF-doc Sect Normal statement word,{},0.008281573498964804,0.02413367971671937,0.00019986484237448756,Yes (NTLK Stopword),No,No,No,No
+368,used,0 11 44 2 3,TaggedPDF-doc Sect Normal statement word,{},0.004140786749482402,0.20647388804940212,0.0008549643397490771,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+369,depending,0 11 44 2 4,TaggedPDF-doc Sect Normal statement word,{},0.0006901311249137336,0.52680903890877,0.0003635673146368323,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+370,on,0 11 44 2 5,TaggedPDF-doc Sect Normal statement word,{},0.004485852311939268,0.1368379599080077,0.0006138348788143893,Yes (NTLK Stopword),No,No,No,No
+371,the,0 11 44 2 6,TaggedPDF-doc Sect Normal statement word,{},0.05452035886818495,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
+372,situation,0 11 44 2 7,TaggedPDF-doc Sect Normal statement word,{},0.0003450655624568668,1.2671717284030137,0.000437257325190826,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+373,For,0 11 44 3 0,TaggedPDF-doc Sect Normal statement word,{},0.0013802622498274672,0.26717172840301384,0.0003687670509358369,Yes (NTLK Stopword),No,No,No,No
+374,the,0 11 44 3 1,TaggedPDF-doc Sect Normal statement word,{},0.05452035886818495,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
+375,implementation,0 11 44 3 2,TaggedPDF-doc Sect Normal statement word,{},0.001725327812284334,0.31292921896368886,0.0005399054847544666,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+376,on,0 11 44 3 3,TaggedPDF-doc Sect Normal statement word,{},0.004485852311939268,0.1368379599080077,0.0006138348788143893,Yes (NTLK Stopword),No,No,No,No
+377,hardware,0 11 44 3 4,TaggedPDF-doc Sect Normal statement word,{},0.0027605244996549345,0.422073688388757,0.0011651447574568862,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+378,the,0 11 44 3 5,TaggedPDF-doc Sect Normal statement word,{},0.05452035886818495,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
+379,base-2,0 11 44 3 6,TaggedPDF-doc Sect Normal statement word,{},0.0006901311249137336,1.2671717284030137,0.000874514650381652,No,No,No,No,No
+380,exponents,0 11 44 3 7,TaggedPDF-doc Sect Normal statement word,{},0.0006901311249137336,0.7231036840527382,0.0004990363589045812,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+381,are,0 11 44 3 8,TaggedPDF-doc Sect Normal statement word,{},0.008281573498964804,0.02413367971671937,0.00019986484237448756,Yes (NTLK Stopword),No,No,No,No
+382,used,0 11 44 3 9,TaggedPDF-doc Sect Normal statement word,{},0.004140786749482402,0.20647388804940212,0.0008549643397490771,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+383,since,0 11 44 3 10,TaggedPDF-doc Sect Normal statement word,{},0.0013802622498274672,0.6139592146276701,0.0008474247268842928,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+384,digital,0 11 44 3 11,TaggedPDF-doc Sect Normal statement word,{},0.0003450655624568668,1.0910804693473326,0.00037649429584103955,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+385,systems,0 11 44 3 12,TaggedPDF-doc Sect Normal statement word,{},0.0003450655624568668,0.7231036840527382,0.0002495181794522906,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+386,work,0 11 44 3 13,TaggedPDF-doc Sect Normal statement word,{},0.0003450655624568668,0.45425837176015826,0.00015674892055215952,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+387,with,0 11 44 3 14,TaggedPDF-doc Sect Normal statement word,{},0.009316770186335404,0.04968778418910748,0.0004629296663581442,Yes (NTLK Stopword),No,No,No,No
+388,binary,0 11 44 3 15,TaggedPDF-doc Sect Normal statement word,{},0.0010351966873706005,0.52680903890877,0.0005453509719552485,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+389,numbers,0 11 44 3 16,TaggedPDF-doc Sect Normal statement word,{},0.007246376811594203,0.1368379599080077,0.0009915794196232442,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+390,Using,0 11 45 0 0,TaggedPDF-doc Sect Normal statement word,{},0.0003450655624568668,0.6651117370750514,0.00022950715565046634,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+391,base-2,0 11 45 0 1,TaggedPDF-doc Sect Normal statement word,{},0.0006901311249137336,1.2671717284030137,0.000874514650381652,No,No,No,No,No
+392,arithmetic,0 11 45 0 2,TaggedPDF-doc Sect Normal statement word,{},0.006556245686680469,0.26717172840301384,0.0017516434919452252,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+393,brings,0 11 45 0 3,TaggedPDF-doc Sect Normal statement word,{},0.0003450655624568668,1.0910804693473326,0.00037649429584103955,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+394,problems,0 11 45 0 4,TaggedPDF-doc Sect Normal statement word,{},0.0003450655624568668,1.0910804693473326,0.00037649429584103955,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+395,with,0 11 45 0 5,TaggedPDF-doc Sect Normal statement word,{},0.009316770186335404,0.04968778418910748,0.0004629296663581442,Yes (NTLK Stopword),No,No,No,No
+396,it,0 11 45 0 6,TaggedPDF-doc Sect Normal statement word,{},0.003795721187025535,0.17026171539495738,0.0006462660004639514,Yes (NTLK Stopword),No,No,No,No
+397,so,0 11 45 0 7,TaggedPDF-doc Sect Normal statement word,{},0.001725327812284334,0.28944812311416607,0.0004993928970223707,Yes (NTLK Stopword),No,No,No,No
+398,for,0 11 45 0 8,TaggedPDF-doc Sect Normal statement word,{},0.010351966873706004,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
+399,example,0 11 45 0 9,TaggedPDF-doc Sect Normal statement word,{},0.003105590062111801,0.3640817414110702,0.0011306886379225782,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+400,fractional,0 11 45 0 10,TaggedPDF-doc Sect Normal statement word,{},0.0003450655624568668,0.568201724066995,0.00019606684750413905,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+401,powers,0 11 45 0 11,TaggedPDF-doc Sect Normal statement word,{},0.0003450655624568668,1.2671717284030137,0.000437257325190826,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+402,of,0 11 45 0 12,TaggedPDF-doc Sect Normal statement word,{},0.015873015873015872,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
+403,10,0 11 45 0 13,TaggedPDF-doc Sect Normal statement word,{},0.0006901311249137336,0.422073688388757,0.00029128618936422154,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+404,like,0 11 45 0 14,TaggedPDF-doc Sect Normal statement word,{},0.0006901311249137336,0.7900504736833514,0.0005452384221417193,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+405,0.1,0 11 45 0 15,TaggedPDF-doc Sect Normal statement word,{},0.0003450655624568668,1.0910804693473326,0.00037649429584103955,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+406,or,0 11 45 0 16,TaggedPDF-doc Sect Normal statement word,{},0.004485852311939268,0.03672280702473984,0.0001647330887928288,Yes (NTLK Stopword),No,No,No,No
+407,0.01,0 11 45 0 17,TaggedPDF-doc Sect Normal statement word,{},0.0003450655624568668,1.2671717284030137,0.000437257325190826,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+408,cannot,0 11 45 0 18,TaggedPDF-doc Sect Normal statement word,{},0.0003450655624568668,0.568201724066995,0.00019606684750413905,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+409,exactly,0 11 45 0 19,TaggedPDF-doc Sect Normal statement word,{},0.0006901311249137336,0.6651117370750514,0.00045901431130093267,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+410,be,0 11 45 0 20,TaggedPDF-doc Sect Normal statement word,{},0.014492753623188406,0.10580372616803894,0.0015333873357686804,Yes (NTLK Stopword),No,No,No,No
+411,represented,0 11 45 0 21,TaggedPDF-doc Sect Normal statement word,{},0.001725327812284334,0.45425837176015826,0.0007837446027607975,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+412,with,0 11 45 0 22,TaggedPDF-doc Sect Normal statement word,{},0.009316770186335404,0.04968778418910748,0.0004629296663581442,Yes (NTLK Stopword),No,No,No,No
+413,the,0 11 45 0 23,TaggedPDF-doc Sect Normal statement word,{},0.05452035886818495,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
+414,floating-point,0 11 45 0 24,TaggedPDF-doc Sect Normal statement word,{},0.004830917874396135,0.31292921896368886,0.0015117353573125066,"Yes (en_GB, en_AU)",No,No,No,No
+415,format,0 11 45 0 25,TaggedPDF-doc Sect Normal statement word,{},0.004485852311939268,0.03672280702473984,0.0001647330887928288,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+416,while,0 11 45 0 26,TaggedPDF-doc Sect Normal statement word,{},0.001725327812284334,0.422073688388757,0.0007282154734105538,Yes (NTLK Stopword),No,No,No,No
+417,with,0 11 45 0 27,TaggedPDF-doc Sect Normal statement word,{},0.009316770186335404,0.04968778418910748,0.0004629296663581442,Yes (NTLK Stopword),No,No,No,No
+418,fixed-point,0 11 45 0 28,TaggedPDF-doc Sect Normal statement word,{},0.001725327812284334,0.8692317197309762,0.0014997096613715945,No,No,No,No,No
+419,format,0 11 45 0 29,TaggedPDF-doc Sect Normal statement word,{},0.004485852311939268,0.03672280702473984,0.0001647330887928288,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+420,the,0 11 45 0 30,TaggedPDF-doc Sect Normal statement word,{},0.05452035886818495,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
+421,decimal,0 11 45 0 31,TaggedPDF-doc Sect Normal statement word,{},0.001725327812284334,0.3921104650113138,0.0006765190907717629,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+422,point,0 11 45 0 32,TaggedPDF-doc Sect Normal statement word,{},0.004485852311939268,0.12104369272477576,0.0005429841288551018,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+423,can,0 11 45 0 33,TaggedPDF-doc Sect Normal statement word,{},0.006211180124223602,0.09108046934733258,0.0005657172009151092,Yes (NTLK Stopword),No,No,No,No
+424,be,0 11 45 0 34,TaggedPDF-doc Sect Normal statement word,{},0.014492753623188406,0.10580372616803894,0.0015333873357686804,Yes (NTLK Stopword),No,No,No,No
+425,thought,0 11 45 0 35,TaggedPDF-doc Sect Normal statement word,{},0.0003450655624568668,1.2671717284030137,0.000437257325190826,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+426,away,0 11 45 0 36,TaggedPDF-doc Sect Normal statement word,{},0.0003450655624568668,1.0910804693473326,0.00037649429584103955,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+427,provided,0 11 45 0 37,TaggedPDF-doc Sect Normal statement word,{},0.0003450655624568668,0.31292921896368886,0.00010798109695089333,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+428,the,0 11 45 0 38,TaggedPDF-doc Sect Normal statement word,{},0.05452035886818495,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
+429,value,0 11 45 0 39,TaggedPDF-doc Sect Normal statement word,{},0.0024154589371980675,0.3640817414110702,0.0008794244961620052,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+430,is,0 11 45 0 40,TaggedPDF-doc Sect Normal statement word,{},0.022429261559696344,0.01189922329970769,0.0002668907917463768,Yes (NTLK Stopword),No,No,No,No
+431,within,0 11 45 0 41,TaggedPDF-doc Sect Normal statement word,{},0.0003450655624568668,0.28944812311416607,9.987857940447414e-05,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+432,the,0 11 45 0 42,TaggedPDF-doc Sect Normal statement word,{},0.05452035886818495,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
+433,range,0 11 45 0 43,TaggedPDF-doc Sect Normal statement word,{},0.002070393374741201,0.31292921896368886,0.00064788658170536,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+434,giving,0 11 45 0 44,TaggedPDF-doc Sect Normal statement word,{},0.0006901311249137336,0.8692317197309762,0.0005998838645486378,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+435,an,0 11 45 0 45,TaggedPDF-doc Sect Normal statement word,{},0.0024154589371980675,0.20647388804940212,0.0004987291981869616,Yes (NTLK Stopword),No,No,No,No
+436,exact,0 11 45 0 46,TaggedPDF-doc Sect Normal statement word,{},0.0013802622498274672,0.6651117370750514,0.0009180286226018653,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+437,representation,0 11 45 0 47,TaggedPDF-doc Sect Normal statement word,{},0.003450655624568668,0.52680903890877,0.0018178365731841614,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+438,Fixed-point,0 11 45 1 0,TaggedPDF-doc Sect Normal statement word,{},0.0003450655624568668,1.2671717284030137,0.000437257325190826,No,No,No,No,No
+439,arithmetic,0 11 45 1 1,TaggedPDF-doc Sect Normal statement word,{},0.006556245686680469,0.26717172840301384,0.0017516434919452252,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+440,which,0 11 45 1 2,TaggedPDF-doc Sect Normal statement word,{},0.003105590062111801,0.26717172840301384,0.000829725864605633,Yes (NTLK Stopword),No,No,No,No
+441,is,0 11 45 1 3,TaggedPDF-doc Sect Normal statement word,{},0.022429261559696344,0.01189922329970769,0.0002668907917463768,Yes (NTLK Stopword),No,No,No,No
+442,faster,0 11 45 1 4,TaggedPDF-doc Sect Normal statement word,{},0.0010351966873706005,0.6651117370750514,0.0006885214669513991,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+443,than,0 11 45 1 5,TaggedPDF-doc Sect Normal statement word,{},0.0013802622498274672,0.31292921896368886,0.0004319243878035733,Yes (NTLK Stopword),No,No,No,No
+444,floating-point,0 11 45 1 6,TaggedPDF-doc Sect Normal statement word,{},0.004830917874396135,0.31292921896368886,0.0015117353573125066,"Yes (en_GB, en_AU)",No,No,No,No
+445,arithmetic,0 11 45 1 7,TaggedPDF-doc Sect Normal statement word,{},0.006556245686680469,0.26717172840301384,0.0017516434919452252,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+446,can,0 11 45 1 8,TaggedPDF-doc Sect Normal statement word,{},0.006211180124223602,0.09108046934733258,0.0005657172009151092,Yes (NTLK Stopword),No,No,No,No
+447,then,0 11 45 1 9,TaggedPDF-doc Sect Normal statement word,{},0.0013802622498274672,0.3640817414110702,0.0005025282835211459,Yes (NTLK Stopword),No,No,No,No
+448,be,0 11 45 1 10,TaggedPDF-doc Sect Normal statement word,{},0.014492753623188406,0.10580372616803894,0.0015333873357686804,Yes (NTLK Stopword),No,No,No,No
+449,used,0 11 45 1 11,TaggedPDF-doc Sect Normal statement word,{},0.004140786749482402,0.20647388804940212,0.0008549643397490771,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+450,This,0 11 45 2 0,TaggedPDF-doc Sect Normal statement word,{},0.003105590062111801,0.15322837609617704,0.00047586452203781683,Yes (NTLK Stopword),No,No,No,No
+451,is,0 11 45 2 1,TaggedPDF-doc Sect Normal statement word,{},0.022429261559696344,0.01189922329970769,0.0002668907917463768,Yes (NTLK Stopword),No,No,No,No
+452,one,0 11 45 2 2,TaggedPDF-doc Sect Normal statement word,{},0.003450655624568668,0.18799048235538898,0.000648690415305,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+453,of,0 11 45 2 3,TaggedPDF-doc Sect Normal statement word,{},0.015873015873015872,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
+454,the,0 11 45 2 4,TaggedPDF-doc Sect Normal statement word,{},0.05452035886818495,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
+455,reasons,0 11 45 2 5,TaggedPDF-doc Sect Normal statement word,{},0.0010351966873706005,0.8692317197309762,0.0008998257968229568,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+456,why,0 11 45 2 6,TaggedPDF-doc Sect Normal statement word,{},0.0010351966873706005,1.0910804693473326,0.0011294828875231188,Yes (NTLK Stopword),No,No,No,No
+457,fixed-point,0 11 45 2 7,TaggedPDF-doc Sect Normal statement word,{},0.001725327812284334,0.8692317197309762,0.0014997096613715945,No,No,No,No,No
+458,representations,0 11 45 2 8,TaggedPDF-doc Sect Normal statement word,{},0.0013802622498274672,0.9661417327390326,0.0013335289616825848,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+459,are,0 11 45 2 9,TaggedPDF-doc Sect Normal statement word,{},0.008281573498964804,0.02413367971671937,0.00019986484237448756,Yes (NTLK Stopword),No,No,No,No
+460,used,0 11 45 2 10,TaggedPDF-doc Sect Normal statement word,{},0.004140786749482402,0.20647388804940212,0.0008549643397490771,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+461,for,0 11 45 2 11,TaggedPDF-doc Sect Normal statement word,{},0.010351966873706004,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
+462,financial,0 11 45 2 12,TaggedPDF-doc Sect Normal statement word,{},0.0003450655624568668,1.2671717284030137,0.000437257325190826,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+463,and,0 11 45 2 13,TaggedPDF-doc Sect Normal statement word,{},0.021739130434782608,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
+464,commercial,0 11 45 2 14,TaggedPDF-doc Sect Normal statement word,{},0.0003450655624568668,1.0910804693473326,0.00037649429584103955,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+465,applications,0 11 45 2 15,TaggedPDF-doc Sect Normal statement word,{},0.0003450655624568668,0.4890204780193702,0.00016874412630067984,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+466,The,0 11 46 0 0,TaggedPDF-doc Sect Normal statement word,{},0.01725327812284334,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
+467,floating-point,0 11 46 0 1,TaggedPDF-doc Sect Normal statement word,{},0.004830917874396135,0.31292921896368886,0.0015117353573125066,"Yes (en_GB, en_AU)",No,No,No,No
+468,format,0 11 46 0 2,TaggedPDF-doc Sect Normal statement word,{},0.004485852311939268,0.03672280702473984,0.0001647330887928288,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+469,can,0 11 46 0 3,TaggedPDF-doc Sect Normal statement word,{},0.006211180124223602,0.09108046934733258,0.0005657172009151092,Yes (NTLK Stopword),No,No,No,No
+470,represent,0 11 46 0 4,TaggedPDF-doc Sect Normal statement word,{},0.002070393374741201,0.4890204780193702,0.0010124647578040793,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+471,wide,0 11 46 0 6,TaggedPDF-doc Sect Normal statement word,{},0.0010351966873706005,0.6139592146276701,0.0006355685451632197,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+472,range,0 11 46 0 7,TaggedPDF-doc Sect Normal statement word,{},0.002070393374741201,0.31292921896368886,0.00064788658170536,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+473,of,0 11 46 0 8,TaggedPDF-doc Sect Normal statement word,{},0.015873015873015872,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
+474,scale,0 11 46 0 9,TaggedPDF-doc Sect Normal statement word,{},0.0003450655624568668,0.9661417327390326,0.0003333822404206462,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+475,without,0 11 46 0 10,TaggedPDF-doc Sect Normal statement word,{},0.0024154589371980675,0.20647388804940212,0.0004987291981869616,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+476,losing,0 11 46 0 11,TaggedPDF-doc Sect Normal statement word,{},0.0003450655624568668,1.2671717284030137,0.000437257325190826,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+477,precision,0 11 46 0 12,TaggedPDF-doc Sect Normal statement word,{},0.003795721187025535,0.07684003023272233,0.0002916633307660268,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+478,while,0 11 46 0 13,TaggedPDF-doc Sect Normal statement word,{},0.001725327812284334,0.422073688388757,0.0007282154734105538,Yes (NTLK Stopword),No,No,No,No
+479,the,0 11 46 0 14,TaggedPDF-doc Sect Normal statement word,{},0.05452035886818495,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
+480,fixed-point,0 11 46 0 15,TaggedPDF-doc Sect Normal statement word,{},0.001725327812284334,0.8692317197309762,0.0014997096613715945,No,No,No,No,No
+481,format,0 11 46 0 16,TaggedPDF-doc Sect Normal statement word,{},0.004485852311939268,0.03672280702473984,0.0001647330887928288,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+482,has,0 11 46 0 17,TaggedPDF-doc Sect Normal statement word,{},0.0010351966873706005,0.15322837609617704,0.00015862150734593898,Yes (NTLK Stopword),No,No,No,No
+483,fixed,0 11 46 0 19,TaggedPDF-doc Sect Normal statement word,{},0.0003450655624568668,0.4890204780193702,0.00016874412630067984,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+484,window,0 11 46 0 20,TaggedPDF-doc Sect Normal statement word,{},0.0003450655624568668,1.2671717284030137,0.000437257325190826,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+485,of,0 11 46 0 21,TaggedPDF-doc Sect Normal statement word,{},0.015873015873015872,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
+486,representation,0 11 46 0 22,TaggedPDF-doc Sect Normal statement word,{},0.003450655624568668,0.52680903890877,0.0018178365731841614,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+487,So,0 11 46 1 0,TaggedPDF-doc Sect Normal statement word,{},0.002070393374741201,0.9661417327390326,0.002000293442523877,Yes (NTLK Stopword),No,No,No,No
+488,for,0 11 46 1 1,TaggedPDF-doc Sect Normal statement word,{},0.010351966873706004,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
+489,example,0 11 46 1 2,TaggedPDF-doc Sect Normal statement word,{},0.003105590062111801,0.3640817414110702,0.0011306886379225782,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+490,in,0 11 46 1 3,TaggedPDF-doc Sect Normal statement word,{},0.006211180124223602,0.01189922329970769,7.39082192528428e-05,Yes (NTLK Stopword),No,No,No,No
+491,32-bit,0 11 46 1 5,TaggedPDF-doc Sect Normal statement word,{},0.0010351966873706005,0.28944812311416607,0.00029963573821342244,No,No,No,No,No
+492,floating-point,0 11 46 1 6,TaggedPDF-doc Sect Normal statement word,{},0.004830917874396135,0.31292921896368886,0.0015117353573125066,"Yes (en_GB, en_AU)",No,No,No,No
+493,representation,0 11 46 1 7,TaggedPDF-doc Sect Normal statement word,{},0.003450655624568668,0.52680903890877,0.0018178365731841614,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+494,numbers,0 11 46 1 8,TaggedPDF-doc Sect Normal statement word,{},0.007246376811594203,0.1368379599080077,0.0009915794196232442,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+495,from,0 11 46 1 9,TaggedPDF-doc Sect Normal statement word,{},0.002070393374741201,0.17026171539495738,0.0003525087275257917,Yes (NTLK Stopword),No,No,No,No
+496,3.4,0 11 46 1 10,TaggedPDF-doc Sect Normal statement word,{},0.0010351966873706005,0.6651117370750514,0.0006885214669513991,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+497,1038,0 11 46 1 12,TaggedPDF-doc Sect Normal statement word,{},0.0003450655624568668,1.2671717284030137,0.000437257325190826,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+498,to,0 11 46 1 13,TaggedPDF-doc Sect Normal statement word,{},0.02139406487232574,0.01189922329970769,0.0002545727552042363,Yes (NTLK Stopword),No,No,No,No
+499,1.4,0 11 46 1 14,TaggedPDF-doc Sect Normal statement word,{},0.0003450655624568668,1.0910804693473326,0.00037649429584103955,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+500,10-45,0 11 46 1 16,TaggedPDF-doc Sect Normal statement word,{},0.0003450655624568668,1.2671717284030137,0.000437257325190826,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+501,can,0 11 46 1 17,TaggedPDF-doc Sect Normal statement word,{},0.006211180124223602,0.09108046934733258,0.0005657172009151092,Yes (NTLK Stopword),No,No,No,No
+502,be,0 11 46 1 18,TaggedPDF-doc Sect Normal statement word,{},0.014492753623188406,0.10580372616803894,0.0015333873357686804,Yes (NTLK Stopword),No,No,No,No
+503,represented,0 11 46 1 19,TaggedPDF-doc Sect Normal statement word,{},0.001725327812284334,0.45425837176015826,0.0007837446027607975,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+504,with,0 11 46 1 20,TaggedPDF-doc Sect Normal statement word,{},0.009316770186335404,0.04968778418910748,0.0004629296663581442,Yes (NTLK Stopword),No,No,No,No
+505,ease,0 11 46 1 21,TaggedPDF-doc Sect Normal statement word,{},0.0003450655624568668,0.9661417327390326,0.0003333822404206462,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+506,which,0 11 46 1 22,TaggedPDF-doc Sect Normal statement word,{},0.003105590062111801,0.26717172840301384,0.000829725864605633,Yes (NTLK Stopword),No,No,No,No
+507,is,0 11 46 1 23,TaggedPDF-doc Sect Normal statement word,{},0.022429261559696344,0.01189922329970769,0.0002668907917463768,Yes (NTLK Stopword),No,No,No,No
+508,one,0 11 46 1 24,TaggedPDF-doc Sect Normal statement word,{},0.003450655624568668,0.18799048235538898,0.000648690415305,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+509,of,0 11 46 1 25,TaggedPDF-doc Sect Normal statement word,{},0.015873015873015872,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
+510,the,0 11 46 1 26,TaggedPDF-doc Sect Normal statement word,{},0.05452035886818495,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
+511,reasons,0 11 46 1 27,TaggedPDF-doc Sect Normal statement word,{},0.0010351966873706005,0.8692317197309762,0.0008998257968229568,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+512,why,0 11 46 1 28,TaggedPDF-doc Sect Normal statement word,{},0.0010351966873706005,1.0910804693473326,0.0011294828875231188,Yes (NTLK Stopword),No,No,No,No
+513,floating-point,0 11 46 1 29,TaggedPDF-doc Sect Normal statement word,{},0.004830917874396135,0.31292921896368886,0.0015117353573125066,"Yes (en_GB, en_AU)",No,No,No,No
+514,representation,0 11 46 1 30,TaggedPDF-doc Sect Normal statement word,{},0.003450655624568668,0.52680903890877,0.0018178365731841614,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+515,is,0 11 46 1 31,TaggedPDF-doc Sect Normal statement word,{},0.022429261559696344,0.01189922329970769,0.0002668907917463768,Yes (NTLK Stopword),No,No,No,No
+516,the,0 11 46 1 32,TaggedPDF-doc Sect Normal statement word,{},0.05452035886818495,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
+517,most,0 11 46 1 33,TaggedPDF-doc Sect Normal statement word,{},0.001725327812284334,0.45425837176015826,0.0007837446027607975,Yes (NTLK Stopword),No,No,No,No
+518,common,0 11 46 1 34,TaggedPDF-doc Sect Normal statement word,{},0.0010351966873706005,0.8692317197309762,0.0008998257968229568,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+519,solution,0 11 46 1 35,TaggedPDF-doc Sect Normal statement word,{},0.0003450655624568668,1.0910804693473326,0.00037649429584103955,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+520,Floating-point,0 11 47 0 0,TaggedPDF-doc Sect Normal statement word,{},0.0006901311249137336,0.3921104650113138,0.0002706076363087052,"Yes (en_GB, en_AU)",No,No,No,No
+521,representations,0 11 47 0 1,TaggedPDF-doc Sect Normal statement word,{},0.0013802622498274672,0.9661417327390326,0.0013335289616825848,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+522,also,0 11 47 0 2,TaggedPDF-doc Sect Normal statement word,{},0.0024154589371980675,0.26717172840301384,0.0006453423391377146,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+523,include,0 11 47 0 3,TaggedPDF-doc Sect Normal statement word,{},0.0003450655624568668,0.4890204780193702,0.00016874412630067984,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+524,special,0 11 47 0 4,TaggedPDF-doc Sect Normal statement word,{},0.0006901311249137336,0.15322837609617704,0.00010574767156395931,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+525,values,0 11 47 0 5,TaggedPDF-doc Sect Normal statement word,{},0.001725327812284334,0.22577904324478879,0.0003895428627411815,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+526,like,0 11 47 0 6,TaggedPDF-doc Sect Normal statement word,{},0.0006901311249137336,0.7900504736833514,0.0005452384221417193,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+527,infinity,0 11 47 0 7,TaggedPDF-doc Sect Normal statement word,{},0.003450655624568668,0.28944812311416607,0.0009987857940447415,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+528,Not-a-Number,0 11 47 0 8,TaggedPDF-doc Sect Normal statement word,{},0.0003450655624568668,0.9661417327390326,0.0003333822404206462,No,No,No,No,No
+529,e.g,0 11 47 0 9,TaggedPDF-doc Sect Normal statement word,{},0.001725327812284334,0.7231036840527382,0.001247590897261453,No,No,No,No,No
+530,result,0 11 47 1 0,TaggedPDF-doc Sect Normal statement word,{},0.009316770186335404,0.1368379599080077,0.0012748878252298854,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+531,of,0 11 47 1 1,TaggedPDF-doc Sect Normal statement word,{},0.015873015873015872,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
+532,square,0 11 47 1 2,TaggedPDF-doc Sect Normal statement word,{},0.002070393374741201,0.4890204780193702,0.0010124647578040793,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+533,root,0 11 47 1 3,TaggedPDF-doc Sect Normal statement word,{},0.0024154589371980675,0.52680903890877,0.0012724856012289129,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+534,of,0 11 47 1 4,TaggedPDF-doc Sect Normal statement word,{},0.015873015873015872,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
+535,negative,0 11 47 1 6,TaggedPDF-doc Sect Normal statement word,{},0.001725327812284334,0.422073688388757,0.0007282154734105538,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+536,number,0 11 47 1 7,TaggedPDF-doc Sect Normal statement word,{},0.00759144237405107,0.04968778418910748,0.00037720195036589527,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+537,IEEE,0 11 58 1 0,TaggedPDF-doc Sect heading-1 statement word,{},0.004485852311939268,0.09108046934733258,0.0004085735339942455,No,No,No,No,No
+538,Standard,0 11 58 1 1,TaggedPDF-doc Sect heading-1 statement word,{},0.0024154589371980675,0.3640817414110702,0.0008794244961620052,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+539,754,0 11 58 1 2,TaggedPDF-doc Sect heading-1 statement word,{},0.0027605244996549345,0.3640817414110702,0.0010050565670422919,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+540,for,0 11 58 1 3,TaggedPDF-doc Sect heading-1 statement word,{},0.010351966873706004,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
+541,Binary,0 11 58 1 4,TaggedPDF-doc Sect heading-1 statement word,{},0.001725327812284334,0.6651117370750514,0.0011475357782523316,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+542,Floating-Point,0 11 58 1 5,TaggedPDF-doc Sect heading-1 statement word,{},0.002070393374741201,0.33775280268872104,0.0006992811649870001,"Yes (en_GB, en_AU)",No,No,No,No
+543,Arithmetic,0 11 58 1 6,TaggedPDF-doc Sect heading-1 statement word,{},0.003105590062111801,0.568201724066995,0.0017646016275372513,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+544,3.1,0 11 60 0 0,TaggedPDF-doc Sect heading-2 statement word,{},0.0010351966873706005,0.7231036840527382,0.0007485545383568719,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+545,Formats,0 11 60 0 1,TaggedPDF-doc Sect heading-2 statement word,{},0.0006901311249137336,0.6651117370750514,0.00045901431130093267,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+546,The,0 11 62 0 0,TaggedPDF-doc Sect Normal statement word,{},0.01725327812284334,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
+547,IEEE,0 11 62 0 1,TaggedPDF-doc Sect Normal statement word,{},0.004485852311939268,0.09108046934733258,0.0004085735339942455,No,No,No,No,No
+548,Institute,0 11 62 0 2,TaggedPDF-doc Sect Normal statement word,{},0.0003450655624568668,0.9661417327390326,0.0003333822404206462,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+549,of,0 11 62 0 3,TaggedPDF-doc Sect Normal statement word,{},0.015873015873015872,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
+550,Electrical,0 11 62 0 4,TaggedPDF-doc Sect Normal statement word,{},0.0003450655624568668,0.9661417327390326,0.0003333822404206462,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+551,and,0 11 62 0 5,TaggedPDF-doc Sect Normal statement word,{},0.021739130434782608,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
+552,Electronics,0 11 62 0 6,TaggedPDF-doc Sect Normal statement word,{},0.0003450655624568668,1.0910804693473326,0.00037649429584103955,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+553,Engineers,0 11 62 0 7,TaggedPDF-doc Sect Normal statement word,{},0.0003450655624568668,1.2671717284030137,0.000437257325190826,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+554,has,0 11 62 0 8,TaggedPDF-doc Sect Normal statement word,{},0.0010351966873706005,0.15322837609617704,0.00015862150734593898,Yes (NTLK Stopword),No,No,No,No
+555,produced,0 11 62 0 9,TaggedPDF-doc Sect Normal statement word,{},0.0003450655624568668,0.6651117370750514,0.00022950715565046634,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+556,Standard,0 11 62 0 11,TaggedPDF-doc Sect Normal statement word,{},0.0024154589371980675,0.3640817414110702,0.0008794244961620052,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+557,to,0 11 62 0 12,TaggedPDF-doc Sect Normal statement word,{},0.02139406487232574,0.01189922329970769,0.0002545727552042363,Yes (NTLK Stopword),No,No,No,No
+558,define,0 11 62 0 13,TaggedPDF-doc Sect Normal statement word,{},0.0003450655624568668,0.7231036840527382,0.0002495181794522906,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+559,floating-point,0 11 62 0 14,TaggedPDF-doc Sect Normal statement word,{},0.004830917874396135,0.31292921896368886,0.0015117353573125066,"Yes (en_GB, en_AU)",No,No,No,No
+560,representation,0 11 62 0 15,TaggedPDF-doc Sect Normal statement word,{},0.003450655624568668,0.52680903890877,0.0018178365731841614,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+561,and,0 11 62 0 16,TaggedPDF-doc Sect Normal statement word,{},0.021739130434782608,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
+562,arithmetic,0 11 62 0 17,TaggedPDF-doc Sect Normal statement word,{},0.006556245686680469,0.26717172840301384,0.0017516434919452252,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+563,Although,0 11 62 1 0,TaggedPDF-doc Sect Normal statement word,{},0.0003450655624568668,0.6651117370750514,0.00022950715565046634,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+564,there,0 11 62 1 1,TaggedPDF-doc Sect Normal statement word,{},0.0003450655624568668,0.4890204780193702,0.00016874412630067984,Yes (NTLK Stopword),No,No,No,No
+565,are,0 11 62 1 2,TaggedPDF-doc Sect Normal statement word,{},0.008281573498964804,0.02413367971671937,0.00019986484237448756,Yes (NTLK Stopword),No,No,No,No
+566,other,0 11 62 1 3,TaggedPDF-doc Sect Normal statement word,{},0.0010351966873706005,0.20647388804940212,0.00021374108493726928,Yes (NTLK Stopword),No,No,No,No
+567,representations,0 11 62 1 4,TaggedPDF-doc Sect Normal statement word,{},0.0013802622498274672,0.9661417327390326,0.0013335289616825848,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+568,it,0 11 62 1 5,TaggedPDF-doc Sect Normal statement word,{},0.003795721187025535,0.17026171539495738,0.0006462660004639514,Yes (NTLK Stopword),No,No,No,No
+569,is,0 11 62 1 6,TaggedPDF-doc Sect Normal statement word,{},0.022429261559696344,0.01189922329970769,0.0002668907917463768,Yes (NTLK Stopword),No,No,No,No
+570,the,0 11 62 1 7,TaggedPDF-doc Sect Normal statement word,{},0.05452035886818495,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
+571,most,0 11 62 1 8,TaggedPDF-doc Sect Normal statement word,{},0.001725327812284334,0.45425837176015826,0.0007837446027607975,Yes (NTLK Stopword),No,No,No,No
+572,common,0 11 62 1 9,TaggedPDF-doc Sect Normal statement word,{},0.0010351966873706005,0.8692317197309762,0.0008998257968229568,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+573,representation,0 11 62 1 10,TaggedPDF-doc Sect Normal statement word,{},0.003450655624568668,0.52680903890877,0.0018178365731841614,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+574,used,0 11 62 1 11,TaggedPDF-doc Sect Normal statement word,{},0.004140786749482402,0.20647388804940212,0.0008549643397490771,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+575,for,0 11 62 1 12,TaggedPDF-doc Sect Normal statement word,{},0.010351966873706004,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
+576,floating,0 11 62 1 13,TaggedPDF-doc Sect Normal statement word,{},0.002070393374741201,0.31292921896368886,0.00064788658170536,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+577,point,0 11 62 1 14,TaggedPDF-doc Sect Normal statement word,{},0.004485852311939268,0.12104369272477576,0.0005429841288551018,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+578,numbers,0 11 62 1 15,TaggedPDF-doc Sect Normal statement word,{},0.007246376811594203,0.1368379599080077,0.0009915794196232442,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+579,The,0 11 63 0 0,TaggedPDF-doc Sect Normal statement word,{},0.01725327812284334,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
+580,standard,0 11 63 0 1,TaggedPDF-doc Sect Normal statement word,{},0.003450655624568668,0.04968778418910748,0.00017145543198449786,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+581,brought,0 11 63 0 2,TaggedPDF-doc Sect Normal statement word,{},0.0003450655624568668,1.2671717284030137,0.000437257325190826,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+582,out,0 11 63 0 3,TaggedPDF-doc Sect Normal statement word,{},0.0013802622498274672,0.28944812311416607,0.00039951431761789657,Yes (NTLK Stopword),No,No,No,No
+583,by,0 11 63 0 4,TaggedPDF-doc Sect Normal statement word,{},0.004140786749482402,0.17026171539495738,0.0007050174550515834,Yes (NTLK Stopword),No,No,No,No
+584,the,0 11 63 0 5,TaggedPDF-doc Sect Normal statement word,{},0.05452035886818495,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
+585,IEEE,0 11 63 0 6,TaggedPDF-doc Sect Normal statement word,{},0.004485852311939268,0.09108046934733258,0.0004085735339942455,No,No,No,No,No
+586,come,0 11 63 0 7,TaggedPDF-doc Sect Normal statement word,{},0.0003450655624568668,0.8692317197309762,0.0002999419322743189,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+587,to,0 11 63 0 8,TaggedPDF-doc Sect Normal statement word,{},0.02139406487232574,0.01189922329970769,0.0002545727552042363,Yes (NTLK Stopword),No,No,No,No
+588,be,0 11 63 0 9,TaggedPDF-doc Sect Normal statement word,{},0.014492753623188406,0.10580372616803894,0.0015333873357686804,Yes (NTLK Stopword),No,No,No,No
+589,known,0 11 63 0 10,TaggedPDF-doc Sect Normal statement word,{},0.0010351966873706005,0.7231036840527382,0.0007485545383568719,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+590,as,0 11 63 0 11,TaggedPDF-doc Sect Normal statement word,{},0.005521048999309869,0.09108046934733258,0.0005028597341467637,Yes (NTLK Stopword),No,No,No,No
+591,IEEE,0 11 63 0 12,TaggedPDF-doc Sect Normal statement word,{},0.004485852311939268,0.09108046934733258,0.0004085735339942455,No,No,No,No,No
+592,754,0 11 63 0 13,TaggedPDF-doc Sect Normal statement word,{},0.0027605244996549345,0.3640817414110702,0.0010050565670422919,"Yes (en_US, en_GB, en_AU)",Yes,No,No,No
+593,The,0 11 64 0 0,TaggedPDF-doc Sect Normal statement word,{},0.01725327812284334,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
+594,standard,0 11 64 0 1,TaggedPDF-doc Sect Normal statement word,{},0.003450655624568668,0.04968778418910748,0.00017145543198449786,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+595,specifies,0 11 64 0 2,TaggedPDF-doc Sect Normal statement word,{},0.0006901311249137336,0.7900504736833514,0.0005452384221417193,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+596,Basic,0 11 66 0 1,TaggedPDF-doc Sect Normal statement word,{},0.0003450655624568668,0.8692317197309762,0.0002999419322743189,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+597,and,0 11 66 0 2,TaggedPDF-doc Sect Normal statement word,{},0.021739130434782608,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
+598,extended,0 11 66 0 3,TaggedPDF-doc Sect Normal statement word,{},0.0010351966873706005,0.6651117370750514,0.0006885214669513991,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+599,floating-point,0 11 66 0 4,TaggedPDF-doc Sect Normal statement word,{},0.004830917874396135,0.31292921896368886,0.0015117353573125066,"Yes (en_GB, en_AU)",No,No,No,No
+600,number,0 11 66 0 5,TaggedPDF-doc Sect Normal statement word,{},0.00759144237405107,0.04968778418910748,0.00037720195036589527,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+601,formats,0 11 66 0 6,TaggedPDF-doc Sect Normal statement word,{},0.0013802622498274672,0.31292921896368886,0.0004319243878035733,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+602,Add,0 11 67 0 1,TaggedPDF-doc Sect Normal statement word,{},0.0013802622498274672,0.6139592146276701,0.0008474247268842928,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+603,subtract,0 11 67 0 2,TaggedPDF-doc Sect Normal statement word,{},0.0010351966873706005,0.6139592146276701,0.0006355685451632197,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+604,multiply,0 11 67 0 3,TaggedPDF-doc Sect Normal statement word,{},0.0013802622498274672,0.52680903890877,0.0007271346292736646,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+605,divide,0 11 67 0 4,TaggedPDF-doc Sect Normal statement word,{},0.001725327812284334,0.4890204780193702,0.0008437206315033992,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+606,square,0 11 67 0 5,TaggedPDF-doc Sect Normal statement word,{},0.002070393374741201,0.4890204780193702,0.0010124647578040793,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+607,root,0 11 67 0 6,TaggedPDF-doc Sect Normal statement word,{},0.0024154589371980675,0.52680903890877,0.0012724856012289129,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+608,remainder,0 11 67 0 7,TaggedPDF-doc Sect Normal statement word,{},0.0003450655624568668,0.7231036840527382,0.0002495181794522906,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+609,and,0 11 67 0 8,TaggedPDF-doc Sect Normal statement word,{},0.021739130434782608,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
+610,compare,0 11 67 0 9,TaggedPDF-doc Sect Normal statement word,{},0.0003450655624568668,0.568201724066995,0.00019606684750413905,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+611,operations,0 11 67 0 10,TaggedPDF-doc Sect Normal statement word,{},0.005866114561766736,0.26717172840301384,0.001567259966477307,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+612,Conversions,0 11 68 0 1,TaggedPDF-doc Sect Normal statement word,{},0.0010351966873706005,1.0910804693473326,0.0011294828875231188,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+613,between,0 11 68 0 2,TaggedPDF-doc Sect Normal statement word,{},0.002070393374741201,0.31292921896368886,0.00064788658170536,Yes (NTLK Stopword),No,No,No,No
+614,integer,0 11 68 0 3,TaggedPDF-doc Sect Normal statement word,{},0.0003450655624568668,0.28944812311416607,9.987857940447414e-05,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+615,and,0 11 68 0 4,TaggedPDF-doc Sect Normal statement word,{},0.021739130434782608,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
+616,floating-point,0 11 68 0 5,TaggedPDF-doc Sect Normal statement word,{},0.004830917874396135,0.31292921896368886,0.0015117353573125066,"Yes (en_GB, en_AU)",No,No,No,No
+617,formats,0 11 68 0 6,TaggedPDF-doc Sect Normal statement word,{},0.0013802622498274672,0.31292921896368886,0.0004319243878035733,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+618,Conversions,0 11 69 0 1,TaggedPDF-doc Sect Normal statement word,{},0.0010351966873706005,1.0910804693473326,0.0011294828875231188,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+619,between,0 11 69 0 2,TaggedPDF-doc Sect Normal statement word,{},0.002070393374741201,0.31292921896368886,0.00064788658170536,Yes (NTLK Stopword),No,No,No,No
+620,different,0 11 69 0 3,TaggedPDF-doc Sect Normal statement word,{},0.0003450655624568668,0.422073688388757,0.00014564309468211077,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+621,floating-point,0 11 69 0 4,TaggedPDF-doc Sect Normal statement word,{},0.004830917874396135,0.31292921896368886,0.0015117353573125066,"Yes (en_GB, en_AU)",No,No,No,No
+622,formats,0 11 69 0 5,TaggedPDF-doc Sect Normal statement word,{},0.0013802622498274672,0.31292921896368886,0.0004319243878035733,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+623,Conversions,0 11 70 0 1,TaggedPDF-doc Sect Normal statement word,{},0.0010351966873706005,1.0910804693473326,0.0011294828875231188,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+624,between,0 11 70 0 2,TaggedPDF-doc Sect Normal statement word,{},0.002070393374741201,0.31292921896368886,0.00064788658170536,Yes (NTLK Stopword),No,No,No,No
+625,basic,0 11 70 0 3,TaggedPDF-doc Sect Normal statement word,{},0.003795721187025535,0.7900504736833514,0.0029988113217794565,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+626,format,0 11 70 0 4,TaggedPDF-doc Sect Normal statement word,{},0.004485852311939268,0.03672280702473984,0.0001647330887928288,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+627,floating-point,0 11 70 0 5,TaggedPDF-doc Sect Normal statement word,{},0.004830917874396135,0.31292921896368886,0.0015117353573125066,"Yes (en_GB, en_AU)",No,No,No,No
+628,numbers,0 11 70 0 6,TaggedPDF-doc Sect Normal statement word,{},0.007246376811594203,0.1368379599080077,0.0009915794196232442,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+629,and,0 11 70 0 7,TaggedPDF-doc Sect Normal statement word,{},0.021739130434782608,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
+630,decimal,0 11 70 0 8,TaggedPDF-doc Sect Normal statement word,{},0.001725327812284334,0.3921104650113138,0.0006765190907717629,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+631,strings,0 11 70 0 9,TaggedPDF-doc Sect Normal statement word,{},0.0003450655624568668,0.9661417327390326,0.0003333822404206462,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+632,Floating-point,0 11 71 0 1,TaggedPDF-doc Sect Normal statement word,{},0.0006901311249137336,0.3921104650113138,0.0002706076363087052,"Yes (en_GB, en_AU)",No,No,No,No
+633,exceptions,0 11 71 0 2,TaggedPDF-doc Sect Normal statement word,{},0.0006901311249137336,0.568201724066995,0.0003921336950082781,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+634,and,0 11 71 0 3,TaggedPDF-doc Sect Normal statement word,{},0.021739130434782608,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
+635,their,0 11 71 0 4,TaggedPDF-doc Sect Normal statement word,{},0.0006901311249137336,0.422073688388757,0.00029128618936422154,Yes (NTLK Stopword),No,No,No,No
+636,handling,0 11 71 0 5,TaggedPDF-doc Sect Normal statement word,{},0.0003450655624568668,0.6651117370750514,0.00022950715565046634,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+637,including,0 11 71 0 6,TaggedPDF-doc Sect Normal statement word,{},0.0003450655624568668,0.31292921896368886,0.00010798109695089333,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+638,non,0 11 71 0 7,TaggedPDF-doc Sect Normal statement word,{},0.0003450655624568668,1.0910804693473326,0.00037649429584103955,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+639,numbers,0 11 71 0 8,TaggedPDF-doc Sect Normal statement word,{},0.007246376811594203,0.1368379599080077,0.0009915794196232442,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+640,NaNs,0 11 71 0 9,TaggedPDF-doc Sect Normal statement word,{},0.0003450655624568668,0.4890204780193702,0.00016874412630067984,No,No,No,No,No
+641,When,0 11 74 0 0,TaggedPDF-doc Sect Normal statement word,{},0.0003450655624568668,0.2459824293330757,8.488006533232427e-05,Yes (NTLK Stopword),No,No,No,No
+642,it,0 11 74 0 1,TaggedPDF-doc Sect Normal statement word,{},0.003795721187025535,0.17026171539495738,0.0006462660004639514,Yes (NTLK Stopword),No,No,No,No
+643,comes,0 11 74 0 2,TaggedPDF-doc Sect Normal statement word,{},0.0003450655624568668,0.9661417327390326,0.0003333822404206462,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+644,to,0 11 74 0 3,TaggedPDF-doc Sect Normal statement word,{},0.02139406487232574,0.01189922329970769,0.0002545727552042363,Yes (NTLK Stopword),No,No,No,No
+645,their,0 11 74 0 4,TaggedPDF-doc Sect Normal statement word,{},0.0006901311249137336,0.422073688388757,0.00029128618936422154,Yes (NTLK Stopword),No,No,No,No
+646,precision,0 11 74 0 5,TaggedPDF-doc Sect Normal statement word,{},0.003795721187025535,0.07684003023272233,0.0002916633307660268,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+647,and,0 11 74 0 6,TaggedPDF-doc Sect Normal statement word,{},0.021739130434782608,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
+648,width,0 11 74 0 7,TaggedPDF-doc Sect Normal statement word,{},0.0003450655624568668,0.6651117370750514,0.00022950715565046634,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+649,in,0 11 74 0 8,TaggedPDF-doc Sect Normal statement word,{},0.006211180124223602,0.01189922329970769,7.39082192528428e-05,Yes (NTLK Stopword),No,No,No,No
+650,bits,0 11 74 0 9,TaggedPDF-doc Sect Normal statement word,{},0.001725327812284334,0.15322837609617704,0.00026436917890989827,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+651,the,0 11 74 0 10,TaggedPDF-doc Sect Normal statement word,{},0.05452035886818495,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
+652,standard,0 11 74 0 11,TaggedPDF-doc Sect Normal statement word,{},0.003450655624568668,0.04968778418910748,0.00017145543198449786,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+653,defines,0 11 74 0 12,TaggedPDF-doc Sect Normal statement word,{},0.0006901311249137336,0.4890204780193702,0.0003374882526013597,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+654,two,0 11 74 0 13,TaggedPDF-doc Sect Normal statement word,{},0.003105590062111801,0.15322837609617704,0.00047586452203781683,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+655,groups,0 11 74 0 14,TaggedPDF-doc Sect Normal statement word,{},0.0003450655624568668,1.0910804693473326,0.00037649429584103955,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+656,basic-,0 11 74 0 15,TaggedPDF-doc Sect Normal statement word,{},0.0003450655624568668,1.2671717284030137,0.000437257325190826,No,No,No,No,No
+657,and,0 11 74 0 16,TaggedPDF-doc Sect Normal statement word,{},0.021739130434782608,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
+658,extended,0 11 74 0 17,TaggedPDF-doc Sect Normal statement word,{},0.0010351966873706005,0.6651117370750514,0.0006885214669513991,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+659,format,0 11 74 0 18,TaggedPDF-doc Sect Normal statement word,{},0.004485852311939268,0.03672280702473984,0.0001647330887928288,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+660,The,0 11 74 1 0,TaggedPDF-doc Sect Normal statement word,{},0.01725327812284334,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
+661,extended,0 11 74 1 1,TaggedPDF-doc Sect Normal statement word,{},0.0010351966873706005,0.6651117370750514,0.0006885214669513991,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+662,format,0 11 74 1 2,TaggedPDF-doc Sect Normal statement word,{},0.004485852311939268,0.03672280702473984,0.0001647330887928288,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+663,is,0 11 74 1 3,TaggedPDF-doc Sect Normal statement word,{},0.022429261559696344,0.01189922329970769,0.0002668907917463768,Yes (NTLK Stopword),No,No,No,No
+664,implementation,0 11 74 1 4,TaggedPDF-doc Sect Normal statement word,{},0.001725327812284334,0.31292921896368886,0.0005399054847544666,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+665,dependent,0 11 74 1 5,TaggedPDF-doc Sect Normal statement word,{},0.0003450655624568668,0.9661417327390326,0.0003333822404206462,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+666,and,0 11 74 1 6,TaggedPDF-doc Sect Normal statement word,{},0.021739130434782608,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
+667,doesnt,0 11 74 1 7,TaggedPDF-doc Sect Normal statement word,{},0.0013802622498274672,0.9661417327390326,0.0013335289616825848,No,No,No,No,No
+668,concern,0 11 74 1 8,TaggedPDF-doc Sect Normal statement word,{},0.0006901311249137336,1.0910804693473326,0.0007529885916820791,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+669,this,0 11 74 1 9,TaggedPDF-doc Sect Normal statement word,{},0.003105590062111801,0.10580372616803894,0.00032858300052186003,Yes (NTLK Stopword),No,No,No,No
+670,project,0 11 74 1 10,TaggedPDF-doc Sect Normal statement word,{},0.0010351966873706005,0.568201724066995,0.0005882005425124172,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+671,The,0 11 75 0 0,TaggedPDF-doc Sect Normal statement word,{},0.01725327812284334,0.0,0.0,Yes (NTLK Stopword),No,No,No,Yes
+672,basic,0 11 75 0 1,TaggedPDF-doc Sect Normal statement word,{},0.003795721187025535,0.7900504736833514,0.0029988113217794565,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+673,format,0 11 75 0 2,TaggedPDF-doc Sect Normal statement word,{},0.004485852311939268,0.03672280702473984,0.0001647330887928288,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+674,is,0 11 75 0 3,TaggedPDF-doc Sect Normal statement word,{},0.022429261559696344,0.01189922329970769,0.0002668907917463768,Yes (NTLK Stopword),No,No,No,No
+675,further,0 11 75 0 4,TaggedPDF-doc Sect Normal statement word,{},0.0006901311249137336,0.568201724066995,0.0003921336950082781,Yes (NTLK Stopword),No,No,No,No
+676,divided,0 11 75 0 5,TaggedPDF-doc Sect Normal statement word,{},0.0003450655624568668,0.52680903890877,0.00018178365731841615,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+677,into,0 11 75 0 6,TaggedPDF-doc Sect Normal statement word,{},0.0010351966873706005,0.33775280268872104,0.00034964058249350007,Yes (NTLK Stopword),No,No,No,No
+678,single-precision,0 11 75 0 7,TaggedPDF-doc Sect Normal statement word,{},0.0010351966873706005,0.7231036840527382,0.0007485545383568719,No,No,No,No,No
+679,format,0 11 75 0 8,TaggedPDF-doc Sect Normal statement word,{},0.004485852311939268,0.03672280702473984,0.0001647330887928288,"Yes (en_US, en_GB, en_AU)",No,No,No,No
+680,with,0 11 75 0 9,TaggedPDF-doc Sect Normal statement word,{},0.009316770186335404,0.049687
