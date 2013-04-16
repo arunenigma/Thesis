@@ -8,18 +8,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_table_fivegrams.csv" afterPath="$PROJECT_DIR$/output_table_fivegrams.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_table_fourgrams.csv" afterPath="$PROJECT_DIR$/output_table_fourgrams.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_table_trigrams.csv" afterPath="$PROJECT_DIR$/output_table_trigrams.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/candidates.html" afterPath="$PROJECT_DIR$/candidates.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foo.py" afterPath="$PROJECT_DIR$/foo.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.py" afterPath="$PROJECT_DIR$/main.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/neuro_fuzzy.py" afterPath="$PROJECT_DIR$/neuro_fuzzy.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out.txt" afterPath="$PROJECT_DIR$/out.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_table.html" afterPath="$PROJECT_DIR$/output_table.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_table_bigrams.html" afterPath="$PROJECT_DIR$/output_table_bigrams.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_table_fivegrams.html" afterPath="$PROJECT_DIR$/output_table_fivegrams.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_table_fourgrams.html" afterPath="$PROJECT_DIR$/output_table_fourgrams.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_table_trigrams.html" afterPath="$PROJECT_DIR$/output_table_trigrams.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sect_clustering.py" afterPath="$PROJECT_DIR$/sect_clustering.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec_analyser.py" afterPath="$PROJECT_DIR$/spec_analyser.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="thesis_src_0.2.iws" />
