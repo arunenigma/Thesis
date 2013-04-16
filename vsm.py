@@ -1,41 +1,51 @@
 #!/usr/bin/env/python
-from pprint import pprint
+import csv
+import sys
+import numpy as np
 
 
 class VectorSpaceModel(object):
-    def __init__(self, specs):
-        """
-            An algebraic model for representing technical specifications as vectors of identifiers
-            A document is represented as a vector. Each dimension of the vector corresponds to a
-            separate term. If a term occurs in the document, then the value in the vector is non-zero.
-        """
-        self.specs = specs
-        self.spec_vectors = []
-        self.vector_indices = []
-        if len(specs) > 0:
-            self.buildVSM(specs)
+    def __init__(self, f1, f2):
+        self.f1 = f1
+        self.f2 = f2
+        self.doc_A = {}
+        self.doc_B = {}
+        self.doc_vec_A = []
+        self.doc_vec_B = []
 
-    def buildVSM(self, specs):
-        """
-            Create vector space for passed document strings
-        :param specs: passed documents
-        """
-        self.vector_indices = self.getVectorIndex(specs)
-        self.spec_vectors = [self.createVectors(spec) for spec in specs]
+    def readCsvFiles(self):
+        self.f1.next()
+        self.f2.next()
+        for row in self.f1:
 
-    def getVectorIndex(self, specs):
-        pass
+            self.doc_A[row[0]] = float(row[1])
+        for row in self.f2:
 
-    def createVectors(self, spec):
-        pass
+            self.doc_B[row[0]] = float(row[1])
 
-    def search(self, search_query_list):
-        pass
+        for word, pi_score_A in self.doc_A.iteritems():
+            try:
+                pi_score_B = self.doc_B[word]
+                print pi_score_B
+                self.doc_vec_A.append(float(pi_score_A))
+                self.doc_vec_B.append(float(pi_score_B))
 
+            except KeyError:
+                self.doc_vec_A.append(float(pi_score_A))
+                self.doc_vec_B.append(0.0)
+
+    def cosSimilarity(self):
+        print self.doc_vec_A
+        print
+        print self.doc_vec_B
+        print
+        print np.dot(self.doc_vec_A, self.doc_vec_B) / (np.sqrt(np.dot(self.doc_vec_A, self.doc_vec_A)) * np.sqrt(np.dot(self.doc_vec_B, self.doc_vec_B)))
 
 if __name__ == '__main__':
-    #test specs
-    specs = ['the product is IEEE 754 compliant', 'floating point read write add/subtract barrel shifter',
-             'amber ARM not compliant with IEEE 754', 'product supports USB and contains FPU']
-    vsm = VectorSpaceModel(specs)
-    pprint(vsm.search(['IEEE compliant']))
+    f1 = csv.reader(open(sys.argv[1], 'rb'))
+    f2 = csv.reader(open(sys.argv[2], 'rb'))
+    v = VectorSpaceModel(f1, f2)
+    v.readCsvFiles()
+    v.cosSimilarity()
+
+

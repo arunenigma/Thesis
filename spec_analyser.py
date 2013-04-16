@@ -39,7 +39,9 @@ class LocationVector(object):
         fstring = fstring.replace('<Annot>', ' ')
         fstring = fstring.replace('</Annot>', ' ')
         fstring = fstring.replace('</bookmark-tree>', '')
-        #print fstring
+        # deleting <Figure> and </Figure> tags
+        fstring = fstring.replace('<Figure>', '')
+        fstring = fstring.replace('</Figure>', '')
         element = etree.fromstring(fstring)
         return element
 
@@ -64,6 +66,7 @@ class LocationVector(object):
     def generateLocationVector(self, branch, index):
         if branch.text is not None:
             branch.text = branch.text.encode('ascii', 'ignore')
+
             if not branch.getchildren():
                 sentences = branch.text.split('. ')
                 for sentence in range(0, len(sentences)):
@@ -240,9 +243,11 @@ class WordTagger(HelperFunctions):
         fstring = fstring.replace('<Annot>', ' ')
         fstring = fstring.replace('</Annot>', ' ')
         fstring = fstring.replace('</bookmark-tree>', '')
-
         fstring = fstring.replace('<Annot>', ' ')
         fstring = fstring.replace('</Annot>', ' ')
+        # deleting <Figure> and </Figure> tags
+        fstring = fstring.replace('<Figure>', '')
+        fstring = fstring.replace('</Figure>', '')
         element = etree.fromstring(fstring)
         return element
 
@@ -521,18 +526,17 @@ class WordTagger(HelperFunctions):
         loc_sig = self.signature_map.split(' ')
 
         # ************ grouping all sections in the document ************
+        print self.spec_word, loc_ind, loc_sig
 
         # xml Scheme 1
-        #print self.spec_word, loc_ind, loc_sig
-        p = 0
         l = len(loc_ind)
-        for ind, tag in zip(loc_ind, loc_sig):
-            p += 1
-            if ind == '0' and tag == 'Sect':
-                if sum(int(ind) for ind in loc_ind[p:l]) == 0:
+        loc_ind = [int(ind) for ind in loc_ind]
+        for i, (ind, tag) in enumerate(zip(loc_ind, loc_sig)):
+            if ind == 0 and tag == 'Sect':
+                if sum(int(ind) for ind in loc_ind[i:l]) == 0:
                     print self.spec_word
 
-        # xml Scheme 2
+        # xml Scheme 2 | eg. jidan doc
         for i, tag in enumerate(loc_sig):
             if tag == 'Sect' and 'heading' in loc_sig[i + 1]:
                 self.sections.append([self.spec_word, self.word_location_index, self.signature_map])
