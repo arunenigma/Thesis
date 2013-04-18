@@ -526,15 +526,15 @@ class WordTagger(HelperFunctions):
         loc_sig = self.signature_map.split(' ')
 
         # ************ grouping all sections in the document ************
-        print self.spec_word, loc_ind, loc_sig
+        #print self.spec_word, loc_ind, loc_sig
 
-        # xml Scheme 1
+        # xml Scheme 1 | eg. amber
         l = len(loc_ind)
         loc_ind = [int(ind) for ind in loc_ind]
         for i, (ind, tag) in enumerate(zip(loc_ind, loc_sig)):
-            if ind == 0 and tag == 'Sect':
-                if sum(int(ind) for ind in loc_ind[i:l]) == 0:
-                    print self.spec_word
+            if ind >= 0 and tag == 'Sect' and loc_ind[i + 1] == 0 and 'H' in loc_sig[i + 1] and loc_ind[i + 2] == 0 and loc_sig[i + 2] == 'statement' and loc_ind[i + 3] >= 0 and loc_sig[i + 3] == 'word':
+                print self.spec_word
+                self.sections.append([self.spec_word, self.word_location_index, self.signature_map])
 
         # xml Scheme 2 | eg. jidan doc
         for i, tag in enumerate(loc_sig):

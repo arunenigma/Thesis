@@ -234,14 +234,16 @@ if __name__ == '__main__':
     nf.normCOGFivegrams()
 
     PI_bundle_unigrams = NeuroFuzzySystem.PI_bundle_unigrams
+    PI_bundle_bigrams = NeuroFuzzySystem.PI_bundle_bigrams
+    PI_bundle_trigrams = NeuroFuzzySystem.PI_bundle_trigrams
+    PI_bundle_fourgrams = NeuroFuzzySystem.PI_bundle_fourgrams
+    PI_bundle_fivegrams = NeuroFuzzySystem.PI_bundle_fivegrams
 
     section_bundle = tagger.sections
 
-    sec = SectionWiseClustering(PI_bundle_unigrams, section_bundle)
+    c = csv.writer(open('pi_sheet.csv', 'wb'))
+    sec = SectionWiseClustering(c, PI_bundle_unigrams, PI_bundle_bigrams, PI_bundle_trigrams, PI_bundle_fourgrams, PI_bundle_fivegrams, section_bundle)
     sec.findSectionHeaders()
-    sec.clusterWordsBySection()
-
-
 
     #cog_list = nf.cog_list
     #surface = SurfacePlotCOG()
@@ -276,3 +278,24 @@ if __name__ == '__main__':
     candidates_csv = csv.reader(open('candidates.csv', 'rb'))
     candidates_html = open('candidates.html', 'w')
     html.htmlOutputTable(candidates_csv, candidates_html)
+
+    def _test():
+        import doctest
+        doctest.testmod()
+
+    # calculating lines of code of Project
+    cur_path = os.getcwd()
+    ignore_set = {"foo.py"}
+
+    loc_list = []
+    _test()
+
+    for pydir, _, pyfiles in os.walk(cur_path):
+        for pyfile in pyfiles:
+            if pyfile.endswith(".py") and pyfile not in ignore_set:
+                total_path = os.path.join(pydir, pyfile)
+                loc_list.append((len(open(total_path, "r").read().splitlines()), total_path.split(cur_path)[1]))
+
+    for line_number_count, filename in loc_list:
+        print "%05d lines in %s" % (line_number_count, filename)
+    print "\nTotal: %s lines (%s)" %(sum([x[0] for x in loc_list]), cur_path)

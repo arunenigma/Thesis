@@ -213,9 +213,13 @@ class NeuroFuzzySystem(object):
         print '*********** BIGRAMS ***********'
         for item in sorted_word_rank:
             print item[0], item[1]
+            self.bi_gram_lv_list = []
+            self.bi_gram_lv_list.append(item[1])
             for info, bigram in self.bigram_info.iteritems():
                 if item[0] == bigram:
                     print info
+                    self.bi_gram_lv_list.append(info)
+            NeuroFuzzySystem.PI_bundle_bigrams[item[0]] = self.bi_gram_lv_list
 
     def normCOGTrigrams(self):
         max_cog = max(self.cog_list_trigrams)
@@ -225,9 +229,13 @@ class NeuroFuzzySystem(object):
         print '*********** TRIGRAMS ***********'
         for item in sorted_word_rank:
             print item[0], item[1]
+            self.tri_gram_lv_list = []
+            self.tri_gram_lv_list.append(item[1])
             for info, trigram in self.trigram_info.iteritems():
                 if item[0] == trigram:
                     print info
+                    self.tri_gram_lv_list.append(info)
+            NeuroFuzzySystem.PI_bundle_trigrams[item[0]] = self.tri_gram_lv_list
 
     def normCOGFourgrams(self):
         max_cog = max(self.cog_list_fourgrams)
@@ -237,9 +245,13 @@ class NeuroFuzzySystem(object):
         print '*********** FOURGRAMS ***********'
         for item in sorted_word_rank:
             print item[0], item[1]
+            self.four_gram_lv_list = []
+            self.four_gram_lv_list.append(item[1])
             for info, fourgram in self.fourgram_info.iteritems():
                 if item[0] == fourgram:
                     print info
+                    self.four_gram_lv_list.append(info)
+            NeuroFuzzySystem.PI_bundle_fourgrams[item[0]] = self.four_gram_lv_list
 
     def normCOGFivegrams(self):
         if not len(self.cog_list_fivegrams) == 0:
@@ -250,9 +262,13 @@ class NeuroFuzzySystem(object):
             print '*********** FIVEGRAMS ***********'
             for item in sorted_word_rank:
                 print item[0], item[1]
+                self.five_gram_lv_list = []
+                self.five_gram_lv_list.append(item[1])
                 for info, fivegram in self.fivegram_info.iteritems():
                     if item[0] == fivegram:
                         print info
+                        self.five_gram_lv_list.append(info)
+                NeuroFuzzySystem.PI_bundle_fivegrams[item[0]] = self.four_gram_lv_list
         else:
             print '*********** FIVEGRAMS ***********'
             print None
