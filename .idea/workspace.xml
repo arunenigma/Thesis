@@ -2,38 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eca835ff-a499-4f5e-95f6-72b7b321736c" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pi_sheet.csv" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/candidates.csv" afterPath="$PROJECT_DIR$/candidates.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_table.csv" afterPath="$PROJECT_DIR$/output_table.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_table_bigrams.csv" afterPath="$PROJECT_DIR$/output_table_bigrams.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_table_fivegrams.csv" afterPath="$PROJECT_DIR$/output_table_fivegrams.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_table_fourgrams.csv" afterPath="$PROJECT_DIR$/output_table_fourgrams.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_table_trigrams.csv" afterPath="$PROJECT_DIR$/output_table_trigrams.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/query.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/arun.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/arun.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/candidates.csv" afterPath="$PROJECT_DIR$/candidates.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/candidates.html" afterPath="$PROJECT_DIR$/candidates.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foo.py" afterPath="$PROJECT_DIR$/foo.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.py" afterPath="$PROJECT_DIR$/main.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/neuro_fuzzy.py" afterPath="$PROJECT_DIR$/neuro_fuzzy.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out.txt" afterPath="$PROJECT_DIR$/out.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_table.csv" afterPath="$PROJECT_DIR$/output_table.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_table.html" afterPath="$PROJECT_DIR$/output_table.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_table_bigrams.csv" afterPath="$PROJECT_DIR$/output_table_bigrams.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_table_bigrams.html" afterPath="$PROJECT_DIR$/output_table_bigrams.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_table_fivegrams.csv" afterPath="$PROJECT_DIR$/output_table_fivegrams.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_table_fivegrams.html" afterPath="$PROJECT_DIR$/output_table_fivegrams.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_table_fourgrams.csv" afterPath="$PROJECT_DIR$/output_table_fourgrams.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_table_fourgrams.html" afterPath="$PROJECT_DIR$/output_table_fourgrams.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_table_trigrams.csv" afterPath="$PROJECT_DIR$/output_table_trigrams.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_table_trigrams.html" afterPath="$PROJECT_DIR$/output_table_trigrams.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sect_clustering.py" afterPath="$PROJECT_DIR$/sect_clustering.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec_analyser.py" afterPath="$PROJECT_DIR$/spec_analyser.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vsm.py" afterPath="$PROJECT_DIR$/vsm.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="thesis_src_0.2.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="eca835ff-a499-4f5e-95f6-72b7b321736c" time="1366248747838" ignored="false" />
+    <file path="/Dummy.txt" changelist="eca835ff-a499-4f5e-95f6-72b7b321736c" time="1366387713272" ignored="false" />
     <file path="/spec_analyser.py" changelist="eca835ff-a499-4f5e-95f6-72b7b321736c" time="1366306659605" ignored="false" />
-    <file path="/neuro_fuzzy.py" changelist="eca835ff-a499-4f5e-95f6-72b7b321736c" time="1366153080684" ignored="false" />
-    <file path="/foo.py" changelist="eca835ff-a499-4f5e-95f6-72b7b321736c" time="1366301320908" ignored="false" />
-    <file path="/main.py" changelist="eca835ff-a499-4f5e-95f6-72b7b321736c" time="1366247864280" ignored="false" />
+    <file path="/neuro_fuzzy.py" changelist="eca835ff-a499-4f5e-95f6-72b7b321736c" time="1366478492412" ignored="false" />
+    <file path="/foo.py" changelist="eca835ff-a499-4f5e-95f6-72b7b321736c" time="1366400628597" ignored="false" />
+    <file path="/main.py" changelist="eca835ff-a499-4f5e-95f6-72b7b321736c" time="1366345326415" ignored="false" />
     <file path="/sect_clustering.py" changelist="eca835ff-a499-4f5e-95f6-72b7b321736c" time="1366308949890" ignored="false" />
     <file path="/vsm.py" changelist="eca835ff-a499-4f5e-95f6-72b7b321736c" time="1366309759246" ignored="false" />
+    <file path="/query.py" changelist="eca835ff-a499-4f5e-95f6-72b7b321736c" time="1366314650358" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,19 +49,28 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="vsm.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="vsm.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vsm.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="86" column="4" selection-start="2711" selection-end="2711" vertical-scroll-proportion="1.2899485">
+            <state line="86" column="4" selection-start="2711" selection-end="2711" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="neuro_fuzzy.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="query.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/query.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="24" selection-start="308" selection-end="308" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="neuro_fuzzy.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/neuro_fuzzy.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="231" column="38" selection-start="9151" selection-end="9151" vertical-scroll-proportion="0.0">
+            <state line="100" column="28" selection-start="3363" selection-end="3363" vertical-scroll-proportion="1.1056701">
               <folding />
             </state>
           </provider>
@@ -80,7 +88,7 @@
       <file leaf-file-name="foo.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/foo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="67" selection-end="67" vertical-scroll-proportion="0.0">
+            <state line="11" column="20" selection-start="377" selection-end="377" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -89,7 +97,7 @@
       <file leaf-file-name="main.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="246" column="0" selection-start="10244" selection-end="10244" vertical-scroll-proportion="0.0">
+            <state line="218" column="41" selection-start="9334" selection-end="9334" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -98,7 +106,7 @@
       <file leaf-file-name="spec_analyser.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec_analyser.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="539" column="41" selection-start="23928" selection-end="23928" vertical-scroll-proportion="0.0">
+            <state line="673" column="16" selection-start="30738" selection-end="30768" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -132,12 +140,13 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/pi_sheet.py" />
-        <option value="$PROJECT_DIR$/neuro_fuzzy.py" />
-        <option value="$PROJECT_DIR$/main.py" />
-        <option value="$PROJECT_DIR$/foo.py" />
-        <option value="$PROJECT_DIR$/spec_analyser.py" />
         <option value="$PROJECT_DIR$/sect_clustering.py" />
         <option value="$PROJECT_DIR$/vsm.py" />
+        <option value="$PROJECT_DIR$/query.py" />
+        <option value="$PROJECT_DIR$/spec_analyser.py" />
+        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/foo.py" />
+        <option value="$PROJECT_DIR$/neuro_fuzzy.py" />
       </list>
     </option>
   </component>
@@ -159,7 +168,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+    <navigator proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -170,29 +179,7 @@
       <autoscrollFromSource />
       <sortByType />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="thesis_src_0.2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="thesis_src_0.2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="thesis_src_0.2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
@@ -427,37 +414,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/surface_plot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="33" selection-start="796" selection-end="816" vertical-scroll-proportion="0.4256757">
-          <folding>
-            <element signature="e#0#18#0" expanded="false" />
-          </folding>
+        <state line="18" column="33" selection-start="796" selection-end="816" vertical-scroll-proportion="0.4256757" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vsm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="86" column="4" selection-start="2711" selection-end="2711" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
+    <entry file="file://$PROJECT_DIR$/query.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="246" column="0" selection-start="10244" selection-end="10244" vertical-scroll-proportion="0.0">
+        <state line="14" column="24" selection-start="308" selection-end="308" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/foo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="67" selection-end="67" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/neuro_fuzzy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="231" column="38" selection-start="9151" selection-end="9151" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec_analyser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="539" column="41" selection-start="23928" selection-end="23928" vertical-scroll-proportion="0.0">
+        <state line="11" column="20" selection-start="377" selection-end="377" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -469,9 +445,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vsm.py">
+    <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="86" column="4" selection-start="2711" selection-end="2711" vertical-scroll-proportion="1.2899485">
+        <state line="218" column="41" selection-start="9334" selection-end="9334" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec_analyser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="673" column="16" selection-start="30738" selection-end="30768" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/neuro_fuzzy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="100" column="28" selection-start="3363" selection-end="3363" vertical-scroll-proportion="1.1056701">
           <folding />
         </state>
       </provider>

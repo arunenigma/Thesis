@@ -159,6 +159,15 @@ if __name__ == '__main__':
     tf_idf_common_eng_words = tagger.common_eng_words  # common english excluding stopwords and words whose IDF = 1
     tf_idf_nouns_unigrams = tagger.nouns_unigrams  # uni-gram nouns excluding stopwords and words whose IDF = 1
     tf_idf_loc_sig_link = tagger.loc_sig_link_unigrams  # uni-grams whose location signature is "Link"
+    loc_sig_H1_unigrams = tagger.loc_sig_H1_unigrams
+    loc_sig_H2_unigrams = tagger.loc_sig_H2_unigrams
+    loc_sig_H3_unigrams = tagger.loc_sig_H3_unigrams
+    loc_sig_H4_unigrams = tagger.loc_sig_H4_unigrams
+    loc_sig_H5_unigrams = tagger.loc_sig_H5_unigrams
+    loc_sig_H6_unigrams = tagger.loc_sig_H6_unigrams
+    loc_sig_TD_unigrams = tagger.loc_sig_TD_unigrams
+    loc_sig_TH_unigrams = tagger.loc_sig_TH_unigrams
+    loc_sig_LI_Title_unigrams = tagger.loc_sig_LI_Title_unigrams
 
     # ------------ word bags Bigrams -----------
 
@@ -206,6 +215,15 @@ if __name__ == '__main__':
     u1 = neuro_fuzzy(tf_idf_common_eng_words)
     u2 = neuro_fuzzy(tf_idf_nouns_unigrams)
     u3 = neuro_fuzzy(tf_idf_loc_sig_link)
+    u4 = neuro_fuzzy(loc_sig_H1_unigrams)
+    u5 = neuro_fuzzy(loc_sig_H2_unigrams)
+    u6 = neuro_fuzzy(loc_sig_H3_unigrams)
+    u7 = neuro_fuzzy(loc_sig_H4_unigrams)
+    u8 = neuro_fuzzy(loc_sig_H5_unigrams)
+    u9 = neuro_fuzzy(loc_sig_H6_unigrams)
+    u10 = neuro_fuzzy(loc_sig_LI_Title_unigrams)
+    u11 = neuro_fuzzy(loc_sig_TD_unigrams)
+    u12 = neuro_fuzzy(loc_sig_TH_unigrams)
 
     # feature set for bigrams
     b1 = neuro_fuzzy(tf_idf_bigram_NNP_NNP)
@@ -225,7 +243,7 @@ if __name__ == '__main__':
     p1 = neuro_fuzzy(tf_idf_fivegram_NNP_NNP_NNP_NNP_NNP)  # p --> penta = five
 
     nf = NeuroFuzzySystem()
-    nf.neuroFuzzyModelling(tf_idf_list, u1, u2, u3, tf_idf_bigram_list, b1, b2, b3, tf_idf_trigram_list, t1, t2, t3, tf_idf_fourgram_list, f1, tf_idf_fivegram_list, p1)
+    nf.neuroFuzzyModelling(tf_idf_list, u1, u2, u3, u4, u5, u6, u7, u8, u9, u10, u11, u12, tf_idf_bigram_list, b1, b2, b3, tf_idf_trigram_list, t1, t2, t3, tf_idf_fourgram_list, f1, tf_idf_fivegram_list, p1)
 
     nf.normCOGUnigrams()
     nf.normCOGBigrams()

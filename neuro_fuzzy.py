@@ -1,4 +1,5 @@
 from __future__ import division
+
 __author__ = 'arunprasathshankar'
 import itertools
 from operator import itemgetter
@@ -38,7 +39,11 @@ class NeuroFuzzySystem(object):
         self.PI_bundle_fourgrams = {}
         self.PI_bundle_fivegrams = {}
 
-    def neuroFuzzyModelling(self, tf_idf_list, u1, u2, u3, tf_idf_bigram_list, b1, b2, b3, tf_idf_trigram_list, t1, t2, t3, tf_idf_fourgram_list, f1, tf_idf_fivegram_list, p1):
+        self.mfs = []
+
+    def neuroFuzzyModelling(self, tf_idf_list, u1, u2, u3, u4, u5, u6, u7, u8, u9, u10, u11, u12, tf_idf_bigram_list,
+                            b1, b2, b3, tf_idf_trigram_list, t1, t2, t3, tf_idf_fourgram_list, f1, tf_idf_fivegram_list,
+                            p1):
         """
         @param tf_idf_list: list of unigrams with info like tf_idf, location index and location signature
         @param tf_idf_bigram_list:
@@ -50,10 +55,19 @@ class NeuroFuzzySystem(object):
         for item in u1:
             out.write(str(item[0]) + " " + str(item[1]) + '\n')
         out.close()
-        
-        u1 = {item[0]: item[1:] for item in u1}
+
+        u1 = {item[0]: item[1:] for item in u1}  # word bag - common english words
         u2 = {item[0]: item[1:] for item in u2}
         u3 = {item[0]: item[1:] for item in u3}
+        u4 = {item[0]: item[1:] for item in u4}
+        u5 = {item[0]: item[1:] for item in u5}
+        u6 = {item[0]: item[1:] for item in u6}
+        u7 = {item[0]: item[1:] for item in u7}
+        u8 = {item[0]: item[1:] for item in u8}
+        u9 = {item[0]: item[1:] for item in u9}
+        u10 = {item[0]: item[1:] for item in u10}
+        u11 = {item[0]: item[1:] for item in u11}
+        u12 = {item[0]: item[1:] for item in u12}
 
         b1 = {item[0]: item[1:] for item in b1}
         b2 = {item[0]: item[1:] for item in b2}
@@ -64,33 +78,125 @@ class NeuroFuzzySystem(object):
         t3 = {item[0]: item[1:] for item in t3}
 
         f1 = {item[0]: item[1:] for item in f1}
+
         p1 = {item[0]: item[1:] for item in p1}
 
         for info, word in tf_idf_list.iteritems():
+
             try:
-                x, y = u1[word], u2[word]
-                
+
+                u1_nrn_info = u1.get(word, 0)
+                u2_nrn_info = u2.get(word, 0)
+                u3_nrn_info = u3.get(word, 0)
+                u4_nrn_info = u4.get(word, 0)
+                u5_nrn_info = u5.get(word, 0)
+                u6_nrn_info = u6.get(word, 0)
+                u7_nrn_info = u7.get(word, 0)
+                u8_nrn_info = u8.get(word, 0)
+                u9_nrn_info = u9.get(word, 0)
+                u10_nrn_info = u10.get(word, 0)
+                u11_nrn_info = u11.get(word, 0)
+                u12_nrn_info = u12.get(word, 0)
+
             except KeyError:
                 continue
 
-            A = x[1] * x[2]
-            B = x[3] * x[4]
-            C = y[1] * y[2] + 1
-            D = y[3] * y[4] + 1
-            #E = z[2] * z[3] + 1
-            #F = z[4] * z[5] + 1
-            #mfs = [[A, B], [C, D], [E, F]]
-            mfs = [[A, B], [C, D]]
-            #weights = sum([x[3], x[5], y[3], y[5], z[3], z[5]])
-            weights = sum([x[2], x[4], y[2], y[4]])
-            rule_inputs = list(itertools.product(*mfs))
-            len_comb = len(rule_inputs)
-            # 6 --> write code to find this automatically
-            #weight_factor = (len(mfs) * len_comb) / 6
-            weight_factor = (len(mfs) * len_comb) / 4
-            weights *= weight_factor
-            rule_inputs = sum([sum(r) for r in rule_inputs])
-            self.defuzzifyUnigrams(word, rule_inputs, weights, info)
+            self.mfs = []  # membership functions
+            self.wts = []  # weights
+
+            if not u1_nrn_info == 0:
+                u1_mf1 = u1_nrn_info[1] * u1_nrn_info[2] - 1
+                u1_mf2 = u1_nrn_info[3] * u1_nrn_info[4] - 1
+                self.mfs.append([u1_mf1, u1_mf2])
+                self.wts.append(u1_nrn_info[2])
+                self.wts.append(u1_nrn_info[4])
+
+            if not u2_nrn_info == 0:
+                u2_mf1 = u2_nrn_info[1] * u2_nrn_info[2] + 1  # +1 --> bias
+                u2_mf2 = u2_nrn_info[3] * u2_nrn_info[4] + 1
+                self.mfs.append([u2_mf1, u2_mf2])
+                self.wts.append(u2_nrn_info[2])
+                self.wts.append(u2_nrn_info[4])
+
+            if not u3_nrn_info == 0:
+                u3_mf1 = u3_nrn_info[1] * u3_nrn_info[2]
+                u3_mf2 = u3_nrn_info[3] * u3_nrn_info[4]
+                self.mfs.append([u3_mf1, u3_mf2])
+                self.wts.append(u3_nrn_info[2])
+                self.wts.append(u3_nrn_info[4])
+
+            if not u4_nrn_info == 0:
+                u4_mf1 = u4_nrn_info[1] * u4_nrn_info[2]
+                u4_mf2 = u4_nrn_info[3] * u4_nrn_info[4]
+                self.mfs.append([u4_mf1, u4_mf2])
+                self.wts.append(u4_nrn_info[2])
+                self.wts.append(u4_nrn_info[4])
+
+            if not u5_nrn_info == 0:
+                u5_mf1 = u5_nrn_info[1] * u5_nrn_info[2]
+                u5_mf2 = u5_nrn_info[3] * u5_nrn_info[4]
+                self.mfs.append([u5_mf1, u5_mf2])
+                self.wts.append(u5_nrn_info[2])
+                self.wts.append(u5_nrn_info[4])
+
+            if not u6_nrn_info == 0:
+                u6_mf1 = u6_nrn_info[1] * u6_nrn_info[2]
+                u6_mf2 = u6_nrn_info[3] * u6_nrn_info[4]
+                self.mfs.append([u6_mf1, u6_mf2])
+                self.wts.append(u6_nrn_info[2])
+                self.wts.append(u6_nrn_info[4])
+
+            if not u7_nrn_info == 0:
+                u7_mf1 = u7_nrn_info[1] * u7_nrn_info[2]
+                u7_mf2 = u7_nrn_info[3] * u7_nrn_info[4]
+                self.mfs.append([u7_mf1, u7_mf2])
+                self.wts.append(u7_nrn_info[2])
+                self.wts.append(u7_nrn_info[4])
+
+            if not u8_nrn_info == 0:
+                u8_mf1 = u8_nrn_info[1] * u8_nrn_info[2]
+                u8_mf2 = u8_nrn_info[3] * u8_nrn_info[4]
+                self.mfs.append([u8_mf1, u8_mf2])
+                self.wts.append(u8_nrn_info[2])
+                self.wts.append(u8_nrn_info[4])
+
+            if not u9_nrn_info == 0:
+                u9_mf1 = u9_nrn_info[1] * u9_nrn_info[2]
+                u9_mf2 = u9_nrn_info[3] * u9_nrn_info[4]
+                self.mfs.append([u9_mf1, u9_mf2])
+                self.wts.append(u9_nrn_info[2])
+                self.wts.append(u9_nrn_info[4])
+
+            if not u10_nrn_info == 0:
+                u10_mf1 = u10_nrn_info[1] * u10_nrn_info[2]
+                u10_mf2 = u10_nrn_info[3] * u10_nrn_info[4]
+                self.mfs.append([u10_mf1, u10_mf2])
+                self.wts.append([u10_nrn_info[2], u10_nrn_info[4]])
+
+            if not u11_nrn_info == 0:
+                u11_mf1 = u11_nrn_info[1] * u11_nrn_info[2]
+                u11_mf2 = u11_nrn_info[3] * u11_nrn_info[4]
+                self.mfs.append([u11_mf1, u11_mf2])
+                self.wts.append(u11_nrn_info[2])
+                self.wts.append(u11_nrn_info[4])
+
+            if not u12_nrn_info == 0:
+                u12_mf1 = u12_nrn_info[1] * u12_nrn_info[2]
+                u12_mf2 = u12_nrn_info[3] * u12_nrn_info[4]
+                self.mfs.append([u12_mf1, u12_mf2])
+                self.wts.append(u12_nrn_info[2])
+                self.wts.append(u12_nrn_info[4])
+
+            if len(self.mfs) > 0:
+                weights = sum(self.wts)
+                rule_inputs = list(itertools.product(*self.mfs))
+                number_of_wordbags = len(self.mfs)
+                number_of_rules = len(rule_inputs)
+                number_of_weights = len(self.wts)
+                weight_factor = (number_of_wordbags * number_of_rules) / number_of_weights
+                weights *= weight_factor
+                rule_inputs = sum([sum(r) for r in rule_inputs])
+                self.defuzzifyUnigrams(word, rule_inputs, weights, info)
 
         for info, bigram, in tf_idf_bigram_list.iteritems():
             x = b1.get(bigram)
@@ -106,7 +212,7 @@ class NeuroFuzzySystem(object):
                 weights *= weight_factor
                 rule_inputs = sum([sum(r) for r in rule_inputs])
                 self.defuzzifyBigrams(bigram, rule_inputs, weights, info)
-        
+
         for info, trigram in tf_idf_trigram_list.iteritems():
             x = t1.get(trigram)
             if not x is None:
@@ -206,6 +312,7 @@ class NeuroFuzzySystem(object):
             NeuroFuzzySystem.PI_bundle_unigrams[item[0]] = self.uni_gram_lv_list
 
     def normCOGBigrams(self):
+        print self.cog_list_bigrams
         max_cog = max(self.cog_list_bigrams)
         self.cog_list_bigrams = [cog / max_cog for cog in self.cog_list_bigrams]
         word_rank = dict(zip(self.bigram_list, self.cog_list_bigrams))

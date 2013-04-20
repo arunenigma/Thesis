@@ -660,7 +660,7 @@ class WordTagger(HelperFunctions):
         """
             Creating words bags for Location Attributes !!
         """
-        #self.potential_tags = ['Link', 'TD', 'LI_Title', 'TH', 'H1', 'H2', 'H3', 'H4', 'H5', 'H6']
+        self.potential_tags = ['Link', 'TD', 'LI_Title', 'TH', 'H1', 'H2', 'H3', 'H4', 'H5', 'H6']
         if set(self.potential_tags) & set(self.signature_map):
             self.potential_tags_found = list(set(self.potential_tags) & set(self.signature_map))
             if not self.spec_word_lower_case in (

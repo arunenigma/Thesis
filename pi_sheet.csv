@@ -1,0 +1,259 @@
+Word,PI Score,Tf-Idf,Loc Ind,Loc Sig,Section
+operations,0.0465197786243,0.0003940585964646222,0 5 1 12 1 5,TaggedPDF-doc Part Sect P statement word,NA
+918041779999,0.549527121226,0.0048277896873775775,0 5 14 1 17,TaggedPDF-doc Part P statement word,NA
+code,0.121150822623,0.0001785305202430321,0 5 18 4 0 1 0 4,TaggedPDF-doc Part Sect Table TR TD statement word,NA
+Processors,0.476654894069,0.003737969700303875,0 5 1 12 0 8,TaggedPDF-doc Part Sect P statement word,NA
+Web,0.726904184437,0.004274963419199259,0 5 19 1 39,TaggedPDF-doc Part P statement word,NA
+7731745,0.549527121226,0.0048277896873775775,0 5 2 1 36,TaggedPDF-doc Part P statement word,NA
+synchronous,0.146096448673,0.0006225275639952167,0 5 12 3 3 0 11,TaggedPDF-doc Part Table TR TD statement word,NA
+results,0.0515581371265,0.0004036517991386658,0 5 18 2 3 1 0 0,TaggedPDF-doc Part Sect Table TR TD statement word,NA
+Width,0.358861990429,0.0005783340191907283,0 5 12 0 2 0 1,TaggedPDF-doc Part Table TR TH statement word,NA
+stored,0.131439129436,0.0005783340191907283,0 5 1 16 0 0,TaggedPDF-doc Part Sect P statement word,NA
+adder/,0.807965327729,0.0023129818939041226,0 5 1 5 0 3,TaggedPDF-doc Part Sect P statement word,NA
+8.15,0.325727572561,0.0016092632291258592,0 2 0 2 0 0 2,TaggedPDF-doc {adobe:ns:meta/}xmpmeta {http://www.w3.org/1999/02/22-rdf-syntax-ns#}RDF {http://www.w3.org/1999/02/22-rdf-syntax-ns#}Description {http://ns.adobe.com/pdf/1.3/}Producer statement word,NA
+Suite,0.634484173081,0.0029429722879427056,0 5 2 1 24,TaggedPDF-doc Part P statement word,NA
+FLOATING,0.516819484917,0.0014249878063997531,0 5 0 0 0,TaggedPDF-doc Part H3 statement word,NA
+Supports,0.281000014127,0.0012820526839689916,0 5 1 9 0 9,TaggedPDF-doc Part Sect P statement word,NA
+Tower,0.768161017637,0.0048277896873775775,0 5 14 1 5,TaggedPDF-doc Part P statement word,NA
+alignment,0.570314181541,0.001961981525295137,0 5 1 5 1 10,TaggedPDF-doc Part Sect P statement word,NA
+add/sub,0.780879271596,0.0018689848501519375,0 5 17 0 3,TaggedPDF-doc Part P statement word,NA
+xml,0.23700434495,1.755047684322668e-05,0 2 0 0 0 0 0,TaggedPDF-doc {adobe:ns:meta/}xmpmeta {http://www.w3.org/1999/02/22-rdf-syntax-ns#}RDF {http://www.w3.org/1999/02/22-rdf-syntax-ns#}Description {http://purl.org/dc/elements/1.1/}format statement word,NA
+Direction,0.422279522997,0.0007770044821663273,0 5 12 0 1 0 0,TaggedPDF-doc Part Table TR TH statement word,NA
+rapid,0.378583326433,0.0023129818939041226,0 5 1 2 1 16,TaggedPDF-doc Part Sect P statement word,NA
+Ccode,0.863208107486,0.0032185264582517185,0 5 18 2 1 1 0 5,TaggedPDF-doc Part Sect Table TR TD statement word,NA
+Virtex5,0.754041127491,0.0016092632291258592,0 5 16 2 0 0 0,TaggedPDF-doc Part Table TR TD statement word,NA
+Virtex4,0.754041127491,0.0016092632291258592,0 5 16 1 0 0 0,TaggedPDF-doc Part Table TR TD statement word,NA
+representation,0.422279522997,0.0007770044821663273,0 5 1 13 0 2,TaggedPDF-doc Part Sect P statement word,NA
+Deliverables,0.265036057532,0.0011652661853736746,0 5 18 3 0 0,TaggedPDF-doc Part Sect P statement word,NA
+iPark,0.986794914047,0.0048277896873775775,0 5 2 1 7,TaggedPDF-doc Part P statement word,NA
+source,0.208176287525,0.0002772720978693053,0 5 18 4 0 1 0 3,TaggedPDF-doc Part Sect Table TR TD statement word,NA
+helps,0.347582624512,0.0018689848501519375,0 5 1 3 0 5,TaggedPDF-doc Part Sect P statement word,NA
+input,0.0966644208225,0.00014238159124908183,0 5 12 3 3 0 3,TaggedPDF-doc Part Table TR TD statement word,NA
+easier,0.378583326433,0.0023129818939041226,0 5 1 17 1 19,TaggedPDF-doc Part Sect P statement word,NA
+match,0.539884350026,0.0016092632291258592,0 5 1 6 0 12,TaggedPDF-doc Part Sect P statement word,NA
+408,0.656287297946,0.007692316103813949,0 5 14 1 32,TaggedPDF-doc Part P statement word,NA
+real,0.117728122966,0.0005369937188953838,0 5 1 12 0 2,TaggedPDF-doc Part Sect P statement word,NA
+Ghostscript,0.754041127491,0.0016092632291258592,0 2 0 2 0 0 1,TaggedPDF-doc {adobe:ns:meta/}xmpmeta {http://www.w3.org/1999/02/22-rdf-syntax-ns#}RDF {http://www.w3.org/1999/02/22-rdf-syntax-ns#}Description {http://ns.adobe.com/pdf/1.3/}Producer statement word,NA
+format,0.110285566784,0.0001624902965696453,0 5 1 2 0 8,TaggedPDF-doc Part Sect P statement word,NA
+FPGA,0.716709231936,0.0012807439075848057,0 5 1 3 0 15,TaggedPDF-doc Part Sect P statement word,NA
+Fully,0.146096448673,0.0006225275639952167,0 5 1 9 0 26,TaggedPDF-doc Part Sect P statement word,NA
+Mobius,0.986794914047,0.0048277896873775775,0 5 19 1 4,TaggedPDF-doc Part P statement word,NA
+Compliance,0.539884350026,0.0016092632291258592,0 5 1 9 0 14,TaggedPDF-doc Part Sect P statement word,NA
+XC5VLX30FF324,0.780879271596,0.0018689848501519375,0 5 16 2 0 0 1,TaggedPDF-doc Part Table TR TD statement word,NA
+investigated,0.378583326433,0.0023129818939041226,0 5 1 2 1 28,TaggedPDF-doc Part Sect P statement word,NA
+Compatible,0.347582624512,0.0018689848501519375,0 5 1 9 0 33,TaggedPDF-doc Part Sect P statement word,NA
+Pvt,0.768161017637,0.0048277896873775775,0 5 2 0 2,TaggedPDF-doc Part P statement word,NA
+negative,0.347484723213,0.0018675826919856502,0 5 1 17 1 10,TaggedPDF-doc Part Sect P statement word,NA
+Behavioral,0.652509122398,0.0032185264582517185,0 5 18 2 2 1 0 3,TaggedPDF-doc Part Sect Table TR TD statement word,NA
+Xilinx,0.703586709205,0.0011652661853736746,0 5 18 2 4 1 0 2,TaggedPDF-doc Part Sect Table TR TD statement word,NA
+using,-0.152930927357,0.00013433697543854361,0 5 1 14 0 6,TaggedPDF-doc Part Sect P statement word,NA
+bit,0.390676866305,0.0006780016641423763,0 5 1 16 0 9,TaggedPDF-doc Part Sect P statement word,NA
+designers,0.325727572561,0.0016092632291258592,0 5 1 3 0 6,TaggedPDF-doc Part Sect P statement word,NA
+Op,0.498928985634,0.0012820526839689916,0 5 12 4 0 0 0,TaggedPDF-doc Part Table TR TD statement word,NA
+entire,0.45180328182,0.000905544564347596,0 5 12 3 3 0 8,TaggedPDF-doc Part Table TR TD statement word,NA
+White,0.768161017637,0.0048277896873775775,0 5 14 1 9,TaggedPDF-doc Part P statement word,NA
+signmagnitude,0.807965327729,0.0023129818939041226,0 5 1 16 0 3,TaggedPDF-doc Part Sect P statement word,NA
+fields,0.217578920416,0.0008380556402168067,0 5 1 15 0 1 0 0,TaggedPDF-doc Part Sect Table TR TH statement word,NA
+India,0.986794914047,0.0048277896873775775,0 5 19 1 15,TaggedPDF-doc Part P statement word,NA
+Functional,0.441767642902,0.0008380556402168067,0 5 1 4 0 0,TaggedPDF-doc Part Sect P statement word,NA
+95051,0.549527121226,0.0048277896873775775,0 5 19 1 29,TaggedPDF-doc Part P statement word,NA
+large,0.197330571539,0.0007770044821663273,0 5 1 2 1 9,TaggedPDF-doc Part Sect P statement word,NA
+EPIP,0.986794914047,0.0048277896873775775,0 5 2 1 8,TaggedPDF-doc Part P statement word,NA
+steps,0.300538317936,0.0014249878063997531,0 5 1 5 1 8,TaggedPDF-doc Part Sect P statement word,NA
+mode,0.247287924826,0.00033300743841414274,0 5 12 4 3 0 7,TaggedPDF-doc Part Table TR TD statement word,NA
+Overview,0.345665766888,0.0005369937188953838,0 5 1 11 0 0,TaggedPDF-doc Part Sect P statement word,NA
+output,0.0241704393817,3.559539781227046e-05,0 5 12 5 3 0 7,TaggedPDF-doc Part Table TR TD statement word,NA
+294,0.347582624512,0.0018689848501519375,0 5 16 2 2 0 0,TaggedPDF-doc Part Table TR TD statement word,NA
+barun,0.754041127491,0.0016092632291258592,0 2 0 0 1 0 0 0 0,TaggedPDF-doc {adobe:ns:meta/}xmpmeta {http://www.w3.org/1999/02/22-rdf-syntax-ns#}RDF {http://www.w3.org/1999/02/22-rdf-syntax-ns#}Description {http://purl.org/dc/elements/1.1/}creator {http://www.w3.org/1999/02/22-rdf-syntax-ns#}Seq {http://www.w3.org/1999/02/22-rdf-syntax-ns#}li statement word,NA
+added,0.146096448673,0.0006225275639952167,0 5 1 6 1 4,TaggedPDF-doc Part Sect P statement word,NA
+user,0.404488263435,0.00072126914162149,0 5 18 4 3 1 0 1,TaggedPDF-doc Part Sect Table TR TD statement word,NA
+smaller,0.217578920416,0.0008380556402168067,0 5 1 6 0 5,TaggedPDF-doc Part Sect P statement word,NA
+decides,0.347582624512,0.0018689848501519375,0 5 12 4 3 0 5,TaggedPDF-doc Part Table TR TD statement word,NA
+generation,0.422279522997,0.0007770044821663273,0 5 18 4 2 1 0 2,TaggedPDF-doc Part Sect Table TR TD statement word,NA
+Gordon,0.986794914047,0.0048277896873775775,0 5 19 1 22,TaggedPDF-doc Part P statement word,NA
+sign,0.463503440654,0.0009990223152424283,0 5 1 24 0 0,TaggedPDF-doc Part Sect P statement word,NA
+prototyping,0.378583326433,0.0023129818939041226,0 5 1 2 1 17,TaggedPDF-doc Part Sect P statement word,NA
+Test,0.345665766888,0.0005369937188953838,0 5 18 4 1 1 0 0,TaggedPDF-doc Part Sect Table TR TD statement word,NA
+second,0.16184045501,0.0006699975984663101,0 5 12 2 3 0 7,TaggedPDF-doc Part Table TR TD statement word,NA
+Version,0.247287924826,0.00033300743841414274,0 2 0 1 1 0 1,TaggedPDF-doc {adobe:ns:meta/}xmpmeta {http://www.w3.org/1999/02/22-rdf-syntax-ns#}RDF {http://www.w3.org/1999/02/22-rdf-syntax-ns#}Description {http://ns.adobe.com/xap/1.0/}CreatorTool statement word,NA
+design,0.262856154482,0.0003628059429691382,0 5 1 9 0 28,TaggedPDF-doc Part Sect P statement word,NA
+result,0.136930543742,0.0002018258995693329,0 5 1 6 1 13,TaggedPDF-doc Part Sect P statement word,NA
+measure,0.539884350026,0.0016092632291258592,0 5 1 12 1 9,TaggedPDF-doc Part Sect P statement word,NA
+Performance,0.49429818015,0.0012450551279904335,0 5 17 0 5,TaggedPDF-doc Part P statement word,NA
+operation,0.236367647359,0.00031210538692636857,0 5 12 4 3 0 10,TaggedPDF-doc Part Table TR TD statement word,NA
+port,0.581603997306,0.0021345731793080093,0 5 12 5 3 0 3,TaggedPDF-doc Part Table TR TD statement word,NA
+Benches,0.325727572561,0.0016092632291258592,0 5 18 4 1 1 0 1,TaggedPDF-doc Part Sect Table TR TD statement word,NA
+Available,0.265036057532,0.0011652661853736746,0 5 1 9 0 1,TaggedPDF-doc Part Sect P statement word,NA
+Emulated,0.564230948054,0.0018689848501519375,0 5 18 2 4 1 0 0,TaggedPDF-doc Part Sect Table TR TD statement word,NA
+shown,0.314443694866,0.00046154752059541127,0 5 1 15 1 0 0 0,TaggedPDF-doc Part Sect Table TR TH statement word,NA
+swaps,0.347582624512,0.0018689848501519375,0 5 1 7 0 12,TaggedPDF-doc Part Sect P statement word,NA
+clock,0.1831398844,0.00025112347403386046,0 5 1 9 0 31,TaggedPDF-doc Part Sect P statement word,NA
+speed,0.314443694866,0.00046154752059541127,0 5 1 12 1 1,TaggedPDF-doc Part Sect P statement word,NA
+avoid,0.281000014127,0.0012820526839689916,0 5 1 7 0 16,TaggedPDF-doc Part Sect P statement word,NA
+Optimized,0.378583326433,0.0023129818939041226,0 5 1 9 0 20,TaggedPDF-doc Part Sect P statement word,NA
+'fraction',0.807965327729,0.0023129818939041226,0 5 1 16 0 20,TaggedPDF-doc Part Sect P statement word,NA
+Technologies,0.512561675675,0.004274963419199259,0 5 19 0 1,TaggedPDF-doc Part P statement word,NA
+361,0.300538317936,0.0014249878063997531,0 5 16 2 1 0 0,TaggedPDF-doc Part Table TR TD statement word,NA
+InB,0.754041127491,0.0016092632291258592,0 5 12 2 0 0 0,TaggedPDF-doc Part Table TR TD statement word,NA
+biased,0.347484723213,0.0018675826919856502,0 5 1 17 0 3,TaggedPDF-doc Part Sect P statement word,NA
+Word,0.279184104299,0.0003940585964646222,0 2 0 0 2 0 0 0 1,TaggedPDF-doc {adobe:ns:meta/}xmpmeta {http://www.w3.org/1999/02/22-rdf-syntax-ns#}RDF {http://www.w3.org/1999/02/22-rdf-syntax-ns#}Description {http://purl.org/dc/elements/1.1/}title {http://www.w3.org/1999/02/22-rdf-syntax-ns#}Alt {http://www.w3.org/1999/02/22-rdf-syntax-ns#}li statement word,NA
+"end ""w""",0.23700434495,1.755047684322668e-05,0 3 0 0,TaggedPDF-doc <built-in function ProcessingInstruction> statement word,NA
+7731714,0.549527121226,0.0048277896873775775,0 5 2 1 33,TaggedPDF-doc Part P statement word,NA
+Slice,0.516819484917,0.0014249878063997531,0 5 16 0 1 0 0,TaggedPDF-doc Part Table TR TH statement word,NA
+fed,0.422570431062,0.0029429722879427056,0 5 12 1 3 0 10,TaggedPDF-doc Part Table TR TD statement word,NA
+DSP,0.846397915099,0.0029429722879427056,0 5 1 12 1 14,TaggedPDF-doc Part Sect P statement word,NA
+standard,-0.146620264302,0.00014657163477612824,0 5 1 9 0 18,TaggedPDF-doc Part Sect P statement word,NA
+BANGALORE,0.986794914047,0.0048277896873775775,0 5 19 1 11,TaggedPDF-doc Part P statement word,NA
+approaches,0.300538317936,0.0014249878063997531,0 5 18 1 0 11,TaggedPDF-doc Part Sect P statement word,NA
+complicated,0.325727572561,0.0016092632291258592,0 5 1 5 0 7,TaggedPDF-doc Part Sect P statement word,NA
+Verification,0.404488263435,0.00072126914162149,0 5 18 0 0 0,TaggedPDF-doc Part Sect P statement word,NA
+multiplier,0.16184045501,0.0006699975984663101,0 5 1 5 0 12,TaggedPDF-doc Part Sect P statement word,NA
+represented,0.404208544596,0.0026799903938652405,0 5 1 14 0 5,TaggedPDF-doc Part Sect P statement word,NA
+beginning,0.516819484917,0.0014249878063997531,0 5 1 7 0 10,TaggedPDF-doc Part Sect P statement word,NA
+Microsoft,0.674072766511,0.000905544564347596,0 2 0 0 2 0 0 0 0,TaggedPDF-doc {adobe:ns:meta/}xmpmeta {http://www.w3.org/1999/02/22-rdf-syntax-ns#}RDF {http://www.w3.org/1999/02/22-rdf-syntax-ns#}Description {http://purl.org/dc/elements/1.1/}title {http://www.w3.org/1999/02/22-rdf-syntax-ns#}Alt {http://www.w3.org/1999/02/22-rdf-syntax-ns#}li statement word,NA
+stage,0.755718513222,0.0046610647414946985,0 5 1 6 1 10,TaggedPDF-doc Part Sect P statement word,NA
+Verilog,0.546922368652,0.00046154752059541127,0 5 18 4 0 1 0 0,TaggedPDF-doc Part Sect Table TR TD statement word,NA
+comparison,0.441767642902,0.0008380556402168067,0 5 1 17 1 14,TaggedPDF-doc Part Sect P statement word,NA
+Fax,1.0,0.008549926838398518,0 5 19 1 18,TaggedPDF-doc Part P statement word,NA
+Point,0.561497823537,0.001827202549109753,0 5 1 11 0 3,TaggedPDF-doc Part Sect P statement word,NA
+32,0.25453138583,0.0010884178289074147,0 5 12 5 2 0 0,TaggedPDF-doc Part Table TR TD statement word,NA
+larger,0.1788452773,0.00072126914162149,0 5 1 6 0 18,TaggedPDF-doc Part Sect P statement word,NA
+Clara,0.986794914047,0.0048277896873775775,0 5 2 1 27,TaggedPDF-doc Part P statement word,NA
+US,0.549527121226,0.0048277896873775775,0 5 19 1 20,TaggedPDF-doc Part P statement word,NA
+simulation,0.247287924826,0.00033300743841414274,0 5 18 2 0 1 0 2,TaggedPDF-doc Part Sect Table TR TD statement word,NA
+range,0.511769665408,0.0013846425617862338,0 5 1 2 1 23,TaggedPDF-doc Part Sect P statement word,NA
+MHz,0.573603410811,0.0005369937188953838,0 5 16 0 2 0 1,TaggedPDF-doc Part Table TR TH statement word,NA
+Karnataka,0.986794914047,0.0048277896873775775,0 5 2 1 14,TaggedPDF-doc Part P statement word,NA
+Floating,0.512172710373,0.0042691463586160185,0 5 1 12 0 10,TaggedPDF-doc Part Sect P statement word,NA
+first,-0.00117147980056,0.0003045337581849589,0 5 12 1 3 0 7,TaggedPDF-doc Part Table TR TD statement word,NA
+major,0.217578920416,0.0008380556402168067,0 5 1 5 2 1,TaggedPDF-doc Part Sect P statement word,NA
+useful,0.265036057532,0.0011652661853736746,0 5 1 2 1 4,TaggedPDF-doc Part Sect P statement word,NA
+additionally,0.378583326433,0.0023129818939041226,0 5 1 7 0 4,TaggedPDF-doc Part Sect P statement word,NA
+point,0.557892967678,0.001785305202430321,0 5 1 3 0 10,TaggedPDF-doc Part Sect P statement word,NA
+SUM,0.564230948054,0.0018689848501519375,0 5 12 5 0 0 0,TaggedPDF-doc Part Table TR TD statement word,NA
+331,0.300538317936,0.0014249878063997531,0 5 16 1 1 0 0,TaggedPDF-doc Part Table TR TD statement word,NA
+number,0.150739390867,0.00021985745216419238,0 5 1 18 0 7,TaggedPDF-doc Part Sect P statement word,NA
+system,0.314443694866,0.00046154752059541127,0 5 12 3 3 0 9,TaggedPDF-doc Part Table TR TD statement word,NA
+102,0.406767048107,0.002716633693042788,0 5 19 1 1,TaggedPDF-doc Part P statement word,NA
+2900,0.512561675675,0.004274963419199259,0 5 19 1 21,TaggedPDF-doc Part P statement word,NA
+1st,0.549527121226,0.0048277896873775775,0 5 2 1 2,TaggedPDF-doc Part P statement word,NA
+table,-0.00117147980056,0.0003045337581849589,0 5 17 0 6,TaggedPDF-doc Part P statement word,NA
+exponent,0.589808961399,0.002260005547141254,0 5 1 15 0 3 0 0,TaggedPDF-doc Part Sect Table TR TH statement word,NA
+documentation,0.279184104299,0.0003940585964646222,0 5 18 4 3 1 0 2,TaggedPDF-doc Part Sect Table TR TD statement word,NA
+use,0.136930543742,0.0002018258995693329,0 5 1 12 0 9,TaggedPDF-doc Part Sect P statement word,NA
+Blocks,0.325727572561,0.0016092632291258592,0 5 10 0 2,TaggedPDF-doc Part P statement word,NA
+POINT,0.498928985634,0.0012820526839689916,0 5 0 0 1,TaggedPDF-doc Part H3 statement word,NA
+addition,0.535750289155,0.0015762343858584887,0 5 1 5 1 11,TaggedPDF-doc Part Sect P statement word,NA
+positive,0.146096448673,0.0006225275639952167,0 5 1 20 0 6,TaggedPDF-doc Part Sect P statement word,NA
+adjusted,0.396117235889,0.002564105367937983,0 5 1 6 1 15,TaggedPDF-doc Part Sect P statement word,NA
+three,0.275942688282,0.0012450551279904335,0 5 1 15 0 0 0 0,TaggedPDF-doc Part Sect Table TR TH statement word,NA
+SJR,0.986794914047,0.0048277896873775775,0 5 14 1 6,TaggedPDF-doc Part P statement word,NA
+Implementation,0.519016193382,0.00144253828324298,0 5 10 0 1,TaggedPDF-doc Part P statement word,NA
+bottleneck,0.593274327081,0.0023129818939041226,0 5 1 5 2 2,TaggedPDF-doc Part Sect P statement word,NA
+fraction,0.331442602976,0.0004981604759420665,0 5 1 25 1 0,TaggedPDF-doc Part Sect P statement word,NA
+Device,0.441767642902,0.0008380556402168067,0 5 16 0 0 0 0,TaggedPDF-doc Part Table TR TH statement word,NA
+X1,0.807965327729,0.0023129818939041226,0 5 1 25 0 1,TaggedPDF-doc Part Sect P statement word,NA
+bits,-0.0980516042455,0.00022600055471412543,0 5 1 17 0 12,TaggedPDF-doc Part Sect P statement word,NA
+exponents,0.366020091142,0.0021330492154948027,0 5 1 17 1 11,TaggedPDF-doc Part Sect P statement word,NA
+fig,0.593274327081,0.0023129818939041226,0 5 1 15 1 0 0 2,TaggedPDF-doc Part Sect Table TR TH statement word,NA
+Count,0.539884350026,0.0016092632291258592,0 5 16 0 1 0 1,TaggedPDF-doc Part Table TR TH statement word,NA
+Definition,0.498928985634,0.0012820526839689916,0 5 13 0 3,TaggedPDF-doc Part P statement word,NA
+Figure2,0.71685795714,0.0012820526839689916,0 5 10 0 0,TaggedPDF-doc Part P statement word,NA
+families,0.325727572561,0.0016092632291258592,0 5 1 9 0 7,TaggedPDF-doc Part Sect P statement word,NA
+"begin ""  65279 """,0.23700434495,1.755047684322668e-05,0 1 0 0,TaggedPDF-doc <built-in function ProcessingInstruction> statement word,NA
+754,0.442050035125,0.0032219623133723026,0 5 1 6 1 18,TaggedPDF-doc Part Sect P statement word,NA
+mantissa,0.441767642902,0.0008380556402168067,0 5 1 6 0 19,TaggedPDF-doc Part Sect P statement word,NA
+CA,0.670292454238,0.0034957985561210234,0 5 14 1 28,TaggedPDF-doc Part P statement word,NA
+end 'r',0.23700434495,1.755047684322668e-05,0 4 0 0,TaggedPDF-doc <built-in function ProcessingInstruction> statement word,NA
+begin '  65279 ',0.780879271596,0.0018689848501519375,0 0 0 0,TaggedPDF-doc <built-in function ProcessingInstruction> statement word,NA
+part,0.331442602976,0.0004981604759420665,0 5 1 5 2 6,TaggedPDF-doc Part Sect P statement word,NA
+integrable,0.378583326433,0.0023129818939041226,0 5 1 9 0 36,TaggedPDF-doc Part Sect P statement word,NA
+Representation,0.471952376753,0.0010665246077474014,0 5 7 0 4,TaggedPDF-doc Part P statement word,NA
+10011,0.512561675675,0.004274963419199259,0 5 14 1 25,TaggedPDF-doc Part P statement word,NA
+representing,0.281000014127,0.0012820526839689916,0 5 1 12 0 1,TaggedPDF-doc Part Sect P statement word,NA
+InA,0.754041127491,0.0016092632291258592,0 5 12 1 0 0 0,TaggedPDF-doc Part Table TR TD statement word,NA
+present,0.422279522997,0.0007770044821663273,0 5 1 7 0 1,TaggedPDF-doc Part Sect P statement word,NA
+wide,0.229533797129,0.000905544564347596,0 5 1 9 0 3,TaggedPDF-doc Part Sect P statement word,NA
+handling,0.461246518259,0.0009809907626475685,0 5 1 7 0 17,TaggedPDF-doc Part Sect P statement word,NA
+Tel,0.876095607925,0.007692316103813949,0 5 14 1 16,TaggedPDF-doc Part P statement word,NA
+Features,-0.00117147980056,0.0003045337581849589,0 5 1 8 0 0,TaggedPDF-doc Part Sect P statement word,NA
+comparator,0.516819484917,0.0014249878063997531,0 5 1 7 0 6,TaggedPDF-doc Part Sect P statement word,NA
+GPL,0.754041127491,0.0016092632291258592,0 2 0 2 0 0 0,TaggedPDF-doc {adobe:ns:meta/}xmpmeta {http://www.w3.org/1999/02/22-rdf-syntax-ns#}RDF {http://www.w3.org/1999/02/22-rdf-syntax-ns#}Description {http://ns.adobe.com/pdf/1.3/}Producer statement word,NA
+Data,0.208176287525,0.0002772720978693053,0 5 12 0 2 0 0,TaggedPDF-doc Part Table TR TH statement word,NA
+namely,0.325727572561,0.0016092632291258592,0 5 1 5 1 9,TaggedPDF-doc Part Sect P statement word,NA
+dynamic,0.265036057532,0.0011652661853736746,0 5 1 2 1 10,TaggedPDF-doc Part Sect P statement word,NA
+560,0.549527121226,0.0048277896873775775,0 5 14 1 12,TaggedPDF-doc Part P statement word,NA
+Frequency,0.484311383369,0.0011652661853736746,0 5 16 0 2 0 0,TaggedPDF-doc Part Table TR TH statement word,NA
+Numbers,0.354075825866,0.001961981525295137,0 5 1 12 0 12,TaggedPDF-doc Part Sect P statement word,NA
+following,-0.174254341318,9.299667514319915e-05,0 5 18 1 0 10,TaggedPDF-doc Part Sect P statement word,NA
+Ave,0.726904184437,0.004274963419199259,0 5 2 1 23,TaggedPDF-doc Part P statement word,NA
+stages,0.251538724551,0.0010665246077474014,0 5 1 7 0 23,TaggedPDF-doc Part Sect P statement word,NA
+918041157070,0.549527121226,0.0048277896873775775,0 5 14 1 19,TaggedPDF-doc Part P statement word,NA
+numbers,0.343913363004,0.001816433096123996,0 5 1 17 1 16,TaggedPDF-doc Part Sect P statement word,NA
+Latency,0.498928985634,0.0012820526839689916,0 5 1 9 0 24,TaggedPDF-doc Part Sect P statement word,NA
+later,0.265036057532,0.0011652661853736746,0 5 1 7 0 22,TaggedPDF-doc Part Sect P statement word,NA
+USA,0.986794914047,0.0048277896873775775,0 5 2 1 30,TaggedPDF-doc Part P statement word,NA
+Floor,0.726904184437,0.004274963419199259,0 5 2 1 3,TaggedPDF-doc Part P statement word,NA
+Introduction,0.422279522997,0.0007770044821663273,0 5 1 1 0 0,TaggedPDF-doc Part Sect P statement word,NA
+modules,0.251538724551,0.0010665246077474014,0 5 1 10 0 0,TaggedPDF-doc Part Sect P statement word,NA
+Generally,0.378583326433,0.0023129818939041226,0 5 1 5 1 0,TaggedPDF-doc Part Sect P statement word,NA
+general,0.239846802908,0.0009809907626475685,0 5 1 15 2 1 0 0,TaggedPDF-doc Part Sect Table TR TD statement word,NA
+Field,0.619678584412,0.002716633693042788,0 5 14 1 10,TaggedPDF-doc Part P statement word,NA
+single,-0.118119998148,0.0002018258995693329,0 5 1 9 0 30,TaggedPDF-doc Part Sect P statement word,NA
+bias,0.547876680219,0.0016761112804336135,0 5 1 24 0 3,TaggedPDF-doc Part Sect P statement word,NA
+performed,0.1788452773,0.00072126914162149,0 5 1 5 1 5,TaggedPDF-doc Part Sect P statement word,NA
+Flexible,0.347582624512,0.0018689848501519375,0 5 1 9 0 34,TaggedPDF-doc Part Sect P statement word,NA
+floating,0.410443269213,0.0027692851235724676,0 5 1 18 0 5,TaggedPDF-doc Part Sect P statement word,NA
+IEEE,0.656129765874,0.0008060218526312617,0 5 1 2 0 6,TaggedPDF-doc Part Sect P statement word,NA
+Exhaustive,0.325727572561,0.0016092632291258592,0 5 18 2 0 1 0 0,TaggedPDF-doc Part Sect Table TR TD statement word,NA
+www.softjin.com,0.986794914047,0.0048277896873775775,0 5 19 1 40,TaggedPDF-doc Part P statement word,NA
+binary,0.197330571539,0.0007770044821663273,0 5 1 15 2 2 0 0,TaggedPDF-doc Part Sect Table TR TD statement word,NA
+5.2,0.265036057532,0.0011652661853736746,0 2 0 1 1 0 2,TaggedPDF-doc {adobe:ns:meta/}xmpmeta {http://www.w3.org/1999/02/22-rdf-syntax-ns#}RDF {http://www.w3.org/1999/02/22-rdf-syntax-ns#}Description {http://ns.adobe.com/xap/1.0/}CreatorTool statement word,NA
+compared,0.217578920416,0.0008380556402168067,0 5 18 2 1 1 0 2,TaggedPDF-doc Part Sect Table TR TD statement word,NA
+verified,0.217578920416,0.0008380556402168067,0 5 18 1 0 7,TaggedPDF-doc Part Sect P statement word,NA
+processors,0.1788452773,0.00072126914162149,0 5 1 12 1 15,TaggedPDF-doc Part Sect P statement word,NA
+Format,0.331442602976,0.0004981604759420665,0 5 3 0 0 2,TaggedPDF-doc Part Sect P statement word,NA
+perform,0.358861990429,0.0005783340191907283,0 5 1 3 0 8,TaggedPDF-doc Part Sect P statement word,NA
+thoroughly,0.378583326433,0.0023129818939041226,0 5 1 2 1 27,TaggedPDF-doc Part Sect P statement word,NA
+066,0.549527121226,0.0048277896873775775,0 5 14 1 13,TaggedPDF-doc Part P statement word,NA
+Email,0.726904184437,0.004274963419199259,0 5 19 1 37,TaggedPDF-doc Part P statement word,NA
+field,0.358861990429,0.0005783340191907283,0 5 1 17 0 16,TaggedPDF-doc Part Sect P statement word,NA
+CLK,0.665956365388,0.0008380556402168067,0 5 12 3 0 0 0,TaggedPDF-doc Part Table TR TD statement word,NA
+subtracter,0.564230948054,0.0018689848501519375,0 5 1 5 0 4,TaggedPDF-doc Part Sect P statement word,NA
+orsignbit,0.970166162529,0.004625963787808245,0 5 1 22 0 0,TaggedPDF-doc Part Sect P statement word,NA
+Santa,0.986794914047,0.0048277896873775775,0 5 2 1 26,TaggedPDF-doc Part P statement word,NA
+test,0.1831398844,0.00025112347403386046,0 5 18 4 2 1 0 4,TaggedPDF-doc Part Sect Table TR TD statement word,NA
+performance,0.262856154482,0.0003628059429691382,0 5 1 12 1 11,TaggedPDF-doc Part Sect P statement word,NA
+arithmetic,0.20101623536,0.0007881171929292444,0 5 1 2 1 2,TaggedPDF-doc Part Sect P statement word,NA
+201,0.300538317936,0.0014249878063997531,0 5 16 1 2 0 0,TaggedPDF-doc Part Table TR TD statement word,NA
+inputs,0.275942688282,0.0012450551279904335,0 5 1 6 0 8,TaggedPDF-doc Part Sect P statement word,NA
+used,-0.00117147980056,0.0003045337581849589,0 5 1 17 0 13,TaggedPDF-doc Part Sect P statement word,NA
+ADD/SUB,0.780879271596,0.0018689848501519375,0 5 0 0 2,TaggedPDF-doc Part H3 statement word,NA
+significand,0.665956365388,0.0008380556402168067,0 5 1 16 0 23,TaggedPDF-doc Part Sect P statement word,NA
+IP,0.699579486737,0.001130002773570627,0 5 1 3 0 4,TaggedPDF-doc Part Sect P statement word,NA
+Signal,0.583516310206,0.00216380742486447,0 5 11 0 0 0,TaggedPDF-doc Part Sect P statement word,NA
+XC4VLX15SF363,0.780879271596,0.0018689848501519375,0 5 16 1 0 0 1,TaggedPDF-doc Part Table TR TD statement word,NA
+FPU,0.747762207784,0.0015540089643326547,0 5 17 0 2,TaggedPDF-doc Part P statement word,NA
+applications,0.302937354245,0.00144253828324298,0 5 1 2 1 6,TaggedPDF-doc Part Sect P statement word,NA
+generated,0.0637757994829,0.00042691463586160184,0 5 18 2 2 1 0 0,TaggedPDF-doc Part Sect Table TR TD statement word,NA
+important,0.265036057532,0.0011652661853736746,0 5 1 12 1 8,TaggedPDF-doc Part Sect P statement word,NA
+value,0.345665766888,0.0005369937188953838,0 5 1 18 0 2,TaggedPDF-doc Part Sect P statement word,NA
+significant,0.357428062315,0.0020099927953989303,0 5 1 16 0 27,TaggedPDF-doc Part Sect P statement word,NA
+vectors,0.16184045501,0.0006699975984663101,0 5 18 4 2 1 0 5,TaggedPDF-doc Part Sect Table TR TD statement word,NA
+SoftJin,0.986794914047,0.0048277896873775775,0 5 19 0 0,TaggedPDF-doc Part P statement word,NA
+Page,0.768161017637,0.0048277896873775775,0 5 2 1 41,TaggedPDF-doc Part P statement word,NA
+normalization,0.65126936513,0.0031995738232422043,0 5 1 5 1 13,TaggedPDF-doc Part Sect P statement word,NA
+Description,0.386850567903,0.0006660148768282855,0 5 12 0 3 0 0,TaggedPDF-doc Part Table TR TH statement word,NA
+Detailed,0.300538317936,0.0014249878063997531,0 5 18 4 3 1 0 0,TaggedPDF-doc Part Sect Table TR TD statement word,NA
+subtracted,0.325727572561,0.0016092632291258592,0 5 1 6 1 6,TaggedPDF-doc Part Sect P statement word,NA
+Figure,0.358861990429,0.0005783340191907283,0 5 7 0 0,TaggedPDF-doc Part P statement word,NA
+required,0.180285600544,0.0007256118859382764,0 5 1 2 1 21,TaggedPDF-doc Part Sect P statement word,NA
+Synchronous,0.300538317936,0.0014249878063997531,0 5 1 9 0 27,TaggedPDF-doc Part Sect P statement word,NA
+Results,0.197330571539,0.0007770044821663273,0 5 18 2 1 1 0 0,TaggedPDF-doc Part Sect Table TR TD statement word,NA
+without,-0.00117147980056,0.0003045337581849589,0 5 1 16 0 24,TaggedPDF-doc Part Sect P statement word,NA
+form,0.404488263435,0.00072126914162149,0 5 1 16 0 4,TaggedPDF-doc Part Sect P statement word,NA
+RTL,0.614403327302,0.0006699975984663101,0 5 18 4 0 1 0 2,TaggedPDF-doc Part Sect Table TR TD statement word,NA
+Table,0.336318520805,0.0017076585434464074,0 5 13 0 4,TaggedPDF-doc Part P statement word,NA
+model,0.314443694866,0.00046154752059541127,0 5 18 2 2 1 0 4,TaggedPDF-doc Part Sect Table TR TD statement word,NA
+Speed,0.484311383369,0.0011652661853736746,0 5 1 9 0 22,TaggedPDF-doc Part Sect P statement word,NA
+subtraction,0.506181370275,0.0013399951969326202,0 5 1 3 0 13,TaggedPDF-doc Part Sect P statement word,NA
