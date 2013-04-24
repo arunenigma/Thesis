@@ -17,6 +17,7 @@ from neuro_fuzzy import NeuroFuzzySystem
 #from neuron import *
 #from surface_plot import *
 from sect_clustering import SectionWiseClustering
+from proximity_finder import ProximityFinder
 import csv
 import sys
 import os
@@ -263,6 +264,17 @@ if __name__ == '__main__':
     sec = SectionWiseClustering(c, PI_bundle_unigrams, PI_bundle_bigrams, PI_bundle_trigrams, PI_bundle_fourgrams, PI_bundle_fivegrams, section_bundle)
     sec.findSectionHeaders()
 
+    # ******** Proximity Finder ********
+    #f1 = csv.reader(open('pi_sheet_amber.csv', 'rU'))
+    #f2 = csv.writer(open('modified_pi_sheet_amber.csv', 'wb'))
+    #pf = ProximityFinder(f1, f2)
+    #pf.readPISheet()
+    #pf.buildDistanceMatrix()
+    #pf.buildPriorityMatrix()
+    #pf.findClusters()
+    #pf.modifyPISheet()
+    # ******** Proximity Finder ********
+
     #cog_list = nf.cog_list
     #surface = SurfacePlotCOG()
     #surface.drawSurfacePlot(cog_list)
@@ -296,6 +308,8 @@ if __name__ == '__main__':
     candidates_csv = csv.reader(open('candidates.csv', 'rb'))
     candidates_html = open('candidates.html', 'w')
     html.htmlOutputTable(candidates_csv, candidates_html)
+
+
 
     def _test():
         import doctest

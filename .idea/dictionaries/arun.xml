@@ -5,7 +5,10 @@
       <w>automagically</w>
       <w>denum</w>
       <w>jidan</w>
+      <w>ngram</w>
+      <w>ngrams</w>
       <w>ntlk</w>
+      <w>prox</w>
       <w>pydir</w>
       <w>pyfile</w>
       <w>pyfiles</w>

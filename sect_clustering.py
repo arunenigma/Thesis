@@ -76,46 +76,55 @@ class SectionWiseClustering(object):
         self.c.writerow(['Word', 'PI Score', 'Tf-Idf', 'Loc Ind', 'Loc Sig', 'Section'])
         for word, info in self.PI_bundle_unigrams.iteritems():
             self.c.writerow([word, info[0], info[1][0], info[1][1], info[1][2], 'NA'])
+        for bigram, info in self.PI_bundle_bigrams.iteritems():
+            self.c.writerow([bigram, info[0], info[1][0], info[1][1], info[1][2], 'NA'])
+        for trigram, info in self.PI_bundle_trigrams.iteritems():
+            self.c.writerow([trigram, info[0], info[1][0], info[1][1], info[1][2], 'NA'])
+        for fourgram, info in self.PI_bundle_fourgrams.iteritems():
+            self.c.writerow([fourgram, info[0], info[1][0], info[1][1], info[1][2], 'NA'])
+        for fivegram, info in self.PI_bundle_fivegrams.iteritems():
+            self.c.writerow([fivegram, info[0], info[1][0], info[1][1], info[1][2], 'NA'])
 
     # ****************************** Scheme 1 ******************************
     def clusterUnigramsBySectionScheme1(self):
         self.c.writerow(['Word', 'PI Score', 'Tf-Idf', 'Loc Ind', 'Loc Sig', 'Section'])
         for section, ind in self.section_headers.iteritems():
-            del ind[0][0][-2:]  # indices before H heading tag
-            sec_ind = ' '.join(str(i) for i in ind[0][0])
+            #print section, ind[0][0], ind[0][0][:-2]
+            sec_ind = ' '.join(str(i) for i in ind[0][0][:-2])
             for word, info in self.PI_bundle_unigrams.iteritems():
-                #print sec_ind, info[1][1]
-                if sec_ind in info[1][1]:
-                    self.c.writerow([word, info[0], info[1][0], info[1][1], info[1][2], "'" + str(section) + "'"])
+                if sec_ind in info[1][1] and len(sec_ind.split(' ')) > 3:
+                    if not info[1][2].split(' ')[len(sec_ind.split(' '))] == 'Sect':
+                        #print word, info[1][1], info[1][2]
+                        self.c.writerow([word, info[0], info[1][0], info[1][1], info[1][2], "'" + str(section) + "'"])
 
     def clusterBigramsBySectionScheme1(self):
         for section, ind in self.section_headers.iteritems():
-            del ind[0][0][-2:]  # indices before H heading tag
-            sec_ind = ' '.join(str(i) for i in ind[0][0])
+            sec_ind = ' '.join(str(i) for i in ind[0][0][:-2])
             for word, info in self.PI_bundle_bigrams.iteritems():
                 if sec_ind in info[1][1].split('|')[0]:
-                    self.c.writerow([word, info[0], info[1][0], info[1][1], info[1][2], "'" + str(section) + "'"])
+                    if not info[1][2].split('|')[0].split(' ')[len(sec_ind.split(' '))] == 'Sect':
+                        print word, info[1][1], info[1][2]
+                        self.c.writerow([word, info[0], info[1][0], info[1][1], info[1][2], "'" + str(section) + "'"])
 
     def clusterTrigramsBySectionScheme1(self):
         for section, ind in self.section_headers.iteritems():
-            del ind[0][0][-2:]  # indices before H heading tag
-            sec_ind = ' '.join(str(i) for i in ind[0][0])
+            sec_ind = ' '.join(str(i) for i in ind[0][0][:-2])
             for word, info in self.PI_bundle_trigrams.iteritems():
                 if sec_ind in info[1][1].split('|')[0]:
-                    self.c.writerow([word, info[0], info[1][0], info[1][1], info[1][2], "'" + str(section) + "'"])
+                    if not info[1][2].split('|')[0].split(' ')[len(sec_ind.split(' '))] == 'Sect':
+                        self.c.writerow([word, info[0], info[1][0], info[1][1], info[1][2], "'" + str(section) + "'"])
 
     def clusterFourgramsBySectionScheme1(self):
         for section, ind in self.section_headers.iteritems():
-            del ind[0][0][-2:]  # indices before H heading tag
-            sec_ind = ' '.join(str(i) for i in ind[0][0])
+            sec_ind = ' '.join(str(i) for i in ind[0][0][:-2])
             for word, info in self.PI_bundle_fourgrams.iteritems():
                 if sec_ind in info[1][1].split('|')[0]:
-                    self.c.writerow([word, info[0], info[1][0], info[1][1], info[1][2], "'" + str(section) + "'"])
+                    if not info[1][2].split('|')[0].split(' ')[len(sec_ind.split(' '))] == 'Sect':
+                        self.c.writerow([word, info[0], info[1][0], info[1][1], info[1][2], "'" + str(section) + "'"])
 
     def clusterFivegramsBySectionScheme1(self):
         for section, ind in self.section_headers.iteritems():
-            del ind[0][0][-2:]  # indices before H heading tag
-            sec_ind = ' '.join(str(i) for i in ind[0][0])
+            sec_ind = ' '.join(str(i) for i in ind[0][0][:-2])
             for word, info in self.PI_bundle_fivegrams.iteritems():
                 if sec_ind in info[1][1].split('|')[0]:
                     self.c.writerow([word, info[0], info[1][0], info[1][1], info[1][2], "'" + str(section) + "'"])

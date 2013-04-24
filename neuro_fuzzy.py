@@ -197,63 +197,151 @@ class NeuroFuzzySystem(object):
                 weights *= weight_factor
                 rule_inputs = sum([sum(r) for r in rule_inputs])
                 self.defuzzifyUnigrams(word, rule_inputs, weights, info)
-
+                
+        # ****************** BIGRAMS *******************
         for info, bigram, in tf_idf_bigram_list.iteritems():
-            x = b1.get(bigram)
-            if not x is None:
-                A = x[1] * x[2]
-                B = x[3] * x[4]
-                mfs = [[A, B]]
-                weights = sum([x[2], x[4]])
-                rule_inputs = list(itertools.product(*mfs))
-                len_comb = len(rule_inputs)
-                # 6 --> write code to find this automatically
-                weight_factor = (len(mfs) * len_comb) / 2
+            try:
+                b1_nrn_info = b1.get(bigram, 0)
+                b2_nrn_info = b2.get(bigram, 0)
+                b3_nrn_info = b3.get(bigram, 0)
+
+            except KeyError:
+                continue
+                
+            self.mfs = []  # membership functions
+            self.wts = []  # weights
+
+            if not b1_nrn_info == 0:
+                b1_mf1 = b1_nrn_info[1] * b1_nrn_info[2]
+                b1_mf2 = b1_nrn_info[3] * b1_nrn_info[4]
+                self.mfs.append([b1_mf1, b1_mf2])
+                self.wts.append(b1_nrn_info[2])
+                self.wts.append(b1_nrn_info[4])
+
+            if not b2_nrn_info == 0:
+                b2_mf1 = b2_nrn_info[1] * b2_nrn_info[2]
+                b2_mf2 = b2_nrn_info[3] * b2_nrn_info[4]
+                self.mfs.append([b2_mf1, b2_mf2])
+                self.wts.append(b2_nrn_info[2])
+                self.wts.append(b2_nrn_info[4])
+
+            if not b3_nrn_info == 0:
+                b3_mf1 = b3_nrn_info[1] * b3_nrn_info[2]
+                b3_mf2 = b3_nrn_info[3] * b3_nrn_info[4]
+                self.mfs.append([b3_mf1, b3_mf2])
+                self.wts.append(b3_nrn_info[2])
+                self.wts.append(b3_nrn_info[4])
+
+            if len(self.mfs) > 0:
+                weights = sum(self.wts)
+                rule_inputs = list(itertools.product(*self.mfs))
+                number_of_wordbags = len(self.mfs)
+                number_of_rules = len(rule_inputs)
+                number_of_weights = len(self.wts)
+                weight_factor = (number_of_wordbags * number_of_rules) / number_of_weights
                 weights *= weight_factor
                 rule_inputs = sum([sum(r) for r in rule_inputs])
                 self.defuzzifyBigrams(bigram, rule_inputs, weights, info)
 
-        for info, trigram in tf_idf_trigram_list.iteritems():
-            x = t1.get(trigram)
-            if not x is None:
-                A = x[1] * x[2]
-                B = x[3] * x[4]
-                mfs = [[A, B]]
-                weights = sum([x[2], x[4]])
-                rule_inputs = list(itertools.product(*mfs))
-                len_comb = len(rule_inputs)
-                # 6 --> write code to find this automatically
-                weight_factor = (len(mfs) * len_comb) / 2
+        # ****************** TRIGRAMS *******************
+        for info, trigram, in tf_idf_trigram_list.iteritems():
+            try:
+                t1_nrn_info = t1.get(trigram, 0)
+                t2_nrn_info = t2.get(trigram, 0)
+                t3_nrn_info = t3.get(trigram, 0)
+
+            except KeyError:
+                continue
+
+            self.mfs = []  # membership functions
+            self.wts = []  # weights
+
+            if not t1_nrn_info == 0:
+                t1_mf1 = t1_nrn_info[1] * t1_nrn_info[2]
+                t1_mf2 = t1_nrn_info[3] * t1_nrn_info[4]
+                self.mfs.append([t1_mf1, t1_mf2])
+                self.wts.append(t1_nrn_info[2])
+                self.wts.append(t1_nrn_info[4])
+
+            if not t2_nrn_info == 0:
+                t2_mf1 = t2_nrn_info[1] * t2_nrn_info[2]
+                t2_mf2 = t2_nrn_info[3] * t2_nrn_info[4]
+                self.mfs.append([t2_mf1, t2_mf2])
+                self.wts.append(t2_nrn_info[2])
+                self.wts.append(t2_nrn_info[4])
+
+            if not t3_nrn_info == 0:
+                t3_mf1 = t3_nrn_info[1] * t3_nrn_info[2]
+                t3_mf2 = t3_nrn_info[3] * t3_nrn_info[4]
+                self.mfs.append([t3_mf1, t3_mf2])
+                self.wts.append(t3_nrn_info[2])
+                self.wts.append(t3_nrn_info[4])
+
+            if len(self.mfs) > 0:
+                weights = sum(self.wts)
+                rule_inputs = list(itertools.product(*self.mfs))
+                number_of_wordbags = len(self.mfs)
+                number_of_rules = len(rule_inputs)
+                number_of_weights = len(self.wts)
+                weight_factor = (number_of_wordbags * number_of_rules) / number_of_weights
                 weights *= weight_factor
                 rule_inputs = sum([sum(r) for r in rule_inputs])
                 self.defuzzifyTrigrams(trigram, rule_inputs, weights, info)
 
-        for info, fourgram in tf_idf_fourgram_list.iteritems():
-            x = f1.get(fourgram)
-            if not x is None:
-                A = x[1] * x[2]
-                B = x[3] * x[4]
-                mfs = [[A, B]]
-                weights = sum([x[2], x[4]])
-                rule_inputs = list(itertools.product(*mfs))
-                len_comb = len(rule_inputs)
-                # 6 --> write code to find this automatically
-                weight_factor = (len(mfs) * len_comb) / 2
+        # ****************** FOURGRAMS *******************
+        for info, fourgram, in tf_idf_fourgram_list.iteritems():
+            try:
+                f1_nrn_info = f1.get(fourgram, 0)
+
+            except KeyError:
+                continue
+
+            self.mfs = []  # membership functions
+            self.wts = []  # weights
+
+            if not f1_nrn_info == 0:
+                f1_mf1 = f1_nrn_info[1] * f1_nrn_info[2]
+                f1_mf2 = f1_nrn_info[3] * f1_nrn_info[4]
+                self.mfs.append([f1_mf1, f1_mf2])
+                self.wts.append(f1_nrn_info[2])
+                self.wts.append(f1_nrn_info[4])
+
+            if len(self.mfs) > 0:
+                weights = sum(self.wts)
+                rule_inputs = list(itertools.product(*self.mfs))
+                number_of_wordbags = len(self.mfs)
+                number_of_rules = len(rule_inputs)
+                number_of_weights = len(self.wts)
+                weight_factor = (number_of_wordbags * number_of_rules) / number_of_weights
                 weights *= weight_factor
                 rule_inputs = sum([sum(r) for r in rule_inputs])
                 self.defuzzifyFourgrams(fourgram, rule_inputs, weights, info)
 
-        for info, fivegram in tf_idf_fivegram_list.iteritems():
-            x = p1.get(fivegram)
-            if not x is None:
-                A = x[1] * x[2]
-                B = x[3] * x[4]
-                mfs = [[A, B]]
-                weights = sum([x[2], x[4]])
-                rule_inputs = list(itertools.product(*mfs))
-                len_comb = len(rule_inputs)
-                # 6 --> write code to find this automatically
-                weight_factor = (len(mfs) * len_comb) / 2
+        # ****************** FIVEGRAMS *******************
+        for info, fivegram, in tf_idf_fivegram_list.iteritems():
+            try:
+                p1_nrn_info = p1.get(fivegram, 0)
+
+            except KeyError:
+                continue
+
+            self.mfs = []  # membership functions
+            self.wts = []  # weights
+
+            if not p1_nrn_info == 0:
+                p1_mf1 = p1_nrn_info[1] * p1_nrn_info[2]
+                p1_mf2 = p1_nrn_info[3] * p1_nrn_info[4]
+                self.mfs.append([p1_mf1, p1_mf2])
+                self.wts.append(p1_nrn_info[2])
+                self.wts.append(p1_nrn_info[4])
+
+            if len(self.mfs) > 0:
+                weights = sum(self.wts)
+                rule_inputs = list(itertools.product(*self.mfs))
+                number_of_wordbags = len(self.mfs)
+                number_of_rules = len(rule_inputs)
+                number_of_weights = len(self.wts)
+                weight_factor = (number_of_wordbags * number_of_rules) / number_of_weights
                 weights *= weight_factor
                 rule_inputs = sum([sum(r) for r in rule_inputs])
                 self.defuzzifyFivegrams(fivegram, rule_inputs, weights, info)
@@ -290,8 +378,6 @@ class NeuroFuzzySystem(object):
         self.fivegram_info[info] = fivegram
 
     def normCOGUnigrams(self):
-        print
-
         for k, v in self.word_info.iteritems():
             print k, v
 

@@ -529,7 +529,6 @@ class WordTagger(HelperFunctions):
         #print self.spec_word, loc_ind, loc_sig
 
         # xml Scheme 1 | eg. amber
-        l = len(loc_ind)
         loc_ind = [int(ind) for ind in loc_ind]
         for i, (ind, tag) in enumerate(zip(loc_ind, loc_sig)):
             if ind >= 0 and tag == 'Sect' and loc_ind[i + 1] == 0 and 'H' in loc_sig[i + 1] and loc_ind[i + 2] == 0 and loc_sig[i + 2] == 'statement' and loc_ind[i + 3] >= 0 and loc_sig[i + 3] == 'word':
