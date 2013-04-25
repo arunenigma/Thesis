@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 from math import fabs, log10
 import numpy as np
-import csv
 
 
 class ProximityFinder(object):
@@ -17,56 +16,51 @@ class ProximityFinder(object):
         """
         self.f1 = f1
         self.f2 = f2
+        self.f2.writerow(['Feature Word', 'Priority Index Old', 'Proximity Score', 'Potential Parameter', 'Priority Index New', 'Section'])
         self.section_N_grams = []
         self.heads = []
         self.head_clusters = {}
 
     def readPISheet(self):
-        """
-            demo work around with a particular section
-            '4.3 Shifter Operand Encoding' here
-
-        """
         self.f1.next()
         for row in self.f1:
-            if row[5] == "'Instruction Set Encoding'":
-                if len(row[0].split(' ')) == 1 and not '|' in row[3]:
-                    start_head = str(sum([int(i) for i in row[3].split(' ')[:-2]])) + ' | ' + str(
-                        len([int(i) for i in row[3].split(' ')[:-2]]))
-                    start_tail = [int(i) for i in row[3].split(' ')[-2:]]
-                    self.section_N_grams.append([row[0], row[1], start_head, start_tail])
+            if len(row[0].split(' ')) == 1 and not '|' in row[3]:
+                start_head = str(sum([int(i) for i in row[3].split(' ')[:-2]])) + ' | ' + str(
+                    len([int(i) for i in row[3].split(' ')[:-2]]))
+                start_tail = [int(i) for i in row[3].split(' ')[-2:]]
+                self.section_N_grams.append([row[0], row[1], start_head, start_tail, row[5]])
 
-                if len(row[0].split(' ')) == 2 and row[3].count('|') == 1:
-                    start_head = str(sum([int(i) for i in row[3].split(' | ')[0].split(' ')[:-2]])) + ' | ' + str(
-                        len([int(i) for i in row[3].split(' | ')[0].split(' ')[:-2]]))
-                    start_tail = [int(i) for i in row[3].split(' | ')[0].split(' ')[-2:]]
-                    end_head = sum([int(i) for i in row[3].split(' | ')[1].split(' ')[:-2]])
-                    end_tail = [int(i) for i in row[3].split(' | ')[1].split(' ')[-2:]]
-                    self.section_N_grams.append([row[0], row[1], start_head, start_tail, end_head, end_tail])
+            if len(row[0].split(' ')) == 2 and row[3].count('|') == 1:
+                start_head = str(sum([int(i) for i in row[3].split(' | ')[0].split(' ')[:-2]])) + ' | ' + str(
+                    len([int(i) for i in row[3].split(' | ')[0].split(' ')[:-2]]))
+                start_tail = [int(i) for i in row[3].split(' | ')[0].split(' ')[-2:]]
+                end_head = sum([int(i) for i in row[3].split(' | ')[1].split(' ')[:-2]])
+                end_tail = [int(i) for i in row[3].split(' | ')[1].split(' ')[-2:]]
+                self.section_N_grams.append([row[0], row[1], start_head, start_tail, end_head, end_tail, row[5]])
 
-                if len(row[0].split(' ')) == 3 and row[3].count('|') == 2:
-                    start_head = str(sum([int(i) for i in row[3].split(' | ')[0].split(' ')[:-2]])) + ' | ' + str(
-                        len([int(i) for i in row[3].split(' | ')[0].split(' ')[:-2]]))
-                    start_tail = [int(i) for i in row[3].split(' | ')[0].split(' ')[-2:]]
-                    end_head = sum([int(i) for i in row[3].split(' | ')[2].split(' ')[:-2]])
-                    end_tail = [int(i) for i in row[3].split(' | ')[2].split(' ')[-2:]]
-                    self.section_N_grams.append([row[0], row[1], start_head, start_tail, end_head, end_tail])
+            if len(row[0].split(' ')) == 3 and row[3].count('|') == 2:
+                start_head = str(sum([int(i) for i in row[3].split(' | ')[0].split(' ')[:-2]])) + ' | ' + str(
+                    len([int(i) for i in row[3].split(' | ')[0].split(' ')[:-2]]))
+                start_tail = [int(i) for i in row[3].split(' | ')[0].split(' ')[-2:]]
+                end_head = sum([int(i) for i in row[3].split(' | ')[2].split(' ')[:-2]])
+                end_tail = [int(i) for i in row[3].split(' | ')[2].split(' ')[-2:]]
+                self.section_N_grams.append([row[0], row[1], start_head, start_tail, end_head, end_tail, row[5]])
 
-                if len(row[0].split(' ')) == 4 and row[3].count('|') == 3:
-                    start_head = str(sum([int(i) for i in row[3].split(' | ')[0].split(' ')[:-2]])) + ' | ' + str(
-                        len([int(i) for i in row[3].split(' | ')[0].split(' ')[:-2]]))
-                    start_tail = [int(i) for i in row[3].split(' | ')[0].split(' ')[-2:]]
-                    end_head = sum([int(i) for i in row[3].split(' | ')[3].split(' ')[:-2]])
-                    end_tail = [int(i) for i in row[3].split(' | ')[3].split(' ')[-2:]]
-                    self.section_N_grams.append([row[0], row[1], start_head, start_tail, end_head, end_tail])
+            if len(row[0].split(' ')) == 4 and row[3].count('|') == 3:
+                start_head = str(sum([int(i) for i in row[3].split(' | ')[0].split(' ')[:-2]])) + ' | ' + str(
+                    len([int(i) for i in row[3].split(' | ')[0].split(' ')[:-2]]))
+                start_tail = [int(i) for i in row[3].split(' | ')[0].split(' ')[-2:]]
+                end_head = sum([int(i) for i in row[3].split(' | ')[3].split(' ')[:-2]])
+                end_tail = [int(i) for i in row[3].split(' | ')[3].split(' ')[-2:]]
+                self.section_N_grams.append([row[0], row[1], start_head, start_tail, end_head, end_tail, row[5]])
 
-                if len(row[0].split(' ')) == 5 and row[3].count('|') == 4:
-                    start_head = str(sum([int(i) for i in row[3].split(' | ')[0].split(' ')[:-2]])) + ' | ' + str(
-                        len([int(i) for i in row[3].split(' | ')[0].split(' ')[:-2]]))
-                    start_tail = [int(i) for i in row[3].split(' | ')[0].split(' ')[-2:]]
-                    end_head = sum([int(i) for i in row[3].split(' | ')[4].split(' ')[:-2]])
-                    end_tail = [int(i) for i in row[3].split(' | ')[4].split(' ')[-2:]]
-                    self.section_N_grams.append([row[0], row[1], start_head, start_tail, end_head, end_tail])
+            if len(row[0].split(' ')) == 5 and row[3].count('|') == 4:
+                start_head = str(sum([int(i) for i in row[3].split(' | ')[0].split(' ')[:-2]])) + ' | ' + str(
+                    len([int(i) for i in row[3].split(' | ')[0].split(' ')[:-2]]))
+                start_tail = [int(i) for i in row[3].split(' | ')[0].split(' ')[-2:]]
+                end_head = sum([int(i) for i in row[3].split(' | ')[4].split(' ')[:-2]])
+                end_tail = [int(i) for i in row[3].split(' | ')[4].split(' ')[-2:]]
+                self.section_N_grams.append([row[0], row[1], start_head, start_tail, end_head, end_tail, row[5]])
 
     def subSectionClustering(self):
         for ngram in self.section_N_grams:
@@ -83,21 +77,21 @@ class ProximityFinder(object):
             self.head_clusters[head] = head_cluster
 
     def buildDistanceMatrix(self):
-
         for head, ngrams in self.head_clusters.iteritems():
             word_indices = []
             stmt_indices = []
             priority_indices = []
             feature_words = []
+            sections = []
             dm_w_rows = []
             dm_s_rows = []
             dm_p_rows = []
             for ngram in ngrams:
-                print ngram[3], ngram[0]
                 word_indices.append(ngram[3][1])
                 stmt_indices.append(ngram[3][0])
                 priority_indices.append(ngram[1])
                 feature_words.append(ngram[0])
+                sections.append(ngram[-1])
             word_indices_clone = word_indices
             stmt_indices_clone = stmt_indices
             priority_indices_clone = priority_indices
@@ -115,49 +109,31 @@ class ProximityFinder(object):
             dm_w = np.array(dm_w_rows)
             dm_s = np.array(dm_s_rows)
             dm_p = np.array(dm_p_rows)
-            print dm_w
-            print
-            print dm_s
-            print
-            print dm_p
+            #print dm_w
+            #print dm_s
+            #print dm_p
             prox_mat = []
             for w_dist, s_dist, PI in zip(np.nditer(dm_w), np.nditer(dm_s), np.nditer(dm_p)):
                 if PI == 0.0:
-                    proximity_score = ((w_dist + len(np.unique(dm_s) * s_dist)) / (dm_w.shape[0] + len(np.unique(dm_s))))
+                    proximity_score = ((w_dist + len(np.unique(dm_s) * s_dist)) / (dm_w.shape[0] * len(np.unique(dm_s))))
                     prox_mat.append(proximity_score)
                 else:
-                    proximity_score = ((w_dist + len(np.unique(dm_s) * s_dist)) / (dm_w.shape[0] + len(np.unique(dm_s)))) * log10(10 * PI)
+                    proximity_score = ((w_dist + len(np.unique(dm_s) * s_dist)) / (dm_w.shape[0] * len(np.unique(dm_s)))) * log10(10 * PI)
                     prox_mat.append(proximity_score)
             ps = np.array(prox_mat)
             ps = np.reshape(ps, dm_w.shape)
-            print ps
-
+            #print ps
             for r, row in enumerate(ps):
                 for i, ele in enumerate(row):
                     if ele == min(row):
-                        print feature_words[r], np.min(row), feature_words[i]
-            print '****************************************'
-
-    def buildPriorityMatrix(self):
-        pass
-
-    def findClusters(self):
-        pass
-
-    def modifyPISheet(self):
-        pass
+                        #print feature_words[r], (1 - np.min(row)) / 10, feature_words[i]
+                        if not feature_words[r] in feature_words[i] and not feature_words[i] in feature_words[r]:
+                            self.f2.writerow([feature_words[r], priority_indices[r], (1 - np.min(row)) / 10, feature_words[i], float(priority_indices[r]) + (1 - np.min(row)) / 10, sections[r]])
+                        else:
+                            self.f2.writerow([feature_words[r], priority_indices[r], 'NA', 'NA', float(priority_indices[r]), sections[r]])
 
     def removeClashingNgrams(self):
         pass
 
-
-if __name__ == '__main__':
-    f1 = csv.reader(open('pi_sheet.csv', 'rU'))
-    f2 = csv.writer(open('modified_pi_sheet_amber.csv', 'wb'))
-    pf = ProximityFinder(f1, f2)
-    pf.readPISheet()
-    pf.subSectionClustering()
-    pf.buildDistanceMatrix()
-    pf.buildPriorityMatrix()
-    pf.findClusters()
-    pf.modifyPISheet()
+    def modifyPISheet(self):
+        pass

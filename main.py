@@ -265,14 +265,14 @@ if __name__ == '__main__':
     sec.findSectionHeaders()
 
     # ******** Proximity Finder ********
-    #f1 = csv.reader(open('pi_sheet_amber.csv', 'rU'))
-    #f2 = csv.writer(open('modified_pi_sheet_amber.csv', 'wb'))
-    #pf = ProximityFinder(f1, f2)
-    #pf.readPISheet()
-    #pf.buildDistanceMatrix()
-    #pf.buildPriorityMatrix()
-    #pf.findClusters()
-    #pf.modifyPISheet()
+    f1 = csv.reader(open('pi_sheet.csv', 'rU'))
+    f2 = csv.writer(open('modified_pi_sheet.csv', 'wb'))
+    pf = ProximityFinder(f1, f2)
+    pf.readPISheet()
+    pf.subSectionClustering()
+    pf.buildDistanceMatrix()
+    pf.removeClashingNgrams()
+    pf.modifyPISheet()
     # ******** Proximity Finder ********
 
     #cog_list = nf.cog_list
@@ -308,8 +308,6 @@ if __name__ == '__main__':
     candidates_csv = csv.reader(open('candidates.csv', 'rb'))
     candidates_html = open('candidates.html', 'w')
     html.htmlOutputTable(candidates_csv, candidates_html)
-
-
 
     def _test():
         import doctest
