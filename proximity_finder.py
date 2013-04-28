@@ -71,7 +71,6 @@ class ProximityFinder(object):
         for head in self.heads:
             head_cluster = []
             for ngram in self.section_N_grams:
-
                 if head == ngram[2]:
                     head_cluster.append(ngram)
             self.head_clusters[head] = head_cluster
@@ -126,14 +125,4 @@ class ProximityFinder(object):
             for r, row in enumerate(ps):
                 for i, ele in enumerate(row):
                     if ele == min(row):
-                        #print feature_words[r], (1 - np.min(row)) / 10, feature_words[i]
-                        if not feature_words[r] in feature_words[i] and not feature_words[i] in feature_words[r]:
-                            self.f2.writerow([feature_words[r], priority_indices[r], (1 - np.min(row)) / 10, feature_words[i], float(priority_indices[r]) + (1 - np.min(row)) / 10, sections[r]])
-                        else:
-                            self.f2.writerow([feature_words[r], priority_indices[r], 'NA', 'NA', float(priority_indices[r]), sections[r]])
-
-    def removeClashingNgrams(self):
-        pass
-
-    def modifyPISheet(self):
-        pass
+                        self.f2.writerow([feature_words[r], priority_indices[r], 1 - np.min(row), feature_words[i], 0, sections[r]])

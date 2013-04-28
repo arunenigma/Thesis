@@ -51,6 +51,11 @@ class NeuroFuzzySystem(object):
         @param tf_idf_fourgram_list:
         @param tf_idf_fivegram_list:
         """
+
+        print tf_idf_bigram_list
+        print tf_idf_trigram_list
+        print tf_idf_fourgram_list
+        print tf_idf_fivegram_list
         out = open('out.txt', 'w')
         for item in u1:
             out.write(str(item[0]) + " " + str(item[1]) + '\n')
@@ -381,73 +386,89 @@ class NeuroFuzzySystem(object):
         for k, v in self.word_info.iteritems():
             print k, v
 
-        if not len(self.cog_list) == 0:
+        if not len(self.cog_list) < 1:
             self.max_cog = max(self.cog_list)
-        self.cog_list = [cog / self.max_cog for cog in self.cog_list]
-        word_rank = dict(zip(self.word_list, self.cog_list))
-        sorted_word_rank = sorted(word_rank.iteritems(), key=itemgetter(1))
-        print '*********** UNIGRAMS ***********'
-        for item in sorted_word_rank:
-            print item[0], item[1]
-            self.uni_gram_lv_list = []
-            self.uni_gram_lv_list.append(item[1])  # item[1] --> PI score
-            for info, word in self.word_info.iteritems():
-                if item[0] == word:
-                    print info
-                    self.uni_gram_lv_list.append(info)
-            NeuroFuzzySystem.PI_bundle_unigrams[item[0]] = self.uni_gram_lv_list
+            self.cog_list = [cog / self.max_cog for cog in self.cog_list]
+            word_rank = dict(zip(self.word_list, self.cog_list))
+            sorted_word_rank = sorted(word_rank.iteritems(), key=itemgetter(1))
+            print '*********** UNIGRAMS ***********'
+            for item in sorted_word_rank:
+                print item[0], item[1]
+                self.uni_gram_lv_list = []
+                self.uni_gram_lv_list.append(item[1])  # item[1] --> PI score
+                for info, word in self.word_info.iteritems():
+                    if item[0] == word:
+                        print info
+                        self.uni_gram_lv_list.append(info)
+                NeuroFuzzySystem.PI_bundle_unigrams[item[0]] = self.uni_gram_lv_list
+
+        else:
+            print '*********** UNIGRAMS ***********'
+            print None
 
     def normCOGBigrams(self):
-        print self.cog_list_bigrams
-        max_cog = max(self.cog_list_bigrams)
-        self.cog_list_bigrams = [cog / max_cog for cog in self.cog_list_bigrams]
-        word_rank = dict(zip(self.bigram_list, self.cog_list_bigrams))
-        sorted_word_rank = sorted(word_rank.iteritems(), key=itemgetter(1))
-        print '*********** BIGRAMS ***********'
-        for item in sorted_word_rank:
-            print item[0], item[1]
-            self.bi_gram_lv_list = []
-            self.bi_gram_lv_list.append(item[1])
-            for info, bigram in self.bigram_info.iteritems():
-                if item[0] == bigram:
-                    print info
-                    self.bi_gram_lv_list.append(info)
-            NeuroFuzzySystem.PI_bundle_bigrams[item[0]] = self.bi_gram_lv_list
+        if not len(self.cog_list_bigrams) < 1:
+            print self.cog_list_bigrams
+            max_cog = max(self.cog_list_bigrams)
+            self.cog_list_bigrams = [cog / max_cog for cog in self.cog_list_bigrams]
+            word_rank = dict(zip(self.bigram_list, self.cog_list_bigrams))
+            sorted_word_rank = sorted(word_rank.iteritems(), key=itemgetter(1))
+            print '*********** BIGRAMS ***********'
+            for item in sorted_word_rank:
+                print item[0], item[1]
+                self.bi_gram_lv_list = []
+                self.bi_gram_lv_list.append(item[1])
+                for info, bigram in self.bigram_info.iteritems():
+                    if item[0] == bigram:
+                        print info
+                        self.bi_gram_lv_list.append(info)
+                NeuroFuzzySystem.PI_bundle_bigrams[item[0]] = self.bi_gram_lv_list
+        else:
+            print '*********** BIGRAMS ***********'
+            print None
 
     def normCOGTrigrams(self):
-        max_cog = max(self.cog_list_trigrams)
-        self.cog_list_trigrams = [cog / max_cog for cog in self.cog_list_trigrams]
-        word_rank = dict(zip(self.trigram_list, self.cog_list_trigrams))
-        sorted_word_rank = sorted(word_rank.iteritems(), key=itemgetter(1))
-        print '*********** TRIGRAMS ***********'
-        for item in sorted_word_rank:
-            print item[0], item[1]
-            self.tri_gram_lv_list = []
-            self.tri_gram_lv_list.append(item[1])
-            for info, trigram in self.trigram_info.iteritems():
-                if item[0] == trigram:
-                    print info
-                    self.tri_gram_lv_list.append(info)
-            NeuroFuzzySystem.PI_bundle_trigrams[item[0]] = self.tri_gram_lv_list
+        if not len(self.cog_list_trigrams) < 1:
+            max_cog = max(self.cog_list_trigrams)
+            self.cog_list_trigrams = [cog / max_cog for cog in self.cog_list_trigrams]
+            word_rank = dict(zip(self.trigram_list, self.cog_list_trigrams))
+            sorted_word_rank = sorted(word_rank.iteritems(), key=itemgetter(1))
+            print '*********** TRIGRAMS ***********'
+            for item in sorted_word_rank:
+                print item[0], item[1]
+                self.tri_gram_lv_list = []
+                self.tri_gram_lv_list.append(item[1])
+                for info, trigram in self.trigram_info.iteritems():
+                    if item[0] == trigram:
+                        print info
+                        self.tri_gram_lv_list.append(info)
+                NeuroFuzzySystem.PI_bundle_trigrams[item[0]] = self.tri_gram_lv_list
+        else:
+            print '*********** TRIGRAMS ***********'
+            print None
 
     def normCOGFourgrams(self):
-        max_cog = max(self.cog_list_fourgrams)
-        self.cog_list_fourgrams = [cog / max_cog for cog in self.cog_list_fourgrams]
-        word_rank = dict(zip(self.fourgram_list, self.cog_list_fourgrams))
-        sorted_word_rank = sorted(word_rank.iteritems(), key=itemgetter(1))
-        print '*********** FOURGRAMS ***********'
-        for item in sorted_word_rank:
-            print item[0], item[1]
-            self.four_gram_lv_list = []
-            self.four_gram_lv_list.append(item[1])
-            for info, fourgram in self.fourgram_info.iteritems():
-                if item[0] == fourgram:
-                    print info
-                    self.four_gram_lv_list.append(info)
-            NeuroFuzzySystem.PI_bundle_fourgrams[item[0]] = self.four_gram_lv_list
+        if not len(self.cog_list_fourgrams) < 1:
+            max_cog = max(self.cog_list_fourgrams)
+            self.cog_list_fourgrams = [cog / max_cog for cog in self.cog_list_fourgrams]
+            word_rank = dict(zip(self.fourgram_list, self.cog_list_fourgrams))
+            sorted_word_rank = sorted(word_rank.iteritems(), key=itemgetter(1))
+            print '*********** FOURGRAMS ***********'
+            for item in sorted_word_rank:
+                print item[0], item[1]
+                self.four_gram_lv_list = []
+                self.four_gram_lv_list.append(item[1])
+                for info, fourgram in self.fourgram_info.iteritems():
+                    if item[0] == fourgram:
+                        print info
+                        self.four_gram_lv_list.append(info)
+                NeuroFuzzySystem.PI_bundle_fourgrams[item[0]] = self.four_gram_lv_list
+        else:
+            print '*********** FOURGRAMS ***********'
+            print None
 
     def normCOGFivegrams(self):
-        if not len(self.cog_list_fivegrams) == 0:
+        if not len(self.cog_list_fivegrams) < 1:
             max_cog = max(self.cog_list_fivegrams)
             self.cog_list_fivegrams = [cog / max_cog for cog in self.cog_list_fivegrams]
             word_rank = dict(zip(self.fivegram_list, self.cog_list_fivegrams))

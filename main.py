@@ -18,9 +18,11 @@ from neuro_fuzzy import NeuroFuzzySystem
 #from surface_plot import *
 from sect_clustering import SectionWiseClustering
 from proximity_finder import ProximityFinder
+from fuzzy_concepts import FuzzyConcept
 import csv
 import sys
 import os
+import pygraphviz as pgv
 
 if __name__ == '__main__':
     spec_count = 0
@@ -260,20 +262,48 @@ if __name__ == '__main__':
 
     section_bundle = tagger.sections
 
-    c = csv.writer(open('pi_sheet.csv', 'wb'))
-    sec = SectionWiseClustering(c, PI_bundle_unigrams, PI_bundle_bigrams, PI_bundle_trigrams, PI_bundle_fourgrams, PI_bundle_fivegrams, section_bundle)
+    c = open('pi_sheet.csv', 'wb')
+    csv_1 = csv.writer(c)
+    sec = SectionWiseClustering(csv_1, PI_bundle_unigrams, PI_bundle_bigrams, PI_bundle_trigrams, PI_bundle_fourgrams, PI_bundle_fivegrams, section_bundle)
     sec.findSectionHeaders()
+    c.close()
 
     # ******** Proximity Finder ********
-    f1 = csv.reader(open('pi_sheet.csv', 'rU'))
-    f2 = csv.writer(open('modified_pi_sheet.csv', 'wb'))
-    pf = ProximityFinder(f1, f2)
+
+    f1 = open('pi_sheet.csv', 'rU')
+    csv_1 = csv.reader(f1)
+    f2 = open('modified_pi_sheet.csv', 'wb')
+    csv_2 = csv.writer(f2)
+    pf = ProximityFinder(csv_1, csv_2)
     pf.readPISheet()
     pf.subSectionClustering()
     pf.buildDistanceMatrix()
-    pf.removeClashingNgrams()
-    pf.modifyPISheet()
+    f1.close()
+    f2.close()
+
     # ******** Proximity Finder ********
+
+    # ******** Concept Mining ********
+
+    f1 = open('modified_pi_sheet.csv', 'rU')
+    csv_1 = csv.reader(f1)
+    f1_instance_2 = open('modified_pi_sheet.csv', 'rU')
+    csv_2 = csv.reader(f1_instance_2)
+    fc = FuzzyConcept(csv_1, csv_2)
+    fc.normalizeProximityScores()
+    f1.close()
+    f2 = open('final_pi_sheet.csv', 'wb')
+    csv_f2 = csv.writer(f2)
+    fc.writeFinalPISheet(csv_f2)
+    f1_instance_2.close()
+    f2.close()
+    f = open('final_pi_sheet.csv', 'rU')
+    csv_f = csv.reader(f)
+    g = pgv.AGraph(directed=False, strict=True)
+    fc.drawConceptGraphs(csv_f, g)
+    f.close()
+
+    # ******** Concept Mining ********
 
     #cog_list = nf.cog_list
     #surface = SurfacePlotCOG()
