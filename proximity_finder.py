@@ -85,26 +85,32 @@ class ProximityFinder(object):
             dm_w_rows = []
             dm_s_rows = []
             dm_p_rows = []
+
             for ngram in ngrams:
                 word_indices.append(ngram[3][1])
                 stmt_indices.append(ngram[3][0])
                 priority_indices.append(ngram[1])
                 feature_words.append(ngram[0])
                 sections.append(ngram[-1])
+
             word_indices_clone = word_indices
             stmt_indices_clone = stmt_indices
             priority_indices_clone = priority_indices
+
             for word_index, stmt_index, priority_index in zip(word_indices, stmt_indices, priority_indices):
                 dm_w_row = []
                 dm_s_row = []
                 dm_p_row = []
+
                 for word_index_clone, stmt_index_clone, priority_index_clone in zip(word_indices_clone, stmt_indices_clone, priority_indices_clone):
                     dm_w_row.append(fabs(((1 + word_index) * (1 + stmt_index)) - ((1 + word_index_clone) * (1 + stmt_index_clone))))
                     dm_s_row.append(fabs((1 + stmt_index) - (1 + stmt_index_clone)))
                     dm_p_row.append(fabs(float(priority_index) - float(priority_index_clone)))
+
                 dm_w_rows.append(dm_w_row)
                 dm_s_rows.append(dm_s_row)
                 dm_p_rows.append(dm_p_row)
+
             dm_w = np.array(dm_w_rows)
             dm_s = np.array(dm_s_rows)
             dm_p = np.array(dm_p_rows)
@@ -112,6 +118,7 @@ class ProximityFinder(object):
             #print dm_s
             #print dm_p
             prox_mat = []
+
             for w_dist, s_dist, PI in zip(np.nditer(dm_w), np.nditer(dm_s), np.nditer(dm_p)):
                 if PI == 0.0:
                     proximity_score = ((w_dist + len(np.unique(dm_s) * s_dist)) / (dm_w.shape[0] * len(np.unique(dm_s))))
@@ -119,9 +126,11 @@ class ProximityFinder(object):
                 else:
                     proximity_score = ((w_dist + len(np.unique(dm_s) * s_dist)) / (dm_w.shape[0] * len(np.unique(dm_s)))) * log10(10 * PI)
                     prox_mat.append(proximity_score)
+
             ps = np.array(prox_mat)
             ps = np.reshape(ps, dm_w.shape)
             #print ps
+
             for r, row in enumerate(ps):
                 for i, ele in enumerate(row):
                     if ele == min(row):

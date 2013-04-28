@@ -270,38 +270,38 @@ if __name__ == '__main__':
 
     # ******** Proximity Finder ********
 
-    f1 = open('pi_sheet.csv', 'rU')
-    csv_1 = csv.reader(f1)
-    f2 = open('modified_pi_sheet.csv', 'wb')
-    csv_2 = csv.writer(f2)
-    pf = ProximityFinder(csv_1, csv_2)
+    file_1 = open('pi_sheet.csv', 'rU')
+    csv_file_1 = csv.reader(file_1)
+    file_2 = open('modified_pi_sheet.csv', 'wb')
+    csv_file_2 = csv.writer(file_2)
+    pf = ProximityFinder(csv_file_1, csv_file_2)
     pf.readPISheet()
     pf.subSectionClustering()
     pf.buildDistanceMatrix()
-    f1.close()
-    f2.close()
+    file_1.close()
+    file_2.close()
 
     # ******** Proximity Finder ********
 
     # ******** Concept Mining ********
 
-    f1 = open('modified_pi_sheet.csv', 'rU')
-    csv_1 = csv.reader(f1)
-    f1_instance_2 = open('modified_pi_sheet.csv', 'rU')
-    csv_2 = csv.reader(f1_instance_2)
-    fc = FuzzyConcept(csv_1, csv_2)
+    file_3 = open('modified_pi_sheet.csv', 'rU')
+    csv_file_3 = csv.reader(file_3)
+    file_3_instance = open('modified_pi_sheet.csv', 'rU')
+    csv_file_3_instance = csv.reader(file_3_instance)
+    fc = FuzzyConcept(csv_file_3, csv_file_3_instance)
     fc.normalizeProximityScores()
-    f1.close()
-    f2 = open('final_pi_sheet.csv', 'wb')
-    csv_f2 = csv.writer(f2)
-    fc.writeFinalPISheet(csv_f2)
-    f1_instance_2.close()
-    f2.close()
-    f = open('final_pi_sheet.csv', 'rU')
-    csv_f = csv.reader(f)
+    file_3.close()
+    file_4 = open('final_pi_sheet.csv', 'wb')
+    csv_file_4 = csv.writer(file_4)
+    fc.writeFinalPISheet(csv_file_4)
+    file_3_instance.close()
+    file_4.close()
+    file_5 = open('final_pi_sheet.csv', 'rU')
+    csv_file_5 = csv.reader(file_5)
     g = pgv.AGraph(directed=False, strict=True)
-    fc.drawConceptGraphs(csv_f, g)
-    f.close()
+    fc.drawConceptGraphs(csv_file_5, g)
+    file_5.close()
 
     # ******** Concept Mining ********
 
