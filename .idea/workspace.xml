@@ -2,17 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eca835ff-a499-4f5e-95f6-72b7b321736c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/concepts.pdf" afterPath="$PROJECT_DIR$/concepts.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/final_pi_sheet.csv" afterPath="$PROJECT_DIR$/final_pi_sheet.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/arun.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/arun.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/concept_skeleton.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/candidates.csv" afterPath="$PROJECT_DIR$/candidates.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/concepts.pdf" afterPath="$PROJECT_DIR$/concepts.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/concepts.png" afterPath="$PROJECT_DIR$/concepts.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_table.csv" afterPath="$PROJECT_DIR$/output_table.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/candidates.html" afterPath="$PROJECT_DIR$/candidates.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/final_pi_sheet.csv" afterPath="$PROJECT_DIR$/final_pi_sheet.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foo.py" afterPath="$PROJECT_DIR$/foo.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fuzzy_concepts.py" afterPath="$PROJECT_DIR$/fuzzy_concepts.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graph.dot" afterPath="$PROJECT_DIR$/graph.dot" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.py" afterPath="$PROJECT_DIR$/main.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modified_pi_sheet.csv" afterPath="$PROJECT_DIR$/modified_pi_sheet.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out.txt" afterPath="$PROJECT_DIR$/out.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_table.csv" afterPath="$PROJECT_DIR$/output_table.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_table.html" afterPath="$PROJECT_DIR$/output_table.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_table_bigrams.csv" afterPath="$PROJECT_DIR$/output_table_bigrams.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output_table_bigrams.html" afterPath="$PROJECT_DIR$/output_table_bigrams.html" />
@@ -28,17 +30,19 @@
     </list>
     <ignored path="thesis_src_0.2.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="eca835ff-a499-4f5e-95f6-72b7b321736c" time="1367102340192" ignored="false" />
+    <file path="/Dummy.txt" changelist="eca835ff-a499-4f5e-95f6-72b7b321736c" time="1367354876329" ignored="false" />
     <file path="/spec_analyser.py" changelist="eca835ff-a499-4f5e-95f6-72b7b321736c" time="1366914744921" ignored="false" />
     <file path="/neuro_fuzzy.py" changelist="eca835ff-a499-4f5e-95f6-72b7b321736c" time="1367079647889" ignored="false" />
-    <file path="/foo.py" changelist="eca835ff-a499-4f5e-95f6-72b7b321736c" time="1367168055044" ignored="false" />
-    <file path="/main.py" changelist="eca835ff-a499-4f5e-95f6-72b7b321736c" time="1367167027188" ignored="false" />
+    <file path="/foo.py" changelist="eca835ff-a499-4f5e-95f6-72b7b321736c" time="1367356161064" ignored="false" />
+    <file path="/main.py" changelist="eca835ff-a499-4f5e-95f6-72b7b321736c" time="1367339206288" ignored="false" />
     <file path="/sect_clustering.py" changelist="eca835ff-a499-4f5e-95f6-72b7b321736c" time="1366772438302" ignored="false" />
     <file path="/vsm.py" changelist="eca835ff-a499-4f5e-95f6-72b7b321736c" time="1366309759246" ignored="false" />
     <file path="/query.py" changelist="eca835ff-a499-4f5e-95f6-72b7b321736c" time="1366314650358" ignored="false" />
-    <file path="/proximity_finder.py" changelist="eca835ff-a499-4f5e-95f6-72b7b321736c" time="1367088524822" ignored="false" />
+    <file path="/proximity_finder.py" changelist="eca835ff-a499-4f5e-95f6-72b7b321736c" time="1367184428202" ignored="false" />
     <file path="/Python Console" changelist="eca835ff-a499-4f5e-95f6-72b7b321736c" time="1366820351215" ignored="false" />
-    <file path="/fuzzy_concepts.py" changelist="eca835ff-a499-4f5e-95f6-72b7b321736c" time="1367169096985" ignored="false" />
+    <file path="/fuzzy_concepts.py" changelist="eca835ff-a499-4f5e-95f6-72b7b321736c" time="1367337159613" ignored="false" />
+    <file path="/concept_mining.py" changelist="eca835ff-a499-4f5e-95f6-72b7b321736c" time="1367213051075" ignored="false" />
+    <file path="/concept_skeleton.py" changelist="eca835ff-a499-4f5e-95f6-72b7b321736c" time="1367357236287" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,16 +92,16 @@
       <file leaf-file-name="proximity_finder.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/proximity_finder.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="132" column="0" selection-start="6554" selection-end="6554" vertical-scroll-proportion="0.0">
+            <state line="18" column="93" selection-start="583" selection-end="583" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fuzzy_concepts.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="fuzzy_concepts.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fuzzy_concepts.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="30" selection-start="1742" selection-end="1742" vertical-scroll-proportion="0.8646907">
+            <state line="42" column="34" selection-start="1548" selection-end="1548" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -106,7 +110,7 @@
       <file leaf-file-name="foo.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/foo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="2" column="0" selection-start="39" selection-end="39" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -115,8 +119,19 @@
       <file leaf-file-name="main.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="301" column="2" selection-start="12310" selection-end="12355" vertical-scroll-proportion="0.0">
+            <state line="318" column="27" selection-start="12642" selection-end="12642" vertical-scroll-proportion="0.0">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="concept_skeleton.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/concept_skeleton.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="40" selection-start="531" selection-end="531" vertical-scroll-proportion="0.4183267">
+              <folding>
+                <element signature="e#22#57#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -164,9 +179,11 @@
         <option value="$PROJECT_DIR$/spec_analyser.py" />
         <option value="$PROJECT_DIR$/neuro_fuzzy.py" />
         <option value="$PROJECT_DIR$/proximity_finder.py" />
+        <option value="$PROJECT_DIR$/concept_mining.py" />
+        <option value="$PROJECT_DIR$/fuzzy_concepts.py" />
         <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/foo.py" />
-        <option value="$PROJECT_DIR$/fuzzy_concepts.py" />
+        <option value="$PROJECT_DIR$/concept_skeleton.py" />
       </list>
     </option>
   </component>
@@ -204,12 +221,12 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="FullScreen" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -309,7 +326,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329602" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6979914" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4010043" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -385,13 +402,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/corpus.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="64" selection-start="2960" selection-end="2960" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="292" column="26" selection-start="12092" selection-end="12092" vertical-scroll-proportion="0.0">
@@ -423,37 +433,9 @@
         <state line="82" column="4" selection-start="2567" selection-end="2607" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/corpus.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="64" selection-start="2960" selection-end="2960" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/query.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="0" selection-start="311" selection-end="311" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec_analyser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="746" column="0" selection-start="34502" selection-end="34502" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/graph.dot">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/neuro_fuzzy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="92" column="16" selection-start="2930" selection-end="2959" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -465,31 +447,66 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/neuro_fuzzy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="92" column="16" selection-start="2930" selection-end="2959" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/corpus.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="70" column="64" selection-start="2960" selection-end="2960" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graph.dot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="25" selection-start="334" selection-end="334" vertical-scroll-proportion="0.3187251" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/proximity_finder.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="132" column="0" selection-start="6554" selection-end="6554" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="301" column="2" selection-start="12310" selection-end="12355" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/foo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="18" column="93" selection-start="583" selection-end="583" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fuzzy_concepts.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="30" selection-start="1742" selection-end="1742" vertical-scroll-proportion="0.8646907">
+        <state line="42" column="34" selection-start="1548" selection-end="1548" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec_analyser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="746" column="0" selection-start="34502" selection-end="34502" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="318" column="27" selection-start="12642" selection-end="12642" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="39" selection-end="39" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concept_skeleton.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="40" selection-start="531" selection-end="531" vertical-scroll-proportion="0.4183267">
+          <folding>
+            <element signature="e#22#57#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

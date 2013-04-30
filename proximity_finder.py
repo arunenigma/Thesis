@@ -16,7 +16,7 @@ class ProximityFinder(object):
         """
         self.f1 = f1
         self.f2 = f2
-        self.f2.writerow(['Feature Word', 'Priority Index Old', 'Proximity Score', 'Potential Parameter', 'Priority Index New', 'Section'])
+        self.f2.writerow(['Feature Word', 'Priority Index Old', 'Proximity Score', 'Neighbour', 'Section'])
         self.section_N_grams = []
         self.heads = []
         self.head_clusters = {}
@@ -134,4 +134,4 @@ class ProximityFinder(object):
             for r, row in enumerate(ps):
                 for i, ele in enumerate(row):
                     if ele == min(row):
-                        self.f2.writerow([feature_words[r], priority_indices[r], 1 - np.min(row), feature_words[i], 0, sections[r]])
+                        self.f2.writerow([feature_words[r], priority_indices[r], 1 - np.min(row), feature_words[i], sections[r]])

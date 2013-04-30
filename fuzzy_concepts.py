@@ -27,8 +27,7 @@ class FuzzyConcept(object):
         self.f1_clone.next()
         for row in self.f1_clone:
             f2.writerow(
-                [row[0], (float(row[1]) - self.min_pi) / self.denum, float(row[2]) / self.max_ps, row[3], row[4],
-                 row[5]])
+                [row[0], (float(row[1]) - self.min_pi) / self.denum, float(row[2]) / self.max_ps, row[3], row[4]])
             self.pi_dict[row[0]] = (float(row[1]) - self.min_pi) / self.denum
 
     def drawConceptGraphs(self, f3, graph):
@@ -41,6 +40,7 @@ class FuzzyConcept(object):
                            xlabel=round(self.pi_dict.get(row[3]), 2), fontname='calibri')
             graph.add_edge(row[0], row[3], color='sienna', style='filled', label=round(float(row[2]), 2),
                            fontname='calibri')
+        self.edges = graph.edges()
         graph.write('graph.dot')
         img = pgv.AGraph(file='graph.dot')  # img = pgv.AGraph('graph.dot') doesn't work | bug in Pygraphviz
         img.layout(prog='dot')

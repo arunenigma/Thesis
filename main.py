@@ -17,6 +17,7 @@ from neuro_fuzzy import NeuroFuzzySystem
 #from neuron import *
 #from surface_plot import *
 from sect_clustering import SectionWiseClustering
+from concept_skeleton import ConceptSkeleton
 from proximity_finder import ProximityFinder
 from fuzzy_concepts import FuzzyConcept
 import csv
@@ -41,15 +42,15 @@ if __name__ == '__main__':
                 tri_grams = []
                 four_grams = []
                 five_grams = []
-                
+
                 cor = Corpus(path, spec_words, bi_grams, tri_grams, four_grams, five_grams)
                 cor.generateLocationVector(cor.parseXML(), [0])
                 spec_count += 1
-                
+
                 spec_word_count = len(spec_words)
                 spec_word_count_list.append(spec_word_count)
                 corpus_words.append(spec_words)
-                
+
                 spec_bi_gram_count = len(bi_grams)
                 spec_bi_gram_count_list.append(spec_bi_gram_count)
                 corpus_bi_grams.append(bi_grams)
@@ -64,7 +65,7 @@ if __name__ == '__main__':
 
                 spec_five_gram_count = len(five_grams)
                 spec_five_gram_count_list.append(spec_five_gram_count)
-                corpus_five_grams.append(five_grams)                
+                corpus_five_grams.append(five_grams)
 
     corpus = []
     for spec in corpus_words:
@@ -94,23 +95,23 @@ if __name__ == '__main__':
     output = open('output_table.csv', 'wb')
     output_write = csv.writer(output)
     output_write.writerow(['S.No', 'Word', 'Location Vector', 'Signature', 'Signature Weight', 'Tf', 'Idf', 'Tf - Idf Score', 'English Dictionary Match', 'Number Match', 'Abbreviation Match', 'Symbol Match', 'Repetitive Word'])
-    
+
     output_bigrams = open('output_table_bigrams.csv', 'wb')
     output_bigrams_write = csv.writer(output_bigrams)
     output_bigrams_write.writerow(['S.No', 'Bigram', 'Location Vector', 'Signature', 'Signature Weight', 'Tf', 'Idf', 'Tf - Idf Score', 'Is First Letter Capitalized', 'POS'])
-    
+
     output_trigrams = open('output_table_trigrams.csv', 'wb')
     output_trigrams_write = csv.writer(output_trigrams)
     output_trigrams_write.writerow(['S.No', 'Trigram', 'Location Vector', 'Signature', 'Signature Weight', 'Tf', 'Idf', 'Tf - Idf Score', 'Is First Letter Capitalized', 'POS'])
-    
+
     output_fourgrams = open('output_table_fourgrams.csv', 'wb')
     output_fourgrams_write = csv.writer(output_fourgrams)
     output_fourgrams_write.writerow(['S.No', 'Fourgram', 'Location Vector', 'Signature', 'Signature Weight', 'Tf', 'Idf', 'Tf - Idf Score', 'Is First Letter Capitalized', 'POS'])
-    
+
     output_fivegrams = open('output_table_fivegrams.csv', 'wb')
     output_fivegrams_write = csv.writer(output_fivegrams)
     output_fivegrams_write.writerow(['S.No', 'Fivegram', 'Location Vector', 'Signature', 'Signature Weight', 'Tf', 'Idf', 'Tf - Idf Score', 'Is First Letter Capitalized', 'POS'])
-    
+
     candidates = open('candidates.csv','wb')
     candidates_write = csv.writer(candidates)
     candidates_write.writerow(['S.No', 'Word', 'Location Vector', 'Signature', 'Tf', 'Idf', 'Tf - Idf Score'])
@@ -303,7 +304,17 @@ if __name__ == '__main__':
     fc.drawConceptGraphs(csv_file_5, g)
     file_5.close()
 
+    edges = fc.edges
+
     # ******** Concept Mining ********
+
+    # ******** Concept Skeleton ********
+    ske = ConceptSkeleton(edges)
+    ske.extractInferencePaths()
+    ske.extractConcepts()
+
+    # ******** Concept Skeleton ********
+
 
     #cog_list = nf.cog_list
     #surface = SurfacePlotCOG()
@@ -313,12 +324,11 @@ if __name__ == '__main__':
     #nn = NeuralNetwork(tf_idf_list, f1, f2, f3)
     #nn.trainNN()
     # ---------------------------------------------------------------
-
     output_csv = csv.reader(open('output_table.csv', 'rb'))
     output_html = open('output_table.html', 'w')
     html = CsvToHtml()
     html.htmlOutputTable(output_csv, output_html)
-    
+
     output_bigrams_csv = csv.reader(open('output_table_bigrams.csv', 'rb'))
     output_bigrams_html = open('output_table_bigrams.html', 'w')
     html.htmlOutputTable(output_bigrams_csv, output_bigrams_html)
