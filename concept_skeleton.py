@@ -1,65 +1,29 @@
-__author__ = 'arun'
-
-
-from collections import defaultdict
-import itertools
-import networkx as nx
-
-
 class ConceptSkeleton(object):
-    def __init__(self, edges):
-        self.edges = edges
-        self.inference_paths = []
+    def __init__(self, pi_dict, ps_dict, f1, f2, f3, skeletons, inference_paths):
+        self.pi_dict = pi_dict
+        self.ps_dict = ps_dict
+        self.f1 = f1
+        self.f2 = f2
+        self.f3 = f3
+
+        self.skeletons = skeletons
+        self.inference_paths = inference_paths
         self.concepts = {}
 
-    def extractInferencePaths(self):
-        #  amazing one-liner to extract concept skeletons
-        g1 = nx.Graph(self.edges)
-        self.skeletons = nx.connected_components(g1)[:]
-
-        neighbors = {}
-        for edge in self.edges:
-            neighbors[edge[0]] = edge[1]
-
-        for edge in self.edges:
-            neighbor = neighbors.get(edge[1])
-            if neighbor:
-                self.inference_paths.append([edge[0], edge[1], neighbor])
-
-        v = defaultdict(list)
-        for key, value in sorted(neighbors.iteritems()):
-            v[value].append(key)
-        for key, value in v.iteritems():
-            if not len(list(itertools.combinations(value, 2))) == 0:
-                for item in list(itertools.combinations(value, 2)):
-                    self.inference_paths.append([item[0], key, item[1]])
-        print
-        print '******* Inference paths *******'
-        for path in self.inference_paths:
-            print path
-
     def extractConcepts(self):
-        print
-        print '******* Skeletons *******'
-        for skeleton in self.skeletons:
-            print skeleton
-        print
-        print '******* Concepts *******'
+        for skeleton, paths in zip(self.skeletons, self.inference_paths):
+            if not len(paths) == 0:
+                self.concepts[tuple(skeleton)] = paths
+            else:
+                self.concepts[tuple(skeleton)] = [skeleton]
 
-        for skeleton in self.skeletons:
-            concept_paths = []
-            for path in self.inference_paths:
-                for node in path:
-                    if node in skeleton:
-                        concept_paths.append(path)
-                        break
-            self.concepts[tuple(skeleton)] = concept_paths
-        print
+
+    def writeOutputsToCsvFiles(self):
+        #print self.concepts
         for skeleton, inference_paths in self.concepts.iteritems():
-            print skeleton, inference_paths
-
-
-
-
-
-
+            #print skeleton, inference_paths
+            self.f1.writerow([skeleton, inference_paths])
+        for node, pi in self.pi_dict.iteritems():
+            self.f2.writerow([node, pi])
+        for pair, ps_sect in self.ps_dict.iteritems():
+            self.f3.writerow([pair[0], pair[1], ps_sect[0], ps_sect[1]])

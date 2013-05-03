@@ -1,0 +1,4 @@
+"('barrel', 'shifter', 'ARM', 'shifter clock')","[['shifter', 'barrel', 'ARM'], ['shifter', 'barrel', 'shifter clock'], ['ARM', 'barrel', 'shifter clock']]"
+"('IEEE', 'clock')","[['IEEE', 'clock']]"
+"('point', '754', 'barrel shifter', 'point representation', 'floating', 'cycles')","[['barrel shifter', 'point', 'point representation'], ['barrel shifter', 'point', 'floating', '754', 'cycles'], ['point representation', 'point', 'floating', '754', 'cycles']]"
+"('representation',)",[['representation']]

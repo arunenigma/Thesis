@@ -304,14 +304,30 @@ if __name__ == '__main__':
     fc.drawConceptGraphs(csv_file_5, g)
     file_5.close()
 
-    edges = fc.edges
+    pi_dict = fc.PI_dict
+    ps_dict = fc.PS_dict
+
+    skeletons = fc.skeletons
+    inference_paths = fc.inference_paths
 
     # ******** Concept Mining ********
 
     # ******** Concept Skeleton ********
-    ske = ConceptSkeleton(edges)
-    ske.extractInferencePaths()
+
+    out_1 = open('fuzzy_concepts.csv', 'wb')
+    csv_out_1 = csv.writer(out_1)
+    out_2 = open('PI.csv', 'wb')
+    csv_out_2 = csv.writer(out_2)
+    out_3 = open('PS.csv', 'wb')
+    csv_out_3 = csv.writer(out_3)
+
+    ske = ConceptSkeleton(pi_dict, ps_dict, csv_out_1, csv_out_2, csv_out_3, skeletons, inference_paths)
     ske.extractConcepts()
+    ske.writeOutputsToCsvFiles()
+
+    out_1.close()
+    out_2.close()
+    out_3.close()
 
     # ******** Concept Skeleton ********
 
